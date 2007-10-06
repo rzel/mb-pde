@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE entry SYSTEM "schema.dtd"><entry args="" calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0" >
+<entry args="|[Ljava.lang.String;@addbf1" className="ajp_code/AbstractFactory/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/AbstractFactory/USAddressFactory" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/USAddressFactory" methodName="Constructor" thisObject="ajp_code/AbstractFactory/USAddressFactory@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/USAddressFactory" methodName="createAddress" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="Constructor" thisObject="ajp_code/AbstractFactory/Address@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/USAddress" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="Constructor" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/USAddress" methodName="Constructor" thisObject="ajp_code/AbstractFactory/USAddress@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/USAddressFactory" methodName="createAddress" thisObject="ajp_code/AbstractFactory/USAddressFactory@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/USAddressFactory" methodName="createPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/USPhoneNumber" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/AbstractFactory/PhoneNumber" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/AbstractFactory/PhoneNumber" methodName="Constructor" thisObject="ajp_code/AbstractFactory/PhoneNumber@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/USPhoneNumber" methodName="Constructor" thisObject="ajp_code/AbstractFactory/USPhoneNumber@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/USAddressFactory" methodName="createPhoneNumber" thisObject="ajp_code/AbstractFactory/USAddressFactory@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setStreet" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setStreet" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setCity" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setCity" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setRegion" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setRegion" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setPostalCode" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setPostalCode" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/USPhoneNumber" methodName="setPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/PhoneNumber" methodName="setPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/PhoneNumber" methodName="setPhoneNumber" thisObject="ajp_code/AbstractFactory/PhoneNumber@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/USPhoneNumber" methodName="setPhoneNumber" thisObject="ajp_code/AbstractFactory/USPhoneNumber@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/USAddress" methodName="getFullAddress" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getStreet" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getStreet" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getCity" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getCity" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getRegion" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getRegion" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getPostalCode" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getPostalCode" thisObject="ajp_code/AbstractFactory/Address@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/USAddress" methodName="getFullAddress" thisObject="ajp_code/AbstractFactory/USAddress@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/PhoneNumber" methodName="getPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/PhoneNumber" methodName="getPhoneNumber" thisObject="ajp_code/AbstractFactory/PhoneNumber@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/FrenchAddressFactory" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/FrenchAddressFactory" methodName="Constructor" thisObject="ajp_code/AbstractFactory/FrenchAddressFactory@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/FrenchAddressFactory" methodName="createAddress" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/FrenchAddress" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="Constructor" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/FrenchAddress" methodName="Constructor" thisObject="ajp_code/AbstractFactory/FrenchAddress@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/FrenchAddressFactory" methodName="createAddress" thisObject="ajp_code/AbstractFactory/FrenchAddressFactory@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/FrenchAddressFactory" methodName="createPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/FrenchPhoneNumber" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/AbstractFactory/PhoneNumber" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/AbstractFactory/PhoneNumber" methodName="Constructor" thisObject="ajp_code/AbstractFactory/PhoneNumber@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/FrenchPhoneNumber" methodName="Constructor" thisObject="ajp_code/AbstractFactory/FrenchPhoneNumber@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/FrenchAddressFactory" methodName="createPhoneNumber" thisObject="ajp_code/AbstractFactory/FrenchAddressFactory@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setStreet" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setStreet" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setCity" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setCity" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="setPostalCode" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="setPostalCode" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/FrenchPhoneNumber" methodName="setPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/PhoneNumber" methodName="setPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/PhoneNumber" methodName="setPhoneNumber" thisObject="ajp_code/AbstractFactory/PhoneNumber@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/FrenchPhoneNumber" methodName="setPhoneNumber" thisObject="ajp_code/AbstractFactory/FrenchPhoneNumber@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/FrenchAddress" methodName="getFullAddress" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getStreet" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getStreet" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getPostalCode" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getPostalCode" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/Address" methodName="getCity" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/AbstractFactory/Address" methodName="getCity" thisObject="ajp_code/AbstractFactory/Address@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/FrenchAddress" methodName="getFullAddress" thisObject="ajp_code/AbstractFactory/FrenchAddress@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/AbstractFactory/PhoneNumber" methodName="getPhoneNumber" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/AbstractFactory/PhoneNumber" methodName="getPhoneNumber" thisObject="ajp_code/AbstractFactory/PhoneNumber@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/AbstractFactory/RunPattern" methodName="main" thisObject="ajp_code/AbstractFactory/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<exit calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0"></exit></entry>

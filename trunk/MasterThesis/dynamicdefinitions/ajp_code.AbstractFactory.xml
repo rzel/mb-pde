@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry args="" className="concreteFactory" methodName="Constructor"
+	thisObject="" calledByClass="" calledByMethod="" 
+	nextCallInOrder="yes" nextCallInSubtree="" 
+	calledByObject="" quantifier="1">
+	<entry nextCallInOrder="" calledByMethod=""
+		className="product" args="" calledByClass="concreteFactory"
+		thisObject="" methodName="" nextCallInSubtree="" 
+		calledByObject="" quantifier="4">
+	</entry>
+</entry>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry nextCallInOrder="yes" calledByMethod=""
+	nextCallInSubtree="" thisObject=""
+	className="concreteHandler" calledByObject="" args=""
+	calledByClass="client" methodName="" quantifier="2">
+	<entry nextCallInOrder="yes" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteHandler" calledByObject="" args=""
+		calledByClass="client" methodName="" quantifier="2">
+		<entry nextCallInOrder="yes" calledByMethod=""
+			nextCallInSubtree="" thisObject=""
+			className="concreteHandler" calledByObject="" args="" calledByClass="client" quantifier="1"
+			methodName="">
+			<entry nextCallInOrder="" calledByMethod=""
+				nextCallInSubtree="" thisObject=""
+				className="concreteHandler" calledByObject="" args="" calledByClass="concreteHandler"
+				quantifier="1" methodName="">
+			</entry>
+		</entry>
+	</entry>
+</entry>

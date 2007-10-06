@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry args="" className="concreteSubject" methodName="Constructor"
+	thisObject="" calledByClass="" calledByMethod="" 
+	nextCallInOrder="" calledByObject=""
+	nextCallInSubtree="" quantifier="1">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="object1" className="concreteObserver" calledByObject="" args="" calledByClass="" quantifier="3" methodName="Constructor">
+		<entry nextCallInOrder="" calledByMethod=""
+			nextCallInSubtree="" thisObject="object2"
+			className="concreteObserver" calledByObject="" args="" calledByClass="" quantifier="1"
+			methodName="Constructor"><!--this is another concrete observer-->
+		</entry>
+	</entry><entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject="object1"
+		className="concreteObserver" calledByObject="" args="concreteSubject"
+		calledByClass="" methodName="" quantifier="4">
+	<entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteSubject" calledByObject="" args="" calledByClass="concreteSubject" quantifier="2"
+		methodName="">
+		<entry nextCallInOrder="" calledByMethod=""
+			nextCallInSubtree="" thisObject="object1"
+			className="concreteObserver" calledByObject="" args="" calledByClass="concreteSubject" quantifier="3"
+			methodName="">
+			<entry nextCallInOrder="" calledByMethod=""
+				nextCallInSubtree="" thisObject=""
+				className="concreteSubject" calledByObject="object1" args="" calledByClass="concreteObserver"
+				quantifier="3" methodName="">
+				<entry nextCallInOrder=""  calledByMethod=""
+					nextCallInSubtree="" thisObject="object2"
+					className="concreteObserver" calledByObject="" args="" calledByClass="concreteSubject"
+					quantifier="1" methodName="">
+					<entry nextCallInOrder="" 
+						calledByMethod="" nextCallInSubtree=""
+						thisObject="" className="concreteSubject" calledByObject="object2" args=""
+						calledByClass="concreteObserver" quantifier="1" methodName="">
+					</entry>
+				</entry>
+			</entry>
+		</entry>
+	</entry>
+</entry>
+	
+</entry>

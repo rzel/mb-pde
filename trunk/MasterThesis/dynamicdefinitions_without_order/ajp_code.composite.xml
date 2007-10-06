@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" className="leaf" 
+calledByObject="" args="" calledByClass="" quantifier="1" methodName="Constructor">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" 
+	className="composite" calledByObject="" args="" calledByClass="" quantifier="1" 
+	methodName="Constructor">
+	</entry><entry args="leaf" calledByClass="" calledByMethod="" className="composite" 
+	methodName="" thisObject="" nextCallInOrder="" calledByObject="" 
+	nextCallInSubtree="" quantifier="4">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" 
+	className="leaf" calledByObject="" args="" calledByClass="composite" methodName="" 
+	quantifier="4"></entry>
+</entry>
+</entry>

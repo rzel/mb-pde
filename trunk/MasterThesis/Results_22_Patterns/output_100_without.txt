@@ -1,0 +1,466 @@
+run ->                            1185119449870
+run -> CandidateInstanceComposite 1185119449870
+run -> DynamicFactsProcessor      1185119449880
+run -> validator.validate         1185119450161
+run -> validator.validateObjects  1185119450261
+run -> printResults               1185119450261
+# Code example from:           AbstractFactory
+# Pattern we want to detect:   AbstractFactory
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 4 out of 4 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=abstractFactory, 1=concreteFactory, 2=product, 3=abstractProduct}
+
+  0	 100%	 {0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.FrenchAddressFactory, 2=ajp_code.AbstractFactory.FrenchPhoneNumber, 3=ajp_code.AbstractFactory.PhoneNumber}
+  1	 100%	 {0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.FrenchAddressFactory, 2=ajp_code.AbstractFactory.FrenchAddress, 3=ajp_code.AbstractFactory.Address}
+  2	 100%	 {0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.USAddressFactory, 2=ajp_code.AbstractFactory.USPhoneNumber, 3=ajp_code.AbstractFactory.PhoneNumber}
+  3	 100%	 {0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.USAddressFactory, 2=ajp_code.AbstractFactory.USAddress, 3=ajp_code.AbstractFactory.Address}
+
+######################################################################################################## 
+
+run ->                            1185119450281
+run -> CandidateInstanceComposite 1185119450281
+run -> DynamicFactsProcessor      1185119450281
+run -> validator.validate         1185119450401
+run -> validator.validateObjects  1185119450541
+run -> printResults               1185119450541
+# Code example from:           FactoryMethod
+# Pattern we want to detect:   FactoryMethod
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 1 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=creator, 1=concreteCreator, 2=concreteProduct, 3=product}
+
+  0	 100%	 {0=ajp_code.FactoryMethod.Editable, 1=ajp_code.FactoryMethod.Contact, 2=ajp_code.FactoryMethod.Contact$ContactEditor, 3=ajp_code.FactoryMethod.ItemEditor}
+
+######################################################################################################## 
+
+run ->                            1185119450551
+run -> CandidateInstanceComposite 1185119450551
+run -> DynamicFactsProcessor      1185119450551
+run -> validator.validate         1185119450571
+run -> validator.validateObjects  1185119450591
+run -> printResults               1185119450591
+# Code example from:           adapter
+# Pattern we want to detect:   adapter
+
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 0 out of 2 ( threshold = 100% )
+None of the given candidate instances is a design pattern.
+
+######################################################################################################## 
+
+run ->                            1185119450601
+run -> CandidateInstanceComposite 1185119450601
+run -> DynamicFactsProcessor      1185119450601
+run -> validator.validate         1185119450671
+run -> validator.validateObjects  1185119450742
+run -> printResults               1185119450742
+# Code example from:           bridge
+# Pattern we want to detect:   bridge
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 2 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=refinedAbstraction, 1=abstraction, 2=implementer, 3=concreteImplementer}
+
+  0	 100%	 {0=ajp_code.bridge.NumberedList, 1=ajp_code.bridge.BaseList, 2=ajp_code.bridge.ListImpl, 3=ajp_code.bridge.OrderedListImpl}
+  1	 100%	 {0=ajp_code.bridge.OrnamentedList, 1=ajp_code.bridge.BaseList, 2=ajp_code.bridge.ListImpl, 3=ajp_code.bridge.OrderedListImpl}
+
+######################################################################################################## 
+
+run ->                            1185119450762
+run -> CandidateInstanceComposite 1185119450762
+run -> DynamicFactsProcessor      1185119450762
+run -> validator.validate         1185119450882
+run -> validator.validateObjects  1185119451102
+run -> printResults               1185119451102
+# Code example from:           builder
+# Pattern we want to detect:   builder
+
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		75%   		 threshold=100%
+Candidate Instance is pattern?   false 		75%   		 threshold=100%
+Candidate Instance is pattern?   false 		75%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 3 out of 9 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=director, 1=builder, 2=concreteBuilder, 3=product}
+
+  0	 100%	 {0=ajp_code.builder.Scheduler, 1=ajp_code.builder.AppointmentBuilder, 2=ajp_code.builder.MeetingBuilder, 3=ajp_code.builder.InformationRequiredException}
+  1	 100%	 {0=ajp_code.builder.Scheduler, 1=ajp_code.builder.AppointmentBuilder, 2=ajp_code.builder.MeetingBuilder, 3=ajp_code.builder.Appointment}
+  2	 100%	 {0=ajp_code.builder.Scheduler, 1=ajp_code.builder.AppointmentBuilder, 2=ajp_code.builder.MeetingBuilder, 3=ajp_code.builder.AppointmentBuilder}
+
+######################################################################################################## 
+
+run ->                            1185119451122
+run -> CandidateInstanceComposite 1185119451122
+run -> DynamicFactsProcessor      1185119451122
+run -> validator.validate         1185119451192
+run -> validator.validateObjects  1185119451222
+run -> printResults               1185119451222
+# Code example from:           chain
+# Pattern we want to detect:   chain
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 2 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=client, 1=handler, 2=concreteHandler}
+
+  0	 100%	 {0=ajp_code.chain.Task, 1=ajp_code.chain.ProjectItem, 2=ajp_code.chain.Task}
+  1	 100%	 {0=ajp_code.chain.RunPattern, 1=ajp_code.chain.ProjectItem, 2=ajp_code.chain.Task}
+
+######################################################################################################## 
+
+run ->                            1185119451232
+run -> CandidateInstanceComposite 1185119451232
+run -> DynamicFactsProcessor      1185119451242
+run -> validator.validate         1185119451322
+run -> validator.validateObjects  1185119451453
+run -> printResults               1185119451453
+# Code example from:           command
+# Pattern we want to detect:   command
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		75%   		 threshold=100%
+Candidate Instance is pattern?   false 		75%   		 threshold=100%
+Candidate Instance is pattern?   false 		75%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 4 out of 7 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=invoker, 1=command, 2=concreteCommand, 3=receiver}
+
+  0	 100%	 {0=ajp_code.command.ChangeLocationCommand, 1=ajp_code.command.LocationEditor, 2=ajp_code.command.CommandGui, 3=ajp_code.command.CommandGui$WindowCloseManager}
+  1	 100%	 {0=ajp_code.command.ChangeLocationCommand, 1=ajp_code.command.LocationEditor, 2=ajp_code.command.CommandGui, 3=ajp_code.command.LocationImpl}
+  2	 100%	 {0=ajp_code.command.ChangeLocationCommand, 1=ajp_code.command.LocationEditor, 2=ajp_code.command.CommandGui, 3=ajp_code.command.Appointment}
+  3	 100%	 {0=ajp_code.command.CommandGui, 1=ajp_code.command.UndoableCommand, 2=ajp_code.command.ChangeLocationCommand, 3=ajp_code.command.Appointment}
+
+######################################################################################################## 
+
+run ->                            1185119451463
+run -> CandidateInstanceComposite 1185119451463
+run -> DynamicFactsProcessor      1185119451463
+run -> validator.validate         1185119451493
+run -> validator.validateObjects  1185119451603
+run -> printResults               1185119451603
+# Code example from:           composite
+# Pattern we want to detect:   composite
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 4 out of 6 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=leaf, 1=component, 2=composite}
+
+  0	 100%	 {0=ajp_code.composite.Task, 1=composite.ProjectItem, 2=ajp_code.composite.Task}
+  1	 100%	 {0=ajp_code.composite.Task, 1=composite.ProjectItem, 2=ajp_code.composite.Project}
+  2	 100%	 {0=ajp_code.composite.Deliverable, 1=composite.ProjectItem, 2=ajp_code.composite.Task}
+  3	 100%	 {0=ajp_code.composite.Deliverable, 1=composite.ProjectItem, 2=ajp_code.composite.Project}
+
+######################################################################################################## 
+
+run ->                            1185119451623
+run -> CandidateInstanceComposite 1185119451623
+run -> DynamicFactsProcessor      1185119451623
+run -> validator.validate         1185119451713
+run -> validator.validateObjects  1185119451813
+run -> printResults               1185119451813
+# Code example from:           decorator
+# Pattern we want to detect:   decorator
+
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 0 out of 6 ( threshold = 100% )
+None of the given candidate instances is a design pattern.
+
+######################################################################################################## 
+
+run ->                            1185119451823
+run -> CandidateInstanceComposite 1185119451823
+run -> DynamicFactsProcessor      1185119451823
+run -> validator.validate         1185119451863
+run -> validator.validateObjects  1185119451893
+run -> printResults               1185119451893
+# Code example from:           flyweight
+# Pattern we want to detect:   flyweight
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 2 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=flyweightFactory, 1=flyweight, 2=concreteFlyweight}
+
+  0	 100%	 {0=ajp_code.flyweight.StateFactory, 1=ajp_code.flyweight.State, 2=ajp_code.flyweight.DirtyState}
+  1	 100%	 {0=ajp_code.flyweight.StateFactory, 1=ajp_code.flyweight.State, 2=ajp_code.flyweight.CleanState}
+
+######################################################################################################## 
+
+run ->                            1185119451923
+run -> CandidateInstanceComposite 1185119451923
+run -> DynamicFactsProcessor      1185119451923
+run -> validator.validate         1185119452604
+run -> validator.validateObjects  1185119453475
+run -> printResults               1185119453506
+# Code example from:           interpreter
+# Pattern we want to detect:   interpreter
+
+Candidate Instance is pattern?   false 		20%   		 threshold=100%
+Candidate Instance is pattern?   false 		20%   		 threshold=100%
+Candidate Instance is pattern?   false 		20%   		 threshold=100%
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 3 out of 16 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=expression, 1=abstractExpression, 2=context}
+
+  0	 100%	 {0=ajp_code.interpreter.VariableExpression, 1=ajp_code.interpreter.Expression, 2=ajp_code.interpreter.Context}
+  1	 100%	 {0=ajp_code.interpreter.ConstantExpression, 1=ajp_code.interpreter.Expression, 2=ajp_code.interpreter.Context}
+  2	 100%	 {0=ajp_code.interpreter.ContainsExpression, 1=ajp_code.interpreter.ComparisonExpression, 2=ajp_code.interpreter.Context}
+
+######################################################################################################## 
+
+run ->                            1185119453516
+run -> CandidateInstanceComposite 1185119453516
+run -> DynamicFactsProcessor      1185119453516
+run -> validator.validate         1185119453526
+run -> validator.validateObjects  1185119453586
+run -> printResults               1185119453636
+# Code example from:           iterator
+# Pattern we want to detect:   iterator
+
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Candidate Instance is pattern?   false 		25%   		 threshold=100%
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   false 		88%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 0 out of 8 ( threshold = 100% )
+None of the given candidate instances is a design pattern.
+
+######################################################################################################## 
+
+run ->                            1185119453666
+run -> CandidateInstanceComposite 1185119453666
+run -> DynamicFactsProcessor      1185119453666
+run -> validator.validate         1185119454277
+run -> validator.validateObjects  1185119454427
+run -> printResults               1185119454427
+# Code example from:           mediator
+# Pattern we want to detect:   mediator
+
+Candidate Instance is pattern?   false 		80%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 2 out of 3 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=concreteMediator, 1=mediator, 2=concreteColleague}
+
+  0	 100%	 {0=ajp_code.mediator.ContactMediatorImpl, 1=ajp_code.mediator.ContactMediator, 2=ajp_code.mediator.ContactEditorPanel}
+  1	 100%	 {0=ajp_code.mediator.ContactMediatorImpl, 1=ajp_code.mediator.ContactMediator, 2=ajp_code.mediator.ContactSelectorPanel}
+
+######################################################################################################## 
+
+run ->                            1185119454437
+run -> CandidateInstanceComposite 1185119454437
+run -> DynamicFactsProcessor      1185119454447
+run -> validator.validate         1185119454487
+run -> validator.validateObjects  1185119454647
+run -> printResults               1185119454647
+# Code example from:           memento
+# Pattern we want to detect:   memento
+
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		60%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   false 		40%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		20%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 1 out of 12 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=originator, 1=memento, 2=caretaker}
+
+  0	 100%	 {0=ajp_code.memento.AddressBook$AddressBookMemento, 1=ajp_code.memento.AddressBook$AddressBookMemento, 2=ajp_code.memento.AddressBook}
+
+######################################################################################################## 
+
+run ->                            1185119454687
+run -> CandidateInstanceComposite 1185119454687
+run -> DynamicFactsProcessor      1185119454687
+run -> validator.validate         1185119454847
+run -> validator.validateObjects  1185119454998
+run -> printResults               1185119454998
+# Code example from:           observer
+# Pattern we want to detect:   observer
+
+Candidate Instance is pattern?   false 		89%   		 threshold=100%
+Candidate Instance is pattern?   false 		89%   		 threshold=100%
+Candidate Instance is pattern?   false 		56%   		 threshold=100%
+Candidate Instance is pattern?   false 		56%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 0 out of 4 ( threshold = 100% )
+None of the given candidate instances is a design pattern.
+
+######################################################################################################## 
+
+run ->                            1185119455008
+run -> CandidateInstanceComposite 1185119455008
+run -> DynamicFactsProcessor      1185119455008
+run -> validator.validate         1185119455018
+run -> validator.validateObjects  1185119455028
+run -> printResults               1185119455028
+# Code example from:           prototype
+# Pattern we want to detect:   prototype
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 1 out of 1 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=prototypeInterface, 1=prototype, 2=client}
+
+  0	 100%	 {0=ajp_code.prototype.Copyable, 1=ajp_code.prototype.Address, 2=ajp_code.prototype.RunPattern}
+
+######################################################################################################## 
+
+run ->                            1185119455038
+run -> CandidateInstanceComposite 1185119455038
+run -> DynamicFactsProcessor      1185119455038
+run -> validator.validate         1185119455048
+run -> validator.validateObjects  1185119455058
+run -> printResults               1185119455058
+# Code example from:           proxy
+# Pattern we want to detect:   proxy
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 1 out of 1 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=realSubject, 1=subject, 2=proxy}
+
+  0	 100%	 {0=ajp_code.proxy.AddressBookImpl, 1=ajp_code.proxy.AddressBook, 2=ajp_code.proxy.AddressBookProxy}
+
+######################################################################################################## 
+
+run ->                            1185119455078
+run -> CandidateInstanceComposite 1185119455078
+run -> DynamicFactsProcessor      1185119455078
+run -> validator.validate         1185119455248
+run -> validator.validateObjects  1185119455288
+run -> printResults               1185119455288
+# Code example from:           singleton
+# Pattern we want to detect:   singleton
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 2 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=client, 1=singleton}
+
+  0	 100%	 {0=ajp_code.singleton.SingletonGui, 1=ajp_code.singleton.SingletonGui$WindowCloseManager}
+  1	 100%	 {0=ajp_code.singleton.SingletonGui, 1=ajp_code.singleton.HistoryList}
+
+######################################################################################################## 
+
+run ->                            1185119455308
+run -> CandidateInstanceComposite 1185119455308
+run -> DynamicFactsProcessor      1185119455318
+run -> validator.validate         1185119456860
+run -> validator.validateObjects  1185119457461
+run -> printResults               1185119457471
+# Code example from:           state
+# Pattern we want to detect:   state
+
+Candidate Instance is pattern?   false 		71%   		 threshold=100%
+Candidate Instance is pattern?   false 		29%   		 threshold=100%
+Candidate Instance is pattern?   false 		57%   		 threshold=100%
+Candidate Instance is pattern?   false 		71%   		 threshold=100%
+Candidate Instance is pattern?   false 		86%   		 threshold=100%
+Candidate Instance is pattern?   false 		86%   		 threshold=100%
+Candidate Instance is pattern?   false 		86%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 0 out of 7 ( threshold = 100% )
+None of the given candidate instances is a design pattern.
+
+######################################################################################################## 
+
+run ->                            1185119457491
+run -> CandidateInstanceComposite 1185119457491
+run -> DynamicFactsProcessor      1185119457491
+run -> validator.validate         1185119458202
+run -> validator.validateObjects  1185119458513
+run -> printResults               1185119458513
+# Code example from:           strategy
+# Pattern we want to detect:   strategy
+
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		50%   		 threshold=100%
+Candidate Instance is pattern?   false 		83%   		 threshold=100%
+Candidate Instance is pattern?   false 		83%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 0 out of 6 ( threshold = 100% )
+None of the given candidate instances is a design pattern.
+
+######################################################################################################## 
+
+run ->                            1185119458523
+run -> CandidateInstanceComposite 1185119458523
+run -> DynamicFactsProcessor      1185119458523
+run -> validator.validate         1185119458543
+run -> validator.validateObjects  1185119458563
+run -> printResults               1185119458563
+# Code example from:           templatemethod
+# Pattern we want to detect:   templatemethod
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		67%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 1 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=abstractClass, 1=concreteClass}
+
+  0	 100%	 {0=ajp_code.templatemethod.ProjectItem, 1=ajp_code.templatemethod.Task}
+
+######################################################################################################## 
+
+run ->                            1185119458573
+run -> CandidateInstanceComposite 1185119458573
+run -> DynamicFactsProcessor      1185119458573
+run -> validator.validate         1185119458613
+run -> validator.validateObjects  1185119458663
+run -> printResults               1185119458663
+# Code example from:           visitor
+# Pattern we want to detect:   visitor
+
+Candidate Instance is pattern?   true 		100%   		 threshold=100%
+Candidate Instance is pattern?   false 		0%   		 threshold=100%
+Number of positive candidate instances after the dynamic analysis: 1 out of 2 ( threshold = 100% )
+Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: {0=visitor, 1=concreteVisitor, 2=element, 3=concreteElement}
+
+  0	 100%	 {0=ajp_code.visitor.ProjectVisitor, 1=ajp_code.visitor.ProjectCostVisitor, 2=ajp_code.visitor.Task, 3=ajp_code.visitor.DependentTask}
+
+######################################################################################################## 
+
+################################################################################################
+# PDE: # of examples, input.size()=22

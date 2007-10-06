@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry args="" className="concreteMediator" methodName="Constructor"
+	thisObject="" calledByClass="" calledByMethod="" 
+	nextCallInOrder="" calledByObject="" nextCallInSubtree=""
+	quantifier="1">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" className="concreteColleague" calledByObject="" args="" calledByClass="" quantifier="2" methodName="Constructor">
+		<entry nextCallInOrder="" calledByMethod=""
+			nextCallInSubtree="" thisObject=""
+			className="concreteMediator" calledByObject="" args="" calledByClass="concreteColleague" quantifier="2"
+			methodName="">
+			<entry nextCallInOrder="" calledByMethod=""
+				nextCallInSubtree="" thisObject=""
+				className="concreteColleague" calledByObject="" args="concreteMediator" calledByClass=""
+				quantifier="2" methodName="">
+			</entry>
+		</entry>
+	</entry><entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteColleague" calledByObject=""
+		args="" calledByClass="concreteMediator" methodName=""
+		quantifier="1">
+</entry>	
+</entry>

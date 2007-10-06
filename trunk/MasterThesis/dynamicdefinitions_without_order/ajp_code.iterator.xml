@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+
+	<entry args="" className="concreteIterator" methodName="getIterator" thisObject="" calledByClass="concreteAggregate" calledByMethod="" nextCallInOrder="" calledByObject="" nextCallInSubtree="" quantifier="2">
+		<entry calledByMethod="" nextCallInSubtree="" className="concreteIterator" calledByObject="" args="" calledByClass="concreteAggregate" thisObject="" quantifier="1" methodName="" nextCallInOrder="">
+		</entry>
+	</entry>
