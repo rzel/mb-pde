@@ -1,0 +1,88 @@
+<entry args="|[Ljava.lang.String;@addbf1" className="ajp_code/strategy/DataCreator" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/strategy/DataCreator" methodName="serialize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/strategy/DataCreator" methodName="makeContactList" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/strategy/ContactList" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="Constructor" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="Constructor" thisObject="ajp_code/strategy/ContactImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactList" methodName="addContact" thisObject="ajp_code/strategy/ContactList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/strategy/DataCreator" methodName="makeContactList" thisObject="ajp_code/strategy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.strategy.ContactList@9304b1" className="ajp_code/strategy/DataCreator" methodName="serializeToFile" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/strategy/DataCreator" methodName="serializeToFile" thisObject="ajp_code/strategy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/strategy/DataCreator" methodName="serialize" thisObject="ajp_code/strategy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/strategy/DataCreator" methodName="main" thisObject="ajp_code/strategy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

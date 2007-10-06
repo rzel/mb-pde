@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry calledByMethod="" thisObject="" methodName="Constructor"
+	calledByClass="" args="" 
+	className="context" nextCallInOrder="" 
+	calledByObject="" nextCallInSubtree="" quantifier="1">
+	<entry args="" calledByClass="context" calledByMethod=""
+		className="concreteState" methodName=""
+		thisObject="object1" nextCallInOrder="" calledByObject=""
+		nextCallInSubtree="" quantifier="2">
+		<entry nextCallInOrder="" calledByMethod=""
+			 nextCallInSubtree="" thisObject="object2"
+			className="concreteState" calledByObject="" args="" calledByClass="context" quantifier="2"
+			methodName="">
+		</entry>
+	</entry>
+	<entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="context" calledByObject="" args="" calledByClass="concreteState" quantifier="1"
+		methodName="">
+		<entry nextCallInOrder="" calledByMethod=""
+			 nextCallInSubtree="" thisObject=""
+			className="context" calledByObject="" args="" calledByClass="" quantifier="2"
+			methodName="">
+			<entry nextCallInOrder="" calledByMethod=""
+				 nextCallInSubtree="" thisObject=""
+				className="concreteState" calledByObject="" args="" calledByClass="context"
+				quantifier="2" methodName="">
+				<entry nextCallInOrder="" calledByMethod=""
+					 nextCallInSubtree="" thisObject=""
+					className="context" calledByObject="" args="" calledByClass="concreteState"
+					quantifier="1" methodName="">
+				</entry>
+			</entry>
+		</entry>		
+	</entry>
+</entry>

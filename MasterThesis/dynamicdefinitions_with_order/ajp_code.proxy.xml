@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry nextCallInOrder="yes" calledByMethod="" nextCallInSubtree="" thisObject="" className="proxy" calledByObject="" args="" calledByClass="" quantifier="1" methodName="Constructor">
+	<entry nextCallInOrder="yes" calledByMethod="" nextCallInSubtree="" thisObject="" className="proxy" calledByObject="" args="" calledByClass="" quantifier="1" methodName="">
+	</entry><entry args="" calledByClass="proxy" calledByMethod="" className="realSubject" methodName="Constructor" thisObject="" nextCallInOrder="" calledByObject="" nextCallInSubtree="" quantifier="1">
+	<entry calledByMethod="" thisObject="" methodName="" calledByClass="proxy" args="" className="realSubject" nextCallInOrder="" calledByObject="" nextCallInSubtree="" quantifier="1">
+	</entry>	
+</entry>	
+</entry>

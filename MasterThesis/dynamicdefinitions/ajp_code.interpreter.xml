@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry nextCallInOrder="yes" calledByMethod=""
+	nextCallInSubtree="" thisObject="object1"
+	className="expression" calledByObject="" args="" calledByClass=""
+	methodName="Constructor" quantifier="1">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="object2" className="expression" calledByObject="" args="" calledByClass="" quantifier="1" methodName="Constructor">
+		<entry nextCallInOrder="yes" calledByMethod=""
+			nextCallInSubtree="" thisObject=""
+			className="context" calledByObject="" args="" calledByClass="" quantifier="1"
+			methodName="">
+		</entry><entry args="expression" className="context" methodName="" thisObject="" calledByClass="" calledByMethod="" nextCallInOrder="yes" calledByObject="" nextCallInSubtree="" quantifier="2">
+		<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" className="context" calledByObject="" args="" calledByClass="expression" methodName="" quantifier="2">
+		</entry>
+
+	</entry>
+	</entry>
+	
+
+</entry>

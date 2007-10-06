@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry args="" className="caretaker" methodName="Constructor"
+	thisObject="" calledByClass="" calledByMethod=""
+	nextCallInOrder="" 
+	calledByObject="" nextCallInSubtree="" quantifier="1">
+	<entry nextCallInOrder="" calledByMethod="" 
+		className="originator" args="" calledByClass="caretaker" thisObject=""
+		methodName="Constructor" calledByObject=""
+		nextCallInSubtree="" quantifier="2">
+		<entry nextCallInOrder="" calledByMethod="Constructor" 
+			className="memento" args="" calledByClass="originator" thisObject=""
+			methodName="" calledByObject="" nextCallInSubtree=""
+			quantifier="2">
+			<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" className="memento" calledByObject="" args="" calledByClass="originator" quantifier="2" methodName="">
+			</entry><entry nextCallInOrder="" calledByMethod=""
+				className="memento" args=""
+				calledByClass="caretaker" thisObject="" methodName=""
+				calledByObject="" nextCallInSubtree=""
+				quantifier="1">
+			</entry>
+			
+		</entry>
+	</entry>
+</entry>

@@ -1,0 +1,1000 @@
+<entry args="|[Ljava.lang.String;@addbf1" className="ajp_code/strategy/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/strategy/DataRetriever" methodName="deserializeData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/strategy/DataRetriever" methodName="deserializeData" thisObject="ajp_code/strategy/DataRetriever@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="|ajp_code.strategy.NameSummarizer@89ae9e" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.strategy.NameSummarizer@89ae9e" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="Constructor" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="Constructor" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer" methodName="Constructor" thisObject="ajp_code/strategy/NameSummarizer@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="|ajp_code.strategy.NameSummarizer@89ae9e" className="ajp_code/strategy/ContactList" methodName="setSummarizer" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/strategy/ContactList" methodName="setSummarizer" thisObject="ajp_code/strategy/ContactList@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="summarize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/strategy/ContactList" methodName="getContactsAsArray" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/strategy/ContactList" methodName="getContactsAsArray" thisObject="ajp_code/strategy/ContactList@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|[Lajp_code.strategy.Contact;@83cc67" className="ajp_code/strategy/NameSummarizer" methodName="summarize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer$NameComparator" methodName="compare" thisObject="ajp_code/strategy/NameSummarizer$NameComparator@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/strategy/NameSummarizer" methodName="summarize" thisObject="ajp_code/strategy/NameSummarizer@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/strategy/ContactList" methodName="summarize" thisObject="ajp_code/strategy/ContactList@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="|ajp_code.strategy.OrganizationSummarizer@dbe178" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.strategy.OrganizationSummarizer@dbe178" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="Constructor" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="Constructor" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer" methodName="Constructor" thisObject="ajp_code/strategy/OrganizationSummarizer@14410104" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="|ajp_code.strategy.OrganizationSummarizer@dbe178" className="ajp_code/strategy/ContactList" methodName="setSummarizer" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/strategy/ContactList" methodName="setSummarizer" thisObject="ajp_code/strategy/ContactList@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactList" methodName="summarize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/strategy/ContactList" methodName="getContactsAsArray" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/strategy/ContactList" methodName="getContactsAsArray" thisObject="ajp_code/strategy/ContactList@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|[Lajp_code.strategy.Contact;@b6ece5" className="ajp_code/strategy/OrganizationSummarizer" methodName="summarize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="toString" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator" methodName="compare" thisObject="ajp_code/strategy/OrganizationSummarizer$OrganizationComparator@28286498" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@1088076" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getOrganization" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getFirstName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/strategy/ContactImpl" methodName="getLastName" thisObject="ajp_code/strategy/ContactImpl@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/strategy/OrganizationSummarizer" methodName="summarize" thisObject="ajp_code/strategy/OrganizationSummarizer@14410104" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/strategy/ContactList" methodName="summarize" thisObject="ajp_code/strategy/ContactList@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/strategy/RunPattern" methodName="main" thisObject="ajp_code/strategy/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

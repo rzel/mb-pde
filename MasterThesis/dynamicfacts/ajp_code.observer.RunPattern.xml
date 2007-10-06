@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE entry SYSTEM "schema.dtd"><entry args="" calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0" >
+<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/observer/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/ObserverGui" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/ObserverGui" methodName="Constructor" thisObject="ajp_code/observer/ObserverGui@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/ObserverGui" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="Constructor" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.observer.TaskChangeObservable@141d683" className="ajp_code/observer/TaskSelectorPanel" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="createGui" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="Constructor" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="createGui" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="Constructor" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.observer.TaskChangeObservable@141d683" className="ajp_code/observer/TaskEditorPanel" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="createGui" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="Constructor" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTaskChangeObserver" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTaskChangeObserver" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTaskChangeObserver" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTaskChangeObserver" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTaskChangeObserver" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTaskChangeObserver" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="Constructor" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="selectTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskSelected" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskSelected" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskSelected" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskSelected" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskSelected" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/observer/Task" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="getName" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="getNotes" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="getNotes" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/observer/Task" methodName="getTimeRequired" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskSelected" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="selectTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.observer.ObserverGui@de6ced" className="ajp_code/observer/ObserverGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.observer.ObserverGui@de6ced" className="ajp_code/observer/ObserverGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/ObserverGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/observer/ObserverGui$WindowCloseManager@10056109" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/ObserverGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/observer/ObserverGui$WindowCloseManager@10056109" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/ObserverGui" methodName="createGui" thisObject="ajp_code/observer/ObserverGui@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/RunPattern" methodName="main" thisObject="ajp_code/observer/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add Task,when=1183239196189,modifiers=Button1] on javax.swing.JButton[,95,5,87x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Add Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="Constructor" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="selectTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskSelected" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskSelected" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskSelected" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskSelected" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskSelected" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="getName" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="getNotes" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="getNotes" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="getTimeRequired" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskSelected" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="selectTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add Task,when=1183239199905,modifiers=Button1] on javax.swing.JButton[,95,5,87x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Add Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="Constructor" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add Task,when=1183239201567,modifiers=Button1] on javax.swing.JButton[,95,5,87x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Add Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="Constructor" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add Task,when=1183239202188,modifiers=Button1] on javax.swing.JButton[,95,5,87x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Add Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="Constructor" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Add Task,when=1183239203350,modifiers=Button1] on javax.swing.JButton[,95,5,87x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Add Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="Constructor" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskAdded" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="addTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@20392474" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@25358555" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@7051261" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@16164678" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update Task,when=1183239203890,modifiers=Button1] on javax.swing.JButton[,187,5,105x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Update Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="setName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="setName" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="setNotes" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="setNotes" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="setTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="setTimeRequired" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="updateTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskChanged" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskChanged" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskChanged" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="updateTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update Task,when=1183239205142,modifiers=Button1] on javax.swing.JButton[,187,5,105x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Update Task,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/observer/Task" methodName="setName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="setName" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="setNotes" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="setNotes" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="setTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/observer/Task" methodName="setTimeRequired" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskChangeObservable" methodName="updateTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskSelectorPanel" methodName="taskChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskSelectorPanel" methodName="taskChanged" thisObject="ajp_code/observer/TaskSelectorPanel@10490677" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskHistoryPanel" methodName="taskChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/observer/TaskHistoryPanel" methodName="taskChanged" thisObject="ajp_code/observer/TaskHistoryPanel@783148" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/observer/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/observer/Task" methodName="toString" thisObject="ajp_code/observer/Task@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/observer/TaskEditorPanel" methodName="taskChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="taskChanged" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/observer/TaskChangeObservable" methodName="updateTask" thisObject="ajp_code/observer/TaskChangeObservable@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject="ajp_code/observer/TaskEditorPanel@12893404" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Exit,when=1183239206284,modifiers=Button1] on javax.swing.JButton[,297,5,55x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@7259da,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Exit,defaultCapable=true]" className="ajp_code/observer/TaskEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0"></exit></entry>
+<exit calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0"></exit></entry>

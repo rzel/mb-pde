@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry args="" className="flyweightFactory" methodName="Constructor"
+	thisObject="" calledByClass="" calledByMethod=""
+	nextCallInOrder="" 
+	calledByObject="" nextCallInSubtree="" quantifier="3">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="" className="flyweightFactory" calledByObject="" args="" calledByClass="" quantifier="1" methodName="">
+		<entry nextCallInOrder=""  calledByMethod="" nextCallInSubtree="" thisObject="" className="concreteFlyweight" calledByObject="" args="" calledByClass="" quantifier="2" methodName="Constructor">
+		</entry><entry nextCallInOrder=""  calledByMethod=""
+			nextCallInSubtree="" thisObject=""
+			className="flyweightFactory" calledByObject="" args="concreteFlyweight" calledByClass="" quantifier="4"
+			methodName="">
+		</entry>
+		
+	</entry><entry nextCallInOrder=""  calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteFlyweight" calledByObject="" args=""
+		calledByClass="flyweightFactory" methodName="" quantifier="2">
+		<entry nextCallInOrder=""  calledByMethod=""
+			nextCallInSubtree="" thisObject=""
+			className="concreteFlyweight" calledByObject="" args=""
+			calledByClass="" methodName="" quantifier="1">
+		</entry>
+	</entry>
+	
+</entry>

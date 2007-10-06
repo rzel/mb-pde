@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry calledByMethod="" thisObject="object1" methodName="Constructor"
+	calledByClass="" args="" 
+	className="concreteClass" nextCallInOrder="" 
+	calledByObject="" nextCallInSubtree="" quantifier="1">
+	<entry nextCallInOrder="" calledByMethod="" nextCallInSubtree="" thisObject="object2" className="concreteClass" calledByObject="" args="" calledByClass="" quantifier="1" methodName="Constructor">
+	</entry><entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteClass" calledByObject="" args="" calledByClass="concreteClass"
+		methodName="" quantifier="2">
+	</entry>	
+</entry>

@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE entry SYSTEM "schema.dtd"><entry args="" calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0" >
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/mediator/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/MediatorGui" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/MediatorGui" methodName="Constructor" thisObject="ajp_code/mediator/MediatorGui@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/MediatorGui" methodName="setContactMediator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/MediatorGui" methodName="setContactMediator" thisObject="ajp_code/mediator/MediatorGui@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/MediatorGui" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/ContactSelectorPanel" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/ContactSelectorPanel" methodName="setContactMediator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="setContactMediator" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="getAllContacts" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="getAllContacts" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="createGui" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="Constructor" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/ContactDisplayPanel" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/ContactDisplayPanel" methodName="setContactMediator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="setContactMediator" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="createGui" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="Constructor" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/ContactEditorPanel" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.mediator.ContactMediatorImpl@c17164" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactMediator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactMediator" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createGui" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="Constructor" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="setContactSelectorPanel" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="setContactSelectorPanel" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="setContactDisplayPanel" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="setContactDisplayPanel" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="setContactEditorPanel" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="setContactEditorPanel" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.mediator.MediatorGui@10b30a7" className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.mediator.MediatorGui@10b30a7" className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/mediator/MediatorGui$WindowCloseManager@15006066" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/mediator/MediatorGui$WindowCloseManager@15006066" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/MediatorGui" methodName="createGui" thisObject="ajp_code/mediator/MediatorGui@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/RunPattern" methodName="main" thisObject="ajp_code/mediator/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update Contact,when=1183239163933,modifiers=Button1] on javax.swing.JButton[,225,5,121x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Update Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="updateContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setFirstName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setLastName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setTitle" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setOrganization" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="updateContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239165906,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239167148,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239169200,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update Contact,when=1183239172135,modifiers=Button1] on javax.swing.JButton[,225,5,121x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Update Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="updateContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="updateContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Update Contact,when=1183239174037,modifiers=Button1] on javax.swing.JButton[,225,5,121x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Update Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="updateContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="setOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="setOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="updateContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239174568,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239177002,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239177683,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=Create Contact,when=1183239178734,modifiers=Button1] on javax.swing.JButton[,101,5,119x26,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@a39137,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=Create Contact,defaultCapable=true]" className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="Constructor" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="addContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="setContactFields" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="selectContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactSelectorPanel" methodName="addContact" thisObject="ajp_code/mediator/ContactSelectorPanel@5718203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getFirstName" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getLastName" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getTitle" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="getOrganization" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/mediator/ContactDisplayPanel" methodName="contactChanged" thisObject="ajp_code/mediator/ContactDisplayPanel@56667" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/mediator/ContactMediatorImpl" methodName="createContact" thisObject="ajp_code/mediator/ContactMediatorImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="createContact" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@19456522" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@23671010" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@6298545" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@24216257" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@11352996" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@29855319" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@31866429" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit className="ajp_code/mediator/ContactImpl" methodName="toString" thisObject="ajp_code/mediator/ContactImpl@12115735" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="" className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="windowClosing" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<exit calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0"></exit></entry>
+<exit calledByClass="" calledByMethod="" calledByObject="" className="" methodName="" thisObject="" callDepth="0"></exit></entry>

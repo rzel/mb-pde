@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry nextCallInOrder="" calledByMethod=""
+	nextCallInSubtree="" thisObject=""
+	className="concreteCreator" calledByObject="" args="" calledByClass=""
+	methodName="Constructor" quantifier="1">
+	<entry args="concreteCreator" className="concreteCreator"
+		methodName="" thisObject="" calledByClass="" calledByMethod=""
+		nextCallInOrder="" 
+		calledByObject="" nextCallInSubtree="" quantifier="2">
+
+	</entry>
+	<entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteProduct" calledByObject="" args="" calledByClass="concreteCreator" quantifier="2"
+		methodName="">
+	</entry>
+	<entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteProduct" calledByObject="" args="" calledByClass="concreteCreator" quantifier="2"
+		methodName="">
+	</entry>
+	<entry nextCallInOrder="" calledByMethod=""
+		nextCallInSubtree="" thisObject=""
+		className="concreteProduct" calledByObject="" args="" calledByClass="concreteProduct" quantifier="1"
+		methodName="">
+	</entry>
+</entry>
