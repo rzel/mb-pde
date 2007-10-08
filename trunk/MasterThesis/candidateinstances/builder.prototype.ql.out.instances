@@ -1,0 +1,4 @@
+// prototypeInterface prototype client 
+DP ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder ajp_code.builder.RunPattern
+DP ajp_code.builder.Location ajp_code.builder.LocationImpl ajp_code.builder.RunPattern
+DP ajp_code.builder.Contact ajp_code.builder.ContactImpl ajp_code.builder.RunPattern

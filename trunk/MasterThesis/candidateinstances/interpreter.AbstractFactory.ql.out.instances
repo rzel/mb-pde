@@ -1,0 +1,8 @@
+// abstractFactory concreteFactory product abstractProduct 
+DP ajp_code.interpreter.CompoundExpression ajp_code.interpreter.OrExpression ajp_code.interpreter.CompoundExpression ajp_code.interpreter.Expression
+DP ajp_code.interpreter.CompoundExpression ajp_code.interpreter.OrExpression ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.Expression
+DP ajp_code.interpreter.CompoundExpression ajp_code.interpreter.AndExpression ajp_code.interpreter.CompoundExpression ajp_code.interpreter.Expression
+DP ajp_code.interpreter.CompoundExpression ajp_code.interpreter.AndExpression ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.Expression
+DP ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.ContainsExpression ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.Expression
+DP ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.EqualsExpression ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.Expression
+DP ajp_code.interpreter.Expression ajp_code.interpreter.CompoundExpression ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.Expression

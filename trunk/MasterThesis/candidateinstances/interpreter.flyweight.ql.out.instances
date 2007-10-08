@@ -1,0 +1,3 @@
+// flyweightFactory flyweight concreteFlyweight 
+DP ajp_code.interpreter.ContainsExpression ajp_code.interpreter.Expression ajp_code.interpreter.ComparisonExpression
+DP ajp_code.interpreter.EqualsExpression ajp_code.interpreter.Expression ajp_code.interpreter.ComparisonExpression

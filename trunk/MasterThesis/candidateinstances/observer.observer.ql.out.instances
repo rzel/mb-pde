@@ -1,0 +1,5 @@
+// subject concreteSubject observer concreteObserver 
+DP ajp_code.observer.TaskChangeObservable ajp_code.observer.TaskChangeObservable ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskEditorPanel
+DP ajp_code.observer.TaskChangeObservable ajp_code.observer.TaskChangeObservable ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskSelectorPanel
+DP ajp_code.observer.TaskChangeObservable ajp_code.observer.Task ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskEditorPanel
+DP ajp_code.observer.TaskChangeObservable ajp_code.observer.Task ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskSelectorPanel

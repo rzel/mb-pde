@@ -1,0 +1,3 @@
+// creator concreteCreator concreteProduct product 
+DP ajp_code.command.LocationEditor ajp_code.command.CommandGui ajp_code.command.LocationImpl ajp_code.command.Location
+DP ajp_code.command.LocationEditor ajp_code.command.CommandGui ajp_code.command.UndoableCommand ajp_code.command.Command

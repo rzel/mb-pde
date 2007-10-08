@@ -1,0 +1,4 @@
+// prototypeInterface prototype client 
+DP ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskEditorPanel ajp_code.observer.ObserverGui
+DP ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskHistoryPanel ajp_code.observer.ObserverGui
+DP ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskSelectorPanel ajp_code.observer.ObserverGui

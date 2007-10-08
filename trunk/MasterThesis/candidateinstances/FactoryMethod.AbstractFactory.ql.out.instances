@@ -1,0 +1,3 @@
+// abstractFactory concreteFactory product abstractProduct 
+DP ajp_code.FactoryMethod.Editable ajp_code.FactoryMethod.Contact ajp_code.FactoryMethod.Contact$ContactEditor ajp_code.FactoryMethod.ItemEditor
+DP ajp_code.FactoryMethod.ItemEditor ajp_code.FactoryMethod.Contact$ContactEditor ajp_code.FactoryMethod.Contact ajp_code.FactoryMethod.Editable

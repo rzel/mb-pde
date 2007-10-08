@@ -1,0 +1,5 @@
+// subject concreteSubject observer concreteObserver 
+DP ajp_code.strategy.ContactList ajp_code.strategy.Contact ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer
+DP ajp_code.strategy.ContactList ajp_code.strategy.Contact ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer
+DP ajp_code.strategy.ContactList ajp_code.strategy.NameSummarizer$NameComparator ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer
+DP ajp_code.strategy.ContactList ajp_code.strategy.OrganizationSummarizer$OrganizationComparator ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer

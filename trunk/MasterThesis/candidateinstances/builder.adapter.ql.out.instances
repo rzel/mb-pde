@@ -1,0 +1,4 @@
+// client target adapter adaptee 
+DP ajp_code.builder.RunPattern ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder ajp_code.builder.AppointmentBuilder
+DP ajp_code.builder.RunPattern ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder ajp_code.builder.Appointment
+DP ajp_code.builder.RunPattern ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder ajp_code.builder.InformationRequiredException
