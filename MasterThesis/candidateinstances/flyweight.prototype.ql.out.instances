@@ -1,0 +1,6 @@
+// prototypeInterface prototype client 
+DP ajp_code.flyweight.Address ajp_code.flyweight.AddressImpl ajp_code.flyweight.RunPattern
+DP ajp_code.flyweight.Contact ajp_code.flyweight.ContactImpl ajp_code.flyweight.RunPattern
+DP ajp_code.flyweight.State ajp_code.flyweight.DirtyState ajp_code.flyweight.CleanState
+DP ajp_code.flyweight.State ajp_code.flyweight.DirtyState ajp_code.flyweight.StateFactory
+DP ajp_code.flyweight.State ajp_code.flyweight.CleanState ajp_code.flyweight.StateFactory

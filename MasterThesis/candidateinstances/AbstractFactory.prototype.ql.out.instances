@@ -1,0 +1,7 @@
+// prototypeInterface prototype client 
+DP ajp_code.AbstractFactory.PhoneNumber ajp_code.AbstractFactory.USPhoneNumber ajp_code.AbstractFactory.USAddressFactory
+DP ajp_code.AbstractFactory.PhoneNumber ajp_code.AbstractFactory.FrenchPhoneNumber ajp_code.AbstractFactory.FrenchAddressFactory
+DP ajp_code.AbstractFactory.Address ajp_code.AbstractFactory.FrenchAddress ajp_code.AbstractFactory.FrenchAddressFactory
+DP ajp_code.AbstractFactory.Address ajp_code.AbstractFactory.USAddress ajp_code.AbstractFactory.USAddressFactory
+DP ajp_code.AbstractFactory.AddressFactory ajp_code.AbstractFactory.FrenchAddressFactory ajp_code.AbstractFactory.RunPattern
+DP ajp_code.AbstractFactory.AddressFactory ajp_code.AbstractFactory.USAddressFactory ajp_code.AbstractFactory.RunPattern

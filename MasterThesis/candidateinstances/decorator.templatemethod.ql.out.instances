@@ -1,0 +1,5 @@
+// abstractClass concreteClass 
+DP ajp_code.decorator.ProjectItem ajp_code.decorator.Task
+DP ajp_code.decorator.ProjectItem ajp_code.decorator.ProjectDecorator
+DP ajp_code.decorator.ProjectDecorator ajp_code.decorator.SupportedProjectItem
+DP ajp_code.decorator.ProjectDecorator ajp_code.decorator.DependentProjectItem

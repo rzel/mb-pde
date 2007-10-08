@@ -1,0 +1,12 @@
+// director builder concreteBuilder product 
+DP ajp_code.chain.Task ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.Contact
+DP ajp_code.chain.Task ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.ProjectItem
+DP ajp_code.chain.Task ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.Contact
+DP chain.CallbackServerDelegate chain.CallbackClient chain.CallbackClientImpl chain.CallbackServer
+DP chain.CallbackServerDelegate chain.CallbackClient chain.CallbackClientImpl callback.Project
+DP chain.CallbackClientImpl chain.CallbackServer chain.CallbackServerImpl chain.CallbackServerDelegate
+DP ajp_code.chain.RunPattern ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.Contact
+DP ajp_code.chain.RunPattern ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.ProjectItem
+DP ajp_code.chain.RunPattern ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.Contact
+DP chain.CallbackServerWorkThread chain.CallbackClient chain.CallbackClientImpl chain.CallbackServer
+DP chain.CallbackServerWorkThread chain.CallbackClient chain.CallbackClientImpl callback.Project

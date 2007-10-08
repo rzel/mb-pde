@@ -1,0 +1,7 @@
+// client target adapter adaptee 
+DP ajp_code.mediator.RunPattern ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactImpl
+DP ajp_code.mediator.RunPattern ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.Contact
+DP ajp_code.mediator.RunPattern ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactDisplayPanel
+DP ajp_code.mediator.RunPattern ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactSelectorPanel
+DP ajp_code.mediator.RunPattern ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactEditorPanel
+DP ajp_code.mediator.RunPattern ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.Contact[

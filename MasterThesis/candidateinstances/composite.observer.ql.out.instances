@@ -1,0 +1,9 @@
+// subject concreteSubject observer concreteObserver 
+DP ajp_code.composite.Task composite.Contact composite.ProjectItem ajp_code.composite.Task
+DP ajp_code.composite.Task composite.Contact composite.ProjectItem ajp_code.composite.Deliverable
+DP ajp_code.composite.Task composite.ProjectItem composite.ProjectItem ajp_code.composite.Task
+DP ajp_code.composite.Task composite.ProjectItem composite.ProjectItem ajp_code.composite.Project
+DP ajp_code.composite.Project composite.Contact composite.ProjectItem ajp_code.composite.Task
+DP ajp_code.composite.Project composite.Contact composite.ProjectItem ajp_code.composite.Deliverable
+DP ajp_code.composite.Project composite.ProjectItem composite.ProjectItem ajp_code.composite.Task
+DP ajp_code.composite.Project composite.ProjectItem composite.ProjectItem ajp_code.composite.Project

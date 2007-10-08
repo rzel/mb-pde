@@ -1,0 +1,3 @@
+// refinedAbstraction abstraction implementer concreteImplementer 
+DP ajp_code.bridge.NumberedList ajp_code.bridge.BaseList ajp_code.bridge.ListImpl ajp_code.bridge.OrderedListImpl
+DP ajp_code.bridge.OrnamentedList ajp_code.bridge.BaseList ajp_code.bridge.ListImpl ajp_code.bridge.OrderedListImpl

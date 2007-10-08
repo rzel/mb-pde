@@ -1,0 +1,6 @@
+// prototypeInterface prototype client 
+DP ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.RunPattern
+DP ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.OrganizationSummarizer$OrganizationComparator
+DP ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.RunPattern
+DP ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.NameSummarizer$NameComparator
+DP ajp_code.strategy.Contact ajp_code.strategy.ContactImpl ajp_code.strategy.DataCreator

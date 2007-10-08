@@ -1,0 +1,5 @@
+// client target adapter adaptee 
+DP ajp_code.observer.ObserverGui ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskEditorPanel ajp_code.observer.TaskChangeObservable
+DP ajp_code.observer.ObserverGui ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskEditorPanel ajp_code.observer.Task
+DP ajp_code.observer.ObserverGui ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskSelectorPanel ajp_code.observer.TaskChangeObservable
+DP ajp_code.observer.ObserverGui ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskSelectorPanel ajp_code.observer.Task
