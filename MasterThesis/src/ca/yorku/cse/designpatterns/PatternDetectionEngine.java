@@ -65,19 +65,36 @@ public class PatternDetectionEngine
 	// Create Instance of PatternDetectionEngine
 	PatternDetectionEngine pde = new PatternDetectionEngine();
 	
+	if( args.length == 0 ) {
+	    pde.usage(true);
+	    System.exit(1);
+	}
 
 	for(int i=0; i<args.length; i++){
 	    if ( args[i].equals("-static") ){
-	 	String arg0 = args[++i] + " ";
-	 	String arg1 = args[++i] + " ";
-	 	String arg2 = args[++i] + " ";
+	 	String script = args[++i] + " ";
+	 	String direct = args[++i] + " ";
+	 	String prname = args[++i] + " ";
 	 	//String arg3 = "compile_ajp ";
-	 	String cmd = arg0 + arg1 + arg2;
-	 	StaticAnalysis st = new StaticAnalysis(cmd, "output");
+	 	String cmd = script + direct + prname;
+	 	
+	 	// Validation: Check if run.sh script and software directory can be found
+	 	File f = new File( script );
+	 	File d = new File( direct );
+	 	if ( ! f.exists() ) {
+	 	    print("ERROR: Script (" + script + ") can not be found.");
+	 	    System.exit(1);
+	 	}
+	 	if ( ! d.exists() ) {
+	 	    print("ERROR: Script (" + direct + ") can not be found.");
+	 	    System.exit(1);
+	 	}
+	 	
+	 	StaticAnalysis st = new StaticAnalysis(cmd, "static_output.txt");
 	 	st.runStaticAnalysis();
 	 	System.exit(1);
 	    } 
-	    else if (args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
+	    else if (args[i].equals("-usage") || args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 		pde.usage(true);
 		System.exit(1);
 	    }
