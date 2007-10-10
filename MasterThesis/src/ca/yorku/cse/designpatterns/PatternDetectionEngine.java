@@ -65,11 +65,11 @@ public class PatternDetectionEngine
 	// Create Instance of PatternDetectionEngine
 	PatternDetectionEngine pde = new PatternDetectionEngine();
 	
- 	String sh = "./run.sh ";
+ 	String arg0 = args[0] + " ";
  	String arg1 = args[1] + " ";               // "code ";
  	String arg2 = args[2] + " ";               // "ajp_code ";
  	//String arg3 = "compile_ajp ";
- 	String cmd = sh + arg1 + arg2;
+ 	String cmd = arg0 + arg1 + arg2;
  	
 	StaticAnalysis st = new StaticAnalysis(cmd, "output");
 	st.runStaticAnalysis();
