@@ -2,17 +2,37 @@ package ca.yorku.cse.designpatterns;
 
 import java.io.*;
 
+/**
+* Handle input and output of static analysis
+* 
+* @author Marcel Birkner
+* @version 0.1
+* @since 10 October, 2007
+*/
 class StaticAnalysisStream extends Thread
 {
     InputStream is;
     String type;
     OutputStream os;
     
+    /**
+     * Constructor
+     * 
+     * @param is
+     * @param type
+     */
     StaticAnalysisStream(InputStream is, String type)
     {
         this(is, type, null);
     }
     
+    /**
+     * Constructor
+     * 
+     * @param is
+     * @param type
+     * @param redirect
+     */
     StaticAnalysisStream(InputStream is, String type, OutputStream redirect)
     {
         this.is = is;
@@ -20,6 +40,9 @@ class StaticAnalysisStream extends Thread
         this.os = redirect;
     }
     
+    /**
+     * Handle input/output from command line
+     */
     public void run()
     {
         try

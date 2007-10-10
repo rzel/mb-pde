@@ -2,33 +2,36 @@ package ca.yorku.cse.designpatterns;
 
 import java.io.*;
 
+/**
+* Handle static analysis
+* 
+* @author Marcel Birkner
+* @version 0.1
+* @since 10 October, 2007
+*/
 public class StaticAnalysis
 {
     String cmd = "";
     String out = "";
     
+    /**
+     * Constructor
+     * 
+     * @param cmd Commandline argument that executes the static analysis using javex, grok and ql
+     * @param output_file Filename that stores results of static analysis
+     */
     StaticAnalysis(String cmd, String output_file )
     {
 	this.cmd = cmd;
 	this.out = output_file;
     }   
 	
-//        if (args.length < 3)
-//        {
-//            System.out.println("USAGE: java GoodWinRedirect <output> <directory> <project_name> ");
-//            System.exit(1);
-//        }
-       
-// 	String sh = "./run.sh ";
-//        String arg1 = args[1] + " ";               // "code ";
-//        String arg2 = args[2] + " ";               // "ajp_code ";
-//        String arg3 = "compile_ajp ";
-//
-//        String cmd = sh + arg1 + arg2;	
  
+    /**
+     * Execute static analysis
+     */
     public void runStaticAnalysis() {    
-    
-	System.out.println("Cmd: " + this.cmd );
+	System.out.println("Run Static analysis: " + this.cmd );
 
         try
         {            
@@ -52,9 +55,10 @@ public class StaticAnalysis
             System.out.println("ExitValue: " + exitVal);
             fos.flush();
             fos.close();        
-        } catch (Throwable t)
-          {
+        } 
+        catch (Throwable t)
+        {
             t.printStackTrace();
-          }
+        }
     }
 }
