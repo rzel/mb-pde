@@ -65,6 +65,16 @@ public class PatternDetectionEngine
 	// Create Instance of PatternDetectionEngine
 	PatternDetectionEngine pde = new PatternDetectionEngine();
 	
+ 	String sh = "./run.sh ";
+ 	String arg1 = args[1] + " ";               // "code ";
+ 	String arg2 = args[2] + " ";               // "ajp_code ";
+ 	//String arg3 = "compile_ajp ";
+ 	String cmd = sh + arg1 + arg2;
+ 	
+	StaticAnalysis st = new StaticAnalysis(cmd, "output");
+	st.runStaticAnalysis();
+	
+	
 	String inputFileName = null;
 	boolean redirectSystemOut = false;
 	String output_filename = "output.txt";		// default redirect output textfile
