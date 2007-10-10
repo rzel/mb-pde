@@ -75,18 +75,20 @@ public class PatternDetectionEngine
 	 	String cmd = arg0 + arg1 + arg2;
 	 	StaticAnalysis st = new StaticAnalysis(cmd, "output");
 	 	st.runStaticAnalysis();
+	 	System.exit(1);
+	    } 
+	    else if (args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
+		pde.usage(true);
+		System.exit(1);
 	    }
 	}
-	
-	
-	System.exit(0);
-	
+	System.exit(1);
+
 	
 	String inputFileName = null;
 	boolean redirectSystemOut = false;
 	String output_filename = "output.txt";		// default redirect output textfile
 	
-
 	/*
 	 * Check arguments that are passed to the main method
 	 */
