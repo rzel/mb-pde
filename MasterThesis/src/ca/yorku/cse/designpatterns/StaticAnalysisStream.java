@@ -1,16 +1,19 @@
-import java.util.*;
+package ca.yorku.cse.designpatterns;
+
 import java.io.*;
-class StreamGobbler extends Thread
+
+class StaticAnalysisStream extends Thread
 {
     InputStream is;
     String type;
     OutputStream os;
     
-    StreamGobbler(InputStream is, String type)
+    StaticAnalysisStream(InputStream is, String type)
     {
         this(is, type, null);
     }
-    StreamGobbler(InputStream is, String type, OutputStream redirect)
+    
+    StaticAnalysisStream(InputStream is, String type, OutputStream redirect)
     {
         this.is = is;
         this.type = type;
