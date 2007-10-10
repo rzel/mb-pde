@@ -74,6 +74,8 @@ public class PatternDetectionEngine
 	StaticAnalysis st = new StaticAnalysis(cmd, "output");
 	st.runStaticAnalysis();
 	
+	System.exit(0);
+	
 	
 	String inputFileName = null;
 	boolean redirectSystemOut = false;

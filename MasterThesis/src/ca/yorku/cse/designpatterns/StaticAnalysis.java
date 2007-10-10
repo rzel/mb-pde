@@ -5,7 +5,7 @@ import java.io.*;
 public class StaticAnalysis
 {
     String cmd = "";
-    String out = ""
+    String out = "";
     
     StaticAnalysis(String cmd, String output_file )
     {
