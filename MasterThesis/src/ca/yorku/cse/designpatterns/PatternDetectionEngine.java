@@ -70,11 +70,19 @@ public class PatternDetectionEngine
 	    System.exit(1);
 	}
 
+	/*
+	 * Check arguments for static analysis
+	 */
 	for(int i=0; i<args.length; i++){
 	    if ( args[i].equals("-static") ){
 	 	String script = args[++i];
 	 	String direct = args[++i];
 	 	String prname = args[++i];
+	 	
+	 	if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
+	 	    script = "./" + script;
+	 	}
+	 	
 	 	//String arg3 = "compile_ajp ";
 	 	String cmd = script + " " + direct + " " + prname;
 	 	
@@ -92,14 +100,13 @@ public class PatternDetectionEngine
 	 	
 	 	StaticAnalysis st = new StaticAnalysis(cmd, "static_output.txt");
 	 	st.runStaticAnalysis();
-	 	System.exit(1);
+	 	//System.exit(1);
 	    } 
 	    else if (args[i].equals("-usage") || args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 		pde.usage(true);
 		System.exit(1);
 	    }
 	}
-	System.exit(1);
 
 	
 	String inputFileName = null;
