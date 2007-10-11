@@ -72,11 +72,11 @@ public class PatternDetectionEngine
 
 	for(int i=0; i<args.length; i++){
 	    if ( args[i].equals("-static") ){
-	 	String script = args[++i] + " ";
-	 	String direct = args[++i] + " ";
-	 	String prname = args[++i] + " ";
+	 	String script = args[++i];
+	 	String direct = args[++i];
+	 	String prname = args[++i];
 	 	//String arg3 = "compile_ajp ";
-	 	String cmd = script + direct + prname;
+	 	String cmd = script + " " + direct + " " + prname;
 	 	
 	 	// Validation: Check if run.sh script and software directory can be found
 	 	File f = new File( script );
