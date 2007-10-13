@@ -21,15 +21,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 
-// Static
-import java.io.File;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
-
-
-
 /**
  * Instance of the PatternDetection Engine
  * detects software <b>Design Patterns</b>, given static 
