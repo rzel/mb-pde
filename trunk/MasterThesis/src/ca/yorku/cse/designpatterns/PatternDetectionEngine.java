@@ -152,6 +152,7 @@ public class PatternDetectionEngine
 	            String nameSrc   = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
 	            String directory = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
 	            String mainClass = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
+	            	            
 	            print("\n 1: " + nameSrc );
 	            print(  " 2: " + directory);
 	            print(  " 3: " + mainClass );
@@ -194,16 +195,20 @@ public class PatternDetectionEngine
 	        	    }	                
 	        	    out.close();	        	    
 	    	            
-	        	    String directoryReplaced            = directory.replace("/","");
+	        	    String directoryReplaced = directory.replace("/",".");
+	        	    String mainClassReplaced = mainClass.replace(".java", "");
+	        	           mainClassReplaced = mainClassReplaced.replace(".class", "");
+	        	           
 	        	    print("directoryReplaced " + directoryReplaced);
 	        	    String staticFactsOutputFile        = output_filename;
-	        	    String dynamicFactsOutputFile       = dynFacDir+""+directoryReplaced+"."+mainClass+".txt";
+	        	    String dynamicFactsOutputFile       = dynFacDir+""+directoryReplaced+"."+mainClassReplaced+".txt";
 	        	    String dynamicDefinitionsOutputFile = dynDefDir+""+directoryReplaced+"."+nameDP+".xml";
 	        	    
 	        	    print("BufferedWriter pdeIn");
 	        	    String pde_input_filename = "pde.input";
+	        	    boolean append = true;
 	        	    try {
-	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename ));
+	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename, append ));
 	        		pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile+" \n");
 	        		pdeIn.flush();
 	        		pdeIn.close();
