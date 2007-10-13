@@ -113,8 +113,8 @@ public class PatternDetectionEngine
 	            e.printStackTrace();
 	            System.exit(1);
 	        }
-	        
-	        
+       
+       
 	        String shell    = "";
 	        String javex    = "";
 	        String grok     = "";
@@ -122,8 +122,8 @@ public class PatternDetectionEngine
 	        String canInDir = "";
 	        String dynFacDir= "";
 	        String dynDefDir= "";
-
-
+        
+	        
 	        NodeList properties = software_doc.getElementsByTagName("properties");
 	        for (int l = 0; l < properties.getLength(); l++) {  
 	            shell = properties.item(l).getAttributes().getNamedItem("shellScript").getNodeValue();
@@ -144,6 +144,17 @@ public class PatternDetectionEngine
 	            print("4: " + ql);
 	        }
 	        
+	        
+	        String pde_input_filename = "pde.input";
+	        BufferedWriter pdeIn = null;
+		try {
+		    pdeIn = new BufferedWriter(new FileWriter( pde_input_filename ));
+		} catch (IOException e1) {
+		    print("problem reading pde_input_filename: " + pde_input_filename);
+		    e1.printStackTrace();
+		}
+	            
+	        
 	        NodeList software = software_doc.getElementsByTagName("software");
 	        for (int j = 0; j < software.getLength(); j++) { 
 	            String nameSrc   = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
@@ -153,10 +164,9 @@ public class PatternDetectionEngine
 	            print(  " 2: " + directory);
 	            print(  " 3: " + mainClass );
 	            
-	            
 	            String nameDP        = "";
 	            String ql_script     = "";
-	            String pattern_roles = "";
+	            String pattern_roles = "";	            
 	            
 	            NodeList designpattern = designpattern_doc.getElementsByTagName("designpattern");
 	            for (int k = 0; k < designpattern.getLength(); k++) { 
@@ -188,17 +198,14 @@ public class PatternDetectionEngine
 	        		out.write(line + "\n");
 	        		out.flush();
 	        	    }	                
-	        	    out.close();
-	        	    
-	    	            String pde_input_filename = "pde.input";
+	        	    out.close();	        	    
+	    	            
+	        	    String directoryReplaced            = directory.replace("/","");
 	        	    String staticFactsOutputFile        = output_filename;
-	        	    String dynamicFactsOutputFile       = dynFacDir+"/ajp_code."+nameSrc+"."+mainClass+".txt";
-	        	    String dynamicDefinitionsOutputFile = dynDefDir+"/ajp_code."+nameSrc+"."+nameDP+".xml";
+	        	    String dynamicFactsOutputFile       = dynFacDir+"/"+directoryReplaced+"."+mainClass+".txt";
+	        	    String dynamicDefinitionsOutputFile = dynDefDir+"/"+directoryReplaced+"."+nameDP+".xml";
 	        	    
-	        	    BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename ));
-//candidateinstances/ajp_code.AbstractFactory.ql.out.instances dynamicfacts/ajp_code.AbstractFactory.RunPattern.txt dynamicdefinitions/ajp_code.AbstractFactory.xml
-
-	        	    pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile);
+	        	    pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile+" \n");
 	        	    pdeIn.flush();
 	        	    pdeIn.close();
 	        	    
@@ -209,22 +216,8 @@ public class PatternDetectionEngine
 	            }
 	        }
 	        
-
-
 	        System.exit(1);
-		
-		
-
-		
-		
-		
-		
-//	 	String script = args[++i];
-//	 	String classf = args[++i];
-//	 	String javexf = args[++i];
-//	 	String outnam = args[++i];
-//	 	String qlscri = args[++i];
-	 	
+	
 	 	/*if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
 	 	    script = "./" + script;
 	 	}*/
