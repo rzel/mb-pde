@@ -205,8 +205,8 @@ public class PatternDetectionEngine
 	        	           
 	        	    print("directoryReplaced " + directoryReplaced);
 	        	    String staticFactsOutputFile        = output_filename;
-	        	    String dynamicFactsOutputFile       = dynFacDir+""+directoryReplaced+"."+mainClassReplaced+".txt";
-	        	    String dynamicDefinitionsOutputFile = dynDefDir+""+directoryReplaced+"."+nameDP+".xml";
+	        	    String dynamicFactsOutputFile       = dynFacDir + directoryReplaced+"."+mainClassReplaced+".txt";
+	        	    String dynamicDefinitionsOutputFile = dynDefDir + nameDP+".xml";
 	        	    
 	        	    print("BufferedWriter pdeIn");
 	        	    boolean append = true;
