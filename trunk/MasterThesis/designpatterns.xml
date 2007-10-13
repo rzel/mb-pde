@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE software SYSTEM "designpattern_schema.dtd">
+
+<designpattern_list>
+<designpattern name="adapter" ql_script="ql/adapter.ql" pattern_roles="// adapter adaptee target" ></designpattern>
+<designpattern name="command" ql_script="ql/command.ql" pattern_roles="// invoker command concreteCommand receiver"></designpattern>
+</designpattern_list>
