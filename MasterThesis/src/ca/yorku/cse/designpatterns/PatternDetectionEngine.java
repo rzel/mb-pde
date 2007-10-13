@@ -11,10 +11,23 @@ import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.text.NumberFormat;
 import java.util.LinkedList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+
+
+// Static
+import java.io.File;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+
 
 
 /**
@@ -75,23 +88,88 @@ public class PatternDetectionEngine
 	 */
 	for(int i=0; i<args.length; i++){
 	    if ( args[i].equals("-static") ){
-	 	String script = args[++i];
-	 	String classf = args[++i];
-	 	String javexf = args[++i];
-	 	String outnam = args[++i];
-	 	String qlscri = args[++i];
+		
+		/*
+		 * Read dynamic definition XML file and store in Document
+		 *
+		 * Dynamic definition document for this design pattern.
+		 */
+		Document doc = null;
+		String filename = "software.xml";
+		try {
+		    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		    DocumentBuilder db = dbf.newDocumentBuilder();
+		    doc = db.parse(new File(filename));
+	        } catch (Exception e) {
+	            System.out.println("PatternDetectionEngine: -> " +
+	            		"Constructor(): Cannot read from file: " + filename +
+	            		"Please make sure that the file exists.");
+	            e.printStackTrace();
+	            System.exit(1);
+	        }
+	        
+	        String shell = "";
+	        String javex = "";
+	        String grok = "";
+	        String ql = "";
+
+	        NodeList properties = doc.getElementsByTagName("properties");
+	        for (int l = 0; l < properties.getLength(); l++) {  
+	            shell = properties.item(l).getAttributes().getNamedItem("shellScript").getNodeValue();
+	            javex = properties.item(l).getAttributes().getNamedItem("javex").getNodeValue();
+	            grok  = properties.item(l).getAttributes().getNamedItem("grok").getNodeValue();
+	            ql    = properties.item(l).getAttributes().getNamedItem("ql").getNodeValue();
+	            
+	            print("1: " + shell);
+	            print("2: " + javex);
+	            print("3: " + grok);
+	            print("4: " + ql);
+	        }
+	        
+	        NodeList software = doc.getElementsByTagName("software");
+	        for (int j = 0; j < software.getLength(); j++) { 
+	            String name      = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
+	            String directory = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
+	            String mainClass = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
+	            print("\n 1: " + name );
+	            print(  " 2: " + directory);
+	            print(  " 3: " + mainClass );
+	        
+	            String command = shell +" "+ directory +" "+ javex +" "+ name +" "+ "ql/adapter.ql" ; 
+	            print(command);
+
+	            //String cmd     = " ./static.sh ajp_code/adapter ./javex ajp_code.adapter ql/adapter.ql";
+	            StaticAnalysis st = new StaticAnalysis(command, "static_output.txt");
+	            st.runStaticAnalysis();	        
+	        
+	        }
+	        
+
+
+	        System.exit(1);
+		
+		
+
+		
+		
+		
+		
+//	 	String script = args[++i];
+//	 	String classf = args[++i];
+//	 	String javexf = args[++i];
+//	 	String outnam = args[++i];
+//	 	String qlscri = args[++i];
 	 	
 	 	/*if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
 	 	    script = "./" + script;
 	 	}*/
 	 	
 	 	//String arg3 = "compile_ajp ";
-	 	String cmd = script + " " + classf + " " + javexf + " " + outnam + " " + qlscri;
-	 	
-	 	print("arguments: " + cmd);
+	 	//String cmd = script + " " + classf + " " + javexf + " " + outnam + " " + qlscri;
+	 	// print("arguments: " + cmd);
 	 	
 	 	// Validation: Check if run.sh script and software directory can be found
-	 	File ff = new File( script );
+/*	 	File ff = new File( script );
 	 	File df = new File( javexf );
 	 	if ( ! ff.exists() ) {
 	 	    print("ERROR: Script (" + script + ") can not be found.");
@@ -100,11 +178,8 @@ public class PatternDetectionEngine
 	 	if ( ! df.exists() ) {
 	 	    print("ERROR: Script (" + javexf + ") can not be found.");
 	 	    System.exit(1);
-	 	}
-	 	
-	 	StaticAnalysis st = new StaticAnalysis(cmd, "static_output.txt");
-	 	st.runStaticAnalysis();
-	 	//System.exit(1);
+	 	}*/
+
 	    } 
 	    else if (args[i].equals("-usage") || args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 		pde.usage(true);
@@ -112,6 +187,7 @@ public class PatternDetectionEngine
 	    }
 	}
 
+	
 	
 	String inputFileName = null;
 	boolean redirectSystemOut = false;
