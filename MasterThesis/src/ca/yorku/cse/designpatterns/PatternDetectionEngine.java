@@ -78,13 +78,14 @@ public class PatternDetectionEngine
 	 	String script = args[++i];
 	 	String direct = args[++i];
 	 	String prname = args[++i];
+	 	String test12 = args[++i];
 	 	
-	 	if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
+	 	/*if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
 	 	    script = "./" + script;
-	 	}
+	 	}*/
 	 	
 	 	//String arg3 = "compile_ajp ";
-	 	String cmd = script + " " + direct + " " + prname;
+	 	String cmd = script + " " + direct + " " + prname + " " + test12;
 	 	
 	 	// Validation: Check if run.sh script and software directory can be found
 	 	File f = new File( script );
