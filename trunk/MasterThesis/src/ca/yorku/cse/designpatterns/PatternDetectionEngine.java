@@ -126,7 +126,7 @@ public class PatternDetectionEngine
 	            print(  " 2: " + directory);
 	            print(  " 3: " + mainClass );
 	        
-	            String command = shell +" "+ directory +" "+ javex +" "+ name +" "+ "ql/adapter.ql" ; 
+	            String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+name+" "+"ql/adapter.ql"+" "+"\"// adapter adaptee target\"" ; 
 	            print(command);
 
 	            //String cmd     = " ./static.sh ajp_code/adapter ./javex ajp_code.adapter ql/adapter.ql";
