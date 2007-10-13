@@ -145,15 +145,7 @@ public class PatternDetectionEngine
 	        }
 	        
 	        
-	        String pde_input_filename = "pde.input";
-	        BufferedWriter pdeIn = null;
-		try {
-		    pdeIn = new BufferedWriter(new FileWriter( pde_input_filename ));
-		} catch (IOException e1) {
-		    print("problem reading pde_input_filename: " + pde_input_filename);
-		    e1.printStackTrace();
-		}
-	            
+           
 	        
 	        NodeList software = software_doc.getElementsByTagName("software");
 	        for (int j = 0; j < software.getLength(); j++) { 
@@ -188,11 +180,13 @@ public class PatternDetectionEngine
 		        st.runStaticAnalysis();
 		            
 	        	try {
+	        	    print("BufferedWriter out");
 	        	    BufferedWriter out = new BufferedWriter(new FileWriter( output_filename ));	        	    
 	        	    out.write(pattern_roles + "\n");
 	        	    out.flush();
 
 	        	    //Create a buffer reader for the passed file
+	        	    print("BufferedWriter in");
 	        	    BufferedReader in = new BufferedReader(new FileReader( input_filename ));
 	        	    while ((line = in.readLine()) != null) {
 	        		out.write(line + "\n");
@@ -201,21 +195,29 @@ public class PatternDetectionEngine
 	        	    out.close();	        	    
 	    	            
 	        	    String directoryReplaced            = directory.replace("/","");
+	        	    print("directoryReplaced " + directoryReplaced);
 	        	    String staticFactsOutputFile        = output_filename;
-	        	    String dynamicFactsOutputFile       = dynFacDir+"/"+directoryReplaced+"."+mainClass+".txt";
-	        	    String dynamicDefinitionsOutputFile = dynDefDir+"/"+directoryReplaced+"."+nameDP+".xml";
+	        	    String dynamicFactsOutputFile       = dynFacDir+""+directoryReplaced+"."+mainClass+".txt";
+	        	    String dynamicDefinitionsOutputFile = dynDefDir+""+directoryReplaced+"."+nameDP+".xml";
 	        	    
-	        	    pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile+" \n");
-	        	    pdeIn.flush();
-	        	    pdeIn.close();
-	        	    
+	        	    print("BufferedWriter pdeIn");
+	        	    String pde_input_filename = "pde.input";
+	        	    try {
+	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename ));
+	        		pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile+" \n");
+	        		pdeIn.flush();
+	        		pdeIn.close();
+	        	    } catch (IOException e1) {
+	        		print("problem reading pde_input_filename: " + pde_input_filename);
+	        		e1.printStackTrace();
+	        	    }
 	        	} catch (IOException e) {
 	        	    print("EXCEPTION: Java IO");
 	        	    System.exit(1);
 	        	}
 	            }
 	        }
-	        
+
 	        System.exit(1);
 	
 	 	/*if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
