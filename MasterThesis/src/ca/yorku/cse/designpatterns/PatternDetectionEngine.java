@@ -115,10 +115,14 @@ public class PatternDetectionEngine
 	        }
 	        
 	        
-	        String shell = "";
-	        String javex = "";
-	        String grok = "";
-	        String ql = "";
+	        String shell    = "";
+	        String javex    = "";
+	        String grok     = "";
+	        String ql       = "";
+	        String canInDir = "";
+	        String dynFacDir= "";
+	        String dynDefDir= "";
+
 
 	        NodeList properties = software_doc.getElementsByTagName("properties");
 	        for (int l = 0; l < properties.getLength(); l++) {  
@@ -126,6 +130,13 @@ public class PatternDetectionEngine
 	            javex = properties.item(l).getAttributes().getNamedItem("javex").getNodeValue();
 	            grok  = properties.item(l).getAttributes().getNamedItem("grok").getNodeValue();
 	            ql    = properties.item(l).getAttributes().getNamedItem("ql").getNodeValue();
+	            canInDir  = properties.item(l).getAttributes().getNamedItem("candidateInstancesDirectory").getNodeValue();
+	            dynFacDir = properties.item(l).getAttributes().getNamedItem("dynamicFactsDirectory").getNodeValue();
+	            dynDefDir = properties.item(l).getAttributes().getNamedItem("dynamicDefinitionsDirectory").getNodeValue();
+	            
+	            if ( !canInDir.endsWith("/")  ) {
+	        	canInDir = canInDir + "/";
+	            }	            
 	            
 	            print("1: " + shell);
 	            print("2: " + javex);
@@ -160,14 +171,14 @@ public class PatternDetectionEngine
 	        	print(command);
 
 	        	String line = "";
-	        	String output_filename = "candidateinstances/" + nameSrc + "." + nameDP + ".out";
+	        	String output_filename = canInDir + nameSrc + "." + nameDP + ".out";
 	        	String input_filename  = "ql.out";
 	        	
 		        StaticAnalysis st = new StaticAnalysis(command, "static_output.txt");
 		        st.runStaticAnalysis();
 		            
 	        	try {
-	        	    BufferedWriter out = new BufferedWriter(new FileWriter( output_filename ));
+	        	    BufferedWriter out = new BufferedWriter(new FileWriter( output_filename ));	        	    
 	        	    out.write(pattern_roles + "\n");
 	        	    out.flush();
 
@@ -178,6 +189,19 @@ public class PatternDetectionEngine
 	        		out.flush();
 	        	    }	                
 	        	    out.close();
+	        	    
+	    	            String pde_input_filename = "pde.input";
+	        	    String staticFactsOutputFile        = output_filename;
+	        	    String dynamicFactsOutputFile       = dynFacDir+"/ajp_code."+nameSrc+"."+mainClass+".txt";
+	        	    String dynamicDefinitionsOutputFile = dynDefDir+"/ajp_code."+nameSrc+"."+nameDP+".xml";
+	        	    
+	        	    BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename ));
+//candidateinstances/ajp_code.AbstractFactory.ql.out.instances dynamicfacts/ajp_code.AbstractFactory.RunPattern.txt dynamicdefinitions/ajp_code.AbstractFactory.xml
+
+	        	    pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile);
+	        	    pdeIn.flush();
+	        	    pdeIn.close();
+	        	    
 	        	} catch (IOException e) {
 	        	    print("EXCEPTION: Java IO");
 	        	    System.exit(1);
