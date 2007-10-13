@@ -1,4 +1,0 @@
-// concreteMediator mediator concreteColleague 
-DP ajp_code.state.CalendarEditor$DirtyState ajp_code.state.State ajp_code.state.CalendarEditor
-DP ajp_code.state.CalendarEditor$CleanState ajp_code.state.State ajp_code.state.CalendarEditor$DirtyState
-DP ajp_code.state.CalendarEditor$CleanState ajp_code.state.State ajp_code.state.CalendarEditor

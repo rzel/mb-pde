@@ -22,18 +22,18 @@ if ( ! -d $1 ) then
 endif
 
 echo ''
-echo 'Arguments passed:   ' 
-echo '-directory      '$1 
-echo '-project name   '$2
-echo '-compile set:   '$3 
+echo 'Arguments passed:' 
+echo '-directory       '$1 
+echo '-project name    '$2
+echo '-compile set:    '$3 
 echo ''
 
 
 # set file names and variables
 set dir=$1
-set out_javex='out_javex_'$2
-set out_grok='out_grok_'$2 
-set out_ql='out_ql_'$2
+#set out_javex='out_javex_'$2
+#set out_grok='out_grok_'$2 
+#set out_ql='out_ql_'$2
 set script_grok=lift_to_classlevel.grok
 set script_grok_private_constructor=lift_private_constructor.grok
 set warning_grok=warning_grok
@@ -41,20 +41,15 @@ set warning_javac=warning_javac
 set input_eclipse=input.file.pde.txt
 
 
-# clean files 
-rm -rf $out_javex $out_grok $out_ql $warning_grok $warning_javac $input_eclipse 
+# clean files
+echo "Clean files" 
+rm -rf $warning_grok $warning_javac $input_eclipse 
 rm -rf 'candidateinstances/*'
 if ( ! -d candidateinstances ) then
     mkdir candidateinstances
 endif
 touch $input_eclipse
-
-#echo 'Varibles:  '  
-#echo $out_javex 
-#echo $out_grok 
-#echo $out_ql 
-#echo ""
-
+touch $warning_grok
 
 if ( $3 =~ 'compile_ajp' ) then 
     echo ""
@@ -67,54 +62,58 @@ if ( $3 =~ 'compile_ajp' ) then
 endif 
 
 
-set classfiles=`find $dir -name '*.class'  | tr '\n' ' '`
+foreach directory ( AbstractFactory FactoryMethod adapter bridge builder chain command composite decorator flyweight interpreter iterator mediator memento observer prototype proxy singleton state strategy templatemethod visitor )
+
+  echo 'First loop: directory='$directory
+  
+  set path1=$dir'/'$directory
+  set classfiles=`find $path1 -name '*.class'  | tr '\n' ' '`
+  set out_javex=$directory'.1.javex.out'
+  rm -rf $out_javex
+  echo ""
+  echo "Run Javex"
+  javex -f -l $classfiles > $out_javex
+  echo "Ready"
 
 
-echo ""
-echo "Run Javex"
-javex -f -l $classfiles > $out_javex
-echo "Ready"
+  set out_grok=$directory'.1.grok.out'
+  echo ""
+  echo "Run Grok"
+  grok $script_grok $out_javex $out_grok >> $warning_grok 
+  echo "Ready"
+  echo $out_grok
+
+  echo ""
+  echo "Remove special characters that cause QL to fail: [ ]"
+  sed -e 's/\[//g' < $out_grok > grok
+  sed -e 's/\]//g' < grok > grok2
+  rm -rf $out_grok grok
+  mv grok2 $out_grok
 
 
-echo ""
-echo "Run Grok"
-grok $script_grok $out_javex $out_grok > $warning_grok 
-echo "Ready"
+  echo "Run QL" 
 
-
-echo ""
-echo "Remove special characters that cause QL to fail: [ ]"
-sed -e 's/\[//g' < $out_grok > grok
-sed -e 's/\]//g' < grok > grok2
-rm -rf $out_grok grok
-mv grok2 $out_grok
-
-
-echo "Run QL" 
-foreach ql_script ( AbstractFactory FactoryMethod adapter bridge builder chain command composite decorator flyweight interpreter iterator mediator memento observer prototype proxy singleton state strategy templatemethod visitor )
-
+  foreach ql_script ( AbstractFactory FactoryMethod adapter bridge builder chain command composite decorator flyweight interpreter iterator mediator memento observer prototype proxy singleton state strategy templatemethod visitor )
 
     echo ''
     if ( $ql_script =~ 'singleton' ) then
         echo 'Singleton is a special case, due to the private constructor' 
-	set out_grok_private = $dir'.private.constructor.out' 
+	set out_grok_private = $dir'.'$directory'.private.constructor.out' 
 	grok $script_grok_private_constructor $out_javex $out_grok_private
 	run_readline.sh $out_grok_private >> $out_grok 
     	rm -rf $out_grok_private 
     endif
 
 
-    echo 'QL script '$ql_script'.ql'
+    echo 'QL script '$ql_script'.ql and software '$directory 
     set ql_input_script = 'ql/'$ql_script'.ql'
     set ql_input  = $out_grok
-    set ql_output = 'candidateinstances/'$2'.'$ql_script'.ql.out.instances'
+    set ql_output = 'candidateinstances/'$2'.'$directory'.'$ql_script'.ql.out.instances'
 
-    foreach directory ( AbstractFactory FactoryMethod adapter bridge builder chain command composite decorator flyweight interpreter iterator mediator memento observer prototype proxy singleton state strategy templatemethod visitor )
         
-	set pde_input = $ql_output' dynamicfacts/'$2'.'$directory'.RunPattern.txt dynamicdefinitions/'$2'.'$ql_script'.xml'
-        echo $pde_input >> $input_eclipse
+    set pde_input = $ql_output' dynamicfacts/'$2'.'$directory'.RunPattern.txt dynamicdefinitions/'$2'.'$ql_script'.xml'
+    echo $pde_input >> $input_eclipse
 
-    end
 
     echo "Run QL in loop "
     ql $ql_input_script $ql_input $ql_output
@@ -215,7 +214,11 @@ foreach ql_script ( AbstractFactory FactoryMethod adapter bridge builder chain c
     cat help_file >> $ql_output
     rm -rf help_file
 
-end
- 
+  end
+
+  rm -rf *.1.grok.out
+  rm -rf *.1.javex.out 
+
+end 
  
 echo "End Run.sh"

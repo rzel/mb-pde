@@ -1,5 +1,0 @@
-// client handler concreteHandler 
-DP ajp_code.composite.Task composite.ProjectItem ajp_code.composite.Task
-DP ajp_code.composite.Task composite.ProjectItem ajp_code.composite.Project
-DP ajp_code.composite.Project composite.ProjectItem ajp_code.composite.Task
-DP ajp_code.composite.Project composite.ProjectItem ajp_code.composite.Project

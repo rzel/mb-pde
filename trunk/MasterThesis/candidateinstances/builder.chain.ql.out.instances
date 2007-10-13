@@ -1,4 +1,0 @@
-// client handler concreteHandler 
-DP ajp_code.builder.MeetingBuilder ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
-DP ajp_code.builder.RunPattern ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
-DP ajp_code.builder.Scheduler ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder

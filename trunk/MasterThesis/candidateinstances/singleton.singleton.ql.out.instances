@@ -1,3 +1,0 @@
-// client singleton 
-DP ajp_code.singleton.SingletonGui ajp_code.singleton.SingletonGui$WindowCloseManager
-DP ajp_code.singleton.SingletonGui ajp_code.singleton.HistoryList

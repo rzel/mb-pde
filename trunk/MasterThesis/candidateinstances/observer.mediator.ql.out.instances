@@ -1,3 +1,0 @@
-// concreteMediator mediator concreteColleague 
-DP ajp_code.observer.TaskEditorPanel ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskChangeObservable
-DP ajp_code.observer.TaskSelectorPanel ajp_code.observer.TaskChangeObserver ajp_code.observer.TaskChangeObservable

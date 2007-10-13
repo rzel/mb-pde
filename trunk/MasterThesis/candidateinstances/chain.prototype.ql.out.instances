@@ -1,5 +1,0 @@
-// prototypeInterface prototype client 
-DP ajp_code.chain.Contact ajp_code.chain.ContactImpl ajp_code.chain.DataCreator
-DP ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.DataCreator
-DP ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.DataCreator
-DP ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.RunPattern

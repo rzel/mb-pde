@@ -1,5 +1,0 @@
-// leaf component composite 
-DP ajp_code.state.CalendarEditor$DirtyState ajp_code.state.State ajp_code.state.CalendarEditor$DirtyState
-DP ajp_code.state.CalendarEditor$DirtyState ajp_code.state.State ajp_code.state.CalendarEditor$CleanState
-DP ajp_code.state.CalendarEditor$CleanState ajp_code.state.State ajp_code.state.CalendarEditor$DirtyState
-DP ajp_code.state.CalendarEditor$CleanState ajp_code.state.State ajp_code.state.CalendarEditor$CleanState

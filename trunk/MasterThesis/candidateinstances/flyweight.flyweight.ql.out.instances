@@ -1,3 +1,0 @@
-// flyweightFactory flyweight concreteFlyweight 
-DP ajp_code.flyweight.StateFactory ajp_code.flyweight.State ajp_code.flyweight.DirtyState
-DP ajp_code.flyweight.StateFactory ajp_code.flyweight.State ajp_code.flyweight.CleanState
