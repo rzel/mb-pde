@@ -123,6 +123,10 @@ public class PatternDetectionEngine
 	        String dynFacDir= "";
 	        String dynDefDir= "";
         
+	        String pde_input_filename = "pde.input";
+	        File pdeDel = new File(pde_input_filename);
+	        boolean isDeleted = pdeDel.delete();
+	        print("pde_input_filename is deleted? " + isDeleted);
 	        
 	        NodeList properties = software_doc.getElementsByTagName("properties");
 	        for (int l = 0; l < properties.getLength(); l++) {  
@@ -205,7 +209,6 @@ public class PatternDetectionEngine
 	        	    String dynamicDefinitionsOutputFile = dynDefDir+""+directoryReplaced+"."+nameDP+".xml";
 	        	    
 	        	    print("BufferedWriter pdeIn");
-	        	    String pde_input_filename = "pde.input";
 	        	    boolean append = true;
 	        	    try {
 	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename, append ));
