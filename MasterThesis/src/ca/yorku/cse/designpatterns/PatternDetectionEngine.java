@@ -1,6 +1,7 @@
 package ca.yorku.cse.designpatterns;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -85,15 +86,29 @@ public class PatternDetectionEngine
 		 *
 		 * Dynamic definition document for this design pattern.
 		 */
-		Document doc = null;
+		Document software_doc = null;
 		String filename = "software.xml";
 		try {
 		    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		    DocumentBuilder db = dbf.newDocumentBuilder();
-		    doc = db.parse(new File(filename));
+		    software_doc = db.parse(new File(filename));
 	        } catch (Exception e) {
 	            System.out.println("PatternDetectionEngine: -> " +
 	            		"Constructor(): Cannot read from file: " + filename +
+	            		"Please make sure that the file exists.");
+	            e.printStackTrace();
+	            System.exit(1);
+	        }
+	        
+		Document designpattern_doc = null;
+		String filename2 = "designpattern.xml";
+		try {
+		    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		    DocumentBuilder db = dbf.newDocumentBuilder();
+		    designpattern_doc = db.parse(new File(filename));
+	        } catch (Exception e) {
+	            System.out.println("designpattern_doc: -> " +
+	            		"Constructor(): Cannot read from file: " + filename2 +
 	            		"Please make sure that the file exists.");
 	            e.printStackTrace();
 	            System.exit(1);
@@ -104,7 +119,7 @@ public class PatternDetectionEngine
 	        String grok = "";
 	        String ql = "";
 
-	        NodeList properties = doc.getElementsByTagName("properties");
+	        NodeList properties = software_doc.getElementsByTagName("properties");
 	        for (int l = 0; l < properties.getLength(); l++) {  
 	            shell = properties.item(l).getAttributes().getNamedItem("shellScript").getNodeValue();
 	            javex = properties.item(l).getAttributes().getNamedItem("javex").getNodeValue();
@@ -117,7 +132,7 @@ public class PatternDetectionEngine
 	            print("4: " + ql);
 	        }
 	        
-	        NodeList software = doc.getElementsByTagName("software");
+	        NodeList software = software_doc.getElementsByTagName("software");
 	        for (int j = 0; j < software.getLength(); j++) { 
 	            String name      = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
 	            String directory = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
@@ -125,14 +140,48 @@ public class PatternDetectionEngine
 	            print("\n 1: " + name );
 	            print(  " 2: " + directory);
 	            print(  " 3: " + mainClass );
-	        
-	            String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+name+" "+"ql/adapter.ql"+" "+"'// adapter adaptee target'" ; 
-	            print(command);
+	            
+	            
+	            String nameDP        = "";
+	            String ql_script     = "";
+	            String pattern_roles = "";
+	            
+	            NodeList designpattern = designpattern_doc.getElementsByTagName("designpattern");
+	            for (int k = 0; k < designpattern.getLength(); k++) { 
+	        	nameDP        = designpattern.item(k).getAttributes().getNamedItem("name").getNodeValue();
+	        	ql_script     = designpattern.item(k).getAttributes().getNamedItem("ql_script").getNodeValue();
+	        	pattern_roles = designpattern.item(k).getAttributes().getNamedItem("pattern_roles").getNodeValue();
+	        	print("\n 1: " + nameDP );
+	        	print(  " 2: " + ql_script);
+	        	print(  " 3: " + pattern_roles );
+	        	
+	        	String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+name+" "+ql_script ; 
+	        	print(command);
 
-	            //String cmd     = " ./static.sh ajp_code/adapter ./javex ajp_code.adapter ql/adapter.ql";
-	            StaticAnalysis st = new StaticAnalysis(command, "static_output.txt");
-	            st.runStaticAnalysis();	        
-	        
+	        	String line = "";
+	        	String output_filename = "candidateinstances/" + name + "." + nameDP + ".out";
+	        	String input_filename  = "ql.out";
+	        	
+		        StaticAnalysis st = new StaticAnalysis(command, "static_output.txt");
+		        st.runStaticAnalysis();
+		            
+	        	try {
+	        	    BufferedWriter out = new BufferedWriter(new FileWriter( output_filename ));
+	        	    out.write(pattern_roles + "\n");
+	        	    out.flush();
+
+	        	    //Create a buffer reader for the passed file
+	        	    BufferedReader in = new BufferedReader(new FileReader( input_filename ));
+	        	    while ((line = in.readLine()) != null) {
+	        		out.write(line + "\n");
+	        		out.flush();
+	        	    }	                
+	        	    out.close();
+	        	} catch (IOException e) {
+	        	    print("EXCEPTION: Java IO");
+	        	    System.exit(1);
+	        	}
+	            }
 	        }
 	        
 
