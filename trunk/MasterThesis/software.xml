@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE software SYSTEM "software_schema.dtd">
 
-<properties grok="grok" javex="./javex" ql="ql" shellScript="./static.sh">
+<properties grok="grok" javex="./javex" ql="ql"
+	shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
+	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">
 	<software directory="ajp_code/adapter" mainClass="RunPattern.java"
 		name="adapter" />
 	<software directory="ajp_code/bridge" mainClass="RunPattern.java"
