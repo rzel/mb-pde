@@ -1,4 +1,0 @@
-// flyweightFactory flyweight concreteFlyweight 
-DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectDecorator ajp_code.decorator.SupportedProjectItem
-DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectDecorator ajp_code.decorator.DependentProjectItem
-DP ajp_code.decorator.DependentProjectItem ajp_code.decorator.ProjectItem ajp_code.decorator.ProjectDecorator

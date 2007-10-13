@@ -1,4 +1,0 @@
-// prototypeInterface prototype client 
-DP ajp_code.bridge.ListImpl ajp_code.bridge.OrderedListImpl ajp_code.bridge.RunPattern
-DP ajp_code.bridge.BaseList ajp_code.bridge.NumberedList ajp_code.bridge.RunPattern
-DP ajp_code.bridge.BaseList ajp_code.bridge.OrnamentedList ajp_code.bridge.RunPattern

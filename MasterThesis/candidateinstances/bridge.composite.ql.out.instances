@@ -1,5 +1,0 @@
-// leaf component composite 
-DP ajp_code.bridge.NumberedList ajp_code.bridge.BaseList ajp_code.bridge.NumberedList
-DP ajp_code.bridge.NumberedList ajp_code.bridge.BaseList ajp_code.bridge.OrnamentedList
-DP ajp_code.bridge.OrnamentedList ajp_code.bridge.BaseList ajp_code.bridge.NumberedList
-DP ajp_code.bridge.OrnamentedList ajp_code.bridge.BaseList ajp_code.bridge.OrnamentedList

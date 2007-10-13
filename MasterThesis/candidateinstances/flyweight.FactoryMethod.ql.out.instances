@@ -1,2 +1,0 @@
-// creator concreteCreator concreteProduct product 
-DP ajp_code.flyweight.State ajp_code.flyweight.CleanState ajp_code.flyweight.DirtyState ajp_code.flyweight.State

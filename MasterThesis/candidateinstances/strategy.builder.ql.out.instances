@@ -1,5 +1,0 @@
-// director builder concreteBuilder product 
-DP ajp_code.strategy.ContactList ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.Contact
-DP ajp_code.strategy.ContactList ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.OrganizationSummarizer$OrganizationComparator
-DP ajp_code.strategy.ContactList ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.Contact
-DP ajp_code.strategy.ContactList ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.NameSummarizer$NameComparator

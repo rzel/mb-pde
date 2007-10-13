@@ -1,5 +1,0 @@
-// flyweightFactory flyweight concreteFlyweight 
-DP ajp_code.iterator.DataCreator ajp_code.iterator.ToDoListCollection ajp_code.iterator.ToDoListCollectionImpl
-DP ajp_code.iterator.DataCreator ajp_code.iterator.ToDoList ajp_code.iterator.ToDoListImpl
-DP ajp_code.iterator.ListPrinter ajp_code.iterator.Iterating ajp_code.iterator.ToDoListCollection
-DP ajp_code.iterator.ListPrinter ajp_code.iterator.Iterating ajp_code.iterator.ToDoList

@@ -1,9 +1,0 @@
-// director builder concreteBuilder product 
-DP ajp_code.composite.Task composite.ProjectItem ajp_code.composite.Task composite.Contact
-DP ajp_code.composite.Task composite.ProjectItem ajp_code.composite.Task composite.ProjectItem
-DP ajp_code.composite.Task composite.ProjectItem ajp_code.composite.Deliverable composite.Contact
-DP ajp_code.composite.Task composite.ProjectItem ajp_code.composite.Project composite.ProjectItem
-DP ajp_code.composite.Project composite.ProjectItem ajp_code.composite.Task composite.Contact
-DP ajp_code.composite.Project composite.ProjectItem ajp_code.composite.Task composite.ProjectItem
-DP ajp_code.composite.Project composite.ProjectItem ajp_code.composite.Deliverable composite.Contact
-DP ajp_code.composite.Project composite.ProjectItem ajp_code.composite.Project composite.ProjectItem

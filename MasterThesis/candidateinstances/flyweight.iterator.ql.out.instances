@@ -1,5 +1,0 @@
-// concreteAggregate iterator concreteIterator 
-DP ajp_code.flyweight.RunPattern ajp_code.flyweight.State ajp_code.flyweight.DirtyState
-DP ajp_code.flyweight.RunPattern ajp_code.flyweight.State ajp_code.flyweight.CleanState
-DP ajp_code.flyweight.StateFactory ajp_code.flyweight.State ajp_code.flyweight.DirtyState
-DP ajp_code.flyweight.StateFactory ajp_code.flyweight.State ajp_code.flyweight.CleanState

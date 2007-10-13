@@ -1,4 +1,0 @@
-// concreteMediator mediator concreteColleague 
-DP ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactMediator ajp_code.mediator.ContactDisplayPanel
-DP ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactMediator ajp_code.mediator.ContactSelectorPanel
-DP ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactMediator ajp_code.mediator.ContactEditorPanel

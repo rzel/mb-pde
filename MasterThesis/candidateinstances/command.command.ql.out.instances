@@ -1,8 +1,0 @@
-// invoker command concreteCommand receiver 
-DP ajp_code.command.ChangeLocationCommand ajp_code.command.LocationEditor ajp_code.command.CommandGui ajp_code.command.CommandGui$WindowCloseManager
-DP ajp_code.command.ChangeLocationCommand ajp_code.command.LocationEditor ajp_code.command.CommandGui ajp_code.command.LocationImpl
-DP ajp_code.command.ChangeLocationCommand ajp_code.command.LocationEditor ajp_code.command.CommandGui ajp_code.command.Appointment
-DP ajp_code.command.ChangeLocationCommand ajp_code.command.LocationEditor ajp_code.command.CommandGui ajp_code.command.UndoableCommand
-DP ajp_code.command.CommandGui ajp_code.command.UndoableCommand ajp_code.command.ChangeLocationCommand ajp_code.command.Location
-DP ajp_code.command.CommandGui ajp_code.command.UndoableCommand ajp_code.command.ChangeLocationCommand ajp_code.command.LocationEditor
-DP ajp_code.command.CommandGui ajp_code.command.UndoableCommand ajp_code.command.ChangeLocationCommand ajp_code.command.Appointment
