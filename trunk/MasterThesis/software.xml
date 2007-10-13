@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE software SYSTEM "software_schema.dtd">
+
+<properties grok="grok" javex="./javex" ql="ql" shellScript="./static.sh">
+	<software directory="ajp_code/adapter" mainClass="RunPattern.java"
+		name="adapter" />
+	<software directory="ajp_code/bridge" mainClass="RunPattern.java"
+		name="bridge" />
+	<software directory="ajp_code/command" mainClass="RunPattern.java"
+		name="command" />
+</properties>
+

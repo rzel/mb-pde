@@ -1,0 +1,8 @@
+<!ELEMENT properties (software*)>
+<!ATTLIST properties shellScript CDATA #REQUIRED>
+<!ATTLIST properties javex CDATA #REQUIRED>
+<!ATTLIST properties grok CDATA #REQUIRED>
+<!ATTLIST properties ql CDATA #REQUIRED>
+<!ATTLIST software name CDATA #REQUIRED>
+<!ATTLIST software directory CDATA #REQUIRED>
+<!ATTLIST software mainClass CDATA #REQUIRED>
