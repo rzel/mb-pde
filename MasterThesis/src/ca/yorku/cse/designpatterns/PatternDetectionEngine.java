@@ -101,11 +101,11 @@ public class PatternDetectionEngine
 	        }
 	        
 		Document designpattern_doc = null;
-		String filename2 = "designpattern.xml";
+		String filename2 = "designpatterns.xml";
 		try {
 		    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		    DocumentBuilder db = dbf.newDocumentBuilder();
-		    designpattern_doc = db.parse(new File(filename));
+		    designpattern_doc = db.parse(new File(filename2));
 	        } catch (Exception e) {
 	            System.out.println("designpattern_doc: -> " +
 	            		"Constructor(): Cannot read from file: " + filename2 +
@@ -113,6 +113,7 @@ public class PatternDetectionEngine
 	            e.printStackTrace();
 	            System.exit(1);
 	        }
+	        
 	        
 	        String shell = "";
 	        String javex = "";
