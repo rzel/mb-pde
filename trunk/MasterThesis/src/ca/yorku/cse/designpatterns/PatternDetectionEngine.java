@@ -76,26 +76,29 @@ public class PatternDetectionEngine
 	for(int i=0; i<args.length; i++){
 	    if ( args[i].equals("-static") ){
 	 	String script = args[++i];
-	 	String direct = args[++i];
-	 	String prname = args[++i];
-	 	String test12 = args[++i];
+	 	String classf = args[++i];
+	 	String javexf = args[++i];
+	 	String outnam = args[++i];
+	 	String qlscri = args[++i];
 	 	
 	 	/*if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
 	 	    script = "./" + script;
 	 	}*/
 	 	
 	 	//String arg3 = "compile_ajp ";
-	 	String cmd = script + " " + direct + " " + prname + " " + test12;
+	 	String cmd = script + " " + classf + " " + javexf + " " + outnam + " " + qlscri;
+	 	
+	 	print("arguments: " + cmd);
 	 	
 	 	// Validation: Check if run.sh script and software directory can be found
-	 	File f = new File( script );
-	 	File d = new File( direct );
-	 	if ( ! f.exists() ) {
+	 	File ff = new File( script );
+	 	File df = new File( javexf );
+	 	if ( ! ff.exists() ) {
 	 	    print("ERROR: Script (" + script + ") can not be found.");
 	 	    System.exit(1);
 	 	}
-	 	if ( ! d.exists() ) {
-	 	    print("ERROR: Script (" + direct + ") can not be found.");
+	 	if ( ! df.exists() ) {
+	 	    print("ERROR: Script (" + javexf + ") can not be found.");
 	 	    System.exit(1);
 	 	}
 	 	
