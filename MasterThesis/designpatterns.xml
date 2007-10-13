@@ -2,8 +2,8 @@
 <!DOCTYPE software SYSTEM "designpattern_schema.dtd">
 
 <designpattern_list>
-<designpattern name="adapter" pattern_roles="// adapter adaptee target" ql_script="ql/adapter.ql" ></designpattern>
-<designpattern name="command" pattern_roles="// invoker command concreteCommand receiver" ql_script="ql/command.ql" ></designpattern>
+<designpattern name="adapter" pattern_roles="// client target adapter adaptee" ql_script="ql/adapter.ql" ></designpattern>
+<designpattern name="command" pattern_roles="// invoker command concreteCommand receiver " ql_script="ql/command.ql" ></designpattern>
 	<designpattern name="composite" pattern_roles="// leaf component composite " ql_script="ql/composite.ql" /><designpattern
 		name="decorator" pattern_roles="// concreteComponent component decorator concreteDecorator " ql_script="ql/decorator.ql" /><designpattern name="state"
 		pattern_roles="// context state concreteState " ql_script="ql/state.ql" />
