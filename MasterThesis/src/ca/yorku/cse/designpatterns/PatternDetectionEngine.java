@@ -135,10 +135,10 @@ public class PatternDetectionEngine
 	        
 	        NodeList software = software_doc.getElementsByTagName("software");
 	        for (int j = 0; j < software.getLength(); j++) { 
-	            String name      = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
+	            String nameSrc   = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
 	            String directory = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
 	            String mainClass = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
-	            print("\n 1: " + name );
+	            print("\n 1: " + nameSrc );
 	            print(  " 2: " + directory);
 	            print(  " 3: " + mainClass );
 	            
@@ -156,11 +156,11 @@ public class PatternDetectionEngine
 	        	print(  " 2: " + ql_script);
 	        	print(  " 3: " + pattern_roles );
 	        	
-	        	String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+name+" "+ql_script ; 
+	        	String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+ql_script ; 
 	        	print(command);
 
 	        	String line = "";
-	        	String output_filename = "candidateinstances/" + name + "." + nameDP + ".out";
+	        	String output_filename = "candidateinstances/" + nameSrc + "." + nameDP + ".out";
 	        	String input_filename  = "ql.out";
 	        	
 		        StaticAnalysis st = new StaticAnalysis(command, "static_output.txt");
