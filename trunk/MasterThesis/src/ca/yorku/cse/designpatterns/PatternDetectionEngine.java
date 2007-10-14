@@ -221,7 +221,15 @@ public class PatternDetectionEngine
 	        	    }
 	        	} catch (IOException e) {
 	        	    print("EXCEPTION: Java IO");
-	        	    System.exit(1);
+	        	    BufferedWriter exc;
+			    try {
+				exc = new BufferedWriter(new FileWriter( "exception.txt", true ));
+		        	exc.write("Exception: " + command + "\n");
+		        	exc.flush();
+			    } catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			    }	
 	        	}
 	            }
 	        }
