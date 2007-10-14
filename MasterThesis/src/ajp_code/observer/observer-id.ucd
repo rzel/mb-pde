@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="observer-id" id="ajp_code.observer" metadata="uml2-1.0" initialized="true" zoom="0.75" tag="1000" key="3230303631303036204D6173746572546865736973536F6674776172652F4D617263656C204269726B6E6572">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.5/@sourceConnections.2 //@children.7/@sourceConnections.0 //@children.4/@sourceConnections.1 //@children.3/@sourceConnections.1 //@children.2/@sourceConnections.3" name="Task" location="38,720" size="413,295" id="ajp_code.observer/Task" runTimeClassModel="getNotes(),getName(),Task(Ljava.lang.String;Ljava.lang.String;D),setName(Ljava.lang.String;),name,Task(),getTimeRequired(),setNotes(Ljava.lang.String;),notes,timeRequired,toString(),setTimeRequired(D)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="ajp_code.observer/Task#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="notes" id="ajp_code.observer/Task#notes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="timeRequired" id="ajp_code.observer/Task#timeRequired"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="390,162">
+      <children xsi:type="editmodel:MethodEditModel" name="Task" id="ajp_code.observer/Task#Task()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Task" id="ajp_code.observer/Task#Task(Ljava.lang.String;Ljava.lang.String;D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="ajp_code.observer/Task#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNotes" id="ajp_code.observer/Task#getNotes()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTimeRequired" id="ajp_code.observer/Task#getTimeRequired()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="ajp_code.observer/Task#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNotes" id="ajp_code.observer/Task#setNotes(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTimeRequired" id="ajp_code.observer/Task#setTimeRequired(D)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="ajp_code.observer/Task#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RunPattern" location="50,59" size="177,97" id="ajp_code.observer/RunPattern" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="ajp_code.observer/RunPattern#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/RunPattern->ajp_code.observer/ObserverGui" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.observer/RunPattern->ajp_code.observer/ObserverGui" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,-1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.1/@sourceConnections.1" name="ObserverGui" location="50,274" size="250,206" id="ajp_code.observer/ObserverGui" runTimeClassModel="ajp_code.observer.ObserverGui.WindowCloseManager,createGui()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,18">
+      <children xsi:type="editmodel:MethodEditModel" name="createGui" id="ajp_code.observer/ObserverGui#createGui()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="227,99">
+      <children xsi:type="editmodel:ClassEditModel" name="WindowCloseManager" size="227,97" id="ajp_code.observer/ObserverGui$WindowCloseManager" runTimeClassModel="windowClosing(Ljava.awt.event.WindowEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="204,18">
+          <children xsi:type="editmodel:MethodEditModel" name="windowClosing" id="ajp_code.observer/ObserverGui$WindowCloseManager#windowClosing(Ljava.awt.event.WindowEvent;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/ObserverGui->ajp_code.observer/TaskEditorPanel" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="240,206" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.observer/ObserverGui->ajp_code.observer/TaskHistoryPanel" source="//@children.2" target="//@children.7" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="250,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,187"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/ObserverGui->ajp_code.observer/TaskSelectorPanel" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="250,102" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,121"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/ObserverGui->ajp_code.observer/Task" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,206" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.observer/ObserverGui->ajp_code.observer/TaskChangeObservable" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.4/@children.2" label="//@children.2/@sourceConnections.4/@children.0" sourceEnd="//@children.2/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="240,206" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/ObserverGui->ajp_code.observer/TaskHistoryPanel" source="//@children.2" target="//@children.7" targetEnd="//@children.2/@sourceConnections.5/@children.2" label="//@children.2/@sourceConnections.5/@children.0" sourceEnd="//@children.2/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="250,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,187"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.observer/ObserverGui->ajp_code.observer/TaskChangeObservable" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.6/@children.2" label="//@children.2/@sourceConnections.6/@children.0" sourceEnd="//@children.2/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="250,143" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.4/@sourceConnections.0 //@children.2/@sourceConnections.4 //@children.2/@sourceConnections.6" name="TaskChangeObservable" location="620,800" size="362,187" id="ajp_code.observer/TaskChangeObservable" runTimeClassModel="removeTaskChangeObserver(Lajp_code.observer.TaskChangeObserver;),addTask(Lajp_code.observer.Task;),selectTask(Lajp_code.observer.Task;),observers,addTaskChangeObserver(Lajp_code.observer.TaskChangeObserver;),updateTask(Lajp_code.observer.Task;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="observers" id="ajp_code.observer/TaskChangeObservable#observers"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="339,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addTask" id="ajp_code.observer/TaskChangeObservable#addTask(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addTaskChangeObserver" id="ajp_code.observer/TaskChangeObservable#addTaskChangeObserver(Lajp_code.observer.TaskChangeObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeTaskChangeObserver" id="ajp_code.observer/TaskChangeObservable#removeTaskChangeObserver(Lajp_code.observer.TaskChangeObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectTask" id="ajp_code.observer/TaskChangeObservable#selectTask(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="updateTask" id="ajp_code.observer/TaskChangeObservable#updateTask(Lajp_code.observer.Task;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskChangeObservable->ajp_code.observer/TaskChangeObserver" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="362,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,147"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskChangeObservable->ajp_code.observer/Task" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,93" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="413,173"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2" name="TaskSelectorPanel" location="730,255" size="373,241" id="ajp_code.observer/TaskSelectorPanel" runTimeClassModel="selector,actionPerformed(Ljava.awt.event.ActionEvent;),notifier,taskAdded(Lajp_code.observer.Task;),setTaskChangeObservable(Lajp_code.observer.TaskChangeObservable;),taskSelected(Lajp_code.observer.Task;),TaskSelectorPanel(Lajp_code.observer.TaskChangeObservable;),taskChanged(Lajp_code.observer.Task;),createGui()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="174,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="notifier" id="ajp_code.observer/TaskSelectorPanel#notifier"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="selector" id="ajp_code.observer/TaskSelectorPanel#selector"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="350,126">
+      <children xsi:type="editmodel:MethodEditModel" name="TaskSelectorPanel" id="ajp_code.observer/TaskSelectorPanel#TaskSelectorPanel(Lajp_code.observer.TaskChangeObservable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="ajp_code.observer/TaskSelectorPanel#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createGui" id="ajp_code.observer/TaskSelectorPanel#createGui()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTaskChangeObservable" id="ajp_code.observer/TaskSelectorPanel#setTaskChangeObservable(Lajp_code.observer.TaskChangeObservable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskAdded" id="ajp_code.observer/TaskSelectorPanel#taskAdded(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskChanged" id="ajp_code.observer/TaskSelectorPanel#taskChanged(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskSelected" id="ajp_code.observer/TaskSelectorPanel#taskSelected(Lajp_code.observer.Task;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskSelectorPanel->ajp_code.observer/TaskChangeObservable" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="125,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="235,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskSelectorPanel->ajp_code.observer/Task" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="413,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="ajp_code.observer/TaskChangeObserver&lt;-ajp_code.observer/TaskSelectorPanel" source="//@children.4" target="//@children.5/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.2/@children.1" sourceEnd="//@children.4/@sourceConnections.2/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="303,241" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="TaskEditorPanel" location="1180,570" size="373,385" id="ajp_code.observer/TaskEditorPanel" runTimeClassModel="update,editTask,TaskEditorPanel(Lajp_code.observer.TaskChangeObservable;),taskNotes,editPanel,notifier,taskTime,taskAdded(Lajp_code.observer.Task;),add,taskName,taskSelected(Lajp_code.observer.Task;),exit,setTaskChangeObservable(Lajp_code.observer.TaskChangeObservable;),createGui(),actionPerformed(Ljava.awt.event.ActionEvent;),controlPanel,taskChanged(Lajp_code.observer.Task;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="174,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="add" id="ajp_code.observer/TaskEditorPanel#add"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="controlPanel" id="ajp_code.observer/TaskEditorPanel#controlPanel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="editPanel" id="ajp_code.observer/TaskEditorPanel#editPanel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="editTask" id="ajp_code.observer/TaskEditorPanel#editTask"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="exit" id="ajp_code.observer/TaskEditorPanel#exit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="notifier" id="ajp_code.observer/TaskEditorPanel#notifier"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taskName" id="ajp_code.observer/TaskEditorPanel#taskName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taskNotes" id="ajp_code.observer/TaskEditorPanel#taskNotes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="taskTime" id="ajp_code.observer/TaskEditorPanel#taskTime"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="update" id="ajp_code.observer/TaskEditorPanel#update"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="350,126">
+      <children xsi:type="editmodel:MethodEditModel" name="TaskEditorPanel" id="ajp_code.observer/TaskEditorPanel#TaskEditorPanel(Lajp_code.observer.TaskChangeObservable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="ajp_code.observer/TaskEditorPanel#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createGui" id="ajp_code.observer/TaskEditorPanel#createGui()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTaskChangeObservable" id="ajp_code.observer/TaskEditorPanel#setTaskChangeObservable(Lajp_code.observer.TaskChangeObservable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskAdded" id="ajp_code.observer/TaskEditorPanel#taskAdded(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskChanged" id="ajp_code.observer/TaskEditorPanel#taskChanged(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskSelected" id="ajp_code.observer/TaskEditorPanel#taskSelected(Lajp_code.observer.Task;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.4/@sourceConnections.2" autoLocated="true" id="ajp_code.observer/TaskChangeObserver&lt;-ajp_code.observer/TaskEditorPanel" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="186,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,147" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskEditorPanel->ajp_code.observer/TaskChangeObservable" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,307" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="362,77"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskEditorPanel->ajp_code.observer/Task" source="//@children.5" target="//@children.0" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,267" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="413,117"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.3/@sourceConnections.0" name="TaskChangeObserver" location="1199,50" size="177,147" id="ajp_code.observer/TaskChangeObserver" runTimeClassModel="taskAdded(Lajp_code.observer.Task;),taskSelected(Lajp_code.observer.Task;),taskChanged(Lajp_code.observer.Task;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,54">
+      <children xsi:type="editmodel:MethodEditModel" name="taskAdded" id="ajp_code.observer/TaskChangeObserver#taskAdded(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskChanged" id="ajp_code.observer/TaskChangeObserver#taskChanged(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskSelected" id="ajp_code.observer/TaskChangeObserver#taskSelected(Lajp_code.observer.Task;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskChangeObserver->ajp_code.observer/Task" source="//@children.6" target="//@children.0" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,137" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="403,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.2/@sourceConnections.5" name="TaskHistoryPanel" location="520,59" size="176,187" id="ajp_code.observer/TaskHistoryPanel" runTimeClassModel="TaskHistoryPanel(),displayRegion,taskAdded(Lajp_code.observer.Task;),taskSelected(Lajp_code.observer.Task;),createGui(),taskChanged(Lajp_code.observer.Task;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="displayRegion" id="ajp_code.observer/TaskHistoryPanel#displayRegion"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,90">
+      <children xsi:type="editmodel:MethodEditModel" name="TaskHistoryPanel" id="ajp_code.observer/TaskHistoryPanel#TaskHistoryPanel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createGui" id="ajp_code.observer/TaskHistoryPanel#createGui()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskAdded" id="ajp_code.observer/TaskHistoryPanel#taskAdded(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskChanged" id="ajp_code.observer/TaskHistoryPanel#taskChanged(Lajp_code.observer.Task;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="taskSelected" id="ajp_code.observer/TaskHistoryPanel#taskSelected(Lajp_code.observer.Task;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.observer/TaskHistoryPanel->ajp_code.observer/Task" source="//@children.7" target="//@children.0" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,187" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="413,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="ajp_code.observer/TaskChangeObserver&lt;-ajp_code.observer/TaskHistoryPanel" source="//@children.7" target="//@children.5/@sourceConnections.0" targetEnd="//@children.7/@sourceConnections.1/@children.1" sourceEnd="//@children.7/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,186" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=5"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>

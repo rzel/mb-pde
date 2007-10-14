@@ -86,7 +86,7 @@ public class DynamicDefinitionConverter implements DynamicDefinitionConverterInt
 	    /*
 	     * Check className and calledByClass attributes of each node and 
 	     * exchange them with the candidate instance class names of the 
-	     * current LinkedList object.
+	     * current LinkedList object. 
 	     */ 
 	    String value_className      = dpDefList.item(l).getAttributes().getNamedItem("className").getNodeValue();
 	    String value_calledByClass  = dpDefList.item(l).getAttributes().getNamedItem("calledByClass").getNodeValue();

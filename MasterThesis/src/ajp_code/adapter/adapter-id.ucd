@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="adapter-id" id="ajp_code.adapter" metadata="uml2-1.0" initialized="true" zoom="0.75" tag="1000" key="3230303631303036204D6173746572546865736973536F6674776172652F4D617263656C204269726B6E6572">
+  <children xsi:type="editmodel:ClassEditModel" name="RunPattern" location="79,189" size="177,97" id="ajp_code.adapter/RunPattern" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="ajp_code.adapter/RunPattern#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.adapter/RunPattern->ajp_code.adapter/Contact" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,48" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,188"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="ajp_code.adapter/RunPattern->ajp_code.adapter/ContactAdapter" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="167,97" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.15 //@children.2/@sourceConnections.0" name="Chovnatlh" location="1009,40" size="278,237" id="ajp_code.adapter/Chovnatlh" runTimeClassModel="tlhapPatlh(),tlhapWa$DIchPong(),cherPatlh(Ljava.lang.String;),tlhapQavPong(),tlhapGhom(),cherQavPong(Ljava.lang.String;),cherGhom(Ljava.lang.String;),cherWa$DIchPong(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="255,144">
+      <children xsi:type="editmodel:MethodEditModel" name="cherGhom" id="ajp_code.adapter/Chovnatlh#cherGhom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherPatlh" id="ajp_code.adapter/Chovnatlh#cherPatlh(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherQavPong" id="ajp_code.adapter/Chovnatlh#cherQavPong(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherWa$DIchPong" id="ajp_code.adapter/Chovnatlh#cherWa$DIchPong(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapGhom" id="ajp_code.adapter/Chovnatlh#tlhapGhom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapPatlh" id="ajp_code.adapter/Chovnatlh#tlhapPatlh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapQavPong" id="ajp_code.adapter/Chovnatlh#tlhapQavPong()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapWa$DIchPong" id="ajp_code.adapter/Chovnatlh#tlhapWa$DIchPong()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.3 //@children.3/@sourceConnections.5 //@children.3/@sourceConnections.1 //@children.3/@sourceConnections.4 //@children.3/@sourceConnections.2 //@children.3/@sourceConnections.9 //@children.3/@sourceConnections.10 //@children.3/@sourceConnections.7 //@children.3/@sourceConnections.8 //@children.3/@sourceConnections.6 //@children.3/@sourceConnections.13 //@children.3/@sourceConnections.12 //@children.3/@sourceConnections.11 //@children.3/@sourceConnections.14" name="ChovnatlhImpl" location="890,339" size="573,349" id="ajp_code.adapter/ChovnatlhImpl" runTimeClassModel="ChovnatlhImpl(),cherPatlh(Ljava.lang.String;),tlhapWa$DIchPong(),ChovnatlhImpl(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),ghom,qavPong,cherQavPong(Ljava.lang.String;),cherWa$DIchPong(Ljava.lang.String;),toString(),tlhapPatlh(),tlhapQavPong(),wa$DIchPong,tlhapGhom(),patlh,cherGhom(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="ghom" id="ajp_code.adapter/ChovnatlhImpl#ghom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="patlh" id="ajp_code.adapter/ChovnatlhImpl#patlh"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="qavPong" id="ajp_code.adapter/ChovnatlhImpl#qavPong"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wa$DIchPong" id="ajp_code.adapter/ChovnatlhImpl#wa$DIchPong"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="550,198">
+      <children xsi:type="editmodel:MethodEditModel" name="ChovnatlhImpl" id="ajp_code.adapter/ChovnatlhImpl#ChovnatlhImpl()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ChovnatlhImpl" id="ajp_code.adapter/ChovnatlhImpl#ChovnatlhImpl(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherGhom" id="ajp_code.adapter/ChovnatlhImpl#cherGhom(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherPatlh" id="ajp_code.adapter/ChovnatlhImpl#cherPatlh(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherQavPong" id="ajp_code.adapter/ChovnatlhImpl#cherQavPong(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cherWa$DIchPong" id="ajp_code.adapter/ChovnatlhImpl#cherWa$DIchPong(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapGhom" id="ajp_code.adapter/ChovnatlhImpl#tlhapGhom()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapPatlh" id="ajp_code.adapter/ChovnatlhImpl#tlhapPatlh()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapQavPong" id="ajp_code.adapter/ChovnatlhImpl#tlhapQavPong()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="tlhapWa$DIchPong" id="ajp_code.adapter/ChovnatlhImpl#tlhapWa$DIchPong()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="ajp_code.adapter/ChovnatlhImpl#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ajp_code.adapter/Chovnatlh&lt;-ajp_code.adapter/ChovnatlhImpl" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="257,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,237"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1" name="ContactAdapter" location="470,490" size="301,313" id="ajp_code.adapter/ContactAdapter" runTimeClassModel="getFirstName(),setContact(Lajp_code.adapter.Chovnatlh;),getLastName(),ContactAdapter(),contact,setLastName(Ljava.lang.String;),toString(),setFirstName(Ljava.lang.String;),setTitle(Ljava.lang.String;),getOrganization(),getTitle(),ContactAdapter(Lajp_code.adapter.Chovnatlh;),setOrganization(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="contact" id="ajp_code.adapter/ContactAdapter#contact"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="234,216">
+      <children xsi:type="editmodel:MethodEditModel" name="ContactAdapter" id="ajp_code.adapter/ContactAdapter#ContactAdapter(Lajp_code.adapter.Chovnatlh;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ContactAdapter" id="ajp_code.adapter/ContactAdapter#ContactAdapter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFirstName" id="ajp_code.adapter/ContactAdapter#getFirstName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastName" id="ajp_code.adapter/ContactAdapter#getLastName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrganization" id="ajp_code.adapter/ContactAdapter#getOrganization()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTitle" id="ajp_code.adapter/ContactAdapter#getTitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setContact" id="ajp_code.adapter/ContactAdapter#setContact(Lajp_code.adapter.Chovnatlh;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFirstName" id="ajp_code.adapter/ContactAdapter#setFirstName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLastName" id="ajp_code.adapter/ContactAdapter#setLastName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrganization" id="ajp_code.adapter/ContactAdapter#setOrganization(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTitle" id="ajp_code.adapter/ContactAdapter#setTitle(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="ajp_code.adapter/ContactAdapter#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ajp_code.adapter/Contact&lt;-ajp_code.adapter/ContactAdapter" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,327"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,241" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.4/@children.2" label="//@children.3/@sourceConnections.4/@children.0" sourceEnd="//@children.3/@sourceConnections.4/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,238" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.5/@children.2" label="//@children.3/@sourceConnections.5/@children.0" sourceEnd="//@children.3/@sourceConnections.5/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,237" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.6/@children.2" label="//@children.3/@sourceConnections.6/@children.0" sourceEnd="//@children.3/@sourceConnections.6/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,237" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="278,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.7/@children.2" label="//@children.3/@sourceConnections.7/@children.0" sourceEnd="//@children.3/@sourceConnections.7/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,237" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="278,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.8/@children.2" label="//@children.3/@sourceConnections.8/@children.0" sourceEnd="//@children.3/@sourceConnections.8/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,233" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.9/@children.2" label="//@children.3/@sourceConnections.9/@children.0" sourceEnd="//@children.3/@sourceConnections.9/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,229" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.10/@children.2" label="//@children.3/@sourceConnections.10/@children.0" sourceEnd="//@children.3/@sourceConnections.10/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,229" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="270,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.11/@children.2" label="//@children.3/@sourceConnections.11/@children.0" sourceEnd="//@children.3/@sourceConnections.11/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,234" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="275,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.12/@children.2" label="//@children.3/@sourceConnections.12/@children.0" sourceEnd="//@children.3/@sourceConnections.12/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,234" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.13/@children.2" label="//@children.3/@sourceConnections.13/@children.0" sourceEnd="//@children.3/@sourceConnections.13/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,234" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="278,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter->ajp_code.adapter/ChovnatlhImpl" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.14/@children.2" label="//@children.3/@sourceConnections.14/@children.0" sourceEnd="//@children.3/@sourceConnections.14/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="299,234" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="274,349"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="ajp_code.adapter/ContactAdapter#contact->ajp_code.adapter/Chovnatlh" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.15/@children.2" label="//@children.3/@sourceConnections.15/@children.0" sourceEnd="//@children.3/@sourceConnections.15/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«import»" size="41,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="268,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,227"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.0/@sourceConnections.0" name="Contact" location="449,49" size="257,327" id="ajp_code.adapter/Contact" runTimeClassModel="lastName,getFirstName(),getLastName(),sPACE,setLastName(Ljava.lang.String;),setFirstName(Ljava.lang.String;),organization,title,setTitle(Ljava.lang.String;),getOrganization(),getTitle(),firstName,setOrganization(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="firstName" id="ajp_code.adapter/Contact#firstName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lastName" id="ajp_code.adapter/Contact#lastName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="organization" id="ajp_code.adapter/Contact#organization"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sPACE" id="ajp_code.adapter/Contact#sPACE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="title" id="ajp_code.adapter/Contact#title"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="234,144">
+      <children xsi:type="editmodel:MethodEditModel" name="getFirstName" id="ajp_code.adapter/Contact#getFirstName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastName" id="ajp_code.adapter/Contact#getLastName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getOrganization" id="ajp_code.adapter/Contact#getOrganization()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTitle" id="ajp_code.adapter/Contact#getTitle()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFirstName" id="ajp_code.adapter/Contact#setFirstName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLastName" id="ajp_code.adapter/Contact#setLastName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setOrganization" id="ajp_code.adapter/Contact#setOrganization(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTitle" id="ajp_code.adapter/Contact#setTitle(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=5"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true" showMethods="true" showAttributes="true" showLiterlas="true"/>
+</editmodel:ClassDiagramEditModel>
