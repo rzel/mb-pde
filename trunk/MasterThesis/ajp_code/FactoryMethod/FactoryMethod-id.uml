@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_bt8xsATyEdyMwcS56ZZh9w" name="FactoryMethod">
+  <packagedElement xmi:type="uml:Package" xmi:id="_KGOtEATyEdyMwcS56ZZh9w" name="ajp_code.FactoryMethod">
+    <packagedElement xmi:type="uml:Class" xmi:id="_KRHHYATyEdyMwcS56ZZh9w" name="RunPattern" clientDependency="_LhVZIATyEdyMwcS56ZZh9w _LhntAQTyEdyMwcS56ZZh9w _LhtzogTyEdyMwcS56ZZh9w _Lh6A4gTyEdyMwcS56ZZh9w _LiGOIQTyEdyMwcS56ZZh9w _LiMUwgTyEdyMwcS56ZZh9w">
+      <ownedOperation xmi:id="_LPMgQATyEdyMwcS56ZZh9w" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lbyx0ATyEdyMwcS56ZZh9w" name="arguments" type="_LbsrMgTyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LgSQQATyEdyMwcS56ZZh9w" name="Contact" clientDependency="_LqgjQATyEdyMwcS56ZZh9w _LqgjQwTyEdyMwcS56ZZh9w _Lqmp4gTyEdyMwcS56ZZh9w">
+      <generalization xmi:id="_Lp104ATyEdyMwcS56ZZh9w" general="_LpKfcgTyEdyMwcS56ZZh9w"/>
+      <generalization xmi:id="_Lp77ggTyEdyMwcS56ZZh9w" general="_Lp77gQTyEdyMwcS56ZZh9w"/>
+      <ownedAttribute xmi:id="_LqIIwATyEdyMwcS56ZZh9w" name="relationship" visibility="private" type="_LbsrMgTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LqOPYwTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LqOPYgTyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LqIIwQTyEdyMwcS56ZZh9w" name="name" visibility="private" type="_LbsrMgTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LqOPZQTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LqOPZATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_LqOPYQTyEdyMwcS56ZZh9w" name="ContactEditor" visibility="private" clientDependency="_LsIT4ATyEdyMwcS56ZZh9w _LsIT4wTyEdyMwcS56ZZh9w">
+        <generalization xmi:id="_Lq_EYATyEdyMwcS56ZZh9w" general="_Li9w0ATyEdyMwcS56ZZh9w"/>
+        <generalization xmi:id="_LrFLAATyEdyMwcS56ZZh9w" general="_Lp77gQTyEdyMwcS56ZZh9w"/>
+        <ownedAttribute xmi:id="_LrpywATyEdyMwcS56ZZh9w" name="panel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lr2AAwTyEdyMwcS56ZZh9w" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lr2AAgTyEdyMwcS56ZZh9w"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Lrv5YATyEdyMwcS56ZZh9w" name="nameField" visibility="private" type="_Lrv5YgTyEdyMwcS56ZZh9w">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lr8GoATyEdyMwcS56ZZh9w" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lr2ABATyEdyMwcS56ZZh9w"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Lrv5YwTyEdyMwcS56ZZh9w" name="relationField" visibility="private" type="_Lrv5YgTyEdyMwcS56ZZh9w">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lr8GogTyEdyMwcS56ZZh9w" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lr8GoQTyEdyMwcS56ZZh9w"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_Lrv5ZQTyEdyMwcS56ZZh9w" name="toString" visibility="public" concurrency="concurrent">
+          <ownedParameter xmi:id="_Lrv5ZgTyEdyMwcS56ZZh9w" type="_LbsrMgTyEdyMwcS56ZZh9w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Lrv5ZwTyEdyMwcS56ZZh9w" name="getGUI" visibility="public" concurrency="concurrent">
+          <ownedParameter xmi:id="_Lr2AAATyEdyMwcS56ZZh9w" type="_LjQEsATyEdyMwcS56ZZh9w" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Lr2AAQTyEdyMwcS56ZZh9w" name="commitChanges" visibility="public" concurrency="concurrent"/>
+      </nestedClassifier>
+      <ownedOperation xmi:id="_LqIIwgTyEdyMwcS56ZZh9w" name="getEditor" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_LqOPYATyEdyMwcS56ZZh9w" type="_Li9w0ATyEdyMwcS56ZZh9w" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LgkkIATyEdyMwcS56ZZh9w" name="EditorGui" clientDependency="_Ln7JUgTyEdyMwcS56ZZh9w _LoBP8QTyEdyMwcS56ZZh9w _LoHWkgTyEdyMwcS56ZZh9w _LoZqcgTyEdyMwcS56ZZh9w _Lor-UgTyEdyMwcS56ZZh9w _LoyE8gTyEdyMwcS56ZZh9w _Lo4LkgTyEdyMwcS56ZZh9w _Lo-SMgTyEdyMwcS56ZZh9w _LpEY0ATyEdyMwcS56ZZh9w _LpEY0wTyEdyMwcS56ZZh9w">
+      <generalization xmi:id="_LkxusgTyEdyMwcS56ZZh9w" general="_LkxusQTyEdyMwcS56ZZh9w"/>
+      <ownedAttribute xmi:id="_LmTYsATyEdyMwcS56ZZh9w" name="update" visibility="private" type="_LmZfUATyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnENsQTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnENsATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LmZfUQTyEdyMwcS56ZZh9w" name="editor" visibility="private" type="_Li9w0ATyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUUQTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUUATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LmZfUgTyEdyMwcS56ZZh9w" name="editorPanel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUUwTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUUgTyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LmZfVATyEdyMwcS56ZZh9w" name="displayPanel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUVQTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUVATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Lmfl8ATyEdyMwcS56ZZh9w" name="controlPanel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUVwTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUVgTyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Lmfl8QTyEdyMwcS56ZZh9w" name="mainFrame" visibility="private" type="_Lmfl8gTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUWQTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUWATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Lmfl8wTyEdyMwcS56ZZh9w" name="display" visibility="private" type="_Lmfl9ATyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnQa8QTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnQa8ATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Lmfl9QTyEdyMwcS56ZZh9w" name="exit" visibility="private" type="_LmZfUATyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnQa8wTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnQa8gTyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Lmx50wTyEdyMwcS56ZZh9w" name="WindowCloseManager" visibility="private" clientDependency="_Lss7oATyEdyMwcS56ZZh9w">
+        <generalization xmi:id="_LsanwQTyEdyMwcS56ZZh9w" general="_LsanwATyEdyMwcS56ZZh9w"/>
+        <ownedOperation xmi:id="_LsguYATyEdyMwcS56ZZh9w" name="windowClosing" visibility="public" concurrency="concurrent">
+          <ownedParameter xmi:id="_Lsm1AQTyEdyMwcS56ZZh9w" name="evt" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+        </ownedOperation>
+      </nestedClassifier>
+      <ownedOperation xmi:id="_LmlskATyEdyMwcS56ZZh9w" name="updateItem" visibility="private" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_LmlskQTyEdyMwcS56ZZh9w" name="actionPerformed" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_LmrzMQTyEdyMwcS56ZZh9w" name="evt" type="_LmrzMATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_LmrzMgTyEdyMwcS56ZZh9w" name="createGui" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_Lmx50ATyEdyMwcS56ZZh9w" name="EditorGui" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lmx50QTyEdyMwcS56ZZh9w" name="edit" type="_Li9w0ATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lmx50gTyEdyMwcS56ZZh9w" name="exitApplication" visibility="private" concurrency="concurrent"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Li9w0ATyEdyMwcS56ZZh9w" name="ItemEditor" clientDependency="_LjcR8ATyEdyMwcS56ZZh9w">
+      <ownedOperation xmi:id="_LjJ-EATyEdyMwcS56ZZh9w" name="commitChanges" visibility="public" isAbstract="true" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_LjJ-EQTyEdyMwcS56ZZh9w" name="getGUI" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_LjWLUATyEdyMwcS56ZZh9w" type="_LjQEsATyEdyMwcS56ZZh9w" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LpKfcgTyEdyMwcS56ZZh9w" name="Editable" clientDependency="_LpXTwATyEdyMwcS56ZZh9w">
+      <ownedOperation xmi:id="_LpQmEATyEdyMwcS56ZZh9w" name="getEditor" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_LpQmEQTyEdyMwcS56ZZh9w" type="_Li9w0ATyEdyMwcS56ZZh9w" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KRHHYATyEdyMwcS56ZZh9w" name="RunPattern" clientDependency="_LhVZIATyEdyMwcS56ZZh9w _LhntAQTyEdyMwcS56ZZh9w _LhtzogTyEdyMwcS56ZZh9w _Lh6A4gTyEdyMwcS56ZZh9w _LiGOIQTyEdyMwcS56ZZh9w _LiMUwgTyEdyMwcS56ZZh9w">
+    <ownedOperation xmi:id="_LPMgQATyEdyMwcS56ZZh9w" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_Lbyx0ATyEdyMwcS56ZZh9w" name="arguments" type="_LbsrMgTyEdyMwcS56ZZh9w"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LgSQQATyEdyMwcS56ZZh9w" name="Contact" clientDependency="_LqgjQATyEdyMwcS56ZZh9w _LqgjQwTyEdyMwcS56ZZh9w _Lqmp4gTyEdyMwcS56ZZh9w">
+    <generalization xmi:id="_Lp104ATyEdyMwcS56ZZh9w" general="_LpKfcgTyEdyMwcS56ZZh9w"/>
+    <generalization xmi:id="_Lp77ggTyEdyMwcS56ZZh9w" general="_Lp77gQTyEdyMwcS56ZZh9w"/>
+    <ownedAttribute xmi:id="_LqIIwATyEdyMwcS56ZZh9w" name="relationship" visibility="private" type="_LbsrMgTyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LqOPYwTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LqOPYgTyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LqIIwQTyEdyMwcS56ZZh9w" name="name" visibility="private" type="_LbsrMgTyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LqOPZQTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LqOPZATyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_LqOPYQTyEdyMwcS56ZZh9w" name="ContactEditor" visibility="private" clientDependency="_LsIT4ATyEdyMwcS56ZZh9w _LsIT4wTyEdyMwcS56ZZh9w">
+      <generalization xmi:id="_Lq_EYATyEdyMwcS56ZZh9w" general="_Li9w0ATyEdyMwcS56ZZh9w"/>
+      <generalization xmi:id="_LrFLAATyEdyMwcS56ZZh9w" general="_Lp77gQTyEdyMwcS56ZZh9w"/>
+      <ownedAttribute xmi:id="_LrpywATyEdyMwcS56ZZh9w" name="panel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lr2AAwTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lr2AAgTyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Lrv5YATyEdyMwcS56ZZh9w" name="nameField" visibility="private" type="_Lrv5YgTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lr8GoATyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lr2ABATyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Lrv5YwTyEdyMwcS56ZZh9w" name="relationField" visibility="private" type="_Lrv5YgTyEdyMwcS56ZZh9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lr8GogTyEdyMwcS56ZZh9w" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lr8GoQTyEdyMwcS56ZZh9w"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_Lrv5ZQTyEdyMwcS56ZZh9w" name="toString" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lrv5ZgTyEdyMwcS56ZZh9w" type="_LbsrMgTyEdyMwcS56ZZh9w" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lrv5ZwTyEdyMwcS56ZZh9w" name="getGUI" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lr2AAATyEdyMwcS56ZZh9w" type="_LjQEsATyEdyMwcS56ZZh9w" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lr2AAQTyEdyMwcS56ZZh9w" name="commitChanges" visibility="public" concurrency="concurrent"/>
+    </nestedClassifier>
+    <ownedOperation xmi:id="_LqIIwgTyEdyMwcS56ZZh9w" name="getEditor" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_LqOPYATyEdyMwcS56ZZh9w" type="_Li9w0ATyEdyMwcS56ZZh9w" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LgYW4ATyEdyMwcS56ZZh9w" name="ajp_code3_probe" visibility="package">
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_LgYW4QTyEdyMwcS56ZZh9w" name="Probe_0"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LgkkIATyEdyMwcS56ZZh9w" name="EditorGui" clientDependency="_Ln7JUgTyEdyMwcS56ZZh9w _LoBP8QTyEdyMwcS56ZZh9w _LoHWkgTyEdyMwcS56ZZh9w _LoZqcgTyEdyMwcS56ZZh9w _Lor-UgTyEdyMwcS56ZZh9w _LoyE8gTyEdyMwcS56ZZh9w _Lo4LkgTyEdyMwcS56ZZh9w _Lo-SMgTyEdyMwcS56ZZh9w _LpEY0ATyEdyMwcS56ZZh9w _LpEY0wTyEdyMwcS56ZZh9w">
+    <generalization xmi:id="_LkxusgTyEdyMwcS56ZZh9w" general="_LkxusQTyEdyMwcS56ZZh9w"/>
+    <ownedAttribute xmi:id="_LmTYsATyEdyMwcS56ZZh9w" name="update" visibility="private" type="_LmZfUATyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnENsQTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnENsATyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LmZfUQTyEdyMwcS56ZZh9w" name="editor" visibility="private" type="_Li9w0ATyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUUQTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUUATyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LmZfUgTyEdyMwcS56ZZh9w" name="editorPanel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUUwTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUUgTyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_LmZfVATyEdyMwcS56ZZh9w" name="displayPanel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUVQTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUVATyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Lmfl8ATyEdyMwcS56ZZh9w" name="controlPanel" visibility="private" type="_LmZfUwTyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUVwTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUVgTyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Lmfl8QTyEdyMwcS56ZZh9w" name="mainFrame" visibility="private" type="_Lmfl8gTyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnKUWQTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnKUWATyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Lmfl8wTyEdyMwcS56ZZh9w" name="display" visibility="private" type="_Lmfl9ATyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnQa8QTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnQa8ATyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Lmfl9QTyEdyMwcS56ZZh9w" name="exit" visibility="private" type="_LmZfUATyEdyMwcS56ZZh9w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LnQa8wTyEdyMwcS56ZZh9w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LnQa8gTyEdyMwcS56ZZh9w"/>
+    </ownedAttribute>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_Lmx50wTyEdyMwcS56ZZh9w" name="WindowCloseManager" visibility="private" clientDependency="_Lss7oATyEdyMwcS56ZZh9w">
+      <generalization xmi:id="_LsanwQTyEdyMwcS56ZZh9w" general="_LsanwATyEdyMwcS56ZZh9w"/>
+      <ownedOperation xmi:id="_LsguYATyEdyMwcS56ZZh9w" name="windowClosing" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lsm1AQTyEdyMwcS56ZZh9w" name="evt" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+    </nestedClassifier>
+    <ownedOperation xmi:id="_LmlskATyEdyMwcS56ZZh9w" name="updateItem" visibility="private" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_LmlskQTyEdyMwcS56ZZh9w" name="actionPerformed" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_LmrzMQTyEdyMwcS56ZZh9w" name="evt" type="_LmrzMATyEdyMwcS56ZZh9w"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_LmrzMgTyEdyMwcS56ZZh9w" name="createGui" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_Lmx50ATyEdyMwcS56ZZh9w" name="EditorGui" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_Lmx50QTyEdyMwcS56ZZh9w" name="edit" type="_Li9w0ATyEdyMwcS56ZZh9w"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Lmx50gTyEdyMwcS56ZZh9w" name="exitApplication" visibility="private" concurrency="concurrent"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Li9w0ATyEdyMwcS56ZZh9w" name="ItemEditor" clientDependency="_LjcR8ATyEdyMwcS56ZZh9w">
+    <ownedOperation xmi:id="_LjJ-EATyEdyMwcS56ZZh9w" name="commitChanges" visibility="public" isAbstract="true" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_LjJ-EQTyEdyMwcS56ZZh9w" name="getGUI" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_LjWLUATyEdyMwcS56ZZh9w" type="_LjQEsATyEdyMwcS56ZZh9w" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LjJ-EgTyEdyMwcS56ZZh9w" name="javax.swing">
+    <packagedElement xmi:type="uml:Class" xmi:id="_LjQEsATyEdyMwcS56ZZh9w" name="JComponent" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LmZfUATyEdyMwcS56ZZh9w" name="JButton"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LmZfUwTyEdyMwcS56ZZh9w" name="JPanel"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lmfl8gTyEdyMwcS56ZZh9w" name="JFrame"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lmfl9ATyEdyMwcS56ZZh9w" name="JTextArea"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lrv5YgTyEdyMwcS56ZZh9w" name="JTextField"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LjQEsATyEdyMwcS56ZZh9w" name="JComponent" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LmZfUATyEdyMwcS56ZZh9w" name="JButton"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_LmZfUwTyEdyMwcS56ZZh9w" name="JPanel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lmfl8gTyEdyMwcS56ZZh9w" name="JFrame"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lmfl9ATyEdyMwcS56ZZh9w" name="JTextArea"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LpKfcgTyEdyMwcS56ZZh9w" name="Editable" clientDependency="_LpXTwATyEdyMwcS56ZZh9w">
+    <ownedOperation xmi:id="_LpQmEATyEdyMwcS56ZZh9w" name="getEditor" visibility="public" isAbstract="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_LpQmEQTyEdyMwcS56ZZh9w" type="_Li9w0ATyEdyMwcS56ZZh9w" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Lrv5YgTyEdyMwcS56ZZh9w" name="JTextField"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LbsrMATyEdyMwcS56ZZh9w" name="java.lang">
+    <packagedElement xmi:type="uml:Class" xmi:id="_LbsrMgTyEdyMwcS56ZZh9w" name="String" isLeaf="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LgedgATyEdyMwcS56ZZh9w" name="System" isLeaf="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LvRugATyEdyMwcS56ZZh9w" name="Object"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LkxusATyEdyMwcS56ZZh9w" name="java.awt.event">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LkxusQTyEdyMwcS56ZZh9w" name="ActionListener" isAbstract="true">
+      <generalization xmi:id="_LyVpkATyEdyMwcS56ZZh9w" general="_LvRugATyEdyMwcS56ZZh9w"/>
+      <generalization xmi:id="_LybwMgTyEdyMwcS56ZZh9w" general="_LybwMQTyEdyMwcS56ZZh9w"/>
+      <ownedOperation xmi:id="_LybwMwTyEdyMwcS56ZZh9w" name="actionPerformed" visibility="public" isAbstract="true" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lyh20ATyEdyMwcS56ZZh9w" name="arg0" type="_LmrzMATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LmrzMATyEdyMwcS56ZZh9w" name="ActionEvent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LsanwATyEdyMwcS56ZZh9w" name="WindowAdapter" isAbstract="true">
+      <generalization xmi:id="_LvRugQTyEdyMwcS56ZZh9w" general="_LvRugATyEdyMwcS56ZZh9w"/>
+      <generalization xmi:id="_LvX1IQTyEdyMwcS56ZZh9w" general="_LvX1IATyEdyMwcS56ZZh9w"/>
+      <generalization xmi:id="_LvX1IwTyEdyMwcS56ZZh9w" general="_LvX1IgTyEdyMwcS56ZZh9w"/>
+      <generalization xmi:id="_LvX1JQTyEdyMwcS56ZZh9w" general="_LvX1JATyEdyMwcS56ZZh9w"/>
+      <ownedOperation xmi:id="_LxYnUATyEdyMwcS56ZZh9w" name="windowDeactivated" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lxk0kATyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lxk0kQTyEdyMwcS56ZZh9w" name="windowLostFocus" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lxk0kgTyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lxk0kwTyEdyMwcS56ZZh9w" name="windowActivated" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lxq7MATyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lxq7MQTyEdyMwcS56ZZh9w" name="windowStateChanged" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lxq7MgTyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lxq7MwTyEdyMwcS56ZZh9w" name="windowClosed" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lxq7NATyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_LxxB0ATyEdyMwcS56ZZh9w" name="windowGainedFocus" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_LxxB0QTyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_LxxB0gTyEdyMwcS56ZZh9w" name="WindowAdapter" visibility="public" concurrency="concurrent"/>
+      <ownedOperation xmi:id="_LxxB0wTyEdyMwcS56ZZh9w" name="windowOpened" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_LxxB1ATyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lx3IcATyEdyMwcS56ZZh9w" name="windowIconified" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lx3IcQTyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lx3IcgTyEdyMwcS56ZZh9w" name="windowClosing" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_Lx9PEATyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lx9PEQTyEdyMwcS56ZZh9w" name="windowDeiconified" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_LyDVsATyEdyMwcS56ZZh9w" name="arg0" type="_Lsm1AATyEdyMwcS56ZZh9w"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lsm1AATyEdyMwcS56ZZh9w" name="WindowEvent"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LvX1IATyEdyMwcS56ZZh9w" name="WindowListener" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LvX1IgTyEdyMwcS56ZZh9w" name="WindowStateListener" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LvX1JATyEdyMwcS56ZZh9w" name="WindowFocusListener" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Ln7JUATyEdyMwcS56ZZh9w" name="java.awt">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ln7JUQTyEdyMwcS56ZZh9w" name="Container"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Lp77gATyEdyMwcS56ZZh9w" name="java.io">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Lp77gQTyEdyMwcS56ZZh9w" name="Serializable" isAbstract="true">
+      <generalization xmi:id="_Ly0KsATyEdyMwcS56ZZh9w" general="_LvRugATyEdyMwcS56ZZh9w"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_LybwMATyEdyMwcS56ZZh9w" name="java.util">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_LybwMQTyEdyMwcS56ZZh9w" name="EventListener" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LhVZIATyEdyMwcS56ZZh9w" supplier="_LbsrMgTyEdyMwcS56ZZh9w" client="_KRHHYATyEdyMwcS56ZZh9w _KRHHYATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LhntAQTyEdyMwcS56ZZh9w" supplier="_LgedgATyEdyMwcS56ZZh9w" client="_KRHHYATyEdyMwcS56ZZh9w _KRHHYATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LhtzogTyEdyMwcS56ZZh9w" supplier="_LgkkIATyEdyMwcS56ZZh9w" client="_KRHHYATyEdyMwcS56ZZh9w _KRHHYATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Lh6A4gTyEdyMwcS56ZZh9w" supplier="_LgSQQATyEdyMwcS56ZZh9w" client="_KRHHYATyEdyMwcS56ZZh9w _KRHHYATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LiGOIQTyEdyMwcS56ZZh9w" supplier="_LgSQQATyEdyMwcS56ZZh9w" client="_KRHHYATyEdyMwcS56ZZh9w _KRHHYATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LiMUwgTyEdyMwcS56ZZh9w" supplier="_LgYW4QTyEdyMwcS56ZZh9w" client="_KRHHYATyEdyMwcS56ZZh9w _KRHHYATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LjcR8ATyEdyMwcS56ZZh9w" supplier="_LjQEsATyEdyMwcS56ZZh9w" client="_Li9w0ATyEdyMwcS56ZZh9w _Li9w0ATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Ln7JUgTyEdyMwcS56ZZh9w" supplier="_LmZfUwTyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LoBP8QTyEdyMwcS56ZZh9w" supplier="_LmZfUwTyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LoHWkgTyEdyMwcS56ZZh9w" supplier="_Ln7JUQTyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LoZqcgTyEdyMwcS56ZZh9w" supplier="_Lmfl8gTyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Lor-UgTyEdyMwcS56ZZh9w" supplier="_Li9w0ATyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LoyE8gTyEdyMwcS56ZZh9w" supplier="_Lmfl9ATyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Lo4LkgTyEdyMwcS56ZZh9w" supplier="_LgedgATyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Lo-SMgTyEdyMwcS56ZZh9w" supplier="_LgYW4QTyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LpEY0ATyEdyMwcS56ZZh9w" supplier="_LmrzMATyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LpEY0wTyEdyMwcS56ZZh9w" supplier="_LmZfUATyEdyMwcS56ZZh9w" client="_LgkkIATyEdyMwcS56ZZh9w _LgkkIATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LpXTwATyEdyMwcS56ZZh9w" supplier="_Li9w0ATyEdyMwcS56ZZh9w" client="_LpKfcgTyEdyMwcS56ZZh9w _LpKfcgTyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LqgjQATyEdyMwcS56ZZh9w" supplier="_LbsrMgTyEdyMwcS56ZZh9w" client="_LgSQQATyEdyMwcS56ZZh9w _LgSQQATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LqgjQwTyEdyMwcS56ZZh9w" supplier="_Li9w0ATyEdyMwcS56ZZh9w" client="_LgSQQATyEdyMwcS56ZZh9w _LgSQQATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Lqmp4gTyEdyMwcS56ZZh9w" supplier="_LgYW4QTyEdyMwcS56ZZh9w" client="_LgSQQATyEdyMwcS56ZZh9w _LgSQQATyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LsIT4ATyEdyMwcS56ZZh9w" supplier="_Lrv5YgTyEdyMwcS56ZZh9w" client="_LqOPYQTyEdyMwcS56ZZh9w _LqOPYQTyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_LsIT4wTyEdyMwcS56ZZh9w" supplier="_LmZfUwTyEdyMwcS56ZZh9w" client="_LqOPYQTyEdyMwcS56ZZh9w _LqOPYQTyEdyMwcS56ZZh9w"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Lss7oATyEdyMwcS56ZZh9w" supplier="_Lsm1AATyEdyMwcS56ZZh9w" client="_Lmx50wTyEdyMwcS56ZZh9w _Lmx50wTyEdyMwcS56ZZh9w"/>
+</uml:Model>
