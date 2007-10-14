@@ -342,7 +342,7 @@ public class Validator implements ValidatorInterface {
 	if ( dpDef_className.equals("") ) {
 	    classNameMatch = true;
 	} else if ( dynFacts_className.contains(dpDef_className) ) {
-	    if ( dynFacts_className.length()== dpDef_className.length())
+	    //if ( dynFacts_className.length()== dpDef_className.length())
 		classNameMatch = true;
 	}
 	
@@ -356,7 +356,7 @@ public class Validator implements ValidatorInterface {
 	if ( dpDef_calledByClass.equals("") ) {
 	    calledByClassMatch = true;
 	} else if ( dynFacts_calledByClass.contains(dpDef_calledByClass) ) {
-	    if ( dynFacts_calledByClass.length()== dpDef_calledByClass.length())
+	    //if ( dynFacts_calledByClass.length()== dpDef_calledByClass.length())
 		calledByClassMatch = true;
 	}
 	
@@ -370,7 +370,7 @@ public class Validator implements ValidatorInterface {
 	if ( dpDef_calledByObject.equals("") ) {
 	    calledByObjectMatch = true;
 	} else if ( dynFacts_calledByObject.contains(dpDef_calledByObject) ) {
-	    if ( dynFacts_calledByObject.length()== dpDef_calledByObject.length())
+	    //if ( dynFacts_calledByObject.length()== dpDef_calledByObject.length())
 		calledByObjectMatch = true;
 	}
 
