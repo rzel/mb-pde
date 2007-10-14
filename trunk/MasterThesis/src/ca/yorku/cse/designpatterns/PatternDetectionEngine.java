@@ -234,29 +234,6 @@ public class PatternDetectionEngine
 	        	}
 	            }
 	        }
-
-	        System.exit(1);
-	
-	 	/*if ( ! (script.startsWith("./") || script.startsWith("/") ) ) {
-	 	    script = "./" + script;
-	 	}*/
-	 	
-	 	//String arg3 = "compile_ajp ";
-	 	//String cmd = script + " " + classf + " " + javexf + " " + outnam + " " + qlscri;
-	 	// print("arguments: " + cmd);
-	 	
-	 	// Validation: Check if run.sh script and software directory can be found
-/*	 	File ff = new File( script );
-	 	File df = new File( javexf );
-	 	if ( ! ff.exists() ) {
-	 	    print("ERROR: Script (" + script + ") can not be found.");
-	 	    System.exit(1);
-	 	}
-	 	if ( ! df.exists() ) {
-	 	    print("ERROR: Script (" + javexf + ") can not be found.");
-	 	    System.exit(1);
-	 	}*/
-
 	    } 
 	    else if (args[i].equals("-usage") || args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 		pde.usage(true);
