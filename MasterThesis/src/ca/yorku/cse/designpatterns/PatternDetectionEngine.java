@@ -174,10 +174,9 @@ public class PatternDetectionEngine
 	        	print(  " 2: " + ql_script);
 	        	print(  " 3: " + pattern_roles );
 	        	
-	        	String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+ql_script ; 
+	        	String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+ql_script+" "+canInDir ; 
 	        	print(command);
-
-	        	String line = "";
+	        	
 	        	String output_filename = canInDir + nameSrc + "." + nameDP + ".out";
 	        	String input_filename  = "ql.out";
 	        	
@@ -193,6 +192,7 @@ public class PatternDetectionEngine
 	        	    //Create a buffer reader for the passed file
 	        	    print("BufferedWriter in");
 	        	    BufferedReader in = new BufferedReader(new FileReader( input_filename ));
+	        	    String line = "";
 	        	    while ((line = in.readLine()) != null) {
 	        		out.write(line + "\n");
 	        		out.flush();
