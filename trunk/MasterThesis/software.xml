@@ -4,11 +4,27 @@
 <properties grok="grok" javex="./javex" ql="ql"
 	shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
 	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">
-	<software directory="ajp_code/adapter" mainClass="RunPattern.java"
-		name="adapter" />
-	<software directory="ajp_code/bridge" mainClass="RunPattern.java"
-		name="bridge" />
-	<software directory="ajp_code/command" mainClass="RunPattern.java"
-		name="command" />
+	<software directory="ajp_code/AbstractFactory" mainClass="RunPattern.java" name="AbstractFactory" />
+	<software directory="ajp_code/adapter" mainClass="RunPattern.java" name="adapter" />
+	<software directory="ajp_code/bridge" mainClass="RunPattern.java" name="bridge" />
+	<software directory="ajp_code/builder" mainClass="RunPattern.java" name="builder" />
+	<software directory="ajp_code/chain" mainClass="RunPattern.java" name="chain" />
+	<software directory="ajp_code/command" mainClass="RunPattern.java" name="command" />
+	<software directory="ajp_code/composite" mainClass="RunPattern.java" name="composite" />
+	<software directory="ajp_code/decorator" mainClass="RunPattern.java" name="decorator" />
+	<software directory="ajp_code/FactoryMethod" mainClass="RunPattern.java" name="FactoryMethod" />
+	<software directory="ajp_code/flyweight" mainClass="RunPattern.java" name="flyweight" />	
+	<software directory="ajp_code/interpreter" mainClass="RunPattern.java" name="interpreter" />
+	<software directory="ajp_code/iterator" mainClass="RunPattern.java" name="iterator" />
+	<software directory="ajp_code/mediator" mainClass="RunPattern.java" name="mediator" />
+	<software directory="ajp_code/memento" mainClass="RunPattern.java" name="memento" />
+	<software directory="ajp_code/observer" mainClass="RunPattern.java" name="observer" />
+	<software directory="ajp_code/prototype" mainClass="RunPattern.java" name="prototype" />
+	<software directory="ajp_code/proxy" mainClass="RunPattern.java" name="proxy" />
+	<software directory="ajp_code/singleton" mainClass="RunPattern.java" name="singleton" />
+	<software directory="ajp_code/state" mainClass="RunPattern.java" name="state" />
+	<software directory="ajp_code/strategy" mainClass="RunPattern.java" name="strategy" />
+	<software directory="ajp_code/templatemethod" mainClass="RunPattern.java" name="templatemethod" />
+	<software directory="ajp_code/visitor" mainClass="RunPattern.java" name="visitor" />
 </properties>
 

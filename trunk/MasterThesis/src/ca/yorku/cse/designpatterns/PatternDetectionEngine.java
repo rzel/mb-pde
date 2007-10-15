@@ -319,6 +319,9 @@ public class PatternDetectionEngine
 		print_time = true;
 		print("Input parameter for -print_time true");
 	    }
+	    else if ( args[i].equals("-static") ){
+		print("Input parameter for -static true");
+	    }
 	    else if (args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 		pde.usage(true);
 		System.exit(1);
