@@ -1,0 +1,3 @@
+// prototypeInterface prototype client
+DP ajp_code.adapter.Contact ajp_code.adapter.ContactAdapter ajp_code.adapter.RunPattern
+DP ajp_code.adapter.Chovnatlh ajp_code.adapter.ChovnatlhImpl ajp_code.adapter.ContactAdapter

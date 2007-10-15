@@ -1,0 +1,7 @@
+// aggregate concreteAggregate concreteIterator 
+DP ajp_code.command.ChangeLocationCommand ajp_code.command.Location ajp_code.command.LocationImpl
+DP ajp_code.command.ChangeLocationCommand ajp_code.command.LocationEditor ajp_code.command.CommandGui
+DP ajp_code.command.CommandGui ajp_code.command.UndoableCommand ajp_code.command.ChangeLocationCommand
+DP ajp_code.command.RunPattern ajp_code.command.Contact ajp_code.command.ContactImpl
+DP ajp_code.command.Appointment ajp_code.command.Location ajp_code.command.LocationImpl
+DP ajp_code.command.Appointment ajp_code.command.Contact ajp_code.command.ContactImpl

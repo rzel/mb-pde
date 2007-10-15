@@ -1,0 +1,3 @@
+// client target adapter adaptee
+DP ajp_code.bridge.RunPattern ajp_code.bridge.BaseList ajp_code.bridge.NumberedList ajp_code.bridge.BaseList
+DP ajp_code.bridge.RunPattern ajp_code.bridge.BaseList ajp_code.bridge.OrnamentedList ajp_code.bridge.BaseList
