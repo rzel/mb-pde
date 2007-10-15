@@ -5,6 +5,7 @@
 	<designpattern name="AbstractFactory" pattern_roles="// abstractFactory concreteFactory product abstractProduct " ql_script="ql/AbstractFactory.ql" />
 	<designpattern name="adapter" pattern_roles="// client target adapter adaptee" ql_script="ql/adapter.ql" />
 	<designpattern name="bridge" pattern_roles="// refinedAbstraction abstraction implementer concreteImplementer " ql_script="ql/bridge.ql" /> 
+	<designpattern name="builder" pattern_roles="// director builder concreteBuilder product" ql_script="ql/builder.ql" /> 
 	<designpattern name="chain" pattern_roles="// client handler concreteHandler " ql_script="ql/chain.ql" />
 	<designpattern name="command" pattern_roles="// invoker command concreteCommand receiver " ql_script="ql/command.ql" />
 	<designpattern name="composite" pattern_roles="// leaf component composite " ql_script="ql/composite.ql" />
