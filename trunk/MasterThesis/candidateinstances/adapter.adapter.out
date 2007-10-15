@@ -1,0 +1,3 @@
+// client target adapter adaptee
+DP ajp_code.adapter.RunPattern ajp_code.adapter.Contact ajp_code.adapter.ContactAdapter ajp_code.adapter.Chovnatlh
+DP ajp_code.adapter.RunPattern ajp_code.adapter.Contact ajp_code.adapter.ContactAdapter ajp_code.adapter.ChovnatlhImpl
