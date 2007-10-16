@@ -2,26 +2,26 @@
 <!DOCTYPE software SYSTEM "designpattern_schema.dtd">
 
 <designpattern_list>
-	<designpattern name="AbstractFactory" pattern_roles="// abstractFactory concreteFactory product abstractProduct " ql_script="ql/AbstractFactory.ql" />
-	<designpattern name="adapter" pattern_roles="// client target adapter adaptee" ql_script="ql/adapter.ql" />
-	<designpattern name="bridge" pattern_roles="// refinedAbstraction abstraction implementer concreteImplementer " ql_script="ql/bridge.ql" /> 
-	<designpattern name="builder" pattern_roles="// director builder concreteBuilder product" ql_script="ql/builder.ql" /> 
-	<designpattern name="chain" pattern_roles="// client handler concreteHandler " ql_script="ql/chain.ql" />
-	<designpattern name="command" pattern_roles="// invoker command concreteCommand receiver " ql_script="ql/command.ql" />
-	<designpattern name="composite" pattern_roles="// leaf component composite " ql_script="ql/composite.ql" />
-	<designpattern name="decorator" pattern_roles="// concreteComponent component decorator concreteDecorator " ql_script="ql/decorator.ql" />
-	<designpattern name="FactoryMethod" pattern_roles="// creator concreteCreator concreteProduct product" ql_script="ql/FactoryMethod.ql" />
-	<designpattern name="flyweight" pattern_roles="// flyweightFactory flyweight concreteFlyweight" ql_script="ql/flyweight.ql" />
-	<designpattern name="interpreter" pattern_roles="// expression abstractExpression context" ql_script="ql/interpreter.ql" />
-	<designpattern name="iterator" pattern_roles="// aggregate concreteAggregate concreteIterator " ql_script="ql/iterator.ql" />
-	<designpattern name="mediator" pattern_roles="// concreteMediator mediator concreteColleague " ql_script="ql/mediator.ql" />
-	<designpattern name="memento" pattern_roles="// originator memento caretaker " ql_script="ql/memento.ql" />
-	<designpattern name="observer" pattern_roles="// subject concreteSubject observer concreteObserver" ql_script="ql/observer.ql" />
-	<designpattern name="prototype" pattern_roles="// prototypeInterface prototype client" ql_script="ql/prototype.ql" />
-	<designpattern name="proxy" pattern_roles="// realSubject subject proxy " ql_script="ql/proxy.ql" />
-	<designpattern name="singleton" pattern_roles="// client singleton" ql_script="ql/singleton.ql" />
-	<designpattern name="state" pattern_roles="// context state concreteState " ql_script="ql/state.ql" />
-	<designpattern name="strategy" pattern_roles="// context strategy concreteStrategy" ql_script="ql/strategy.ql" />
-	<designpattern name="templatemethod" pattern_roles="// abstractClass concreteClass" ql_script="ql/templatemethod.ql" />
-	<designpattern name="visitor" pattern_roles="// visitor concreteVisitor element concreteElement " ql_script="ql/visitor.ql" />
+	<designpattern name="AbstractFactory" pattern_roles="// abstractFactory concreteFactory product abstractProduct " ql_script="ql/AbstractFactory.ql" dynamicDefinitionFile="dynamicdefinitions/AbstractFactory.xml" />
+	<designpattern name="adapter" pattern_roles="// client target adapter adaptee" ql_script="ql/adapter.ql" dynamicDefinitionFile="dynamicdefinitions/adapter.xml" />
+	<designpattern name="bridge" pattern_roles="// refinedAbstraction abstraction implementer concreteImplementer " ql_script="ql/bridge.ql" dynamicDefinitionFile="dynamicdefinitions/bridge.xml" /> 
+	<designpattern name="builder" pattern_roles="// director builder concreteBuilder product" ql_script="ql/builder.ql" dynamicDefinitionFile="dynamicdefinitions/builder.xml" /> 
+	<designpattern name="chain" pattern_roles="// client handler concreteHandler " ql_script="ql/chain.ql" dynamicDefinitionFile="dynamicdefinitions/chain.xml" />
+	<designpattern name="command" pattern_roles="// invoker command concreteCommand receiver " ql_script="ql/command.ql" dynamicDefinitionFile="dynamicdefinitions/command.xml" />
+	<designpattern name="composite" pattern_roles="// leaf component composite " ql_script="ql/composite.ql" dynamicDefinitionFile="dynamicdefinitions/composite.xml" />
+	<designpattern name="decorator" pattern_roles="// concreteComponent component decorator concreteDecorator " ql_script="ql/decorator.ql" dynamicDefinitionFile="dynamicdefinitions/decorator.xml" />
+	<designpattern name="FactoryMethod" pattern_roles="// creator concreteCreator concreteProduct product" ql_script="ql/FactoryMethod.ql" dynamicDefinitionFile="dynamicdefinitions/FactoryMethod.xml" />
+	<designpattern name="flyweight" pattern_roles="// flyweightFactory flyweight concreteFlyweight" ql_script="ql/flyweight.ql" dynamicDefinitionFile="dynamicdefinitions/flyweight.xml" />
+	<designpattern name="interpreter" pattern_roles="// expression abstractExpression context" ql_script="ql/interpreter.ql" dynamicDefinitionFile="dynamicdefinitions/interpreter.xml" />
+	<designpattern name="iterator" pattern_roles="// aggregate concreteAggregate concreteIterator " ql_script="ql/iterator.ql" dynamicDefinitionFile="dynamicdefinitions/iterator.xml" />
+	<designpattern name="mediator" pattern_roles="// concreteMediator mediator concreteColleague " ql_script="ql/mediator.ql" dynamicDefinitionFile="dynamicdefinitions/mediator.xml" />
+	<designpattern name="memento" pattern_roles="// originator memento caretaker " ql_script="ql/memento.ql" dynamicDefinitionFile="dynamicdefinitions/memento.xml" />
+	<designpattern name="observer" pattern_roles="// subject concreteSubject observer concreteObserver" ql_script="ql/observer.ql" dynamicDefinitionFile="dynamicdefinitions/observer.xml" />
+	<designpattern name="prototype" pattern_roles="// prototypeInterface prototype client" ql_script="ql/prototype.ql" dynamicDefinitionFile="dynamicdefinitions/prototype.xml" />
+	<designpattern name="proxy" pattern_roles="// realSubject subject proxy " ql_script="ql/proxy.ql" dynamicDefinitionFile="dynamicdefinitions/proxy.xml" />
+	<designpattern name="singleton" pattern_roles="// client singleton" ql_script="ql/singleton.ql" dynamicDefinitionFile="dynamicdefinitions/singleton.xml" />
+	<designpattern name="state" pattern_roles="// context state concreteState " ql_script="ql/state.ql" dynamicDefinitionFile="dynamicdefinitions/state.xml" />
+	<designpattern name="strategy" pattern_roles="// context strategy concreteStrategy" ql_script="ql/strategy.ql" dynamicDefinitionFile="dynamicdefinitions/strategy.xml" />
+	<designpattern name="templatemethod" pattern_roles="// abstractClass concreteClass" ql_script="ql/templatemethod.ql" dynamicDefinitionFile="dynamicdefinitions/templatemethod.xml" />
+	<designpattern name="visitor" pattern_roles="// visitor concreteVisitor element concreteElement " ql_script="ql/visitor.ql" dynamicDefinitionFile="dynamicdefinitions/visitor.xml" />
 </designpattern_list>

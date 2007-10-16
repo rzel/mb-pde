@@ -120,7 +120,6 @@ public class PatternDetectionEngine
 	        String grok     = "";
 	        String ql       = "";
 	        String canInDir = "";
-	        String dynDefDir= "";
         
 	        String pde_input_filename = "pde.input";
 	        File pdeDel = new File(pde_input_filename);
@@ -134,7 +133,6 @@ public class PatternDetectionEngine
 	            grok  = properties.item(l).getAttributes().getNamedItem("grok").getNodeValue();
 	            ql    = properties.item(l).getAttributes().getNamedItem("ql").getNodeValue();
 	            canInDir  = properties.item(l).getAttributes().getNamedItem("candidateInstancesDirectory").getNodeValue();
-	            dynDefDir = properties.item(l).getAttributes().getNamedItem("dynamicDefinitionsDirectory").getNodeValue();
 	            
 	            if ( !canInDir.endsWith("/")  ) {
 	        	canInDir = canInDir + "/";
@@ -163,13 +161,15 @@ public class PatternDetectionEngine
 	            
 	            String nameDP        = "";
 	            String ql_script     = "";
-	            String pattern_roles = "";	            
+	            String pattern_roles = "";	     
+	            String dynamicDefinitionFile = "";
 	            
 	            NodeList designpattern = designpattern_doc.getElementsByTagName("designpattern");
 	            for (int k = 0; k < designpattern.getLength(); k++) { 
 	        	nameDP        = designpattern.item(k).getAttributes().getNamedItem("name").getNodeValue();
 	        	ql_script     = designpattern.item(k).getAttributes().getNamedItem("ql_script").getNodeValue();
 	        	pattern_roles = designpattern.item(k).getAttributes().getNamedItem("pattern_roles").getNodeValue();
+	        	dynamicDefinitionFile = designpattern.item(k).getAttributes().getNamedItem("dynamicDefinitionFile").getNodeValue();
 	        	print("\n 1: " + nameDP );
 	        	print(  " 2: " + ql_script);
 	        	print(  " 3: " + pattern_roles );
@@ -177,7 +177,7 @@ public class PatternDetectionEngine
 	        	String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+ql_script+" "+canInDir ; 
 	        	print(command);
 	        	
-	        	String output_filename = canInDir + nameSrc + "." + nameDP + ".out";
+	        	String staticFactsOutputFile = canInDir + nameSrc + "." + nameDP + ".out";
 	        	String input_filename  = "ql.out";
 	        	
 		        StaticAnalysis st = new StaticAnalysis(command, "static_output.txt");
@@ -185,7 +185,7 @@ public class PatternDetectionEngine
 		            
 	        	try {
 	        	    print("BufferedWriter out");
-	        	    BufferedWriter out = new BufferedWriter(new FileWriter( output_filename ));	        	    
+	        	    BufferedWriter out = new BufferedWriter(new FileWriter( staticFactsOutputFile ));	        	    
 	        	    out.write(pattern_roles + "\n");
 	        	    out.flush();
 
@@ -198,18 +198,12 @@ public class PatternDetectionEngine
 	        		out.flush();
 	        	    }	                
 	        	    out.close();	        	    
-	    	            
-	        	    String directoryReplaced = directory.replace("/",".");	        	           
-	        	    print("directoryReplaced " + directoryReplaced);
-	        	    String staticFactsOutputFile        = output_filename;
-	        	    // ToDo: needs more flexibility, rename dyn def files
-	        	    String dynamicDefinitionsOutputFile = dynDefDir + directoryReplaced+".xml";
 	        	    
 	        	    print("BufferedWriter pdeIn");
 	        	    boolean append = true;
 	        	    try {
 	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename, append ));
-	        		pdeIn.write(staticFactsOutputFile+" "+dynFactsFile+" "+dynamicDefinitionsOutputFile+" \n");
+	        		pdeIn.write(staticFactsOutputFile+" "+dynFactsFile+" "+dynamicDefinitionFile+" \n");
 	        		pdeIn.flush();
 	        		pdeIn.close();
 	        	    } catch (IOException e1) {
