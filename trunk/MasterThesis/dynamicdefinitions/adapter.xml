@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entry SYSTEM "schema_detection.dtd">
+<entry args="" className="adapter" methodName="" 
+		calledByClass="client" calledByMethod="" calledByObject="" 
+		thisObject="object1" nextCallInOrder="" nextCallInSubtree="yes" 
+		quantifier="2">
+	<entry args="" className="adaptee" methodName="" calledByClass="adapter" calledByMethod="" 
+		calledByObject="object1" thisObject="object2" 
+		nextCallInOrder="" nextCallInSubtree="" 
+		quantifier="3">
+	</entry>	
+</entry>
