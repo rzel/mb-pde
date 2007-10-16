@@ -29,7 +29,7 @@ import org.w3c.dom.NodeList;
  * 
  * @author Marcel Birkner
  * @version 0.9
- * @since 29 July, 2007
+ * @since 15 October, 2007
  */
 public class PatternDetectionEngine 
 {
@@ -120,7 +120,6 @@ public class PatternDetectionEngine
 	        String grok     = "";
 	        String ql       = "";
 	        String canInDir = "";
-	        String dynFacDir= "";
 	        String dynDefDir= "";
         
 	        String pde_input_filename = "pde.input";
@@ -135,7 +134,6 @@ public class PatternDetectionEngine
 	            grok  = properties.item(l).getAttributes().getNamedItem("grok").getNodeValue();
 	            ql    = properties.item(l).getAttributes().getNamedItem("ql").getNodeValue();
 	            canInDir  = properties.item(l).getAttributes().getNamedItem("candidateInstancesDirectory").getNodeValue();
-	            dynFacDir = properties.item(l).getAttributes().getNamedItem("dynamicFactsDirectory").getNodeValue();
 	            dynDefDir = properties.item(l).getAttributes().getNamedItem("dynamicDefinitionsDirectory").getNodeValue();
 	            
 	            if ( !canInDir.endsWith("/")  ) {
@@ -153,13 +151,15 @@ public class PatternDetectionEngine
 	        
 	        NodeList software = software_doc.getElementsByTagName("software");
 	        for (int j = 0; j < software.getLength(); j++) { 
-	            String nameSrc   = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
-	            String directory = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
-	            String mainClass = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
+	            String nameSrc      = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
+	            String directory    = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
+	            String mainClass    = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
+	            String dynFactsFile = software.item(j).getAttributes().getNamedItem("dynFactsFile").getNodeValue();
 	            	            
 	            print("\n 1: " + nameSrc );
 	            print(  " 2: " + directory);
 	            print(  " 3: " + mainClass );
+	            print(  " 4: " + dynFactsFile );
 	            
 	            String nameDP        = "";
 	            String ql_script     = "";
@@ -199,13 +199,9 @@ public class PatternDetectionEngine
 	        	    }	                
 	        	    out.close();	        	    
 	    	            
-	        	    String directoryReplaced = directory.replace("/",".");
-	        	    String mainClassReplaced = mainClass.replace(".java", "");
-	        	           mainClassReplaced = mainClassReplaced.replace(".class", "");
-	        	           
+	        	    String directoryReplaced = directory.replace("/",".");	        	           
 	        	    print("directoryReplaced " + directoryReplaced);
 	        	    String staticFactsOutputFile        = output_filename;
-	        	    String dynamicFactsOutputFile       = dynFacDir + directoryReplaced+"."+mainClassReplaced+".txt";
 	        	    // ToDo: needs more flexibility, rename dyn def files
 	        	    String dynamicDefinitionsOutputFile = dynDefDir + directoryReplaced+".xml";
 	        	    
@@ -213,7 +209,7 @@ public class PatternDetectionEngine
 	        	    boolean append = true;
 	        	    try {
 	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename, append ));
-	        		pdeIn.write(staticFactsOutputFile+" "+dynamicFactsOutputFile+" "+dynamicDefinitionsOutputFile+" \n");
+	        		pdeIn.write(staticFactsOutputFile+" "+dynFactsFile+" "+dynamicDefinitionsOutputFile+" \n");
 	        		pdeIn.flush();
 	        		pdeIn.close();
 	        	    } catch (IOException e1) {
@@ -228,7 +224,7 @@ public class PatternDetectionEngine
 		        	exc.write("Exception: " + command + "\n");
 		        	exc.flush();
 			    } catch (IOException e1) {
-				// TODO Auto-generated catch block
+				print("Exception writting to exception.txt");
 				e1.printStackTrace();
 			    }	
 	        	}

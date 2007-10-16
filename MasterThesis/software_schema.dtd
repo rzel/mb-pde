@@ -9,3 +9,4 @@
 <!ATTLIST software name CDATA #REQUIRED>
 <!ATTLIST software directory CDATA #REQUIRED>
 <!ATTLIST software mainClass CDATA #REQUIRED>
+<!ATTLIST software dynamicFactsFile CDATA #REQUIRED>
