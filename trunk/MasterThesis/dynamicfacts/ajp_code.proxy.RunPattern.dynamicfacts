@@ -1,0 +1,72 @@
+<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/proxy/DataCreator" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/proxy/DataCreator" methodName="serialize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/proxy/DataCreator" methodName="createData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject="ajp_code/proxy/AddressImpl@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject="ajp_code/proxy/AddressImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject="ajp_code/proxy/AddressImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/proxy/DataCreator" methodName="createData" thisObject="ajp_code/proxy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/DataCreator" methodName="serializeToFile" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/proxy/DataCreator" methodName="serializeToFile" thisObject="ajp_code/proxy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/proxy/DataCreator" methodName="serialize" thisObject="ajp_code/proxy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/proxy/DataCreator" methodName="main" thisObject="ajp_code/proxy/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|[Ljava.lang.String;@addbf1" className="ajp_code/proxy/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/proxy/AddressBookProxy" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressBookProxy" methodName="Constructor" thisObject="ajp_code/proxy/AddressBookProxy@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject="ajp_code/proxy/AddressImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookProxy" methodName="add" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressBookProxy" methodName="add" thisObject="ajp_code/proxy/AddressBookProxy@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="Constructor" thisObject="ajp_code/proxy/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookProxy" methodName="add" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressBookProxy" methodName="add" thisObject="ajp_code/proxy/AddressBookProxy@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookProxy" methodName="getAddress" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="getDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="getDescription" thisObject="ajp_code/proxy/AddressImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/proxy/AddressBookProxy" methodName="getAddress" thisObject="ajp_code/proxy/AddressBookProxy@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="getAddress" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="getAddress" thisObject="ajp_code/proxy/AddressImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookProxy" methodName="getAllAddresses" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/proxy/AddressBookProxy" methodName="open" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/proxy/AddressBookImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/proxy/AddressBookImpl" methodName="open" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/proxy/FileLoader" methodName="loadData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/proxy/FileLoader" methodName="loadData" thisObject="ajp_code/proxy/FileLoader@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/proxy/AddressBookImpl" methodName="open" thisObject="ajp_code/proxy/AddressBookImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/proxy/AddressBookImpl" methodName="Constructor" thisObject="ajp_code/proxy/AddressBookImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookImpl" methodName="add" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressBookImpl" methodName="add" thisObject="ajp_code/proxy/AddressBookImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookImpl" methodName="add" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/proxy/AddressBookImpl" methodName="add" thisObject="ajp_code/proxy/AddressBookImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/proxy/AddressBookProxy" methodName="open" thisObject="ajp_code/proxy/AddressBookProxy@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressBookImpl" methodName="getAllAddresses" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/proxy/AddressBookImpl" methodName="getAllAddresses" thisObject="ajp_code/proxy/AddressBookImpl@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/proxy/AddressBookProxy" methodName="getAllAddresses" thisObject="ajp_code/proxy/AddressBookProxy@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@19336051" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@6336176" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/proxy/AddressImpl" methodName="toString" thisObject="ajp_code/proxy/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/proxy/RunPattern" methodName="main" thisObject="ajp_code/proxy/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

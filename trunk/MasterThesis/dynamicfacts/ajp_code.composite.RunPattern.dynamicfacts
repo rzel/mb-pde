@@ -1,0 +1,114 @@
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/composite/DataCreator" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/composite/DataCreator" methodName="serialize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/composite/DataCreator" methodName="createData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject="ajp_code/composite/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject="ajp_code/composite/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject="ajp_code/composite/ContactImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/ContactImpl" methodName="Constructor" thisObject="ajp_code/composite/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/Project" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Project" methodName="Constructor" thisObject="ajp_code/composite/Project@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Deliverable" methodName="Constructor" thisObject="ajp_code/composite/Deliverable@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Deliverable@ca0b6" className="ajp_code/composite/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Project" methodName="addProjectItem" thisObject="ajp_code/composite/Project@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@1a758cb" className="ajp_code/composite/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Project" methodName="addProjectItem" thisObject="ajp_code/composite/Project@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@1b67f74" className="ajp_code/composite/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Project" methodName="addProjectItem" thisObject="ajp_code/composite/Project@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@173a10f" className="ajp_code/composite/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Project" methodName="addProjectItem" thisObject="ajp_code/composite/Project@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Deliverable" methodName="Constructor" thisObject="ajp_code/composite/Deliverable@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@a62fc3" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@89ae9e" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Deliverable@530daa" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@6336176" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="Constructor" thisObject="ajp_code/composite/Task@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@60aeb0" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@16caf43" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Task@66848c" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/composite/ContactImpl" methodName="toString" thisObject="ajp_code/composite/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/composite/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Deliverable" methodName="Constructor" thisObject="ajp_code/composite/Deliverable@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.composite.Deliverable@8813f2" className="ajp_code/composite/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="addProjectItem" thisObject="ajp_code/composite/Task@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/composite/DataCreator" methodName="createData" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.composite.Project@61de33" className="ajp_code/composite/DataCreator" methodName="serializeToFile" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/composite/DataCreator" methodName="serializeToFile" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/composite/DataCreator" methodName="serialize" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/composite/DataCreator" methodName="main" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/composite/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/composite/DataRetriever" methodName="deserializeData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/composite/DataRetriever" methodName="deserializeData" thisObject="ajp_code/composite/DataRetriever@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/composite/Project" methodName="getDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/composite/Project" methodName="getDescription" thisObject="ajp_code/composite/Project@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<entry args="" className="ajp_code/composite/Project" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/composite/Deliverable" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/composite/Deliverable" methodName="getTimeRequired" thisObject="ajp_code/composite/Deliverable@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/Deliverable" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Deliverable" methodName="getTimeRequired" thisObject="ajp_code/composite/Deliverable@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@29303146" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/composite/Deliverable" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/composite/Deliverable" methodName="getTimeRequired" thisObject="ajp_code/composite/Deliverable@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/composite/Task" methodName="getTimeRequired" thisObject="ajp_code/composite/Task@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/composite/Project" methodName="getTimeRequired" thisObject="ajp_code/composite/Project@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/composite/RunPattern" methodName="main" thisObject="ajp_code/composite/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
