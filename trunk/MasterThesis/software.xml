@@ -3,8 +3,8 @@
 
 <properties grok="grok" javex="javex" ql="ql" shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
 	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">
-	<software directory="ajp_code/AbstractFactory" mainClass="RunPattern.java" name="AbstractFactory" dynamicFactsFile="dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts" ></software>
-	<software directory="ajp_code/adapter" mainClass="RunPattern.java" name="adapter" dynamicFactsFile="dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts" dynamicFactsFile="" ></software>
+	<software directory="ajp_code/AbstractFactory" mainClass="RunPattern.java" name="AbstractFactory" dynamicFactsFile="dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts" />
+	<software directory="ajp_code/adapter" mainClass="RunPattern.java" name="adapter" dynamicFactsFile="dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts" />
 	<software directory="ajp_code/bridge" mainClass="RunPattern.java" name="bridge" dynamicFactsFile="dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts" />
 	<software directory="ajp_code/builder" mainClass="RunPattern.java" name="builder" dynamicFactsFile="dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts" />
 	<software directory="ajp_code/chain" mainClass="RunPattern.java" name="chain" dynamicFactsFile="dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts" />
