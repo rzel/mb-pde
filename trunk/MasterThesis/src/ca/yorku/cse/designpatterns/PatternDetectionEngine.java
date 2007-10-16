@@ -154,7 +154,7 @@ public class PatternDetectionEngine
 	            String nameSrc      = software.item(j).getAttributes().getNamedItem("name").getNodeValue();
 	            String directory    = software.item(j).getAttributes().getNamedItem("directory").getNodeValue();
 	            String mainClass    = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
-	            String dynFactsFile = software.item(j).getAttributes().getNamedItem("dynFactsFile").getNodeValue();
+	            String dynFactsFile = software.item(j).getAttributes().getNamedItem("dynamicFactsFile").getNodeValue();
 	            	            
 	            print("\n 1: " + nameSrc );
 	            print(  " 2: " + directory);
