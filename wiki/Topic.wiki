@@ -29,4 +29,4 @@ Our approach in detecting design patterns is divided into static and dynamic ana
 
 http://www.cse.yorku.ca/~mbirkner/website/images/DetectionProcessNewImplemented.png
 
-Figure 2
+Figure 2: Detection Process
