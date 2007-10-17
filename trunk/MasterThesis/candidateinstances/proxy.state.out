@@ -1,0 +1,4 @@
+// context state concreteState 
+DP ajp_code.proxy.AddressBookImpl ajp_code.proxy.Address ajp_code.proxy.AddressImpl
+DP ajp_code.proxy.RunPattern ajp_code.proxy.Address ajp_code.proxy.AddressImpl
+DP ajp_code.proxy.AddressBookProxy ajp_code.proxy.Address ajp_code.proxy.AddressImpl

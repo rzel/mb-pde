@@ -1,0 +1,2 @@
+// abstractFactory concreteFactory product abstractProduct 
+DP ajp_code.mediator.ContactMediator ajp_code.mediator.ContactMediatorImpl ajp_code.mediator.ContactImpl ajp_code.mediator.Contact

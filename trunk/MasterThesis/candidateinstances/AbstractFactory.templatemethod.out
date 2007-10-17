@@ -1,0 +1,5 @@
+// abstractClass concreteClass
+DP ajp_code.AbstractFactory.PhoneNumber ajp_code.AbstractFactory.USPhoneNumber
+DP ajp_code.AbstractFactory.PhoneNumber ajp_code.AbstractFactory.FrenchPhoneNumber
+DP ajp_code.AbstractFactory.Address ajp_code.AbstractFactory.FrenchAddress
+DP ajp_code.AbstractFactory.Address ajp_code.AbstractFactory.USAddress

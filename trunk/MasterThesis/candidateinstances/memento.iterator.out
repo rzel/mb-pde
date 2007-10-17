@@ -1,0 +1,3 @@
+// aggregate concreteAggregate concreteIterator 
+DP ajp_code.memento.AddressBook ajp_code.memento.Contact ajp_code.memento.ContactImpl
+DP ajp_code.memento.ContactImpl ajp_code.memento.Address ajp_code.memento.AddressImpl

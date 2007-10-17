@@ -1,0 +1,5 @@
+// aggregate concreteAggregate concreteIterator 
+DP ajp_code.templatemethod.Task ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Task
+DP ajp_code.templatemethod.Task ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Deliverable
+DP ajp_code.templatemethod.Deliverable ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Task
+DP ajp_code.templatemethod.Deliverable ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Deliverable

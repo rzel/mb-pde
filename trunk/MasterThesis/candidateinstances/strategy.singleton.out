@@ -1,0 +1,3 @@
+// client singleton
+DP ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.OrganizationSummarizer$OrganizationComparator
+DP ajp_code.strategy.NameSummarizer ajp_code.strategy.NameSummarizer$NameComparator

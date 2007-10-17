@@ -1,0 +1,5 @@
+// abstractFactory concreteFactory product abstractProduct 
+DP ajp_code.visitor.ProjectVisitor ajp_code.visitor.ProjectCostVisitor ajp_code.visitor.Task ajp_code.visitor.ProjectItem
+DP ajp_code.visitor.ProjectVisitor ajp_code.visitor.ProjectCostVisitor ajp_code.visitor.Deliverable ajp_code.visitor.ProjectItem
+DP ajp_code.visitor.ProjectVisitor ajp_code.visitor.ProjectCostVisitor ajp_code.visitor.DependentTask ajp_code.visitor.Task
+DP ajp_code.visitor.Task ajp_code.visitor.DependentTask ajp_code.visitor.Task ajp_code.visitor.ProjectItem

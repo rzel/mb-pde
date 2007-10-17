@@ -1,0 +1,9 @@
+// client target adapter adaptee
+DP ajp_code.strategy.RunPattern ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.Contact
+DP ajp_code.strategy.RunPattern ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.OrganizationSummarizer$OrganizationComparator
+DP ajp_code.strategy.RunPattern ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.Contact
+DP ajp_code.strategy.RunPattern ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.NameSummarizer$NameComparator
+DP ajp_code.strategy.NameSummarizer$NameComparator ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.Contact
+DP ajp_code.strategy.NameSummarizer$NameComparator ajp_code.strategy.SummarizingStrategy ajp_code.strategy.NameSummarizer ajp_code.strategy.NameSummarizer$NameComparator
+DP ajp_code.strategy.OrganizationSummarizer$OrganizationComparator ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.Contact
+DP ajp_code.strategy.OrganizationSummarizer$OrganizationComparator ajp_code.strategy.SummarizingStrategy ajp_code.strategy.OrganizationSummarizer ajp_code.strategy.OrganizationSummarizer$OrganizationComparator
