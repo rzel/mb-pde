@@ -1,0 +1,6 @@
+// refinedAbstraction abstraction implementer concreteImplementer 
+DP ajp_code.visitor.DependentTask ajp_code.visitor.Task ajp_code.visitor.ProjectVisitor ajp_code.visitor.ProjectCostVisitor
+DP ajp_code.visitor.DependentTask ajp_code.visitor.Task ajp_code.visitor.ProjectItem ajp_code.visitor.Project
+DP ajp_code.visitor.DependentTask ajp_code.visitor.Task ajp_code.visitor.ProjectItem ajp_code.visitor.Task
+DP ajp_code.visitor.DependentTask ajp_code.visitor.Task ajp_code.visitor.ProjectItem ajp_code.visitor.Deliverable
+DP ajp_code.visitor.DependentTask ajp_code.visitor.Task ajp_code.visitor.Contact ajp_code.visitor.ContactImpl

@@ -1,0 +1,10 @@
+// client target adapter adaptee
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectItem ajp_code.decorator.Deliverable ajp_code.decorator.Contact
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectItem ajp_code.decorator.Task ajp_code.decorator.ProjectItem
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectItem ajp_code.decorator.Task ajp_code.decorator.Contact
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectItem ajp_code.decorator.ProjectDecorator ajp_code.decorator.ProjectItem
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectDecorator ajp_code.decorator.SupportedProjectItem ajp_code.decorator.ProjectDecorator
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectDecorator ajp_code.decorator.DependentProjectItem ajp_code.decorator.ProjectItem
+DP ajp_code.decorator.RunPattern ajp_code.decorator.ProjectDecorator ajp_code.decorator.DependentProjectItem ajp_code.decorator.ProjectDecorator
+DP ajp_code.decorator.SupportedProjectItem ajp_code.decorator.ProjectItem ajp_code.decorator.ProjectDecorator ajp_code.decorator.ProjectItem
+DP ajp_code.decorator.DependentProjectItem ajp_code.decorator.ProjectItem ajp_code.decorator.ProjectDecorator ajp_code.decorator.ProjectItem

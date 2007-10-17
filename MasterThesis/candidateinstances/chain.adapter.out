@@ -1,0 +1,7 @@
+// client target adapter adaptee
+DP ajp_code.chain.DataCreator ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.Contact
+DP ajp_code.chain.DataCreator ajp_code.chain.ProjectItem ajp_code.chain.Task ajp_code.chain.ProjectItem
+DP ajp_code.chain.DataCreator ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.Contact
+DP ajp_code.chain.DataCreator ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.ProjectItem
+DP ajp_code.chain.RunPattern ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.Contact
+DP ajp_code.chain.RunPattern ajp_code.chain.ProjectItem ajp_code.chain.Project ajp_code.chain.ProjectItem

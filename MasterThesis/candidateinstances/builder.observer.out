@@ -1,0 +1,10 @@
+// subject concreteSubject observer concreteObserver
+DP ajp_code.builder.MeetingBuilder ajp_code.builder.AppointmentBuilder ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.MeetingBuilder ajp_code.builder.Appointment ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.MeetingBuilder ajp_code.builder.InformationRequiredException ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.RunPattern ajp_code.builder.AppointmentBuilder ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.RunPattern ajp_code.builder.Appointment ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.RunPattern ajp_code.builder.InformationRequiredException ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.Scheduler ajp_code.builder.AppointmentBuilder ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.Scheduler ajp_code.builder.Appointment ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder
+DP ajp_code.builder.Scheduler ajp_code.builder.InformationRequiredException ajp_code.builder.AppointmentBuilder ajp_code.builder.MeetingBuilder

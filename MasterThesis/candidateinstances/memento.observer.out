@@ -1,0 +1,2 @@
+// subject concreteSubject observer concreteObserver
+DP ajp_code.memento.AddressBook ajp_code.memento.Address ajp_code.memento.Contact ajp_code.memento.ContactImpl

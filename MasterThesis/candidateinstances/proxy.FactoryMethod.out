@@ -1,0 +1,4 @@
+// creator concreteCreator concreteProduct product
+DP ajp_code.proxy.AddressBook ajp_code.proxy.AddressBookImpl ajp_code.proxy.AddressImpl ajp_code.proxy.Address
+DP ajp_code.proxy.AddressBook ajp_code.proxy.AddressBookProxy ajp_code.proxy.AddressBookImpl ajp_code.proxy.AddressBook
+DP ajp_code.proxy.AddressBook ajp_code.proxy.AddressBookProxy ajp_code.proxy.AddressImpl ajp_code.proxy.Address

@@ -1,0 +1,7 @@
+// originator memento caretaker 
+DP ajp_code.singleton.SingletonGui$WindowCloseManager ajp_code.singleton.SingletonGui$WindowCloseManager ajp_code.singleton.SingletonGui
+DP ajp_code.singleton.SingletonGui$WindowCloseManager ajp_code.singleton.HistoryList ajp_code.singleton.SingletonGui
+DP ajp_code.singleton.SingletonGui ajp_code.singleton.SingletonGui ajp_code.singleton.SingletonGui$WindowCloseManager
+DP ajp_code.singleton.SingletonGui ajp_code.singleton.SingletonGui ajp_code.singleton.RunPattern
+DP ajp_code.singleton.HistoryList ajp_code.singleton.SingletonGui$WindowCloseManager ajp_code.singleton.SingletonGui
+DP ajp_code.singleton.HistoryList ajp_code.singleton.HistoryList ajp_code.singleton.SingletonGui

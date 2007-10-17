@@ -1,0 +1,5 @@
+// director builder concreteBuilder product
+DP ajp_code.templatemethod.Task ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Task ajp_code.templatemethod.ProjectItem
+DP ajp_code.templatemethod.Task ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Deliverable ajp_code.templatemethod.ProjectItem
+DP ajp_code.templatemethod.Deliverable ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Task ajp_code.templatemethod.ProjectItem
+DP ajp_code.templatemethod.Deliverable ajp_code.templatemethod.ProjectItem ajp_code.templatemethod.Deliverable ajp_code.templatemethod.ProjectItem

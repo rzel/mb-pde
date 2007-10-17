@@ -1,0 +1,6 @@
+// abstractClass concreteClass
+DP ajp_code.interpreter.CompoundExpression ajp_code.interpreter.OrExpression
+DP ajp_code.interpreter.CompoundExpression ajp_code.interpreter.AndExpression
+DP ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.ContainsExpression
+DP ajp_code.interpreter.ComparisonExpression ajp_code.interpreter.EqualsExpression
+DP ajp_code.interpreter.Expression ajp_code.interpreter.ComparisonExpression

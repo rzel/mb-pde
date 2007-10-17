@@ -1,0 +1,6 @@
+// visitor concreteVisitor element concreteElement 
+DP ajp_code.visitor.ProjectVisitor ajp_code.visitor.ProjectCostVisitor ajp_code.visitor.Task ajp_code.visitor.DependentTask
+DP ajp_code.visitor.ProjectItem ajp_code.visitor.Project ajp_code.visitor.Task ajp_code.visitor.DependentTask
+DP ajp_code.visitor.ProjectItem ajp_code.visitor.Task ajp_code.visitor.Task ajp_code.visitor.DependentTask
+DP ajp_code.visitor.ProjectItem ajp_code.visitor.Deliverable ajp_code.visitor.Task ajp_code.visitor.DependentTask
+DP ajp_code.visitor.Contact ajp_code.visitor.ContactImpl ajp_code.visitor.Task ajp_code.visitor.DependentTask

@@ -1,0 +1,4 @@
+// client target adapter adaptee
+DP ajp_code.FactoryMethod.Contact ajp_code.FactoryMethod.ItemEditor ajp_code.FactoryMethod.Contact$ContactEditor ajp_code.FactoryMethod.Contact
+DP ajp_code.FactoryMethod.Contact$ContactEditor ajp_code.FactoryMethod.Editable ajp_code.FactoryMethod.Contact ajp_code.FactoryMethod.Contact$ContactEditor
+DP ajp_code.FactoryMethod.RunPattern ajp_code.FactoryMethod.Editable ajp_code.FactoryMethod.Contact ajp_code.FactoryMethod.Contact$ContactEditor

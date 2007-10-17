@@ -1,0 +1,4 @@
+// invoker command concreteCommand receiver 
+DP ajp_code.iterator.RunPattern ajp_code.iterator.ToDoListCollection ajp_code.iterator.ToDoListCollectionImpl ajp_code.iterator.ToDoList
+DP ajp_code.iterator.DataCreator ajp_code.iterator.ToDoListCollection ajp_code.iterator.ToDoListCollectionImpl ajp_code.iterator.ToDoList
+DP ajp_code.iterator.ListPrinter ajp_code.iterator.ToDoListCollection ajp_code.iterator.ToDoListCollectionImpl ajp_code.iterator.ToDoList

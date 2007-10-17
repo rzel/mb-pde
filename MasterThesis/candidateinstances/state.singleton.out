@@ -1,0 +1,3 @@
+// client singleton
+DP ajp_code.state.StateGui ajp_code.state.StateGui$WindowCloseManager
+DP ajp_code.state.CalendarEditor ajp_code.state.CalendarEditor$CleanState

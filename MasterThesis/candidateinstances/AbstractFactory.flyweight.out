@@ -1,0 +1,3 @@
+// flyweightFactory flyweight concreteFlyweight
+DP ajp_code.AbstractFactory.RunPattern ajp_code.AbstractFactory.AddressFactory ajp_code.AbstractFactory.FrenchAddressFactory
+DP ajp_code.AbstractFactory.RunPattern ajp_code.AbstractFactory.AddressFactory ajp_code.AbstractFactory.USAddressFactory

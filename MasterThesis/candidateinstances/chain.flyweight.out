@@ -1,0 +1,3 @@
+// flyweightFactory flyweight concreteFlyweight
+DP ajp_code.chain.DataCreator ajp_code.chain.Contact ajp_code.chain.ContactImpl
+DP ajp_code.chain.RunPattern ajp_code.chain.ProjectItem ajp_code.chain.Project

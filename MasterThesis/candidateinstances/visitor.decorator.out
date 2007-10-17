@@ -1,0 +1,4 @@
+// concreteComponent component decorator concreteDecorator 
+DP ajp_code.visitor.Project ajp_code.visitor.ProjectItem ajp_code.visitor.Task ajp_code.visitor.DependentTask
+DP ajp_code.visitor.Task ajp_code.visitor.ProjectItem ajp_code.visitor.Task ajp_code.visitor.DependentTask
+DP ajp_code.visitor.Deliverable ajp_code.visitor.ProjectItem ajp_code.visitor.Task ajp_code.visitor.DependentTask
