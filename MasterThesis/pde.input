@@ -15,6 +15,7 @@ candidateinstances/AbstractFactory.memento.out dynamicfacts/ajp_code.AbstractFac
 candidateinstances/AbstractFactory.observer.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/AbstractFactory.prototype.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/AbstractFactory.proxy.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/AbstractFactory.singleton.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/AbstractFactory.state.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/AbstractFactory.strategy.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/AbstractFactory.templatemethod.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -36,6 +37,7 @@ candidateinstances/adapter.memento.out dynamicfacts/ajp_code.adapter.RunPattern.
 candidateinstances/adapter.observer.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/adapter.prototype.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/adapter.proxy.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/adapter.singleton.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/adapter.state.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/adapter.strategy.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/adapter.templatemethod.out dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -57,6 +59,7 @@ candidateinstances/bridge.memento.out dynamicfacts/ajp_code.bridge.RunPattern.dy
 candidateinstances/bridge.observer.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/bridge.prototype.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/bridge.proxy.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/bridge.singleton.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/bridge.state.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/bridge.strategy.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/bridge.templatemethod.out dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -78,6 +81,7 @@ candidateinstances/builder.memento.out dynamicfacts/ajp_code.builder.RunPattern.
 candidateinstances/builder.observer.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/builder.prototype.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/builder.proxy.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/builder.singleton.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/builder.state.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/builder.strategy.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/builder.templatemethod.out dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -99,6 +103,7 @@ candidateinstances/chain.memento.out dynamicfacts/ajp_code.chain.RunPattern.dyna
 candidateinstances/chain.observer.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/chain.prototype.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/chain.proxy.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/chain.singleton.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/chain.state.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/chain.strategy.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/chain.templatemethod.out dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -142,6 +147,7 @@ candidateinstances/composite.memento.out dynamicfacts/ajp_code.composite.RunPatt
 candidateinstances/composite.observer.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/composite.prototype.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/composite.proxy.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/composite.singleton.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/composite.state.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/composite.strategy.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/composite.templatemethod.out dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -163,6 +169,7 @@ candidateinstances/decorator.memento.out dynamicfacts/ajp_code.decorator.RunPatt
 candidateinstances/decorator.observer.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/decorator.prototype.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/decorator.proxy.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/decorator.singleton.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/decorator.state.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/decorator.strategy.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/decorator.templatemethod.out dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -206,6 +213,7 @@ candidateinstances/flyweight.memento.out dynamicfacts/ajp_code.flyweight.RunPatt
 candidateinstances/flyweight.observer.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/flyweight.prototype.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/flyweight.proxy.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/flyweight.singleton.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/flyweight.state.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/flyweight.strategy.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/flyweight.templatemethod.out dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -227,6 +235,7 @@ candidateinstances/interpreter.memento.out dynamicfacts/ajp_code.interpreter.Run
 candidateinstances/interpreter.observer.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/interpreter.prototype.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/interpreter.proxy.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/interpreter.singleton.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/interpreter.state.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/interpreter.strategy.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/interpreter.templatemethod.out dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -248,6 +257,7 @@ candidateinstances/iterator.memento.out dynamicfacts/ajp_code.iterator.RunPatter
 candidateinstances/iterator.observer.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/iterator.prototype.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/iterator.proxy.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/iterator.singleton.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/iterator.state.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/iterator.strategy.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/iterator.templatemethod.out dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -335,6 +345,7 @@ candidateinstances/prototype.memento.out dynamicfacts/ajp_code.prototype.RunPatt
 candidateinstances/prototype.observer.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/prototype.prototype.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/prototype.proxy.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/prototype.singleton.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/prototype.state.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/prototype.strategy.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/prototype.templatemethod.out dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -356,6 +367,7 @@ candidateinstances/proxy.memento.out dynamicfacts/ajp_code.proxy.RunPattern.dyna
 candidateinstances/proxy.observer.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/proxy.prototype.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/proxy.proxy.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/proxy.singleton.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/proxy.state.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/proxy.strategy.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/proxy.templatemethod.out dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -443,6 +455,7 @@ candidateinstances/templatemethod.memento.out dynamicfacts/ajp_code.templatemeth
 candidateinstances/templatemethod.observer.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/templatemethod.prototype.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/templatemethod.proxy.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/templatemethod.singleton.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/templatemethod.state.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/templatemethod.strategy.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/templatemethod.templatemethod.out dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 
@@ -464,6 +477,7 @@ candidateinstances/visitor.memento.out dynamicfacts/ajp_code.visitor.RunPattern.
 candidateinstances/visitor.observer.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/observer.xml 
 candidateinstances/visitor.prototype.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/prototype.xml 
 candidateinstances/visitor.proxy.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/proxy.xml 
+candidateinstances/visitor.singleton.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/singleton.xml 
 candidateinstances/visitor.state.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/state.xml 
 candidateinstances/visitor.strategy.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/strategy.xml 
 candidateinstances/visitor.templatemethod.out dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts dynamicdefinitions/templatemethod.xml 

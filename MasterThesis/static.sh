@@ -99,6 +99,7 @@ sed -e 's/\[//g' < $grok_out > grok.help
 sed -e 's/\]//g' < grok.help > grok2.help
 rm -rf $grok_out grok.help
 mv grok2.help $grok_out
+echo 'private x y' >> $grok_out 
 echo 'Grok done'
 
 
