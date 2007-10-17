@@ -3,7 +3,13 @@
 
 = Introduction =
 
-PDE is used to detect software design pattern in Java software. It is written in Java. 
+PDE is used to detect software design pattern in Java software. There are a couple of steps that need to be done to detect design patterns.
+
+  # Dynamic facts: PDE needs dynamic facts of the software that is analyzed
+  # Instrument your software using Probekit from the Eclipse TPTP Project. We provide the probe that is used for the instrumentation. 
+  # Execute the instrumented software (Testsuites are very useful to generate good dynamic facts that are later used by our tool PDE).
+  # 
+
 
 
 = Prerequisites =
