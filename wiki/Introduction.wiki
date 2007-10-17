@@ -66,6 +66,6 @@ To install TPTP packages using the Eclipse Update Manager:
 For more information please visit the Eclipse TPTP Project site http://www.eclipse.org/tptp/home/downloads/installguide/InstallGuide44.html
 
 
-== Installation of Javex, Grok and QL (SWAG toolkit)
+== Installation of Javex, Grok and QL (SWAG toolkit) ==
 
 For the installation of these three tools please refer to the [http://www.swag.uwaterloo.ca/swagkit/index.html website]. These three tools can only be deployed under Linux. Therefore we suggest to install and setup PDE under a Linux environment so that the files do not need to be copied from one environment to another.
