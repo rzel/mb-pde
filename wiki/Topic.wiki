@@ -13,16 +13,20 @@ Design patterns abstract reusable object-oriented software design. Each pattern 
 Figure 1 shows an excerpt of a software system represented in UML notation. After the detection process our software will show all classes that match design patterns. In UML notation, classes are represented as boxes with the class name as a title and the dependency and association relationships shown as arrows going from one class to another. During the detection process we will use this information to detect the design pattern. We will use the Adapter design pattern as a running example in this chapter to present the approach that uses all of the developed features of our software.
 The intent of the Adapter is to convert the interface of a class into another interface the clients expect. Adapter lets classes work together that could not otherwise because of incompatible interfaces. The Adapter design pattern consists of four classes.
 
-    * A target interface that represents the contract between the adapter class and the clients that want to use the adapter.
-    * An adapter that holds a reference to the adaptee and translates target methods to adaptee methods.
-    * An adaptee that has the actual implementation that the client wants to use.
-    * One or more clients that want to use a specific functionality.
+  * A target interface that represents the contract between the adapter class and the clients that want to use the adapter.
+  * An adapter that holds a reference to the adaptee and translates target methods to adaptee methods.
+  * An adaptee that has the actual implementation that the client wants to use.
+  * One or more clients that want to use a specific functionality.
 
 
 http://www.cse.yorku.ca/~mbirkner/website/images/SoftwareSystemAdapterPattern.png
+
 Figure 1: The left side shows a UML diagram of a software system. The right side shows a UML diagram of the Adapter design pattern that we want to detect.
+
+
 
 Our approach in detecting design patterns is divided into static and dynamic analysis. During the static analysis we take the class files and extract static facts from the software. The results include class names, relationships between classes and attributes of the classes. These facts are then processed to find possible candidate instances that match the UML notation of a design pattern. In the next step of the detection we instrument the byte code of the software, execute the software and record all method calls of the running instances. For the dynamic analysis it is important to execute as many methods in the software as possible. Good test suites will help to obtain good dynamic facts since they call most of the implemented method. The facts from the dynamic analysis and the candidate instances from the static analysis are then processed together to detect design patterns according to the static and dynamic definitions of the patterns. After the detection process our software ranks the found design pattern instances according to how well they match the static and dynamic definitions. We will provide static and dynamic definitions for the original software design patterns from the GoF book. Figure 2 presents the described steps. Our software can be extended by using its results and specifying more rules upon the design patterns.
 
 http://www.cse.yorku.ca/~mbirkner/website/images/DetectionProcessNewImplemented.png
+
 Figure 2
