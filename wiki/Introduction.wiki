@@ -1,5 +1,5 @@
+#summary Introduction into PDE.
 #labels Featured,Phase-Implementation,Phase-Deploy
-# Start site.
 
 = Introduction =
 
