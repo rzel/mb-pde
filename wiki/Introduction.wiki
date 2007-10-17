@@ -15,18 +15,18 @@ Note: In order to run PDE, the following things need to be installed
 == Installation of TPTP == 
 
 To install TPTP packages using the Eclipse Update Manager:
-  * From the Help menu in Eclipse, select Software Updates > Find and Install.
-  * Select the Search for new features to install radio button. Click Next.
-  * Add a new update site by clicking on New Remote Site.
-  * Enter the following name and URL and click OK:
-  # Name: TPTP Update site
-  # URL: http://eclipse.org/tptp/updates/site.xml
-  * Click Finish.
-  * In the "Search Results" dialog box, select the features to install. Then click Next.
-  * In the "Feature License" dialog box, accept the license and click Next.
-  * In the "Installation" dialog box, verify the features to be installed and change install location if necessary. Then click Finish.
-  * After you click Finish, you will be presented a confirmation about a digital signature. Click Install All.
-  * When done, restart your workbench.
+  # From the Help menu in Eclipse, select Software Updates > Find and Install.
+  # Select the Search for new features to install radio button. Click Next.
+  # Add a new update site by clicking on New Remote Site.
+  # Enter the following name and URL and click OK:
+  * Name: TPTP Update site
+  * URL: http://eclipse.org/tptp/updates/site.xml
+  # Click Finish.
+  # In the "Search Results" dialog box, select the features to install. Then click Next.
+  # In the "Feature License" dialog box, accept the license and click Next.
+  # In the "Installation" dialog box, verify the features to be installed and change install location if necessary. Then click Finish.
+  # After you click Finish, you will be presented a confirmation about a digital signature. Click Install All.
+  # When done, restart your workbench.
 
 
 == Installation of Javex, Grok and QL (SWAG toolkit)
