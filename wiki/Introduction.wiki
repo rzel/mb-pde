@@ -12,6 +12,19 @@ Note: In order to run PDE, the following things need to be installed
   * Static fact extraction: SWAG toolkit from the University of Waterloo. We make use of javex, grok and ql from the toolkit to extract static facts from the Java software that is analyzed. The toolkit can be downloaded [http://www.swag.uwaterloo.ca/swagkit/index.html here]. The user of PDE does not need any knowledge about javex, grok and ql. PDE will take care of executing the tools when needed.
   * Dynamic fact extraction: In order to extract dynamic facts from the Java software we use the TPTP Plugin for Eclipse, see [http://www.eclipse.org/tptp/ Eclipse Plugin TPTP]. We provide a probe for TPTP that will instrument the code so that the result is stored in a format the PDE is able to use.
 
+== Installation of PDE ==
+
+  # Download the software here, (including source code)
+    Non-members may check out a read-only working copy anonymously over HTTP.
+    {{{ svn checkout http://mb-pde.googlecode.com/svn/trunk/ mb-pde }}}
+  # To see the possible input parameters type:
+    {{{ java -jar pde.jar -usage }}}
+  # To run the static analysis type:
+    {{{ java -jar -pde.jar -static }}}
+  # To run the dynamic analysis type:
+    {{{ java -jar pde.jar -input input.pde -ps -threshold 0.8
+
+
 == Installation of TPTP == 
 
 To install TPTP packages using the Eclipse Update Manager:
@@ -19,14 +32,16 @@ To install TPTP packages using the Eclipse Update Manager:
   # Select the Search for new features to install radio button. Click Next.
   # Add a new update site by clicking on New Remote Site.
   # Enter the following name and URL and click OK:
-  * Name: TPTP Update site
-  * URL: http://eclipse.org/tptp/updates/site.xml
+    - Name: TPTP Update site
+    - URL: http://eclipse.org/tptp/updates/site.xml
   # Click Finish.
   # In the "Search Results" dialog box, select the features to install. Then click Next.
   # In the "Feature License" dialog box, accept the license and click Next.
   # In the "Installation" dialog box, verify the features to be installed and change install location if necessary. Then click Finish.
   # After you click Finish, you will be presented a confirmation about a digital signature. Click Install All.
   # When done, restart your workbench.
+
+For more information please visit the Eclipse TPTP Project site http://www.eclipse.org/tptp/home/downloads/installguide/InstallGuide44.html
 
 
 == Installation of Javex, Grok and QL (SWAG toolkit)
