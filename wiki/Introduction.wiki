@@ -14,7 +14,7 @@ Note: In order to run PDE, the following things need to be installed
 
 == Installation of PDE ==
 
-  # Download the software here, (including source code)
+  # Download the software using [http://en.wikipedia.org/wiki/Subversion_(software) svn (Subversion)] (including source code)
     Non-members may check out a read-only working copy anonymously over HTTP.
     {{{ svn checkout http://mb-pde.googlecode.com/svn/trunk/ mb-pde }}}
   # To see the possible input parameters type:
