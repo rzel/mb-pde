@@ -1,5 +1,5 @@
-#summary One-sentence summary of this page.
 #labels Featured,Phase-Implementation,Phase-Deploy
+#Starting page with an Introduction on how to install and setup PDE.
 
 = Introduction =
 
