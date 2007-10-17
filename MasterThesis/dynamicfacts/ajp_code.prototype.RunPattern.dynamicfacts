@@ -1,18 +1,2 @@
-<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/prototype/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
-<entry args="" className="ajp_code/prototype/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
-<exit className="ajp_code/prototype/Address" methodName="Constructor" thisObject="ajp_code/prototype/Address@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
-<entry args="" className="ajp_code/prototype/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
-<entry args="" className="ajp_code/prototype/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
-<exit className="ajp_code/prototype/Address" methodName="Constructor" thisObject="ajp_code/prototype/Address@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
-<exit className="ajp_code/prototype/Address" methodName="Constructor" thisObject="ajp_code/prototype/Address@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
-<entry args="" className="ajp_code/prototype/Address" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
-<exit className="ajp_code/prototype/Address" methodName="toString" thisObject="ajp_code/prototype/Address@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
-<entry args="" className="ajp_code/prototype/Address" methodName="copy" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
-<entry args="" className="ajp_code/prototype/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
-<entry args="" className="ajp_code/prototype/Address" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
-<exit className="ajp_code/prototype/Address" methodName="Constructor" thisObject="ajp_code/prototype/Address@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
-<exit className="ajp_code/prototype/Address" methodName="Constructor" thisObject="ajp_code/prototype/Address@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
-<exit className="ajp_code/prototype/Address" methodName="copy" thisObject="ajp_code/prototype/Address@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
-<entry args="" className="ajp_code/prototype/Address" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
-<exit className="ajp_code/prototype/Address" methodName="toString" thisObject="ajp_code/prototype/Address@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
-<exit className="ajp_code/prototype/RunPattern" methodName="main" thisObject="ajp_code/prototype/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
