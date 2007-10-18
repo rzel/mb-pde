@@ -1,2 +1,697 @@
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/visitor/DataCreator" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/visitor/DataCreator" methodName="serialize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/visitor/DataCreator" methodName="createData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="Constructor" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Project" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Project" methodName="Constructor" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@ca0b6" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@1fb8ee3" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@61de33" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject="ajp_code/visitor/DependentTask@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.DependentTask@1b67f74" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject="ajp_code/visitor/DependentTask@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@69b332" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@173a10f" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@530daa" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.DependentTask@89ae9e" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@530daa" className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject="ajp_code/visitor/DependentTask@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@a62fc3" className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject="ajp_code/visitor/DependentTask@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@6336176" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@60aeb0" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@16caf43" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@66848c" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@1d58aae" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="createData" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.visitor.Project@de6ced" className="ajp_code/visitor/DataCreator" methodName="serializeToFile" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<exit className="ajp_code/visitor/DataCreator" methodName="serializeToFile" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="serialize" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="main" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/visitor/DataCreator" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/visitor/DataCreator" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/visitor/DataCreator" methodName="serialize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/visitor/DataCreator" methodName="serialize" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/visitor/DataCreator" methodName="createData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/visitor/DataCreator" methodName="createData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="Constructor" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="Constructor" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Project" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Project" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Project" methodName="Constructor" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="Constructor" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@17510567" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@10b30a7" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Deliverable@10b30a7" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@1fb8ee3" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@1fb8ee3" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@14318bb" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@14318bb" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject="ajp_code/visitor/DependentTask@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject="ajp_code/visitor/DependentTask@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.DependentTask@69b332" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.DependentTask@69b332" className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="addProjectItem" thisObject="ajp_code/visitor/Project@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@9023134" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6336176" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6336176" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject="ajp_code/visitor/DependentTask@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="Constructor" thisObject="ajp_code/visitor/DependentTask@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@530daa" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@530daa" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@a62fc3" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@a62fc3" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@89ae9e" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@89ae9e" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.DependentTask@66848c" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.DependentTask@66848c" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@89ae9e" className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@89ae9e" className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject="ajp_code/visitor/DependentTask@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject="ajp_code/visitor/DependentTask@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@60aeb0" className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@60aeb0" className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject="ajp_code/visitor/DependentTask@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="addDependentTask" thisObject="ajp_code/visitor/DependentTask@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@30771886" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@1d58aae" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Deliverable@1d58aae" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@83cc67" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Deliverable@83cc67" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="Constructor" thisObject="ajp_code/visitor/Task@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@de6f34" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@de6f34" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ContactImpl" methodName="toString" thisObject="ajp_code/visitor/ContactImpl@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="Constructor" thisObject="ajp_code/visitor/Deliverable@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@156ee8e" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Deliverable@156ee8e" className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="addProjectItem" thisObject="ajp_code/visitor/Task@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="createData" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="createData" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.visitor.Project@de6ced" className="ajp_code/visitor/DataCreator" methodName="serializeToFile" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.visitor.Project@de6ced" className="ajp_code/visitor/DataCreator" methodName="serializeToFile" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/visitor/DataCreator" methodName="serializeToFile" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="serializeToFile" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="serialize" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="serialize" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="main" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/visitor/DataCreator" methodName="main" thisObject="ajp_code/visitor/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
-<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="|[Ljava.lang.String;@42e816" className="ajp_code/visitor/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/visitor/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/visitor/DataRetriever" methodName="deserializeData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/visitor/DataRetriever" methodName="deserializeData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/DataRetriever" methodName="deserializeData" thisObject="ajp_code/visitor/DataRetriever@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/DataRetriever" methodName="deserializeData" thisObject="ajp_code/visitor/DataRetriever@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ProjectCostVisitor" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/visitor/ProjectCostVisitor" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="Constructor" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="Constructor" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ProjectCostVisitor" methodName="setHourlyRate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/visitor/ProjectCostVisitor" methodName="setHourlyRate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="setHourlyRate" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="setHourlyRate" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.visitor.Project@e0e1c6|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.visitor.Project@e0e1c6|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Project" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Project" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="|ajp_code.visitor.Project@e0e1c6" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitProject" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Project@e0e1c6" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitProject" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitProject" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitProject" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="accept" thisObject="ajp_code/visitor/Project@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="accept" thisObject="ajp_code/visitor/Project@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject="ajp_code/visitor/Project@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject="ajp_code/visitor/Project@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject="ajp_code/visitor/Project@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/Project" methodName="getProjectItems" thisObject="ajp_code/visitor/Project@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@6ca1c|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.visitor.Deliverable@6ca1c|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.Deliverable@6ca1c" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Deliverable@6ca1c" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@12ac982|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.visitor.Task@12ac982|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.Task@12ac982" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Task@12ac982" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@c20e24|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@c20e24|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.Task@c20e24" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.Task@c20e24" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@12717604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@2e7263|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Deliverable@2e7263|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="|ajp_code.visitor.Deliverable@2e7263" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="|ajp_code.visitor.Deliverable@2e7263" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@3043939" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@863399|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@863399|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.Task@863399" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.Task@863399" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@8795033" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@141d683|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Task@141d683|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="|ajp_code.visitor.Task@141d683" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="|ajp_code.visitor.Task@141d683" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@21091971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@16a55fa|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Deliverable@16a55fa|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="|ajp_code.visitor.Deliverable@16a55fa" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="|ajp_code.visitor.Deliverable@16a55fa" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@e89b94|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.Task@e89b94|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.Task@e89b94" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.Task@e89b94" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="|ajp_code.visitor.DependentTask@1bf73fa|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.DependentTask@1bf73fa|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/DependentTask" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/DependentTask" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.DependentTask@1bf73fa" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.DependentTask@1bf73fa" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject="ajp_code/visitor/DependentTask@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject="ajp_code/visitor/DependentTask@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="accept" thisObject="ajp_code/visitor/DependentTask@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="accept" thisObject="ajp_code/visitor/DependentTask@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="|ajp_code.visitor.Deliverable@5ac072|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Deliverable@5ac072|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Deliverable" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="|ajp_code.visitor.Deliverable@5ac072" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="|ajp_code.visitor.Deliverable@5ac072" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProductionCost" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDeliverable" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="accept" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Deliverable" methodName="getProjectItems" thisObject="ajp_code/visitor/Deliverable@5947506" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.visitor.Task@201f9|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.visitor.Task@201f9|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/Task" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.Task@201f9" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.Task@201f9" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="accept" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.visitor.DependentTask@1cf8583|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.visitor.DependentTask@1cf8583|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/DependentTask" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.visitor.ProjectCostVisitor@19b49e6" className="ajp_code/visitor/DependentTask" methodName="accept" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="|ajp_code.visitor.DependentTask@1cf8583" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="|ajp_code.visitor.DependentTask@1cf8583" className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getTimeRequired" thisObject="ajp_code/visitor/Task@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject="ajp_code/visitor/DependentTask@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="getDependencyWeightingFactor" thisObject="ajp_code/visitor/DependentTask@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="visitDependentTask" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="accept" thisObject="ajp_code/visitor/DependentTask@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/DependentTask" methodName="accept" thisObject="ajp_code/visitor/DependentTask@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/visitor/Task" methodName="getProjectItems" thisObject="ajp_code/visitor/Task@30377347" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="visitProjectItems" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/visitor/ProjectCostVisitor" methodName="getTotalCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/visitor/ProjectCostVisitor" methodName="getTotalCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="getTotalCost" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/visitor/ProjectCostVisitor" methodName="getTotalCost" thisObject="ajp_code/visitor/ProjectCostVisitor@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="main" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/visitor/RunPattern" methodName="main" thisObject="ajp_code/visitor/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

@@ -430,3 +430,449 @@
 <exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
 <entry args="|java.awt.event.ActionEvent[ACTION_PERFORMED,cmd=,when=1192502374814,modifiers=Button1] on javax.swing.JButton[,104,5,34x10,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@fabe9,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]" className="ajp_code/facade/FacadeGui" methodName="actionPerformed" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
 <entry args="" className="ajp_code/facade/FacadeGui" methodName="exitApplication" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/facade/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/facade/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/facade/Currency" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Currency" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Currency" methodName="Constructor" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="Constructor" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="Constructor" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Nation" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Nation" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="Constructor" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="Constructor" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Nation" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Nation" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="Constructor" thisObject="ajp_code/facade/Nation@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="Constructor" thisObject="ajp_code/facade/Nation@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Nation" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Nation" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="Constructor" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="Constructor" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getName" thisObject="ajp_code/facade/Nation@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getName" thisObject="ajp_code/facade/Nation@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getName" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getName" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="Constructor" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="Constructor" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getSymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getSymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getSymbol" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getSymbol" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.facade.InternationalizationWizard@66848c" className="ajp_code/facade/FacadeGui" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.facade.InternationalizationWizard@66848c" className="ajp_code/facade/FacadeGui" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/facade/FacadeGui" methodName="Constructor" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="Constructor" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="createGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getNations" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getNations" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getNations" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getNations" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.facade.FacadeGui@de6f34" className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.facade.FacadeGui@de6f34" className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="|ajp_code.facade.FacadeGui@de6f34" className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="|ajp_code.facade.FacadeGui@de6f34" className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/facade/FacadeGui$WindowCloseManager@8225923" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/facade/FacadeGui$WindowCloseManager@8225923" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/facade/FacadeGui$WindowCloseManager@8225923" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="Constructor" thisObject="ajp_code/facade/FacadeGui$WindowCloseManager@8225923" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="createGui" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="createGui" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="itemStateChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="itemStateChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="updateGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="updateGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getSymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getSymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getSymbol" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getSymbol" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/Currency" methodName="getCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Currency" methodName="getCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Currency" methodName="getCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="getCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getCurrencySymbol" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getCurrencySymbol" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/Currency" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Currency" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Currency" methodName="getNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="getNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getNumberFormat" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getNumberFormat" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getPhonePrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getPhonePrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="getSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="getSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/PhoneNumber" methodName="getSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/PhoneNumber" methodName="getSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getPhonePrefix" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getPhonePrefix" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="updateGui" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="updateGui" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="itemStateChanged" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/facade/FacadeGui" methodName="itemStateChanged" thisObject="ajp_code/facade/FacadeGui@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="itemStateChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="itemStateChanged" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="updateGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="updateGui" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/Nation" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="toString" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getSymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getSymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getSymbol" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getSymbol" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="setCurrencySymbol" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getNumberFormat" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="|java.text.DecimalFormat@674dc" className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Currency" methodName="setNumberFormat" thisObject="ajp_code/facade/Currency@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getDialingPrefix" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/PhoneNumber" methodName="setSelectedInterPrefix" thisObject="ajp_code/facade/PhoneNumber@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/Nation" methodName="getPropertyFileName" thisObject="ajp_code/facade/Nation@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="loadProperties" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="setFileName" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="setNation" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="13" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="12" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="windowClosing" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/facade/FacadeGui$WindowCloseManager" methodName="windowClosing" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<entry args="|ajp_code.facade.FacadeGui@de6f34" className="ajp_code/facade/FacadeGui" methodName="access$0" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="13" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="14" >
+<entry args="|ajp_code.facade.FacadeGui@de6f34" className="ajp_code/facade/FacadeGui" methodName="access$0" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="15" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="exitApplication" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="17" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="16" >
+<entry args="" className="ajp_code/facade/FacadeGui" methodName="exitApplication" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="18" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="19" >
+<entry args="" className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="20" >
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="19" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="18" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="17" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizedText" methodName="getProperty" thisObject="ajp_code/facade/InternationalizedText@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="16" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="15" ></exit></entry>
+<exit className="ajp_code/facade/InternationalizationWizard" methodName="getProperty" thisObject="ajp_code/facade/InternationalizationWizard@6718604" calledByClass="" calledByMethod="" calledByObject=""  callDepth="14" ></exit></entry>

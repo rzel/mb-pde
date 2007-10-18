@@ -1,2 +1,165 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
-<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="|[Ljava.lang.String;@42e816" className="ajp_code/templatemethod/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/templatemethod/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="Constructor" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="addProjectItem" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="Constructor" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/Deliverable" methodName="Constructor" thisObject="ajp_code/templatemethod/Deliverable@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/Deliverable" methodName="Constructor" thisObject="ajp_code/templatemethod/Deliverable@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Task@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getProjectItemIterator" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Task@14576877" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/Task" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Task@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject="ajp_code/templatemethod/ProjectItem@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getName" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="toString" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/templatemethod/Deliverable" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/Deliverable" methodName="getTimeRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/Deliverable" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Deliverable@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/Deliverable" methodName="getTimeRequired" thisObject="ajp_code/templatemethod/Deliverable@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getRate" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/templatemethod/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/templatemethod/Deliverable" methodName="getMaterialsCost" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/templatemethod/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Deliverable@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/templatemethod/Deliverable" methodName="getMaterialsCost" thisObject="ajp_code/templatemethod/Deliverable@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/templatemethod/ProjectItem" methodName="getCostEstimate" thisObject="ajp_code/templatemethod/ProjectItem@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/templatemethod/RunPattern" methodName="main" thisObject="ajp_code/templatemethod/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/templatemethod/RunPattern" methodName="main" thisObject="ajp_code/templatemethod/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
