@@ -1,2 +1,709 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
-<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="" className="ajp_code/builder/RunPattern" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<exit className="ajp_code/builder/RunPattern" methodName="Constructor" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="Constructor" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
+<entry args="|[Ljava.lang.String;@a90653" className="ajp_code/builder/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@a90653" className="ajp_code/builder/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/builder/Scheduler" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/Scheduler" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/Scheduler" methodName="Constructor" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="Constructor" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.builder.AppointmentBuilder@61de33" className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.builder.AppointmentBuilder@61de33" className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setDescription" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setDescription" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setLocation" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setLocation" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="getLocation" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getLocation" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject="ajp_code/builder/AppointmentBuilder@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@10891203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="toString" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="toString" thisObject="ajp_code/builder/Appointment@23899971" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/MeetingBuilder" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/MeetingBuilder" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="Constructor" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/MeetingBuilder" methodName="Constructor" thisObject="ajp_code/builder/MeetingBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/MeetingBuilder" methodName="Constructor" thisObject="ajp_code/builder/MeetingBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.builder.MeetingBuilder@de6f34" className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.builder.MeetingBuilder@de6f34" className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setStartDate" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setDescription" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setDescription" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@1102920" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setLocation" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setLocation" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/Appointment" methodName="getLocation" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getLocation" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject="ajp_code/builder/Appointment@1280484" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject="ajp_code/builder/InformationRequiredException@10851992" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject="ajp_code/builder/InformationRequiredException@10851992" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject="ajp_code/builder/MeetingBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject="ajp_code/builder/MeetingBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject="ajp_code/builder/InformationRequiredException@10851992" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject="ajp_code/builder/InformationRequiredException@10851992" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createDate" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="Constructor" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="getLastName" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="Constructor" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="createAttendees" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="|ajp_code.builder.MeetingBuilder@de6f34" className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.builder.MeetingBuilder@de6f34" className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="Constructor" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setEndDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setEndDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setEndDate" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setEndDate" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDates" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="setDescription" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setDescription" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setDescription" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildDescription" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@3327002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/ContactImpl" methodName="toString" thisObject="ajp_code/builder/ContactImpl@15244180" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setAttendees" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildAttendees" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/LocationImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/LocationImpl" methodName="toString" thisObject="ajp_code/builder/LocationImpl@23746042" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="setLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="setLocation" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="setLocation" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="buildLocation" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getStartDate" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getLocation" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/Appointment" methodName="getLocation" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getLocation" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getAttendees" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject="ajp_code/builder/InformationRequiredException@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject="ajp_code/builder/InformationRequiredException@131577" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/AppointmentBuilder" methodName="getAppointment" thisObject="ajp_code/builder/AppointmentBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/Appointment" methodName="getEndDate" thisObject="ajp_code/builder/Appointment@29324282" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject="ajp_code/builder/InformationRequiredException@15672056" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/builder/InformationRequiredException" methodName="Constructor" thisObject="ajp_code/builder/InformationRequiredException@15672056" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject="ajp_code/builder/MeetingBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/MeetingBuilder" methodName="getAppointment" thisObject="ajp_code/builder/MeetingBuilder@14577460" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/Scheduler" methodName="createAppointment" thisObject="ajp_code/builder/Scheduler@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject="ajp_code/builder/InformationRequiredException@15672056" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/builder/InformationRequiredException" methodName="getInformationRequired" thisObject="ajp_code/builder/InformationRequiredException@15672056" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="printExceptions" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="main" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/builder/RunPattern" methodName="main" thisObject="ajp_code/builder/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

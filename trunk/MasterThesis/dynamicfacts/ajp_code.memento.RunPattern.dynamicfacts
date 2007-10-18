@@ -1,2 +1,461 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
-<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="|[Ljava.lang.String;@42e816" className="ajp_code/memento/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@42e816" className="ajp_code/memento/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="Constructor" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="Constructor" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@21174459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="getMemento" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="getMemento" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="11" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="12" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="11" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="10" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="9" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="10" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="9" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="8" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject="ajp_code/memento/AddressBook$AddressBookMemento@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject="ajp_code/memento/AddressBook$AddressBookMemento@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject="ajp_code/memento/AddressBook$AddressBookMemento@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="Constructor" thisObject="ajp_code/memento/AddressBook$AddressBookMemento@8918002" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="getMemento" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="getMemento" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="removeAllContacts" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="removeAllContacts" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="removeAllContacts" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="removeAllContacts" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@8637543" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@22474382" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@26954214" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="Constructor" thisObject="ajp_code/memento/AddressImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressImpl" methodName="toString" thisObject="ajp_code/memento/AddressImpl@444956" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="Constructor" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="addContact" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="addContact" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14718739" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@4699264" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@14737862" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@19581314" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="|ajp_code.memento.AddressBook$AddressBookMemento@8813f2" className="ajp_code/memento/AddressBook" methodName="setMemento" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="|ajp_code.memento.AddressBook$AddressBookMemento@8813f2" className="ajp_code/memento/AddressBook" methodName="setMemento" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="|ajp_code.memento.AddressBook$AddressBookMemento@8813f2" className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="access$1" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.memento.AddressBook$AddressBookMemento@8813f2" className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="access$1" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="access$1" thisObject="ajp_code/memento/AddressBook$AddressBookMemento@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook$AddressBookMemento" methodName="access$1" thisObject="ajp_code/memento/AddressBook$AddressBookMemento@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="setMemento" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="setMemento" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/memento/AddressBook" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@33263331" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@28737396" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/memento/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/memento/ContactImpl" methodName="toString" thisObject="ajp_code/memento/ContactImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/memento/AddressBook" methodName="toString" thisObject="ajp_code/memento/AddressBook@1641745" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/memento/RunPattern" methodName="main" thisObject="ajp_code/memento/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/memento/RunPattern" methodName="main" thisObject="ajp_code/memento/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

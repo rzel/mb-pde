@@ -1,2 +1,149 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
-<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="|[Ljava.lang.String;@a90653" className="ajp_code/decorator/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@a90653" className="ajp_code/decorator/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="Constructor" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="Constructor" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/Task" methodName="Constructor" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="Constructor" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/Task" methodName="Constructor" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="Constructor" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/ContactImpl" methodName="toString" thisObject="ajp_code/decorator/ContactImpl@12677476" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Deliverable" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/Deliverable" methodName="Constructor" thisObject="ajp_code/decorator/Deliverable@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/Deliverable" methodName="Constructor" thisObject="ajp_code/decorator/Deliverable@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Deliverable" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/Deliverable" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/Deliverable" methodName="toString" thisObject="ajp_code/decorator/Deliverable@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/Deliverable" methodName="toString" thisObject="ajp_code/decorator/Deliverable@27744459" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="addSupportingDocument" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="addSupportingDocument" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="addSupportingDocument" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="addSupportingDocument" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="Constructor" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="Constructor" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/decorator/DependentProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/DependentProjectItem" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject="ajp_code/decorator/ProjectDecorator@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="Constructor" thisObject="ajp_code/decorator/ProjectDecorator@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/DependentProjectItem" methodName="Constructor" thisObject="ajp_code/decorator/DependentProjectItem@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/DependentProjectItem" methodName="Constructor" thisObject="ajp_code/decorator/DependentProjectItem@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="setProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/decorator/DependentProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/decorator/DependentProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/decorator/ProjectDecorator" methodName="getProjectItem" thisObject="ajp_code/decorator/ProjectDecorator@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/SupportedProjectItem" methodName="toString" thisObject="ajp_code/decorator/SupportedProjectItem@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/decorator/Task" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/decorator/Task" methodName="toString" thisObject="ajp_code/decorator/Task@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/decorator/DependentProjectItem" methodName="toString" thisObject="ajp_code/decorator/DependentProjectItem@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/decorator/DependentProjectItem" methodName="toString" thisObject="ajp_code/decorator/DependentProjectItem@24355087" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/decorator/RunPattern" methodName="main" thisObject="ajp_code/decorator/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/decorator/RunPattern" methodName="main" thisObject="ajp_code/decorator/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>

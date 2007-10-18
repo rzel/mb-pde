@@ -1,2 +1,185 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
-<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry>
+<exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="|[Ljava.lang.String;@19821f" className="ajp_code/flyweight/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
+<entry args="|[Ljava.lang.String;@19821f" className="ajp_code/flyweight/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject="ajp_code/flyweight/ManagedList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject="ajp_code/flyweight/ManagedList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject="ajp_code/flyweight/ManagedList@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ManagedList" methodName="Constructor" thisObject="ajp_code/flyweight/ManagedList@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<entry args="" className="ajp_code/flyweight/CleanState" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/flyweight/CleanState" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/flyweight/CleanState" methodName="Constructor" thisObject="ajp_code/flyweight/CleanState@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/flyweight/CleanState" methodName="Constructor" thisObject="ajp_code/flyweight/CleanState@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="7" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="8" >
+<exit className="ajp_code/flyweight/DirtyState" methodName="Constructor" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="7" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="Constructor" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="6" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="Constructor" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="Constructor" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/CleanState" methodName="edit" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/CleanState" methodName="edit" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="|ajp_code.flyweight.DirtyState@ca0b6" className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.flyweight.DirtyState@ca0b6" className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/CleanState" methodName="edit" thisObject="ajp_code/flyweight/CleanState@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/CleanState" methodName="edit" thisObject="ajp_code/flyweight/CleanState@6413875" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="edit" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="edit" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="incrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="edit" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="edit" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ContactImpl" methodName="Constructor" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ContactImpl" methodName="Constructor" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject="ajp_code/flyweight/ManagedList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject="ajp_code/flyweight/ManagedList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="Constructor" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/AddressImpl" methodName="Constructor" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/AddressImpl" methodName="Constructor" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject="ajp_code/flyweight/ManagedList@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ManagedList" methodName="addItem" thisObject="ajp_code/flyweight/ManagedList@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject="ajp_code/flyweight/ManagedList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject="ajp_code/flyweight/ManagedList@9634993" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="save" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/ContactImpl" methodName="toString" thisObject="ajp_code/flyweight/ContactImpl@6927154" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="save" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="save" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="save" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<exit className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject="ajp_code/flyweight/ManagedList@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/ManagedList" methodName="getItems" thisObject="ajp_code/flyweight/ManagedList@11077203" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="save" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/AddressImpl" methodName="toString" thisObject="ajp_code/flyweight/AddressImpl@5442986" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="save" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="decrementStateValue" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="|ajp_code.flyweight.CleanState@61de33" className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="|ajp_code.flyweight.CleanState@61de33" className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="setCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="save" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/DirtyState" methodName="save" thisObject="ajp_code/flyweight/DirtyState@827574" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
+<entry args="" className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="4" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="5" >
+<entry args="" className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="6" >
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="5" ></exit></entry>
+<exit className="ajp_code/flyweight/StateFactory" methodName="getCurrentState" thisObject="ajp_code/flyweight/StateFactory@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="4" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="3" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="printPIMState" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="main" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
+<exit className="ajp_code/flyweight/RunPattern" methodName="main" thisObject="ajp_code/flyweight/RunPattern@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
