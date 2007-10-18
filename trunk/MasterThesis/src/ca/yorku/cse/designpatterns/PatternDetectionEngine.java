@@ -46,7 +46,13 @@ public class PatternDetectionEngine
     
     private static double threshold            = 0.8;		// default threshold is 80%
     private static LinkedList<FactFiles> input = null;		// stores the file names of the input file
-    private static String report_filename      = "report.txt";	// default filename for report
+    
+    // FILENAMES: default
+    private static String report_filename           = "report.txt";		// default filename for report
+    private static String XMLsoftware_filename      = "software.xml";
+    private static String XMLdesignpattern_filename = "designpatterns.xml";
+    private static String pdeInput_filename 	    = "pde.input";
+    private static String exception_filename 	    = "exception.txt";
     
    
     private static boolean print_results = false;
@@ -87,28 +93,26 @@ public class PatternDetectionEngine
 		 * Dynamic definition document for this design pattern.
 		 */
 		Document software_doc = null;
-		String filename = "software.xml";
 		try {
 		    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		    DocumentBuilder db = dbf.newDocumentBuilder();
-		    software_doc = db.parse(new File(filename));
+		    software_doc = db.parse(new File(XMLsoftware_filename));
 	        } catch (Exception e) {
 	            System.out.println("PatternDetectionEngine: -> " +
-	            		"Constructor(): Cannot read from file: " + filename +
+	            		"Constructor(): Cannot read from file: " + XMLsoftware_filename +
 	            		"Please make sure that the file exists.");
 	            e.printStackTrace();
 	            System.exit(1);
 	        }
 	        
 		Document designpattern_doc = null;
-		String filename2 = "designpatterns.xml";
 		try {
 		    DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		    DocumentBuilder db = dbf.newDocumentBuilder();
-		    designpattern_doc = db.parse(new File(filename2));
+		    designpattern_doc = db.parse(new File(XMLdesignpattern_filename));
 	        } catch (Exception e) {
 	            System.out.println("designpattern_doc: -> " +
-	            		"Constructor(): Cannot read from file: " + filename2 +
+	            		"Constructor(): Cannot read from file: " + XMLdesignpattern_filename +
 	            		"Please make sure that the file exists.");
 	            e.printStackTrace();
 	            System.exit(1);
@@ -121,8 +125,7 @@ public class PatternDetectionEngine
 	        String ql       = "";
 	        String canInDir = "";
         
-	        String pde_input_filename = "pde.input";
-	        File pdeDel = new File(pde_input_filename);
+	        File pdeDel = new File(pdeInput_filename);
 	        boolean isDeleted = pdeDel.delete();
 	        print("pde_input_filename is deleted? " + isDeleted);
 	        
@@ -202,19 +205,19 @@ public class PatternDetectionEngine
 	        	    print("BufferedWriter pdeIn");
 	        	    boolean append = true;
 	        	    try {
-	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pde_input_filename, append ));
+	        		BufferedWriter pdeIn = new BufferedWriter(new FileWriter( pdeInput_filename, append ));
 	        		pdeIn.write(staticFactsOutputFile+" "+dynFactsFile+" "+dynamicDefinitionFile+" \n");
 	        		pdeIn.flush();
 	        		pdeIn.close();
 	        	    } catch (IOException e1) {
-	        		print("problem reading pde_input_filename: " + pde_input_filename);
+	        		print("problem reading pde_input_filename: " + pdeInput_filename);
 	        		e1.printStackTrace();
 	        	    }
 	        	} catch (IOException e) {
 	        	    print("EXCEPTION: Java IO");
 	        	    BufferedWriter exc;
 			    try {
-				exc = new BufferedWriter(new FileWriter( "exception.txt", true ));
+				exc = new BufferedWriter(new FileWriter( exception_filename, true ));
 		        	exc.write("Exception: " + command + "\n");
 		        	exc.flush();
 			    } catch (IOException e1) {
@@ -257,6 +260,21 @@ public class PatternDetectionEngine
 		inputFileName = args[++i];
 		print("Input parameter for -input " + inputFileName);
 	    } 
+	    else if ( args[i].equals("-dynamic") ) {
+		// ALL DEFAULT VALUES
+		print("Input parameter for -dynamic none. Run with default values. ");
+		inputFileName = pdeInput_filename;
+		threshold     = Double.parseDouble("0.80");
+		print_stats   = true;
+		create_report = true;
+		print_results = true;
+		print("Default values: "
+			+ " inputFileName " + inputFileName + "\n"
+			+ " threshold     " + threshold + "\n"
+			+ " print_stats   " + print_stats + "\n"
+			+ " create_report " + create_report + "\n"
+			+ " print_results " + print_results);
+	    }
 	    else if ( args[i].equals("-redirect") ){ 
 		redirectSystemOut = true;
 		output_filename = args[++i];
