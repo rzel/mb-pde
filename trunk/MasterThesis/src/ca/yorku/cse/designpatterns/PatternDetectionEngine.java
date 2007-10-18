@@ -536,24 +536,22 @@ public class PatternDetectionEngine
     	 * Print statistics and results
     	 */    	
     	if ( print_stats || print_results || create_report ) { 
-    	    String codeExample = null;
+    	    String codeExample = candidateInstancesFileName;
     	    String patternName = null;   	    
     	    if ( candidateInstancesFileName.contains("/") && 
-    		    candidateInstancesFileName.contains(".") && 
-    		    candidateInstancesFileName.contains(".ql.") )
+    		    candidateInstancesFileName.contains(".out") )
     	    {
-        	    int index1 = candidateInstancesFileName.indexOf("/");
-            	    int index2 = candidateInstancesFileName.indexOf(".");
-            	    int index3 = candidateInstancesFileName.indexOf(".ql.");
-            	    codeExample = candidateInstancesFileName.substring(index1+1, index2);
-            	    patternName = candidateInstancesFileName.substring(index2+1, index3);  
+    		int index0 = candidateInstancesFileName.indexOf("/");
+        	int index1 = candidateInstancesFileName.indexOf(".");
+        	int index2 = candidateInstancesFileName.indexOf(".out");
+        	codeExample = candidateInstancesFileName.substring(index0+1, index1);
+            	patternName = candidateInstancesFileName.substring(index1+1, index2);
     	    } else {    	    
-    		codeExample = candidateInstancesFileName;
     		patternName = candidateInstancesFileName; 
     	    }
     	    
-    	    print(  "# Code example from:           " + codeExample + 
-    		  "\n# Pattern we want to detect:   " + patternName + "\n"); 
+    	    print(  "Analyzed software code:      " + codeExample + 
+    		  "\nPattern we want to detect:   " + patternName + "\n"); 
    	    int count_isPattern    = 0;
     	    int count_isNotPattern = 0;
     	    double global_quantifier_sum   = 0;
@@ -603,7 +601,9 @@ public class PatternDetectionEngine
     		}
     		
     		if ( print_results ) { 
-    		    print("Candidate Instance is pattern?   " + candInstancesList.get(i).isPattern() + " \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
+    		    if(candInstancesList.get(i).isPattern()){
+    			print("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
+    		    }
     		}
     		
     		/**
@@ -632,9 +632,10 @@ public class PatternDetectionEngine
 			print("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
 				"\t " + candInstancesList.get(i).getRoles());
 		}
-	    } else {
-		print("None of the given candidate instances is a design pattern.");
-	    }
+	    } 
+//	    else {
+//		print("None of the given candidate instances is a design pattern.");
+//	    }
 	    print("\n######################################################################################################## \n");
 	    
 	    
