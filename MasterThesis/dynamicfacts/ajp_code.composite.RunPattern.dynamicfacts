@@ -294,7 +294,7 @@
 <exit className="ajp_code/composite/DataCreator" methodName="serialize" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
 <exit className="ajp_code/composite/DataCreator" methodName="main" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
 <exit className="ajp_code/composite/DataCreator" methodName="main" thisObject="ajp_code/composite/DataCreator@0" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
+<entry args="" callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject="">
 <exit callDepth="0" calledByClass="PROGRAM_START" calledByMethod="PROGRAM_START" calledByObject="PROGRAM_START" className="" methodName="" orderNumber="0" thisObject=""/></entry><entry args="|[Ljava.lang.String;@19821f" className="ajp_code/composite/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
 <entry args="|[Ljava.lang.String;@19821f" className="ajp_code/composite/RunPattern" methodName="main" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
 <entry args="" className="ajp_code/composite/DataRetriever" methodName="deserializeData" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="3" >
