@@ -948,7 +948,7 @@ public class PatternDetectionEngine
         int entryCount = 0;
         int exitCount  = 0;
         
-        String filenameXML = filenameTXT.replace(".txt", ".xml");
+        String filenameXML = filenameTXT.replace(".dynamicfacts", ".xml");
         String headerXML   = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + 
 		      	     "<!DOCTYPE entry SYSTEM \"schema.dtd\">" +
 		      	     "<entry args=\"\" calledByClass=\"\" calledByMethod=\"\" calledByObject=\"\" className=\"\" " +
