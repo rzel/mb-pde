@@ -800,6 +800,7 @@ public class PatternDetectionEngine
      */
     private void printResults(LinkedList<CandidateInstance> candInstancesList, NodeList dpDefList, String dp) {
 
+	
 	if ( print_results ){
 	    print("###############################################################################################################################");
 	    print("Design Pattern: " + dp + "\n");
@@ -810,32 +811,34 @@ public class PatternDetectionEngine
 	    if ( debug && dpDefList != null ) print("_|#| dpDefList: length=" + dpDefList.getLength() );
 	}
 	
-	for (int m=0; m < dpDefList.getLength(); m++) {
-	    Node dpDefListNode = dpDefList.item(m);
+	if ( dpDefList != null && dpDefList.getLength() > 0 ) {
+	    for (int m=0; m < dpDefList.getLength(); m++) {
+		Node dpDefListNode = dpDefList.item(m);
 
-	    /*String childCallNextNode = dpDefListNode.getAttributes().getNamedItem("dependentOnNextNode").getNodeValue();
-	    boolean isOrderNextCall  = childCallNextNode.toLowerCase().equals("yes") || childCallNextNode.toLowerCase().equals("true");*/
+		/*String childCallNextNode = dpDefListNode.getAttributes().getNamedItem("dependentOnNextNode").getNodeValue();
+		    boolean isOrderNextCall  = childCallNextNode.toLowerCase().equals("yes") || childCallNextNode.toLowerCase().equals("true");*/
 
-	    String childCallInSubtree = dpDefListNode.getAttributes().getNamedItem("nextCallInSubtree").getNodeValue();
-	    boolean isOrderSubtree = childCallInSubtree.toLowerCase().equals("yes") || childCallInSubtree.toLowerCase().equals("true");
+		String childCallInSubtree = dpDefListNode.getAttributes().getNamedItem("nextCallInSubtree").getNodeValue();
+		boolean isOrderSubtree = childCallInSubtree.toLowerCase().equals("yes") || childCallInSubtree.toLowerCase().equals("true");
 
-	    String inOrder  = dpDefListNode.getAttributes().getNamedItem("nextCallInOrder").getNodeValue();
-	    boolean isOrderRequired = inOrder.toLowerCase().equals("yes") || inOrder.toLowerCase().equals("true");
+		String inOrder  = dpDefListNode.getAttributes().getNamedItem("nextCallInOrder").getNodeValue();
+		boolean isOrderRequired = inOrder.toLowerCase().equals("yes") || inOrder.toLowerCase().equals("true");
 
-	    if ( debug ){
-		/*if ( isOrderNextCall ) {
-		    print("_| dpDefListItem("+m+") dependentOnNextNode ");
-		} else */
-		if ( isOrderSubtree ) {
-		    print("_| dpDefListItem("+m+") nextCallInSubtree ");
-		} else if ( isOrderRequired ) {
-		    print("_| dpDefListItem("+m+") nextCallInOrder == yes ");
-		} else {
-		    print("_| dpDefListItem("+m+") nextCallInOrder == no ");
+		if ( debug ){
+		    /*if ( isOrderNextCall ) {
+			    print("_| dpDefListItem("+m+") dependentOnNextNode ");
+			} else */
+		    if ( isOrderSubtree ) {
+			print("_| dpDefListItem("+m+") nextCallInSubtree ");
+		    } else if ( isOrderRequired ) {
+			print("_| dpDefListItem("+m+") nextCallInOrder == yes ");
+		    } else {
+			print("_| dpDefListItem("+m+") nextCallInOrder == no ");
+		    }
 		}
-	    }
+	    }		
 	}
-	
+
 	print("");
 	
     	if ( print_datastructure && debug ) {
