@@ -84,7 +84,7 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 	    Source source = new DOMSource(this.dynamicFactsDocument);
 	    removeExitTags(this.dynamicFactsDocument);
 	    
-	    filename = filename.replace(".xml", "_transformed.xml");
+	    // filename = filename.replace(".xml", "_transformed.xml");
 	    Result result = new StreamResult(new File(filename));
 	    trans.transform(source, result);
 	    results = true;

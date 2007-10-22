@@ -50,8 +50,8 @@ public class PatternDetectionEngine
     // FILENAMES: default
     private static String report_filename           = "report.txt";		// default filename for report
     private static String XMLsoftware_filename      = "software.xml";
-    private static String XMLdesignpattern_filename = "designpatternsShort.xml";
-    private static String pdeInput_filename 	    = "pdeShort.input";
+    private static String XMLdesignpattern_filename = "designpatterns.xml";
+    private static String pdeInput_filename 	    = "pde.input";
     private static String exception_filename 	    = "exception.txt";
     
    
