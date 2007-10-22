@@ -6,11 +6,8 @@
 <!ATTLIST entry calledByMethod CDATA  #REQUIRED>
 <!ATTLIST entry calledByObject CDATA  #REQUIRED>
 <!ATTLIST entry thisObject CDATA #REQUIRED>
-<!ATTLIST entry nextCallInSubtree CDATA #REQUIRED>
-<!ATTLIST entry nextCallInOrder CDATA #REQUIRED>
-<!ATTLIST entry orderNumber CDATA  #IMPLIED>
 <!ATTLIST entry callDepth CDATA  #REQUIRED>
-<!ATTLIST entry quantifier CDATA #REQUIRED>
+<!ATTLIST entry orderNumber CDATA  #IMPLIED>
 <!ATTLIST exit methodName CDATA #REQUIRED>
 <!ATTLIST exit className CDATA #REQUIRED>
 <!ATTLIST exit thisObject CDATA #REQUIRED>
