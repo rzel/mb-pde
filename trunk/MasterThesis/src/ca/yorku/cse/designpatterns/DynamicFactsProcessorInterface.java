@@ -35,4 +35,12 @@ public interface DynamicFactsProcessorInterface {
      */
     public abstract void parseDocument(Document document);
 
+    /**
+     * Read input file and create XML document.
+     * Write document to XML file.
+     * 
+     * @return true if processing successful, false otherwise
+     */
+    public abstract boolean processDynamicFacts();
+
 }

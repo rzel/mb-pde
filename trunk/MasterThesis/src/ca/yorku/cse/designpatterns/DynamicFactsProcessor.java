@@ -33,6 +33,7 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
      * Variable used for debugging
      */
     private boolean debug;
+    private String filename;
     
     /**
      * Document that stores all dynamic facts. All transformations are
@@ -42,7 +43,13 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
     
     public DynamicFactsProcessor(String filename, boolean debug) {
 	this.debug = debug;
+	this.filename = filename;
+    }
 
+    
+    public boolean processDynamicFacts(){
+	boolean results = false;
+	
 	/*
 	 * Read file and convert XML file into a Document.
 	 * Manipulate the data to fit our format.
@@ -54,6 +61,7 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 	    
 	    parseDocument(this.dynamicFactsDocument);	    
 	    addOrderOfElements(this.dynamicFactsDocument);
+	    results = true;
 	} catch (Exception e) {
 	    System.out.println("DynamicFactsProcessor: Cannot parse document! " + filename + "\n" +
 	    		"Please make sure the the filename is correct. Another reason for this " +
@@ -79,14 +87,16 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 	    filename = filename.replace(".xml", "_transformed.xml");
 	    Result result = new StreamResult(new File(filename));
 	    trans.transform(source, result);
+	    results = true;
 	} catch (Exception e) {
 	    System.out.println("DynamicFactsProcessor: Cannot store document in XML file: " + filename);
 	    e.getStackTrace();
 	    System.exit(1);
 	}
-
+	return results;
     }
-
+    
+    
     /**
      * @param doc2
      */
@@ -288,5 +298,29 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
     	    	System.out.println("");
 	    }
 	}
+    }
+
+    public boolean isDebug() {
+        return debug;
+    }
+
+
+    public void setDebug(boolean debug) {
+        this.debug = debug;
+    }
+
+
+    public String getFilename() {
+        return filename;
+    }
+
+
+    public void setFilename(String filename) {
+        this.filename = filename;
+    }
+
+
+    public void setDynamicFactsDocument(Document dynamicFactsDocument) {
+        this.dynamicFactsDocument = dynamicFactsDocument;
     }
 }

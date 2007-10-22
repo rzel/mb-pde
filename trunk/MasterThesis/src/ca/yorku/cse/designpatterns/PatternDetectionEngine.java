@@ -50,8 +50,8 @@ public class PatternDetectionEngine
     // FILENAMES: default
     private static String report_filename           = "report.txt";		// default filename for report
     private static String XMLsoftware_filename      = "software.xml";
-    private static String XMLdesignpattern_filename = "designpatterns.xml";
-    private static String pdeInput_filename 	    = "pde.input";
+    private static String XMLdesignpattern_filename = "designpatternsShort.xml";
+    private static String pdeInput_filename 	    = "pdeShort.input";
     private static String exception_filename 	    = "exception.txt";
     
    
@@ -503,6 +503,8 @@ public class PatternDetectionEngine
 	 */  
 	if ( print_time ) print("run -> DynamicFactsProcessor      " + System.currentTimeMillis());
 	DynamicFactsProcessorInterface dynFacts  = new DynamicFactsProcessor(dynamicFactsFileName, debug);
+	dynFacts.processDynamicFacts();
+	
 	NodeList dynFactsList = null;
 	Document dynFactsDoc = dynFacts.getDynamicFactsDocument();
 	dynFactsList = dynFactsDoc.getElementsByTagName("entry");
@@ -801,8 +803,11 @@ public class PatternDetectionEngine
 	if ( print_results ){
 	    print("###############################################################################################################################");
 	    print("Design Pattern: " + dp + "\n");
-	    print("Get Design Pattern Class Names:\n" + candInstancesList.get(0).getNames());
-	    if ( debug ) print("_|#| dpDefList: length=" + dpDefList.getLength() );
+	    if ( candInstancesList.size() > 0 ){
+		print("Get Design Pattern Class Names:\n" + candInstancesList.get(0).getNames());
+	    }	    
+	    
+	    if ( debug && dpDefList != null ) print("_|#| dpDefList: length=" + dpDefList.getLength() );
 	}
 	
 	for (int m=0; m < dpDefList.getLength(); m++) {
