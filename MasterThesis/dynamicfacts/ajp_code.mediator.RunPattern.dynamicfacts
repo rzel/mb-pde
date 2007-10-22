@@ -1051,5 +1051,3 @@
 <exit className="ajp_code/mediator/ContactEditorPanel" methodName="updateContact" thisObject="ajp_code/mediator/ContactEditorPanel@17829242" calledByClass="" calledByMethod="" calledByObject=""  callDepth="2" ></exit></entry>
 <exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@17829242" calledByClass="" calledByMethod="" calledByObject=""  callDepth="1" ></exit></entry>
 <exit className="ajp_code/mediator/ContactEditorPanel" methodName="actionPerformed" thisObject="ajp_code/mediator/ContactEditorPanel@17829242" calledByClass="" calledByMethod="" calledByObject=""  callDepth="0" ></exit></entry>
-<entry args="" className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="windowClosing" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="1" >
-<entry args="" className="ajp_code/mediator/MediatorGui$WindowCloseManager" methodName="windowClosing" thisObject=""  calledByClass=""  calledByMethod=""  calledByObject=""  callDepth="2" >
