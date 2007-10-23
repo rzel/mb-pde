@@ -1,9 +1,13 @@
 package ca.yorku.cse.designpatterns;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import javax.xml.parsers.DocumentBuilder;
@@ -43,12 +47,17 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
     
     public DynamicFactsProcessor(String filename, boolean debug) {
 	this.debug = debug;
-	this.filename = filename;
+	this.filename = filename;	
     }
 
     
     public boolean processDynamicFacts(){
 	boolean results = false;
+	
+	/*
+	 * Transform TXT file to XML format
+	 */
+	this.filename = transformToXML( filename );
 	
 	/*
 	 * Read file and convert XML file into a Document.
@@ -97,14 +106,100 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
     }
     
     
+    
+    
+    /**
+     * This method reads the dynamic facts that are produced by 
+     * from a textfile probekit. It will transform the input into
+     * a valid XML file by adding one root node and checking for 
+     * valid opening and closing tags. The XML file will be verified
+     * against an XML schema. 
+     */
+    private String transformToXML(String filenameTXT) {
+	
+	BufferedReader inputStream  = null;
+        PrintWriter    outputStream = null;
+        
+        int entryCount = 0;
+        int exitCount  = 0;
+        
+        String filenameXML = filenameTXT.replace(".dynamicfacts", ".xml");
+        String headerXML   = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + 
+		      	     "<!DOCTYPE entry SYSTEM \"schema.dtd\">" +
+		      	     "<entry args=\"\" calledByClass=\"\" calledByMethod=\"\" calledByObject=\"\" className=\"\" " +
+		      	     "methodName=\"\" thisObject=\"\" callDepth=\"0\" >";
+        String exitTag	   = "<exit calledByClass=\"\" calledByMethod=\"\" calledByObject=\"\" className=\"\" methodName=\"\" thisObject=\"\" callDepth=\"0\"></exit></entry>";
+
+	File factFiles = new File( filenameTXT );
+	if( factFiles.exists() && factFiles.canRead() && factFiles.isFile()) {
+	    try {
+		outputStream = new PrintWriter(new FileWriter( filenameXML ));
+		outputStream.println(headerXML);
+
+		
+		/*
+	         * Read the file, line by line and count all entry tags and exit tags
+	         */
+		inputStream = new BufferedReader(new FileReader( filenameTXT ));
+		String line;
+	        while ((line = inputStream.readLine()) != null) {
+	            outputStream.println(line);
+	            
+	            // count number of entry and exit tags
+	            while ( line.contains( "<entry" ) ) {
+	        	entryCount++;
+	        	line = line.replaceFirst( "<entry" , "");
+	            }
+	            while ( line.contains( "<exit"  ) ) {
+	        	exitCount++;
+	        	line = line.replaceFirst( "<exit" , "");
+	            }
+	        }
+	        
+	        
+	        if ( debug ) 
+	            System.out.println("Entry and Exit tags are equal? " + entryCount + "==" + exitCount );
+	        if ( entryCount > exitCount ){
+	            int diff = entryCount - exitCount;
+	            for (int i=0; i<diff; i++){
+	        	outputStream.println(exitTag);		// add missing closing tags
+	            }
+	        }
+          
+	        outputStream.println(exitTag);			// close single root
+	        
+	        // Close streams
+		if (inputStream != null) {
+		    inputStream.close();
+		}
+		if (outputStream != null) {
+		    outputStream.close();
+		}
+	    
+	    } catch (FileNotFoundException e) {
+		System.err.println("PDE: FileNotFoundException! inputStream ");
+		e.printStackTrace();
+	    } catch (IOException e){
+		System.err.println("PDE: IOException! ");
+		e.printStackTrace();
+	    }
+	}
+	else {
+	    System.err.println("PDE: transformToXML, the provided file does not exist = " + filenameTXT);
+	}
+	return filenameXML;
+    }
+    
+    
+    
     /**
      * @param doc2
      */
     private void removeExitTags(Document doc2) {
-	
-	
+	// TODO	
     }
 
+    
     /**
      * Loop through the Document and add a sequential number to each
      * node. During the detection process we use this number to 
@@ -141,6 +236,7 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
     public Document getDynamicFactsDocument(){
 	return this.dynamicFactsDocument;
     }
+    
     
     
     /** 

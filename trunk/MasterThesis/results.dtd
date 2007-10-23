@@ -1,0 +1,7 @@
+<!ELEMENT results (result*,candidateInstance*)>
+<!ATTLIST result name CDATA #REQUIRED>
+<!ATTLIST result designPattern CDATA #REQUIRED>
+<!ATTLIST result sourceCode CDATA #REQUIRED>
+<!ATTLIST result numberOfHits CDATA #REQUIRED>
+<!ATTLIST candidateInstance threshold CDATA #REQUIRED>
+<!ATTLIST candidateInstance percentage CDATA #REQUIRED>
