@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE entry SYSTEM "results.dtd"><results>
+<result name="candidateinstances/AbstractFactory.AbstractFactory.out" designPattern="AbstractFactory" sourceCode="AbstractFactory" numberOfHits="4:4" >
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.FrenchAddressFactory, 2=ajp_code.AbstractFactory.FrenchPhoneNumber, 3=ajp_code.AbstractFactory.PhoneNumber}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.FrenchAddressFactory, 2=ajp_code.AbstractFactory.FrenchAddress, 3=ajp_code.AbstractFactory.Address}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.USAddressFactory, 2=ajp_code.AbstractFactory.USPhoneNumber, 3=ajp_code.AbstractFactory.PhoneNumber}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.AddressFactory, 1=ajp_code.AbstractFactory.USAddressFactory, 2=ajp_code.AbstractFactory.USAddress, 3=ajp_code.AbstractFactory.Address}" />
+</result>
+<result name="candidateinstances/AbstractFactory.adapter.out" designPattern="adapter" sourceCode="AbstractFactory" numberOfHits="7:8" >
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.FrenchAddressFactory, 1=ajp_code.AbstractFactory.PhoneNumber, 2=ajp_code.AbstractFactory.FrenchPhoneNumber, 3=ajp_code.AbstractFactory.PhoneNumber}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.FrenchAddressFactory, 1=ajp_code.AbstractFactory.Address, 2=ajp_code.AbstractFactory.FrenchAddress, 3=ajp_code.AbstractFactory.Address}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.USAddressFactory, 1=ajp_code.AbstractFactory.PhoneNumber, 2=ajp_code.AbstractFactory.USPhoneNumber, 3=ajp_code.AbstractFactory.PhoneNumber}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.RunPattern, 1=ajp_code.AbstractFactory.AddressFactory, 2=ajp_code.AbstractFactory.USAddressFactory, 3=ajp_code.AbstractFactory.USAddress}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.RunPattern, 1=ajp_code.AbstractFactory.AddressFactory, 2=ajp_code.AbstractFactory.FrenchAddressFactory, 3=ajp_code.AbstractFactory.FrenchPhoneNumber}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.RunPattern, 1=ajp_code.AbstractFactory.AddressFactory, 2=ajp_code.AbstractFactory.FrenchAddressFactory, 3=ajp_code.AbstractFactory.FrenchAddress}" />
+<candidateInstance percentage="100%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.RunPattern, 1=ajp_code.AbstractFactory.AddressFactory, 2=ajp_code.AbstractFactory.USAddressFactory, 3=ajp_code.AbstractFactory.USPhoneNumber}" />
+</result>
+<result name="candidateinstances/AbstractFactory.bridge.out" designPattern="bridge" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+<result name="candidateinstances/AbstractFactory.builder.out" designPattern="builder" sourceCode="AbstractFactory" numberOfHits="0:16" >
+</result>
+<result name="candidateinstances/AbstractFactory.chain.out" designPattern="chain" sourceCode="AbstractFactory" numberOfHits="4:12" >
+<candidateInstance percentage="97%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.RunPattern, 1=ajp_code.AbstractFactory.Address, 2=ajp_code.AbstractFactory.USAddress}" />
+<candidateInstance percentage="97%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.RunPattern, 1=ajp_code.AbstractFactory.Address, 2=ajp_code.AbstractFactory.FrenchAddress}" />
+<candidateInstance percentage="93%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.USAddress, 1=ajp_code.AbstractFactory.Address, 2=ajp_code.AbstractFactory.USAddress}" />
+<candidateInstance percentage="86%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.FrenchAddress, 1=ajp_code.AbstractFactory.Address, 2=ajp_code.AbstractFactory.FrenchAddress}" />
+</result>
+<result name="candidateinstances/AbstractFactory.command.out" designPattern="command" sourceCode="AbstractFactory" numberOfHits="0:16" >
+</result>
+<result name="candidateinstances/AbstractFactory.composite.out" designPattern="composite" sourceCode="AbstractFactory" numberOfHits="0:8" >
+</result>
+<result name="candidateinstances/AbstractFactory.decorator.out" designPattern="decorator" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+<result name="candidateinstances/AbstractFactory.FactoryMethod.out" designPattern="FactoryMethod" sourceCode="AbstractFactory" numberOfHits="0:4" >
+</result>
+<result name="candidateinstances/AbstractFactory.flyweight.out" designPattern="flyweight" sourceCode="AbstractFactory" numberOfHits="0:2" >
+</result>
+<result name="candidateinstances/AbstractFactory.interpreter.out" designPattern="interpreter" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+<result name="candidateinstances/AbstractFactory.iterator.out" designPattern="iterator" sourceCode="AbstractFactory" numberOfHits="0:14" >
+</result>
+<result name="candidateinstances/AbstractFactory.mediator.out" designPattern="mediator" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+<result name="candidateinstances/AbstractFactory.memento.out" designPattern="memento" sourceCode="AbstractFactory" numberOfHits="4:37" >
+<candidateInstance percentage="80%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.FrenchAddress, 1=ajp_code.AbstractFactory.FrenchPhoneNumber, 2=ajp_code.AbstractFactory.FrenchAddressFactory}" />
+<candidateInstance percentage="80%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.FrenchAddress, 1=ajp_code.AbstractFactory.FrenchAddress, 2=ajp_code.AbstractFactory.FrenchAddressFactory}" />
+<candidateInstance percentage="80%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.USAddress, 1=ajp_code.AbstractFactory.USPhoneNumber, 2=ajp_code.AbstractFactory.USAddressFactory}" />
+<candidateInstance percentage="80%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.USAddress, 1=ajp_code.AbstractFactory.USAddress, 2=ajp_code.AbstractFactory.USAddressFactory}" />
+</result>
+<result name="candidateinstances/AbstractFactory.observer.out" designPattern="observer" sourceCode="AbstractFactory" numberOfHits="0:16" >
+</result>
+<result name="candidateinstances/AbstractFactory.prototype.out" designPattern="prototype" sourceCode="AbstractFactory" numberOfHits="0:6" >
+</result>
+<result name="candidateinstances/AbstractFactory.proxy.out" designPattern="proxy" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+<result name="candidateinstances/AbstractFactory.singleton.out" designPattern="singleton" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+<result name="candidateinstances/AbstractFactory.state.out" designPattern="state" sourceCode="AbstractFactory" numberOfHits="1:14" >
+<candidateInstance percentage="81%" threshold="0.8" " roles="{0=ajp_code.AbstractFactory.USAddress, 1=ajp_code.AbstractFactory.Address, 2=ajp_code.AbstractFactory.USAddress}" />
+</result>
+<result name="candidateinstances/AbstractFactory.strategy.out" designPattern="strategy" sourceCode="AbstractFactory" numberOfHits="0:14" >
+</result>
+<result name="candidateinstances/AbstractFactory.templatemethod.out" designPattern="templatemethod" sourceCode="AbstractFactory" numberOfHits="0:4" >
+</result>
+<result name="candidateinstances/AbstractFactory.visitor.out" designPattern="visitor" sourceCode="AbstractFactory" numberOfHits="0:0" >
+</result>
+</results>

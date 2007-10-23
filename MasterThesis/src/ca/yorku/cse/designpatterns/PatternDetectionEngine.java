@@ -39,6 +39,9 @@ public class PatternDetectionEngine
     private static boolean create_report       = false;
     private static boolean debug               = false;
     private static boolean print_time	       = false;
+    private static boolean print_results       = false;
+    private static boolean print_on_cmdline    = false;
+    private static boolean redirectSystemOut   = false;
     
     private static String candidateInstancesFileName = null;
     private static String dynamicFactsFileName       = null;
@@ -48,14 +51,16 @@ public class PatternDetectionEngine
     private static LinkedList<FactFiles> input = null;		// stores the file names of the input file
     
     // FILENAMES: default
+    private static String redirect_filename         = "redirect.txt";		// default filename for redirect
     private static String report_filename           = "report.txt";		// default filename for report
     private static String XMLsoftware_filename      = "software.xml";
     private static String XMLdesignpattern_filename = "designpatterns.xml";
     private static String pdeInput_filename 	    = "pde.input";
     private static String exception_filename 	    = "exception.txt";
+    private static String XMLfilename               = "results.xml";
     
    
-    private static boolean print_results = false;
+    
     private static LinkedList<CandidateInstance> candInstancesList = null;
     private static NodeList dynamicDefinitionList = null;
     private static String[][] res  = new String[23][23];
@@ -98,7 +103,7 @@ public class PatternDetectionEngine
 		    DocumentBuilder db = dbf.newDocumentBuilder();
 		    software_doc = db.parse(new File(XMLsoftware_filename));
 	        } catch (Exception e) {
-	            System.out.println("PatternDetectionEngine: -> " +
+	            print("PatternDetectionEngine: -> " +
 	            		"Constructor(): Cannot read from file: " + XMLsoftware_filename +
 	            		"Please make sure that the file exists.");
 	            e.printStackTrace();
@@ -234,11 +239,7 @@ public class PatternDetectionEngine
 	    }
 	}
 
-	
-	
-	String inputFileName = null;
-	boolean redirectSystemOut = false;
-	String output_filename = "output.txt";		// default redirect output textfile
+
 	
 	/*
 	 * Check arguments that are passed to the main method
@@ -257,19 +258,18 @@ public class PatternDetectionEngine
 		print("Input parameter for -dd " + dynamicDefinitionFileName);
 	    }
 	    else if ( args[i].equals("-input") ) {
-		inputFileName = args[++i];
-		print("Input parameter for -input " + inputFileName);
+		pdeInput_filename = args[++i];
+		print("Input parameter for -input " + pdeInput_filename );
 	    } 
 	    else if ( args[i].equals("-dynamic") ) {
 		// ALL DEFAULT VALUES
-		print("Input parameter for -dynamic none. Run with default values. ");
-		inputFileName = pdeInput_filename;
+		print("Input parameter -dynamic. Run with default values. ");
 		threshold     = Double.parseDouble("0.80");
 		print_stats   = true;
 		create_report = true;
 		print_results = true;
 		print("Default values: "
-			+ " inputFileName " + inputFileName + "\n"
+			+ " inputFileName " + pdeInput_filename + "\n"
 			+ " threshold     " + threshold + "\n"
 			+ " print_stats   " + print_stats + "\n"
 			+ " create_report " + create_report + "\n"
@@ -277,8 +277,8 @@ public class PatternDetectionEngine
 	    }
 	    else if ( args[i].equals("-redirect") ){ 
 		redirectSystemOut = true;
-		output_filename = args[++i];
-		print("Input parameter for -redirect true and output file name " + output_filename);
+		redirect_filename = args[++i];
+		print("Input parameter for -redirect true and output file name " + redirect_filename);
 	    }	
 	    else if ( args[i].equals("-threshold") ){
 		try {
@@ -345,11 +345,27 @@ public class PatternDetectionEngine
 	// Redirect System Output Stream 
 	if ( redirectSystemOut ) { 
 	    try {
-		System.setOut(new PrintStream( new FileOutputStream( output_filename )));
+		System.setOut(new PrintStream( new FileOutputStream( redirect_filename )));
 	    } catch ( FileNotFoundException e ) {
 		e.printStackTrace();
 	    }
 	}
+	
+	
+	// Write results to XML file
+	String XMLheader   = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" 
+				+ "<!DOCTYPE entry SYSTEM \"results.dtd\">" 
+				+ "<results>";
+	String XMLfooter   = "</results>";
+	PrintWriter resultsStream = null;
+	try {
+		resultsStream  = new PrintWriter(new FileWriter( XMLfilename, true ));
+		resultsStream.println( XMLheader );
+	} catch (IOException e) {
+		System.err.println("Exception: Can not write results to file: " + XMLfilename );
+		e.printStackTrace();			    
+	}
+	
 	
 	
 	/*
@@ -371,16 +387,12 @@ public class PatternDetectionEngine
 		System.out.println(ci + "\n" + dy + "\n" + dp + "\n");
 	    }
 
-	    /*
-	     * Transform probekit textfile to valid XML format
-	     */
-	    dy = pde.transformToXML(dy);
-
 
 	    /*
 	     * Run Detection Engine and verify/detect Design Patterns from the fact files
 	     */
-	    pde.run(ci, dy, dp);	 
+	    pde.run(ci, dy, dp, resultsStream);	
+	    
 	    
 	} else if ( candidateInstancesFileName != null || dynamicFactsFileName != null || dynamicDefinitionFileName != null) {
 	    print("Please provide enough input parameters to start the Pattern Detection Engine." +
@@ -395,9 +407,9 @@ public class PatternDetectionEngine
 	/*
 	 * Process -input file
 	 */
-	if ( inputFileName != null ){
+	if ( pdeInput_filename != null ){
 	    
-	    input = pde.readFactFiles( inputFileName );
+	    input = pde.readFactFiles( pdeInput_filename );
 	    
 	    for(int j=0; j<input.size(); j++){
 
@@ -417,28 +429,28 @@ public class PatternDetectionEngine
 		    System.out.println(ci + "\n" + dy + "\n" + dp + "\n");
 		}
 
-		/*
-		 * Transform probekit textfile to valid XML format
-		 */
-		dy = pde.transformToXML(dy);
-		
+	
 		
 		/*
 		 * Run Detection Engine and verify/detect Design Patterns from the fact files
 		 */
-		pde.run(ci, dy, dp);
+		print(ci);
+		pde.run(ci, dy, dp, resultsStream);
 	    }
 	    if ( print_results ) { 
 		System.out.println("################################################################################################");
 		System.out.println("# PDE: # of examples, input.size()=" + input.size() );
 	    }	    
 	}
+	resultsStream.println(XMLfooter);
+	resultsStream.close();
+	
 	
 	
 	/*
 	 * Print all stats for the 23 design patterns
 	 */
-	if ( print_stats || create_report ) {
+	if ( create_report ) {
 
 	    // Redirect System Output Stream for report
 	    try {
@@ -448,21 +460,19 @@ public class PatternDetectionEngine
 		e.printStackTrace();
 	    }
 
-	    //System.out.println("\n\nResults 1");
 	    for (int i=0; i<res.length; i++) {
 		for (int j=0; j<res[i].length; j++){
 		    System.out.print(res[i][j] + " ");
 		}
-		System.out.println();
+		System.out.println("");
 	    }
 
 
-	    //System.out.println("Results 2");
 	    for (int i=0; i<res2.length; i++) {
 		for (int j=0; j<res2[i].length; j++){
 		    System.out.print(res2[i][j] + " ");
 		}
-		System.out.println();
+		System.out.println("");
 	    }	
 	}
     }
@@ -475,9 +485,11 @@ public class PatternDetectionEngine
      * @param ci File that contains the candidate instances
      * @param dy File that contains the dynamic facts extracted with Probekit
      * @param dd File that contains the dynamic definition of the design pattern
+     * @param resultsStream for results output
      */
-    public void run(String ci, String dy, String dd) {
-	if ( print_time ) print("run ->                            " + System.currentTimeMillis());
+    public void run(String ci, String dy, String dd, PrintWriter resultsStream) {
+	if ( print_time ) 
+	    print("run ->                            " + System.currentTimeMillis());
 	
 	// Set filenames
 	candidateInstancesFileName   = ci;
@@ -489,11 +501,12 @@ public class PatternDetectionEngine
 	 * CandidateInstanceProcessor
 	 * -> need access to LinkedList with all objects
 	 */
-	if ( print_time ) print("run -> CandidateInstanceComposite " + System.currentTimeMillis());
+	if ( print_time ) 
+	    print("run -> CandidateInstanceComposite " + System.currentTimeMillis());	
 	CandidateInstanceListInterface candInstances = new CandidateInstanceList(candidateInstancesFileName, debug);
-	candInstancesList = candInstances.getCandidateInstancesList();
+	candInstancesList = candInstances.getCandidateInstancesList();	
 	if ( debug && !candInstancesList.isEmpty() ) 
-	    System.out.println("candInstancesList size " + candInstancesList.size());
+	    print("candInstancesList size " + candInstancesList.size());
 
 	
 	/*
@@ -501,7 +514,8 @@ public class PatternDetectionEngine
 	 * -> need access to complete document that
 	 *    represents the dynamic facts of the software
 	 */  
-	if ( print_time ) print("run -> DynamicFactsProcessor      " + System.currentTimeMillis());
+	if ( print_time ) 
+	    print("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
 	DynamicFactsProcessorInterface dynFacts  = new DynamicFactsProcessor(dynamicFactsFileName, debug);
 	dynFacts.processDynamicFacts();
 	
@@ -509,14 +523,15 @@ public class PatternDetectionEngine
 	Document dynFactsDoc = dynFacts.getDynamicFactsDocument();
 	dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 	if( debug ) 
-	    System.out.println("dynFactsList Length: " + dynFactsList.getLength());
+	    print("dynFactsList Length: " + dynFactsList.getLength());
 	
 		
 	/*
 	 * Validates the matches found
 	 */
     	ValidatorInterface validator = new Validator();
-	if ( print_time ) print("run -> validator.validate         " + System.currentTimeMillis());
+	if ( print_time ) 
+	    print("run -> validator.validate         " + System.currentTimeMillis());
     	validator.validate(dynamicDefinitionFileName, dynFactsList, candInstancesList, debug, print_datastructure);
     	dynamicDefinitionList = validator.getDynamicDefinitionList();
     	candInstancesList = validator.getCandidateInstancesList();
@@ -527,12 +542,14 @@ public class PatternDetectionEngine
     	 * - check "thisObject"
     	 * - check "calledByObject"
     	 */
-	if ( print_time ) print("run -> validator.validateObjects  " + System.currentTimeMillis());
+	if ( print_time ) 
+	    print("run -> validator.validateObjects  " + System.currentTimeMillis());
     	validator.validateObjects(candInstancesList, dynamicDefinitionList);
     	candInstancesList = validator.getCandidateInstancesList();
     	
     	
-	if ( print_time ) print("run -> printResults               " + System.currentTimeMillis());
+	if ( print_time ) 
+	    print("run -> printResults               " + System.currentTimeMillis());
 	/*
 	 * Print results
 	 */
@@ -570,6 +587,7 @@ public class PatternDetectionEngine
     		patternName = candidateInstancesFileName; 
     	    }
     	    
+    	      	    
     	    print(  "Analyzed software code:      " + codeExample + 
     		  "\nPattern we want to detect:   " + patternName + "\n"); 
    	    int count_isPattern    = 0;
@@ -578,6 +596,7 @@ public class PatternDetectionEngine
     	    double global_quantifier_match = 0; 
     	    
     	    for (int i=0; i<candInstancesList.size(); i++) {
+    		System.out.print("-> ");
     		
     		/*
     		 * Changed Version of program output:
@@ -611,7 +630,8 @@ public class PatternDetectionEngine
     		double quantify = global_quantifier_match / global_quantifier_sum;
     		double number = (number_of_definition_matches/number_of_definitions) * quantify;
     		NumberFormat nf = NumberFormat.getPercentInstance();
-    		if ( debug ) print("number > threshold "  + number + "  "+  threshold);
+    		if ( debug ) 
+    		    print("number > threshold "  + number + "  "+  threshold);
     		if ( number >= threshold ) {	
     		    candInstancesList.get(i).setIsPattern(true);
     		    candInstancesList.get(i).setPercentage(number);
@@ -636,6 +656,7 @@ public class PatternDetectionEngine
     		}    	    
     	    }   	    
 		
+    	    
 	    /*
 	     * Since we have the percentage for all possible candidate
 	     * instances, we can rank the results in the candInstancesList
@@ -643,20 +664,42 @@ public class PatternDetectionEngine
 	    rank_results( candInstancesList );
     
 	    NumberFormat nf = NumberFormat.getPercentInstance();
- 	    print("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
+ 	    if ( print_on_cmdline )
+ 		print("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
 	    if ( count_isPattern > 0){
-		print("Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: " + 
+		if ( print_on_cmdline )
+		    print("Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: " + 
 			candInstancesList.getFirst().getNames() + "\n");		
 		for (int i=0;i<candInstancesList.size();i++){
 		    if (candInstancesList.get(i).isPattern() )
-			print("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
+			if ( print_on_cmdline )
+			    print("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
 				"\t " + candInstancesList.get(i).getRoles());
 		}
 	    } 
-//	    else {
-//		print("None of the given candidate instances is a design pattern.");
-//	    }
-	    print("\n######################################################################################################## \n");
+	    
+	    
+	    /*
+	     * Store results in XML file
+	     */ 
+	    resultsStream.println("<result name=\"" + candidateInstancesFileName 
+		    + "\" designPattern=\"" + patternName 
+		    + "\" sourceCode=\"" + codeExample
+		    + "\" numberOfHits=\"" + count_isPattern 
+		    + "/" + candInstancesList.size() + "\" >");
+	    
+	    for (int i=0; i<candInstancesList.size(); i++ ){		    
+		if( candInstancesList.get(i).isPattern() ){
+		    resultsStream.println("<candidateInstance percentage=\"" 
+			    + nf.format( candInstancesList.get(i).getPercentage() ) 
+			    + "\" threshold=\"" + threshold + "\" " 
+			    + "\" roles=\"" + candInstancesList.get(i).getRoles() + "\" />" );
+		}
+	    }
+	    resultsStream.println("</result>");	    
+			
+	    if ( print_on_cmdline )
+		print("\n######################################################################################################## \n");
 	    
 	    
  	    
@@ -684,7 +727,8 @@ public class PatternDetectionEngine
     	    }
     	    
   	} else if ( print_stats && candInstancesList.isEmpty() ) {
-    	    print("Stats empty():  " + candidateInstancesFileName);
+  	  if ( print_on_cmdline )
+  	      print("Stats empty():  " + candidateInstancesFileName);
     	}
     } // End of run method   	
 
@@ -801,6 +845,7 @@ public class PatternDetectionEngine
     private void printResults(LinkedList<CandidateInstance> candInstancesList, NodeList dpDefList, String dp) {
 
 	
+	
 	if ( print_results ){
 	    print("###############################################################################################################################");
 	    print("Design Pattern: " + dp + "\n");
@@ -815,9 +860,6 @@ public class PatternDetectionEngine
 	    for (int m=0; m < dpDefList.getLength(); m++) {
 		Node dpDefListNode = dpDefList.item(m);
 
-		/*String childCallNextNode = dpDefListNode.getAttributes().getNamedItem("dependentOnNextNode").getNodeValue();
-		    boolean isOrderNextCall  = childCallNextNode.toLowerCase().equals("yes") || childCallNextNode.toLowerCase().equals("true");*/
-
 		String childCallInSubtree = dpDefListNode.getAttributes().getNamedItem("nextCallInSubtree").getNodeValue();
 		boolean isOrderSubtree = childCallInSubtree.toLowerCase().equals("yes") || childCallInSubtree.toLowerCase().equals("true");
 
@@ -825,9 +867,6 @@ public class PatternDetectionEngine
 		boolean isOrderRequired = inOrder.toLowerCase().equals("yes") || inOrder.toLowerCase().equals("true");
 
 		if ( debug ){
-		    /*if ( isOrderNextCall ) {
-			    print("_| dpDefListItem("+m+") dependentOnNextNode ");
-			} else */
 		    if ( isOrderSubtree ) {
 			print("_| dpDefListItem("+m+") nextCallInSubtree ");
 		    } else if ( isOrderRequired ) {
@@ -941,89 +980,14 @@ public class PatternDetectionEngine
     }
     
     
-    /**
-     * This method reads the dynamic facts that are produced by 
-     * from a textfile probekit. It will transform the input into
-     * a valid XML file by adding one root node and checking for 
-     * valid opening and closing tags. The XML file will be verified
-     * against an XML schema. 
-     */
-    private String transformToXML(String filenameTXT) {
-	
-	BufferedReader inputStream  = null;
-        PrintWriter    outputStream = null;
-        
-        int entryCount = 0;
-        int exitCount  = 0;
-        
-        String filenameXML = filenameTXT.replace(".dynamicfacts", ".xml");
-        String headerXML   = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" + 
-		      	     "<!DOCTYPE entry SYSTEM \"schema.dtd\">" +
-		      	     "<entry args=\"\" calledByClass=\"\" calledByMethod=\"\" calledByObject=\"\" className=\"\" " +
-		      	     "methodName=\"\" thisObject=\"\" callDepth=\"0\" >";
-        String exitTag	   = "<exit calledByClass=\"\" calledByMethod=\"\" calledByObject=\"\" className=\"\" methodName=\"\" thisObject=\"\" callDepth=\"0\"></exit></entry>";
-
-	File factFiles = new File(filenameTXT);
-	if( factFiles.exists() && factFiles.canRead() && factFiles.isFile()) {
-	    try {
-		outputStream = new PrintWriter(new FileWriter(filenameXML));
-		outputStream.println(headerXML);
-
-		
-		/*
-	         * Read the file, line by line and count all entry tags and exit tags
-	         */
-		inputStream = new BufferedReader(new FileReader(filenameTXT));
-		String line;
-	        while ((line = inputStream.readLine()) != null) {
-	            outputStream.println(line);
-	            
-	            // count number of entry and exit tags
-	            if ( line.startsWith( "<entry" ) ) entryCount++;
-	            if ( line.startsWith( "<exit"  ) ) exitCount++;
-
-	        }
-	        
-	        if ( debug ) 
-	            print("Entry and Exit tags are equal? " + entryCount + "==" + exitCount );
-	        if ( entryCount > exitCount ){
-	            int diff = entryCount - exitCount;
-	            for (int i=0; i<diff; i++){
-	        	outputStream.println(exitTag);		// add missing closing tags
-	            }
-	        }
-          
-	        outputStream.println(exitTag);			// close single root
-	        
-	        // Close streams
-		if (inputStream != null) {
-		    inputStream.close();
-		}
-		if (outputStream != null) {
-		    outputStream.close();
-		}
-	    
-	    } catch (FileNotFoundException e) {
-		System.err.println("PDE: FileNotFoundException! inputStream ");
-		e.printStackTrace();
-	    } catch (IOException e){
-		System.err.println("PDE: IOException! ");
-		e.printStackTrace();
-	    }
-	}
-	else {
-	    System.err.println("PDE: transformToXML, the provided file does not exist = " + filenameTXT);
-	}
-	return filenameXML;
-    }
-    
+   
 
     /**
      * Helper method that allows shorter code for printing text to the command line
      * 
      * @param string to be printed
      */
-    static void print(String string){
+    public static void print(String string){
 	System.out.println(string);
     }
   
