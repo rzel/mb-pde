@@ -771,7 +771,7 @@ public class PatternDetectionEngine
 		if( candInstancesList.get(i).isPattern() ){
 		    resultsStream.println("<candidateInstance percentage=\"" 
 			    + nf.format( candInstancesList.get(i).getPercentage() ) 
-			    + "\" threshold=\"" + threshold + "\""  
+			    + "\" threshold=\"" + threshold   
 			    + "\" roles=\"" + candInstancesList.get(i).getRoles() + "\" />" );
 		}
 	    }
