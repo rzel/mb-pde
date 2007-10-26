@@ -87,13 +87,16 @@ public class PatternDetectionEngine
 	    pde.usage(true);
 	    System.exit(1);
 	}
+	
+	@SuppressWarnings("unused")
+	boolean staticSet = false;
 
 	/*
 	 * Check arguments for static analysis
 	 */
 	for(int i=0; i<args.length; i++){
 	    if ( args[i].equals("-static") ){
-		
+		staticSet = true;
 		/*
 		 * Read dynamic definition XML file and store in Document
 		 *
@@ -240,7 +243,9 @@ public class PatternDetectionEngine
 		System.exit(1);
 	    }
 	}
-
+	
+	if ( staticSet = true)
+	    System.exit(1);
 
 	
 	/*
@@ -669,7 +674,7 @@ public class PatternDetectionEngine
     	    
     	      	    
     	    print(  "Analyzed software code:      " + codeExample + 
-    		  "\nPattern we want to detect:   " + patternName + "\n"); 
+    		  "\nPattern we want to detect:   " + patternName); 
    	    int count_isPattern    = 0;
     	    int count_isNotPattern = 0;
     	    double global_quantifier_sum   = 0;
@@ -724,6 +729,7 @@ public class PatternDetectionEngine
     			print("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
     		    }
     		}
+    		print("");
     		
     		/**
     		 * isPattern is set when ALL definitions are matched within the threshold are matched
