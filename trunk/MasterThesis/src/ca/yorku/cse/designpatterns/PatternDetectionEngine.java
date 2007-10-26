@@ -15,11 +15,13 @@ import java.util.LinkedList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
 
 /**
@@ -57,7 +59,7 @@ public class PatternDetectionEngine
     private static String XMLdesignpattern_filename = "designpatterns.xml";
     private static String pdeInput_filename 	    = "pde.input";
     private static String exception_filename 	    = "exception.txt";
-    private static String XMLfilename               = "results.xml";
+    private static String XMLresultsFilename        = "results.xml";
     
    
     
@@ -330,6 +332,11 @@ public class PatternDetectionEngine
 	    else if ( args[i].equals("-static") ){
 		print("Input parameter for -static true");
 	    }
+	    else if ( args[i].equals("-summary") ){
+		print("Input parameter for -summary true");
+		pde.summary( XMLresultsFilename );
+		System.exit(1);
+	    }
 	    else if (args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 		pde.usage(true);
 		System.exit(1);
@@ -359,10 +366,15 @@ public class PatternDetectionEngine
 	String XMLfooter   = "</results>";
 	PrintWriter resultsStream = null;
 	try {
-		resultsStream  = new PrintWriter(new FileWriter( XMLfilename, true ));
+	    	File x = new File ( XMLresultsFilename );
+	    	if ( x.exists() ) {
+	    	    print("Results file deleted: " + XMLresultsFilename );
+	    	    x.delete();
+	    	}
+		resultsStream  = new PrintWriter(new FileWriter( XMLresultsFilename, true ));
 		resultsStream.println( XMLheader );
 	} catch (IOException e) {
-		System.err.println("Exception: Can not write results to file: " + XMLfilename );
+		System.err.println("Exception: Can not write results to file: " + XMLresultsFilename );
 		e.printStackTrace();			    
 	}
 	
@@ -478,6 +490,74 @@ public class PatternDetectionEngine
     }
 	
 	
+    /**
+     * This method formats the results of the static and 
+     * dynamic analysis by parsing the XML results file
+     * and grouping the results by software
+     * 
+     * @param XMLfile
+     */
+    @SuppressWarnings("unchecked")
+    private void summary(String XMLfile) {
+	DocumentBuilderFactory dbfResults = DocumentBuilderFactory.newInstance();
+	DocumentBuilder dbResults;
+	Document docResults = null;
+	
+	DocumentBuilderFactory dbfSoftware = DocumentBuilderFactory.newInstance();
+	DocumentBuilder dbSoftware;
+	Document docSoftware = null;
+	try {
+	    dbResults  = dbfResults.newDocumentBuilder();
+	    docResults = dbResults.parse( new File( XMLfile ) );
+	    
+	    dbSoftware  = dbfSoftware.newDocumentBuilder();
+	    docSoftware = dbSoftware.parse( new File( XMLsoftware_filename ) );
+	    
+	} catch (ParserConfigurationException e) {
+	    e.printStackTrace();
+	} catch (SAXException e) {
+	    e.printStackTrace();
+	} catch (IOException e) {
+	    e.printStackTrace();
+	} 
+	
+	NodeList allResults = docResults.getElementsByTagName("result");
+	NodeList allSoftware = docSoftware.getElementsByTagName("software");
+	LinkedList[] groupedResults = new LinkedList[ allSoftware.getLength() ];
+	
+	// loop over all results and group them in a linked list by the attribute software
+	for (int i=0; i < allSoftware.getLength(); i++ ) {
+	    Node softwareNode = allSoftware.item(i).getAttributes().getNamedItem("name");
+	    String softwareName = softwareNode.getNodeValue();
+	    groupedResults[i] = new LinkedList<Node>();
+	    LinkedList<Node> list = groupedResults[i];
+	    for (int j=0; j < allResults.getLength(); j++ ) {
+		Node sourceCodeNode = allResults.item(j).getAttributes().getNamedItem("sourceCode");
+		Node resNode = allResults.item(j);
+		String sourceCodeName = sourceCodeNode.getNodeValue();
+		if ( softwareName.equalsIgnoreCase(sourceCodeName) ) {
+		    list.add( resNode );
+		}
+	    }
+	}
+	
+	print("\nPrint Summary: ");
+	print("Verified/Total \t Source Code \t\t Design Pattern \n");
+	for (int i = 0; i < groupedResults.length; i++) {
+	    LinkedList<Node> listX = groupedResults[i];
+	    for (int j = 0; j < listX.size(); j++) {		
+		String designP    = listX.get(j).getAttributes().getNamedItem("designPattern").getNodeValue();
+		String numHitsX   = listX.get(j).getAttributes().getNamedItem("numberOfHits").getNodeValue();
+		String sourceCode = listX.get(j).getAttributes().getNamedItem("sourceCode").getNodeValue();
+		print(numHitsX + " \t\t " + sourceCode + " \t " + designP );
+	    }
+	    print("");
+	}
+	
+
+    }
+
+
     /**
      * Processes the input files and starts the detection of the 
      * design pattern given the input parameters.
@@ -691,7 +771,7 @@ public class PatternDetectionEngine
 		if( candInstancesList.get(i).isPattern() ){
 		    resultsStream.println("<candidateInstance percentage=\"" 
 			    + nf.format( candInstancesList.get(i).getPercentage() ) 
-			    + "\" threshold=\"" + threshold + "\" " 
+			    + "\" threshold=\"" + threshold + "\""  
 			    + "\" roles=\"" + candInstancesList.get(i).getRoles() + "\" />" );
 		}
 	    }
