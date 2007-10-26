@@ -596,8 +596,7 @@ public class PatternDetectionEngine
     	    double global_quantifier_match = 0; 
     	    
     	    for (int i=0; i<candInstancesList.size(); i++) {
-    		System.out.print("-> ");
-    		
+   		
     		/*
     		 * Changed Version of program output:
     		 * Output is in percent, relative to the quantifier
