@@ -1,0 +1,6 @@
+REM unnamed_probe
+PROBE
+RULE jdomain/jdraw/gui/* * * * include
+RULE * * * * exclude
+REF ONEXIT jdraw_probe$Probe_0 _exit (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V className,methodName,thisObject
+REF ONENTRY jdraw_probe$Probe_0 _entry (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;[Ljava/lang/Object;)V className,methodName,thisObject,args
