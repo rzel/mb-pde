@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE software SYSTEM "software_schema.dtd">
+
+<properties grok="grok" javex="javex" ql="ql" shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
+	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">
+	<software directory="jdraw2/" mainClass="Main.java" name="jdraw" dynamicFactsFile="dynamicfacts/jdomain.jdraw.gui.MainFrame1.dynamicfacts" />
+</properties>
+
+
