@@ -1,0 +1,5 @@
+<!ELEMENT designpattern_list (designpattern*)>
+<!ATTLIST designpattern name CDATA #REQUIRED>
+<!ATTLIST designpattern ql_script CDATA #REQUIRED>
+<!ATTLIST designpattern pattern_roles CDATA #REQUIRED>
+<!ATTLIST designpattern dynamicDefinitionFile CDATA #REQUIRED>
