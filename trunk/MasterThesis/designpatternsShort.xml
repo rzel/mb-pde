@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE software SYSTEM "designpattern_schema.dtd">
-
-<designpattern_list>
-	<designpattern name="adapter" pattern_roles="// client target adapter adaptee" ql_script="ql/adapter.ql" dynamicDefinitionFile="dynamicdefinitions/adapter.xml" />
-</designpattern_list>
