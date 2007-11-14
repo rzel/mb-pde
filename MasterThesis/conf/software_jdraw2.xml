@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE software SYSTEM "software_schema.dtd">
+<!DOCTYPE software SYSTEM "../software_schema.dtd">
 
 <properties grok="grok" javex="javex" ql="ql" shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
 	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">

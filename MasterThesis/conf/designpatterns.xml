@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE software SYSTEM "designpattern_schema.dtd">
+<!DOCTYPE software SYSTEM "../designpattern_schema.dtd">
 
 <designpattern_list>
 	<designpattern name="AbstractFactory" pattern_roles="// abstractFactory concreteFactory product abstractProduct " ql_script="ql/AbstractFactory.ql" dynamicDefinitionFile="dynamicdefinitions/AbstractFactory.xml" />
