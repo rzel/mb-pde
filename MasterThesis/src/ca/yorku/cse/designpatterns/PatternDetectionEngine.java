@@ -98,8 +98,8 @@ public class PatternDetectionEngine
 	    	exception_filename 	      = prop.getProperty("output.exception.txt.file");			// "exception.txt"
 	    	XMLresultsFilename        = prop.getProperty("output.results.xml.file");			// "results.xml"
 	    } catch (IOException e) {
-	    	print("Could not find properties file. Please check your conf/run.properties file. " +
-	    	"Using default values.");
+	    	print("Could not find properties file. Please check your conf/run.properties file.");
+	    	System.exit(1);
 	    }
 
 		
@@ -424,8 +424,8 @@ public class PatternDetectionEngine
 			/*
 			 * Run Detection Engine and verify/detect Design Patterns from the fact files
 			 */
-			pde.run(ci, dy, dp, resultsStream);	
-
+			pde.run2(ci, dy, dp, resultsStream);
+			System.exit(1);
 
 		} else if ( candidateInstancesFileName != null || dynamicFactsFileName != null || dynamicDefinitionFileName != null) {
 			print("Please provide enough input parameters to start the Pattern Detection Engine." +
@@ -468,7 +468,7 @@ public class PatternDetectionEngine
 				 * Run Detection Engine and verify/detect Design Patterns from the fact files
 				 */
 				print(ci);
-				pde.run(ci, dy, dp, resultsStream);
+				pde.run2(ci, dy, dp, resultsStream);
 			}
 			if ( print_results ) { 
 				System.out.println("################################################################################################");
@@ -588,6 +588,219 @@ public class PatternDetectionEngine
 		}
 	}
 
+	
+	public void run2(String candidateInstancesFileName, String dynamicFactsFileName, String dynamicDefinitionFileName, PrintWriter resultsStream ) {
+	
+		/**
+		 * get LinkedList with Candidate Instances
+		 */
+		CandidateInstanceListInterface candInstances = new CandidateInstanceList(candidateInstancesFileName, debug);
+		candInstancesList = candInstances.getCandidateInstancesList();
+		NodeList dpDefList = null;
+		
+		DynamicFactsProcessorImplementation dynFacts = new DynamicFactsProcessorImplementation(dynamicFactsFileName, true);
+		for (int i=0; i < candInstancesList.size(); i++)
+		{
+			/** 
+			 * Loop over all Candidate instances.
+			 * Convert dynamic definition and candidate instance.
+			 * Store all matching nodes in storeMatchedFacts datastructure.
+			 */
+			DynamicDefinitionConverterInterface dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i), false);
+			Document dpDefDoc = dpDef.getDesignPatternDocument();
+			dpDefList = dpDefDoc.getElementsByTagName("entry");
+
+			LinkedList[] storeMatchedRoles = new LinkedList[ dpDefList.getLength() ];
+	
+			for (int j = 0; j < dpDefList.getLength(); j++) {
+				if (debug){
+					System.out.println(j + " run2:");
+					System.out.println(j + " 1: " + dpDefList.item(j).getAttributes().getNamedItem("className").getNodeValue());
+					System.out.println(j + " 2: " + dpDefList.item(j).getAttributes().getNamedItem("calledByClass").getNodeValue());
+					System.out.println(j + " 3: " + dpDefList.item(j).getAttributes().getNamedItem("args").getNodeValue());
+				}
+				LinkedList<Node> list = dynFacts.firstLevel( dpDefList.item(j) );
+				storeMatchedRoles[j]  = list;
+				if ( list != null && !list.isEmpty() ) {
+					print("  run2: print list ");
+					print(list.getFirst().getAttributes().getNamedItem("className").getNodeValue() );
+				} else {
+					print("  run2: print list is empty ");
+				}
+			}	
+			candInstancesList.get(i).setMatchedFactsDatastructure( storeMatchedRoles );
+
+			
+
+			
+			// TODO: Validate Order of Objects
+			
+			
+			
+			/**
+			 * Validate Objects
+			 */
+			Validator validator = new Validator();
+			validator.validateObjects(candInstancesList, dpDefList);
+			candInstancesList = validator.getCandidateInstancesList();
+		}
+		
+		
+		String codeExample = candidateInstancesFileName;
+		String patternName = null;   	    
+		if ( candidateInstancesFileName.contains("/") && 
+				candidateInstancesFileName.contains(".out") )
+		{
+			int index0 = candidateInstancesFileName.indexOf("/");
+			int index1 = candidateInstancesFileName.indexOf(".");
+			int index2 = candidateInstancesFileName.indexOf(".out");
+			codeExample = candidateInstancesFileName.substring(index0+1, index1);
+			patternName = candidateInstancesFileName.substring(index1+1, index2);
+		} else {    	    
+			patternName = candidateInstancesFileName; 
+		}
+
+
+		print(  "Analyzed software code:      " + codeExample + 
+				"\nPattern we want to detect:   " + patternName); 
+		
+		int count_isPattern    = 0;
+		int count_isNotPattern = 0;
+		double global_quantifier_sum   = 0;
+		double global_quantifier_match = 0; 
+
+		for (int i=0; i<candInstancesList.size(); i++) {
+
+			/*
+			 * Changed Version of program output:
+			 * Output is in percent, relative to the quantifier
+			 */
+			LinkedList[] facts_list = candInstancesList.get(i).getMatchedFactsDatastructure();
+			double number_of_definitions = facts_list.length;
+			double number_of_definition_matches = 0;
+
+			for (int k=0; k<facts_list.length; k++) {
+				double quantifier;
+				try {
+					String q = dpDefList.item(k).getAttributes().getNamedItem("quantifier").getNodeValue();
+					quantifier = Double.parseDouble(q);
+				} catch (Exception e) {
+					quantifier = (double)1;
+					print("Please provide a quantifier in XML definition = " + dynamicDefinitionFileName);
+				} 
+				if ( !facts_list[k].isEmpty() && !facts_list[k].equals(null)){
+
+					global_quantifier_sum = global_quantifier_sum + quantifier;
+					if ( facts_list[k].size() > 0 ) {
+						number_of_definition_matches++;
+						global_quantifier_match = global_quantifier_match + quantifier;
+					}
+				}
+			}
+
+			if ( global_quantifier_sum == 0 ) global_quantifier_sum=1;
+
+			double quantify = global_quantifier_match / global_quantifier_sum;
+			double number = (number_of_definition_matches/number_of_definitions) * quantify;
+			NumberFormat nf = NumberFormat.getPercentInstance();
+			if ( debug ) 
+				print("number > threshold "  + number + "  "+  threshold);
+			if ( number >= threshold ) {	
+				candInstancesList.get(i).setIsPattern(true);
+				candInstancesList.get(i).setPercentage(number);
+			} else {
+				candInstancesList.get(i).setIsPattern(false);
+				candInstancesList.get(i).setPercentage(number);
+			}
+
+			if ( print_results ) { 
+				if(candInstancesList.get(i).isPattern()){
+					print("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
+				}
+			}
+			print("");
+
+			/**
+			 * isPattern is set when ALL definitions are matched within the threshold are matched
+			 */ 
+			if ( candInstancesList.get(i).isPattern() ) {
+				count_isPattern++;
+			} else {
+				count_isNotPattern++;
+			}    	    
+		}   	    
+
+
+		/*
+		 * Since we have the percentage for all possible candidate
+		 * instances, we can rank the results in the candInstancesList
+		 */
+		rank_results( candInstancesList );
+
+		NumberFormat nf = NumberFormat.getPercentInstance();
+		if ( print_on_cmdline )
+			print("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
+		if ( count_isPattern > 0){
+			if ( print_on_cmdline )
+				print("Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: " + 
+						candInstancesList.getFirst().getNames() + "\n");		
+			for (int i=0;i<candInstancesList.size();i++){
+				if (candInstancesList.get(i).isPattern() )
+					if ( print_on_cmdline )
+						print("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
+								"\t " + candInstancesList.get(i).getRoles());
+			}
+		} 
+
+
+		/*
+		 * Store results in XML file
+		 */ 
+		resultsStream.println("<result name=\"" + candidateInstancesFileName 
+				+ "\" designPattern=\"" + patternName 
+				+ "\" sourceCode=\"" + codeExample
+				+ "\" numberOfHits=\"" + count_isPattern 
+				+ "/" + candInstancesList.size() + "\" >");
+
+		for (int i=0; i<candInstancesList.size(); i++ ){		    
+			if( candInstancesList.get(i).isPattern() ){
+				resultsStream.println("<candidateInstance percentage=\"" 
+						+ nf.format( candInstancesList.get(i).getPercentage() ) 
+						+ "\" threshold=\"" + threshold   
+						+ "\" roles=\"" + candInstancesList.get(i).getRoles() + "\" />" );
+			}
+		}
+		resultsStream.println("</result>");	    
+
+		if ( print_on_cmdline )
+			print("\n######################################################################################################## \n");
+
+
+
+		// Print out summary of isPattern/isNotPattern
+		if( pointer_y < res.length ){
+			if ( pointer_y == 0) {
+				res[pointer_x][pointer_y]  = codeExample;
+				res2[pointer_x][pointer_y] = codeExample;
+				pointer_y++;
+			}
+			res[pointer_x][pointer_y]  = count_isPattern + "";
+			res2[pointer_x][pointer_y] = count_isNotPattern + "";
+			pointer_y++;
+		} else {
+			pointer_x++;
+			pointer_y=0;
+			if ( pointer_y == 0) {
+				res[pointer_x][pointer_y]  = codeExample;
+				res2[pointer_x][pointer_y] = codeExample;
+				pointer_y++;
+			}
+			res[pointer_x][pointer_y]  = count_isPattern + "";
+			res2[pointer_x][pointer_y] = count_isNotPattern + "";
+			pointer_y++;
+		}
+	}
+	
 
 	/**
 	 * Processes the input files and starts the detection of the 

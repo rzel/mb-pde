@@ -14,7 +14,7 @@ import java.util.LinkedList;
 public interface CandidateInstanceListInterface {
 
     /** 
-     * Getter method that returns the list of all candidate instances.
+     * Getter method that returns the list of all candidate instances read from the input file.
      * 
      * @return LinkedList of static fact objects
      */
