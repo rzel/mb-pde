@@ -414,10 +414,128 @@ public class Validator implements ValidatorInterface {
 
 
 
+
+	public LinkedList<CandidateInstance> validateTemporalRestriction(LinkedList<CandidateInstance> candidateInstancesList, NodeList designPatternDefinitionList, String dynamicFactsFileName) {
+		this.candInstancesList = candidateInstancesList;
+		this.dpDefList         = designPatternDefinitionList;
+
+		/**
+		 * For all candidate instances that are currently recorded as a
+		 * design pattern get the storedMatchedFacts datastructure 
+		 * and do the following.
+		 * 
+		 * Loop through the design pattern definition list and check all 
+		 * conditions for the attributes "thisObject" and "calledByObject"
+		 */
+		for(int i=0; i<candInstancesList.size(); i++ ){
+			CandidateInstance caIn = candInstancesList.get(i);
+			if ( caIn.isPattern() ) {
+				LinkedList[] matchedFacts = caIn.getMatchedFactsDatastructure();
+
+				for (int j=0; j<dpDefList.getLength(); j++ ) {
+					
+					// check nodes if they have to appear in the subtree
+					String inSubtree = dpDefList.item(j).getAttributes().getNamedItem("nextCallInSubtree").getNodeValue();
+					boolean isSubtreeRequired = inSubtree.toLowerCase().equals("yes") || inSubtree.toLowerCase().equals("true");
+					
+					// check nodes if order is required
+					String inOrder  = dpDefList.item(j).getAttributes().getNamedItem("nextCallInOrder").getNodeValue();
+					boolean isOrderRequired = inOrder.toLowerCase().equals("yes") || inOrder.toLowerCase().equals("true");
+					if ( isOrderRequired || isSubtreeRequired ) {
+						int minOrder = Integer.MAX_VALUE ;
+						for (int k = 0; k < matchedFacts[j].size(); k++) {
+							int node1OrderNumber = Integer.parseInt( ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("orderNumber").getNodeValue() );
+							if ( node1OrderNumber < minOrder ) {
+								minOrder = node1OrderNumber;
+							}
+						}
+						
+						if ( matchedFacts.length < j+1 ) {
+							// leave FOR loop
+							break;
+						}
+						
+						for (int k = 0; k < matchedFacts[j+1].size(); k++) {
+							int node2OrderNumber = Integer.parseInt( ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("orderNumber").getNodeValue() );
+							if ( node2OrderNumber < minOrder ) {
+								// Remove node 2 since it is not after node 1 in the dynamic facts
+								matchedFacts[j].remove(k);
+								k--;
+							}								
+						}
+					}	
+					
+					// check nodes if they have to appear in the subtree
+					if( isSubtreeRequired ) {
+						int parentMinLevel = Integer.MAX_VALUE ;
+						for (int k = 0; k < matchedFacts[j].size(); k++) {
+							int parentLevel = Integer.parseInt( ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("callDepth").getNodeValue() );
+							if ( parentLevel < parentMinLevel ) {
+								parentMinLevel = parentLevel;
+							}
+						}
+						
+						if ( matchedFacts.length < j+1 ) {
+							// leave FOR loop
+							break;
+						}
+						
+						for (int k = 0; k < matchedFacts[j+1].size(); k++) {
+							Node childNode = ((Node)matchedFacts[j+1].get(k));
+							int childLevel = Integer.parseInt( ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("callDepth").getNodeValue() );
+							if ( childLevel < parentMinLevel ) {
+								// Remove child node since it is not after node 1 in the dynamic facts
+								matchedFacts[j].remove(k);
+								k--;
+							} else {
+								for (int index = 0; index < matchedFacts[j].size(); index++) {
+									Node parentNode = ((Node)matchedFacts[j].get(index));
+									if ( !childIsInSubtree( dynamicFactsFileName, parentNode, childNode ) ) {
+										matchedFacts[j].remove(k);
+										k--;
+									}
+								}
+							}
+						}
+					}	
+				}
+			}
+		}		
+		return candInstancesList;
+	}
+	
+	
+
+	private boolean childIsInSubtree(String dynamicFactsFileName, Node parentNode, Node childNode) {
+		boolean result = true;
+		int indexParent = Integer.parseInt( parentNode.getAttributes().getNamedItem("orderNumber").getNodeValue() );
+		int indexChild  = Integer.parseInt( childNode.getAttributes().getNamedItem("orderNumber").getNodeValue() );
+		int levelParent = Integer.parseInt( parentNode.getAttributes().getNamedItem("callDepth").getNodeValue() );
+		int levelClient = Integer.parseInt( childNode.getAttributes().getNamedItem("callDepth").getNodeValue() );
+		
+		// Get dynamic facts Node list
+		DynamicFactsProcessorInterface dynFacts  = new DynamicFactsProcessor(dynamicFactsFileName, debug);
+		dynFacts.processDynamicFacts();
+		Document dynFactsDoc = dynFacts.getDynamicFactsDocument();
+		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
+		
+		for( int i = indexParent; i < indexChild; i++ ){
+			Node node = dynFactsList.item(i);
+			int levelNode = Integer.parseInt( node.getAttributes().getNamedItem("callDepth").getNodeValue() );
+			if( levelNode <= levelParent ) {
+				return false;
+			}
+		}		
+		return result;
+	}
+
+
+
+
 	/* (non-Javadoc)
 	 * @see ca.yorku.cse.designpatterns.ValidatorInterface#validateObjects(java.util.LinkedList, org.w3c.dom.NodeList)
 	 */
-	public void validateObjects(LinkedList<CandidateInstance> candidateInstancesList, NodeList designPatternDefinitionList) {
+	public LinkedList<CandidateInstance> validateObjects(LinkedList<CandidateInstance> candidateInstancesList, NodeList designPatternDefinitionList) {
 		this.candInstancesList = candidateInstancesList;
 		this.dpDefList         = designPatternDefinitionList;
 
@@ -611,6 +729,7 @@ public class Validator implements ValidatorInterface {
 				}
 			}
 		}
+		return candidateInstancesList;
 	}
 
 
@@ -655,7 +774,5 @@ public class Validator implements ValidatorInterface {
 	public NodeList getDynamicDefinitionList() {
 		return this.dpDefList;
 	}
-
-
 }
 

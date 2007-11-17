@@ -606,7 +606,7 @@ public class PatternDetectionEngine
 			 * Convert dynamic definition and candidate instance.
 			 * Store all matching nodes in storeMatchedFacts datastructure.
 			 */
-			DynamicDefinitionConverterInterface dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i), false);
+			DynamicDefinitionConverter dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i), false);
 			Document dpDefDoc = dpDef.getDesignPatternDocument();
 			dpDefList = dpDefDoc.getElementsByTagName("entry");
 
@@ -631,18 +631,17 @@ public class PatternDetectionEngine
 			candInstancesList.get(i).setMatchedFactsDatastructure( storeMatchedRoles );
 
 			
-
-			
-			// TODO: Validate Order of Objects
-			
-			
-			
 			/**
-			 * Validate Objects
+			 * Validate temporal restriction
 			 */
 			Validator validator = new Validator();
-			validator.validateObjects(candInstancesList, dpDefList);
-			candInstancesList = validator.getCandidateInstancesList();
+			candInstancesList = validator.validateTemporalRestriction(candInstancesList, dpDefList, dynamicFactsFileName);
+			
+			/**
+			 * Validate objects restriction
+			 */
+			candInstancesList = validator.validateObjects(candInstancesList, dpDefList);
+
 		}
 		
 		
@@ -843,9 +842,8 @@ public class PatternDetectionEngine
 		DynamicFactsProcessorInterface dynFacts  = new DynamicFactsProcessor(dynamicFactsFileName, debug);
 		dynFacts.processDynamicFacts();
 
-		NodeList dynFactsList = null;
 		Document dynFactsDoc = dynFacts.getDynamicFactsDocument();
-		dynFactsList = dynFactsDoc.getElementsByTagName("entry");
+		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 		if( debug ) 
 			print("dynFactsList Length: " + dynFactsList.getLength());
 
