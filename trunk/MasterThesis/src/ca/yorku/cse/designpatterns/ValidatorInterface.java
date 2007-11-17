@@ -23,7 +23,7 @@ public interface ValidatorInterface {
      * @param candidateInstancesList list with candidate instances
      * @param designPatternDefinitionList dynamic design pattern definition list
      */
-    public abstract void validateObjects(
+    public abstract LinkedList<CandidateInstance> validateObjects(
 	    LinkedList<CandidateInstance> candidateInstancesList,
 	    NodeList designPatternDefinitionList);
 
