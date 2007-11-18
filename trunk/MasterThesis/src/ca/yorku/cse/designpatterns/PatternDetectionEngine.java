@@ -616,6 +616,23 @@ public class PatternDetectionEngine
 		long t7=0, t71=0;
 		long t8=0;
 		
+		String codeExample = candidateInstancesFileName;
+		String patternName = null;   	    
+		if ( candidateInstancesFileName.contains("/") && 
+				candidateInstancesFileName.contains(".out") )
+		{
+			int index0 = candidateInstancesFileName.indexOf("/");
+			int index1 = candidateInstancesFileName.indexOf(".");
+			int index2 = candidateInstancesFileName.indexOf(".out");
+			codeExample = candidateInstancesFileName.substring(index0+1, index1);
+			patternName = candidateInstancesFileName.substring(index1+1, index2);
+		} else {    	    
+			patternName = candidateInstancesFileName; 
+		}
+		print(  "Analyzing software code:       " + codeExample + 
+				"\nPattern we want to detect:   " + patternName); 
+		
+		
 		/**
 		 * get LinkedList with Candidate Instances
 		 */
@@ -700,23 +717,7 @@ public class PatternDetectionEngine
 		}
 
 		
-		String codeExample = candidateInstancesFileName;
-		String patternName = null;   	    
-		if ( candidateInstancesFileName.contains("/") && 
-				candidateInstancesFileName.contains(".out") )
-		{
-			int index0 = candidateInstancesFileName.indexOf("/");
-			int index1 = candidateInstancesFileName.indexOf(".");
-			int index2 = candidateInstancesFileName.indexOf(".out");
-			codeExample = candidateInstancesFileName.substring(index0+1, index1);
-			patternName = candidateInstancesFileName.substring(index1+1, index2);
-		} else {    	    
-			patternName = candidateInstancesFileName; 
-		}
 
-
-		print(  "Analyzed software code:      " + codeExample + 
-				"\nPattern we want to detect:   " + patternName); 
 		
 		int count_isPattern    = 0;
 		int count_isNotPattern = 0;
