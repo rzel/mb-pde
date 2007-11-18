@@ -37,7 +37,8 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 	 * Variable used for debugging
 	 */
 	private boolean debug;
-	private String filename;
+	private static String filename = "" ;
+	private static DynamicFactsProcessor dynFacts = null;
 
 	/**
 	 * Document that stores all dynamic facts. All transformations are
@@ -45,10 +46,28 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 	 */
 	private Document dynamicFactsDocument;
 
-	public DynamicFactsProcessor(String filename, boolean debug) {
+	private DynamicFactsProcessor(String file, boolean debug) {
 		this.debug = debug;
-		this.filename = filename;	
+		this.filename = file;	
 	}
+		
+	/**
+	 * Singleton
+	 */
+	public static Document getDynamicFacts(String file, boolean debug) {
+		String f1 = file.replace(".dynamicfacts", "");
+		String f2 = filename.replace(".xml", "");
+		if ( f1.equalsIgnoreCase(f2) ){
+			//System.out.println("getDynamicFacts: already exists, file="+f1+" filename="+f2);
+			return dynFacts.getDynamicFactsDocument();
+		} else {
+			//System.out.println("getDynamicFacts: is created new, file="+f1+" filename="+f2);
+			dynFacts = new DynamicFactsProcessor(file, debug);
+			dynFacts.processDynamicFacts();
+		}		
+		return dynFacts.getDynamicFactsDocument();
+	}
+	
 
 
 	public boolean processDynamicFacts(){
