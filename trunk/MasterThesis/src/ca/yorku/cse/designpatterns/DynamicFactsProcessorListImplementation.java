@@ -31,14 +31,14 @@ import org.w3c.dom.NodeList;
  * @version  0.8
  * @since  27 June, 2007
  */
-public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
+public class DynamicFactsProcessorListImplementation implements DynamicFactsProcessorInterface {
 
 	/**
 	 * Variable used for debugging
 	 */
 	private boolean debug;
 	private static String filename = "" ;
-	private static DynamicFactsProcessor dynFacts = null;
+	private static DynamicFactsProcessorListImplementation dynFacts = null;
 
 	/**
 	 * Document that stores all dynamic facts. All transformations are
@@ -46,7 +46,7 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 	 */
 	private Document dynamicFactsDocument;
 
-	private DynamicFactsProcessor(String file, boolean debug) {
+	private DynamicFactsProcessorListImplementation(String file, boolean debug) {
 		this.debug = debug;
 		this.filename = file;	
 	}
@@ -62,7 +62,7 @@ public class DynamicFactsProcessor implements DynamicFactsProcessorInterface {
 			return dynFacts.getDynamicFactsDocument();
 		} else {
 			//System.out.println("getDynamicFacts: is created new, file="+f1+" filename="+f2);
-			dynFacts = new DynamicFactsProcessor(file, debug);
+			dynFacts = new DynamicFactsProcessorListImplementation(file, debug);
 			dynFacts.processDynamicFacts();
 		}		
 		return dynFacts.getDynamicFactsDocument();

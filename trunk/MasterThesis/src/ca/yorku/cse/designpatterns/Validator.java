@@ -421,7 +421,7 @@ public class Validator implements ValidatorInterface {
 
 		// Get dynamic facts Node list
 		// Singleton
-		Document dynFactsDoc = DynamicFactsProcessor.getDynamicFacts(dynamicFactsFileName, debug);
+		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, debug);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 
 

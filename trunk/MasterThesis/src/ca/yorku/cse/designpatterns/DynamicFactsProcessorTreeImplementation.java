@@ -13,7 +13,7 @@ import org.w3c.dom.NodeList;
  * @author Marcel Birkner
  *
  */
-public class DynamicFactsProcessorImplementation {
+public class DynamicFactsProcessorTreeImplementation {
 
 	protected String dynamicFactsFileName = "";
 	static TreeNode root = null;
@@ -27,10 +27,10 @@ public class DynamicFactsProcessorImplementation {
 	 * 
 	 * @param dynamicFactsFileName
 	 */
-	public DynamicFactsProcessorImplementation( String dynamicFactsFileName, boolean debug, boolean timing ){
+	public DynamicFactsProcessorTreeImplementation( String dynamicFactsFileName, boolean debug, boolean timing ){
 		this.debug = debug;
 		this.dynamicFactsFileName = dynamicFactsFileName;
-		Document dynFactsDoc = DynamicFactsProcessor.getDynamicFacts(dynamicFactsFileName, debug);
+		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, debug);
 		dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 		createDynamicFactsTree(dynFactsList, timing);
 	}
