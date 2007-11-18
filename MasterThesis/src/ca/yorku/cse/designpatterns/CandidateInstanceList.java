@@ -120,10 +120,6 @@ public class CandidateInstanceList implements CandidateInstanceListInterface {
                 // Create a new instance of the CandidateInstance class for each line parsed.
                 CandidateInstance ci =
                     new CandidateInstance(nameOfRoles, candidateInstanceRoles, rolesParams.length-1);
-  
-                if ( debug ) {
-                    System.out.println("CandidateInstanceProcessor: " + rolesParams.length);
-                }
                 
                 // Add all objects to the candidate instance list
                 this.candidateInstance.add(ci);      

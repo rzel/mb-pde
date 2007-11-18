@@ -419,6 +419,12 @@ public class Validator implements ValidatorInterface {
 		this.candInstancesList = candidateInstancesList;
 		this.dpDefList         = designPatternDefinitionList;
 
+		// Get dynamic facts Node list
+		// Singleton
+		Document dynFactsDoc = DynamicFactsProcessor.getDynamicFacts(dynamicFactsFileName, debug);
+		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
+
+
 		/**
 		 * For all candidate instances that are currently recorded as a
 		 * design pattern get the storedMatchedFacts datastructure 
@@ -490,7 +496,7 @@ public class Validator implements ValidatorInterface {
 							} else {
 								for (int index = 0; index < matchedFacts[j].size(); index++) {
 									Node parentNode = ((Node)matchedFacts[j].get(index));
-									if ( !childIsInSubtree( dynamicFactsFileName, parentNode, childNode ) ) {
+									if ( !childIsInSubtree( dynFactsList, parentNode, childNode ) ) {
 										matchedFacts[j].remove(k);
 										k--;
 									}
@@ -500,24 +506,18 @@ public class Validator implements ValidatorInterface {
 					}	
 				}
 			}
-		}		
+		}	
+		
 		return candInstancesList;
 	}
 	
-	
 
-	private boolean childIsInSubtree(String dynamicFactsFileName, Node parentNode, Node childNode) {
+	private boolean childIsInSubtree(NodeList dynFactsList, Node parentNode, Node childNode) {
 		boolean result = true;
 		int indexParent = Integer.parseInt( parentNode.getAttributes().getNamedItem("orderNumber").getNodeValue() );
 		int indexChild  = Integer.parseInt( childNode.getAttributes().getNamedItem("orderNumber").getNodeValue() );
 		int levelParent = Integer.parseInt( parentNode.getAttributes().getNamedItem("callDepth").getNodeValue() );
-		int levelClient = Integer.parseInt( childNode.getAttributes().getNamedItem("callDepth").getNodeValue() );
-		
-		// Get dynamic facts Node list
-		DynamicFactsProcessorInterface dynFacts  = new DynamicFactsProcessor(dynamicFactsFileName, debug);
-		dynFacts.processDynamicFacts();
-		Document dynFactsDoc = dynFacts.getDynamicFactsDocument();
-		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
+		// int levelClient = Integer.parseInt( childNode.getAttributes().getNamedItem("callDepth").getNodeValue() );
 		
 		for( int i = indexParent; i < indexChild; i++ ){
 			Node node = dynFactsList.item(i);
@@ -528,9 +528,7 @@ public class Validator implements ValidatorInterface {
 		}		
 		return result;
 	}
-
-
-
+	
 
 	/* (non-Javadoc)
 	 * @see ca.yorku.cse.designpatterns.ValidatorInterface#validateObjects(java.util.LinkedList, org.w3c.dom.NodeList)
