@@ -629,8 +629,8 @@ public class PatternDetectionEngine
 		} else {    	    
 			patternName = candidateInstancesFileName; 
 		}
-		print(  "Analyzing software code:       " + codeExample + 
-				"\nPattern we want to detect:   " + patternName); 
+		print(   "Analyzing software code:     " + codeExample + 
+			   "\nPattern we want to detect:   " + patternName); 
 		
 		
 		/**
