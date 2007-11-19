@@ -1,5 +1,0 @@
-candidateinstances/AbstractFactory.flyweight.out dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts dynamicdefinitions/flyweight.xml 
-candidateinstances/jdraw.AbstractFactory.out dynamicfacts/jdomain.jdraw.gui.MainFrame2.dynamicfacts dynamicdefinitions/AbstractFactory.xml 
-candidateinstances/jdraw.adapter.out dynamicfacts/jdomain.jdraw.gui.MainFrame2.dynamicfacts dynamicdefinitions/adapter.xml 
-candidateinstances/jdraw.bridge.out dynamicfacts/jdomain.jdraw.gui.MainFrame2.dynamicfacts dynamicdefinitions/bridge.xml 
-candidateinstances/jdraw.builder.out dynamicfacts/jdomain.jdraw.gui.MainFrame2.dynamicfacts dynamicdefinitions/builder.xml 
