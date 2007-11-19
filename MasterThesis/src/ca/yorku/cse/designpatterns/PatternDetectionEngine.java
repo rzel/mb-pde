@@ -363,6 +363,11 @@ public class PatternDetectionEngine
 				pde.summary( results_file );
 				System.exit(1);
 			}
+			else if ( args[i].equals("-fullSummary") ){
+				print("Input parameter for fullSummary true");
+				pde.fullSummary( results_file );
+				System.exit(1);
+			}
 			else if (args[i].equals("-help") || args[i].equals("-h") || args[i].equals("--h") || args[i].equals("--help")) {
 				pde.usage(true);
 				System.exit(1);
@@ -530,6 +535,76 @@ public class PatternDetectionEngine
 
 	
 	
+	/**
+	 * This method formats the results of the static and 
+	 * dynamic analysis by parsing the XML results file
+	 * and grouping the results by software. This method
+	 * is more detailed than summary()
+	 * 
+	 * @param XMLfile with all result facts
+	 */
+	private void fullSummary(String results_file) {
+		
+		File xx = new File ( results_file );
+		if ( !xx.exists() ) {
+			print("The results file does not exist. " +
+					"Please run the static and dynamic analysis first. " +
+					"The following file could not found: " + results_file);
+		}
+		
+		DocumentBuilderFactory dbfResults = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dbResults;
+		Document docResults = null;
+
+		DocumentBuilderFactory dbfSoftware = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dbSoftware;
+		Document docSoftware = null;
+		try {
+			dbResults  = dbfResults.newDocumentBuilder();
+			docResults = dbResults.parse( new File( results_file ) );
+
+			dbSoftware  = dbfSoftware.newDocumentBuilder();
+			docSoftware = dbSoftware.parse( new File( software_file ) );
+
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		} catch (SAXException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		
+		NodeList allResults = docResults.getElementsByTagName("result");
+		for (int j=0; j < allResults.getLength(); j++ ) {
+			Node node1 = allResults.item(j);
+			String name          = node1.getAttributes().getNamedItem("name").getNodeValue();
+			String sourceCode    = node1.getAttributes().getNamedItem("sourceCode").getNodeValue();
+			String designPattern = node1.getAttributes().getNamedItem("designPattern").getNodeValue();
+			String numberOfHits  = node1.getAttributes().getNamedItem("numberOfHits").getNodeValue();
+			
+			print("####################################################################\n");
+			print("-> name:          " + name);
+			print("   sourceCode:    " + sourceCode);
+			print("   designPattern: " + designPattern);
+			print("   numberOfHits:  " + numberOfHits + "\n");
+			
+			NodeList children = allResults.item(j).getChildNodes();
+			for (int i = 0; i < children.getLength(); i++) {
+				Node node2 = children.item(i);
+				if ( node2.getNodeName().equals("candidateInstance") ) {
+					String percentage = node2.getAttributes().getNamedItem("percentage").getNodeValue();
+					String threshold  = node2.getAttributes().getNamedItem("threshold").getNodeValue();
+					String roles      = node2.getAttributes().getNamedItem("roles").getNodeValue();
+					print("   -> candidateInstance");
+					print("      percentage:  " + percentage);
+					print("      threshold:   " + threshold);
+					print("      roles:       " + roles);
+					print("");
+				}
+			}
+		}	
+	}
+
 	
 	/**
 	 * This method formats the results of the static and 
