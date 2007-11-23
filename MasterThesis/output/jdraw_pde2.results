@@ -1,0 +1,1471 @@
+Load properties.
+Input parameter for fullSummary true
+####################################################################
+
+-> name:          candidateinstances/jdraw.AbstractFactory.out
+   sourceCode:    jdraw
+   designPattern: AbstractFactory
+   numberOfHits:  6/808
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DrawAction, 1=jdomain.jdraw.action.LoadAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DrawAction, 1=jdomain.jdraw.action.SaveAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Tool, 1=jdomain.jdraw.gui.FillTool, 2=jdomain.jdraw.gui.Tool, 3=jdomain.jdraw.gui.DrawMouseListener}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ContinuedAction, 1=jdomain.jdraw.action.LoadAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}
+
+   -> candidateInstance
+      percentage:  95%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.LoadAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}
+
+   -> candidateInstance
+      percentage:  83%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.SaveAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.bridge.out
+   sourceCode:    jdraw
+   designPattern: bridge
+   numberOfHits:  0/2501
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.chain.out
+   sourceCode:    jdraw
+   designPattern: chain
+   numberOfHits:  3/4243
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FillTool, 1=jdomain.jdraw.gui.Tool, 2=jdomain.jdraw.gui.FillTool}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.jdraw.gui.Tool, 2=jdomain.jdraw.gui.FillTool}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.util.gui.StandardMainFrame, 2=jdomain.jdraw.gui.MainFrame}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.composite.out
+   sourceCode:    jdraw
+   designPattern: composite
+   numberOfHits:  0/3655
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.decorator.out
+   sourceCode:    jdraw
+   designPattern: decorator
+   numberOfHits:  0/1519
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.FactoryMethod.out
+   sourceCode:    jdraw
+   designPattern: FactoryMethod
+   numberOfHits:  0/808
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.flyweight.out
+   sourceCode:    jdraw
+   designPattern: flyweight
+   numberOfHits:  1/136
+
+   -> candidateInstance
+      percentage:  82%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.BlockingDrawAction}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.interpreter.out
+   sourceCode:    jdraw
+   designPattern: interpreter
+   numberOfHits:  0/730
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.iterator.out
+   sourceCode:    jdraw
+   designPattern: iterator
+   numberOfHits:  247/5200
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ClipPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ClipPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ClipPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ClipPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FolderPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FolderPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FolderPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FolderPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.PalettePanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.PalettePanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.PalettePanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.PalettePanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu$DrawMenuItem, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu$DrawMenuItem, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu$DrawMenuItem, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu$DrawMenuItem, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.IncreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.IncreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.IncreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.IncreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleLocalPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleLocalPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleLocalPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleLocalPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetClipToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetClipToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetClipToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetClipToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetColourPickerToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetColourPickerToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetColourPickerToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetColourPickerToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleAntialiasAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleAntialiasAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleAntialiasAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleAntialiasAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMaxZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMaxZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMaxZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMaxZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleViewsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleViewsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleViewsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleViewsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipVerticallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipVerticallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipVerticallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipVerticallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RedoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RedoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RedoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RedoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMinZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMinZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMinZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetMinZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPreviousZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPreviousZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPreviousZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPreviousZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SearchDialogAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SearchDialogAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SearchDialogAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SearchDialogAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AboutAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AboutAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AboutAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AboutAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SwapColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SwapColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SwapColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SwapColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RotateClipAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RotateClipAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RotateClipAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RotateClipAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGradientFillAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGradientFillAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGradientFillAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGradientFillAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AddFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPixelToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPixelToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPixelToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetPixelToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DecreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DecreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DecreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DecreaseZoomAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAsAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleTransparencyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleTransparencyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleTransparencyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleTransparencyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipHorizontallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipHorizontallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipHorizontallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.FlipClipHorizontallyAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.UndoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.UndoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.UndoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.UndoAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CropAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CropAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CropAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CropAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetToleranceAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetToleranceAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetToleranceAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetToleranceAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetRectangleToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetLineToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetLineToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetLineToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetLineToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFilledOvalToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFillToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFillToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFillToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetFillToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.NewAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.NewAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.NewAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.NewAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveFrameAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGridAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGridAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGridAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ToggleGridAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Tool, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Tool, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Tool, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Tool, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoseChanges, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoseChanges, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoseChanges, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoseChanges, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.undo.UndoManager, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.undo.UndoManager, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.undo.UndoManager, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.undo.UndoManager, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Dispatcher, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Dispatcher, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Dispatcher, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Dispatcher, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.HelpAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.HelpAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.HelpAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.HelpAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AnimTutorialAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AnimTutorialAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AnimTutorialAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.AnimTutorialAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressPaletteAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReduceColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReduceColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReduceColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReduceColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.RemoveColourAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.InsertAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.InsertAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.InsertAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.InsertAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetTextToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetTextToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetTextToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SetTextToolAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveCompressedAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveCompressedAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveCompressedAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveCompressedAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReducePaletteColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReducePaletteColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReducePaletteColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.ReducePaletteColoursAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.CompressAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  99%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  98%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.DrawMenu, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  97%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ToolButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  97%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ToolButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  97%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ToolButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  96%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ToolButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  96%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.TextFontDialog, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  95%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.TextFontDialog, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  95%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.TextFontDialog, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  94%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.TextFontDialog, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+   -> candidateInstance
+      percentage:  92%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ActionButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SearchDialogAction}
+
+   -> candidateInstance
+      percentage:  90%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ActionButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.NewAction}
+
+   -> candidateInstance
+      percentage:  86%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.ToolPanel$ActionButton, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.mediator.out
+   sourceCode:    jdraw
+   designPattern: mediator
+   numberOfHits:  0/208
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.prototype.out
+   sourceCode:    jdraw
+   designPattern: prototype
+   numberOfHits:  2/819
+
+   -> candidateInstance
+      percentage:  90%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DrawAction, 1=jdomain.jdraw.action.BlockingDrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  86%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.DrawAction, 1=jdomain.jdraw.action.BlockingDrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.proxy.out
+   sourceCode:    jdraw
+   designPattern: proxy
+   numberOfHits:  2/77
+
+   -> candidateInstance
+      percentage:  89%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.LoadAction}
+
+   -> candidateInstance
+      percentage:  80%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.BlockingDrawAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.SaveAction}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.singleton.out
+   sourceCode:    jdraw
+   designPattern: singleton
+   numberOfHits:  0/403
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.state.out
+   sourceCode:    jdraw
+   designPattern: state
+   numberOfHits:  2/5200
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FillTool, 1=jdomain.jdraw.gui.Tool, 2=jdomain.jdraw.gui.FillTool}
+
+   -> candidateInstance
+      percentage:  100%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.util.gui.StandardMainFrame, 2=jdomain.jdraw.gui.MainFrame}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.strategy.out
+   sourceCode:    jdraw
+   designPattern: strategy
+   numberOfHits:  5/5200
+
+   -> candidateInstance
+      percentage:  83%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.FillTool, 1=jdomain.jdraw.gui.Tool, 2=jdomain.jdraw.gui.FillTool}
+
+   -> candidateInstance
+      percentage:  83%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.SaveAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.BlockingDrawAction}
+
+   -> candidateInstance
+      percentage:  83%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.BlockingDrawAction}
+
+   -> candidateInstance
+      percentage:  83%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.util.gui.StandardMainFrame, 2=jdomain.jdraw.gui.MainFrame}
+
+   -> candidateInstance
+      percentage:  83%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.MainFrame, 1=jdomain.jdraw.gui.Tool, 2=jdomain.jdraw.gui.FillTool}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.templatemethod.out
+   sourceCode:    jdraw
+   designPattern: templatemethod
+   numberOfHits:  2/118
+
+   -> candidateInstance
+      percentage:  92%
+      threshold:   0.8
+      roles:       {0=jdomain.jdraw.gui.Tool, 1=jdomain.jdraw.gui.FillTool}
+
+   -> candidateInstance
+      percentage:  89%
+      threshold:   0.8
+      roles:       {0=jdomain.util.gui.StandardMainFrame, 1=jdomain.jdraw.gui.MainFrame}
+
+####################################################################
+
+-> name:          candidateinstances/jdraw.visitor.out
+   sourceCode:    jdraw
+   designPattern: visitor
+   numberOfHits:  0/2501
+
