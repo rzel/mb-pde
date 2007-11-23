@@ -1210,9 +1210,11 @@ public class PatternDetectionEngine
 		if (right > left){
 			int pivotIndex = left;
 			int pivotNewIndex = partition(list, left, right, pivotIndex);
-			print("right > left 1 -> " + left + " " + (pivotNewIndex-1) );
+			
+			print("1  right > left -> left + (pivotNewIndex-1)  " + left + " " + (pivotNewIndex-1) );
 			quicksortForLinkedList(list, left, (pivotNewIndex-1) );
-			print("right > left 2 -> " + pivotNewIndex+1 + " " + right);
+			
+			print("2  right > left -> (pivotNewIndex+1) + right " + (pivotNewIndex+1) + " " + right);
 			quicksortForLinkedList(list, (pivotNewIndex+1), right);
 		}
 	}
@@ -1233,6 +1235,7 @@ public class PatternDetectionEngine
 			}
 		}
 		swap( list, right, storeIndex); 	// Move pivot to its final place
+		print("  partition(left="+left+", right="+right+", pivotIndex="+pivotIndex+"): return=" + storeIndex);
 		return storeIndex;
 	}
 
