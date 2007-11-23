@@ -47,7 +47,6 @@ public class PatternDetectionEngine
 	private static boolean print_stats         = false;
 	private static boolean create_report       = false;
 	private static boolean debug               = false;
-	private static boolean debugFalse          = false;
 	private static boolean enable_timing       = true;
 	private static boolean print_time	       = false;
 	private static boolean print_results       = false;
@@ -731,14 +730,17 @@ public class PatternDetectionEngine
 		if (enable_timing){
 			t1 = System.currentTimeMillis();
 		}
-		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, debugFalse, enable_timing);
+		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, false, enable_timing);
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
 		}
 		
+		print("candInstancesList.size() " + candInstancesList.size());
 		for (int i=0; i < candInstancesList.size(); i++)
 		{
+			if ( (i % 100 == 0 ) ) print("candInstancesList loop i=" + i);
+			
 			/** 
 			 * Loop over all Candidate instances.
 			 * Convert dynamic definition and candidate instance.
@@ -976,7 +978,7 @@ public class PatternDetectionEngine
 		if ( print_time ) 
 			print("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
 		
-		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, debugFalse);
+		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, false);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 		if( debug ) 
 			print("dynFactsList Length: " + dynFactsList.getLength());
@@ -1208,8 +1210,10 @@ public class PatternDetectionEngine
 		if (right > left){
 			int pivotIndex = left;
 			int pivotNewIndex = partition(list, left, right, pivotIndex);
-			quicksortForLinkedList(list, left, pivotNewIndex-1);
-			quicksortForLinkedList(list, pivotNewIndex+1, right);
+			print("right > left 1 -> " + left + " " + (pivotNewIndex-1) );
+			quicksortForLinkedList(list, left, (pivotNewIndex-1) );
+			print("right > left 2 -> " + pivotNewIndex+1 + " " + right);
+			quicksortForLinkedList(list, (pivotNewIndex+1), right);
 		}
 	}
 
