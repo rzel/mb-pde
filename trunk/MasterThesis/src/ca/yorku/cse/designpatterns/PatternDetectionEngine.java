@@ -34,6 +34,11 @@ import org.xml.sax.SAXException;
  * @author Marcel Birkner
  * @version 0.9
  * @since 17 November, 2007
+ * 
+ * TODO:
+ * -pinot results (jdraw)
+ * -evaluate my results
+ * -new timing data
  */
 public class PatternDetectionEngine 
 {
@@ -42,6 +47,7 @@ public class PatternDetectionEngine
 	private static boolean print_stats         = false;
 	private static boolean create_report       = false;
 	private static boolean debug               = false;
+	private static boolean debugFalse          = false;
 	private static boolean enable_timing       = true;
 	private static boolean print_time	       = false;
 	private static boolean print_results       = false;
@@ -484,7 +490,6 @@ public class PatternDetectionEngine
 					t2 =  System.currentTimeMillis();
 					time.add( (t2-t1) + "\t pde.run2( "+ci+" )");
 				}
-
 			}
 			if (enable_timing){
 				print("Time:");
@@ -505,31 +510,31 @@ public class PatternDetectionEngine
 		/*
 		 * Print all stats for the 23 design patterns
 		 */
-		if ( create_report ) {
-
-			// Redirect System Output Stream for report
-			try {
-				System.setOut(new PrintStream( new FileOutputStream( report_file )));
-			} catch ( FileNotFoundException e ) {
-				print("FileNotFoundException: Redirect System Out failed.");
-				e.printStackTrace();
-			}
-
-			for (int i=0; i<res.length; i++) {
-				for (int j=0; j<res[i].length; j++){
-					System.out.print(res[i][j] + " ");
-				}
-				System.out.println("");
-			}
-
-
-			for (int i=0; i<res2.length; i++) {
-				for (int j=0; j<res2[i].length; j++){
-					System.out.print(res2[i][j] + " ");
-				}
-				System.out.println("");
-			}	
-		}
+//		if ( create_report ) {
+//
+//			// Redirect System Output Stream for report
+//			try {
+//				System.setOut(new PrintStream( new FileOutputStream( report_file )));
+//			} catch ( FileNotFoundException e ) {
+//				print("FileNotFoundException: Redirect System Out failed.");
+//				e.printStackTrace();
+//			}
+//
+//			for (int i=0; i<res.length; i++) {
+//				for (int j=0; j<res[i].length; j++){
+//					System.out.print(res[i][j] + " ");
+//				}
+//				System.out.println("");
+//			}
+//
+//
+//			for (int i=0; i<res2.length; i++) {
+//				for (int j=0; j<res2[i].length; j++){
+//					System.out.print(res2[i][j] + " ");
+//				}
+//				System.out.println("");
+//			}	
+//		}
 	}
 
 
@@ -901,32 +906,34 @@ public class PatternDetectionEngine
 		}
 		resultsStream.println("</result>");	    
 
-		if ( print_on_cmdline )
-			print("\n######################################################################################################## \n");
-
-
-		// Print out summary of isPattern/isNotPattern
-		if( pointer_y < res.length ){
-			if ( pointer_y == 0) {
-				res[pointer_x][pointer_y]  = codeExample;
-				res2[pointer_x][pointer_y] = codeExample;
-				pointer_y++;
-			}
-			res[pointer_x][pointer_y]  = count_isPattern + "";
-			res2[pointer_x][pointer_y] = count_isNotPattern + "";
-			pointer_y++;
-		} else {
-			pointer_x++;
-			pointer_y=0;
-			if ( pointer_y == 0) {
-				res[pointer_x][pointer_y]  = codeExample;
-				res2[pointer_x][pointer_y] = codeExample;
-				pointer_y++;
-			}
-			res[pointer_x][pointer_y]  = count_isPattern + "";
-			res2[pointer_x][pointer_y] = count_isNotPattern + "";
-			pointer_y++;
-		}
+//		if ( print_on_cmdline )
+//			print("\n######################################################################################################## \n");
+//
+//
+//		// Print out summary of isPattern/isNotPattern
+//		if( pointer_y < res.length ){
+//			if ( pointer_y == 0) {
+//				res[pointer_x][pointer_y]  = codeExample;
+//				res2[pointer_x][pointer_y] = codeExample;
+//				pointer_y++;
+//			}
+//			res[pointer_x][pointer_y]  = count_isPattern + "";
+//			res2[pointer_x][pointer_y] = count_isNotPattern + "";
+//			pointer_y++;
+//		} else {
+//			pointer_x++;
+//			pointer_y=0;
+//			if ( pointer_y == 0) {
+//				res[pointer_x][pointer_y]  = codeExample;
+//				res2[pointer_x][pointer_y] = codeExample;
+//				pointer_y++;
+//			}
+//			res[pointer_x][pointer_y]  = count_isPattern + "";
+//			res2[pointer_x][pointer_y] = count_isNotPattern + "";
+//			pointer_y++;
+//		}
+		
+		
 	}
 	
 
@@ -968,7 +975,7 @@ public class PatternDetectionEngine
 		 */  
 		if ( print_time ) 
 			print("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
-		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, debug);
+		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, debugFalse);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 		if( debug ) 
 			print("dynFactsList Length: " + dynFactsList.getLength());
@@ -1196,6 +1203,7 @@ public class PatternDetectionEngine
 	 * Implementation of Quicksort for our LinkedList
 	 */
 	private void quicksortForLinkedList(LinkedList<CandidateInstance> list, int left, int right) {
+		print("quicksortForLinkedList -> " + list.size() + " " + left + " " + right);
 		if (right > left){
 			int pivotIndex = left;
 			int pivotNewIndex = partition(list, left, right, pivotIndex);
