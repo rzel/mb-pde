@@ -731,7 +731,7 @@ public class PatternDetectionEngine
 		if (enable_timing){
 			t1 = System.currentTimeMillis();
 		}
-		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, debug, enable_timing);
+		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, debugFalse, enable_timing);
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
@@ -975,6 +975,7 @@ public class PatternDetectionEngine
 		 */  
 		if ( print_time ) 
 			print("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
+		
 		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName, debugFalse);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 		if( debug ) 

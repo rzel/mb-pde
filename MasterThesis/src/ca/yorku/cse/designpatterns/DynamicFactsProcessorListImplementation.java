@@ -36,7 +36,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 	/**
 	 * Variable used for debugging
 	 */
-	private boolean debug;
+	private boolean debug=false;
 	private static String filename = "" ;
 	private static DynamicFactsProcessorListImplementation dynFacts = null;
 
@@ -380,11 +380,11 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 				.getAttributes().getNamedItem("thisObject")
 				.getNodeValue();
 
-				if ( debug ) {
-					System.out.println("parent | calledByClass =" + parent_class);
-					System.out.println("parent | calledByMethod=" + parent_method);
-					System.out.println("parent | calledByObject=" + parent_object);
-				}
+//				if ( debug ) {
+//					System.out.println("parent | calledByClass =" + parent_class);
+//					System.out.println("parent | calledByMethod=" + parent_method);
+//					System.out.println("parent | calledByObject=" + parent_object);
+//				}
 			} 
 			else if (i == 0) {
 				parent_class  = "PROGRAM_START";
@@ -410,14 +410,14 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 			exit.getNamedItem("calledByObject").setNodeValue(parent_object);
 
 
-			if ( debug ) {
-				for (int j = 0; j < nodeMap.getLength(); j++) {
-					System.out.println("");
-					System.out.println("node   | " + nodeMap.item(j));
-					System.out.println("exit   | " + exit.item(j));
-				}
-				System.out.println("");
-			}
+//			if ( debug ) {
+//				for (int j = 0; j < nodeMap.getLength(); j++) {
+//					System.out.println("");
+//					System.out.println("node   | " + nodeMap.item(j));
+//					System.out.println("exit   | " + exit.item(j));
+//				}
+//				System.out.println("");
+//			}
 		}
 	}
 
