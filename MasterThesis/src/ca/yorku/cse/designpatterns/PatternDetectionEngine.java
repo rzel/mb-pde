@@ -44,6 +44,7 @@ public class PatternDetectionEngine
 {
 	// Static variables
 	private static boolean print_datastructure = false;
+	private static boolean rank_results         = false;
 	private static boolean print_stats         = false;
 	private static boolean create_report       = false;
 	private static boolean debug               = false;
@@ -98,14 +99,14 @@ public class PatternDetectionEngine
 		 */
 	    Properties prop = new Properties();
 	    try {
-	    	prop.load(new FileInputStream( config_file ));     
+	    	prop.load( new FileInputStream( config_file ) );     
 	    	print("Load properties.");
 	    	redirect_file       = prop.getProperty("output.redirect.txt.file");			// "redirect.txt"
-	    	report_file         = prop.getProperty("output.report.txt.file");				// "report.txt"
+	    	report_file         = prop.getProperty("output.report.txt.file");			// "report.txt"
 	    	software_file      	= prop.getProperty("input.software.xml.file");			// "software.xml"
-	    	designpattern_file 	= prop.getProperty("input.design.patterns.xml.file");		// "designpatterns.xml"
-	    	input_file 	      	= prop.getProperty("input.pde.txt.file");					// "pde.input"
-	    	exception_file 	    = prop.getProperty("output.exception.txt.file");			// "exception.txt"
+	    	designpattern_file 	= prop.getProperty("input.design.patterns.xml.file");	// "designpatterns.xml"
+	    	input_file 	      	= prop.getProperty("input.pde.txt.file");				// "pde.input"
+	    	exception_file 	    = prop.getProperty("output.exception.txt.file");		// "exception.txt"
 	    	results_file        = prop.getProperty("output.results.xml.file");			// "results.xml"
 	    } catch (IOException e) {
 	    	print("Could not find properties file. Please check your conf/run.properties file.");
@@ -355,7 +356,11 @@ public class PatternDetectionEngine
 			else if ( args[i].equals("-debug") ){
 				debug = true;
 				print("Input parameter for -debug true");
-			}		
+			}	
+			else if ( args[i].equals("-rankResults") ){
+				rank_results = true;
+				print("Input parameter for -rankResults true");
+			}	
 			else if ( args[i].equals("-print_time") ){
 				print_time = true;
 				print("Input parameter for -print_time true");
@@ -872,7 +877,7 @@ public class PatternDetectionEngine
 		 * Since we have the percentage for all possible candidate
 		 * instances, we can rank the results in the candInstancesList
 		 */
-		rank_results( candInstancesList );
+		if ( rank_results ) rankResults( candInstancesList );
 		NumberFormat nf = NumberFormat.getPercentInstance();
 		if ( print_on_cmdline )
 			print("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
@@ -1119,7 +1124,7 @@ public class PatternDetectionEngine
 			 * Since we have the percentage for all possible candidate
 			 * instances, we can rank the results in the candInstancesList
 			 */
-			rank_results( candInstancesList );
+			if ( rank_results ) rankResults( candInstancesList );
 
 			NumberFormat nf = NumberFormat.getPercentInstance();
 			if ( print_on_cmdline )
@@ -1197,8 +1202,11 @@ public class PatternDetectionEngine
 	 * 
 	 * @param candInstancesList list with all possible candidate instances
 	 */    
-	private void rank_results(LinkedList<CandidateInstance> list) {
-		quicksortForLinkedList(list, 0, list.size()-1 );
+	private void rankResults(LinkedList<CandidateInstance> list) {
+		if ( list.size() > 0 )
+			quicksortForLinkedList(list, 0, list.size()-1 );
+		else 
+			;
 	}
 
 
