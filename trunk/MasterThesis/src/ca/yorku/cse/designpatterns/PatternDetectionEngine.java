@@ -44,7 +44,7 @@ public class PatternDetectionEngine
 {
 	// Static variables
 	private static boolean print_datastructure = false;
-	private static boolean rank_results         = false;
+	private static boolean rank_results        = false;
 	private static boolean print_stats         = false;
 	private static boolean create_report       = false;
 	private static boolean debug               = false;
