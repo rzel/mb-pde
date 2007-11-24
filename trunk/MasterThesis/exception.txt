@@ -1,1 +1,0 @@
-Exception: ./static.sh javex grok ql jdraw2/ ql/AbstractFactory.ql candidateinstances/
