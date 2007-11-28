@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE entry SYSTEM "results.dtd"><results>
-<result name="candidateinstances/jdraw.adapter.1.out" designPattern="adapter.1" sourceCode="jdraw" numberOfHits="2/4999" >
-<candidateInstance percentage="98%" threshold="0.8" roles="{0=jdomain.jdraw.action.SaveAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}" />
-<candidateInstance percentage="99%" threshold="0.8" roles="{0=jdomain.jdraw.action.LoadAction, 1=jdomain.jdraw.action.DrawAction, 2=jdomain.jdraw.action.BlockingDrawAction, 3=jdomain.jdraw.action.DrawAction}" />
-</result>
-<result name="candidateinstances/jdraw.adapter.2.out" designPattern="adapter.2" sourceCode="jdraw" numberOfHits="0/3876" >
-</result>
-</results>

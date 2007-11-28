@@ -157,4 +157,4 @@
 <candidateInstance percentage="100%" threshold="0.8" roles="{0=jdomain.util.gui.BackgroundPanel, 1=jdomain.jdraw.gui.FramePanel, 2=jdomain.jdraw.gui.Tool, 3=jdomain.jdraw.gui.DrawMouseListener}" />
 <candidateInstance percentage="100%" threshold="0.8" roles="{0=jdomain.util.gui.BackgroundPanel, 1=jdomain.jdraw.gui.FramePanel, 2=jdomain.jdraw.gui.DrawLayers, 3=jdomain.jdraw.gui.GridListener}" />
 <candidateInstance percentage="100%" threshold="0.8" roles="{0=jdomain.util.gui.FileBrowser, 1=jdomain.jdraw.gui.DrawBrowser, 2=jdomain.jdraw.gui.JDHandler, 3=jdomain.util.gui.ImageHandler}" />
-<candidateInstance percent
+</result></results>
