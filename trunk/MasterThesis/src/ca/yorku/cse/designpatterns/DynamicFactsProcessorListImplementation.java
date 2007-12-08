@@ -3,13 +3,19 @@ package ca.yorku.cse.designpatterns;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Result;
@@ -57,13 +63,43 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 	public static Document getDynamicFacts(String file, boolean debug) {
 		String f1 = file.replace(".dynamicfacts", "");
 		String f2 = filename.replace(".xml", "");
+		
+		String serializedFactsFilename = file + ".ser";  
+		File serializedFactsFile = new File (serializedFactsFilename);
+		
 		if ( f1.equalsIgnoreCase(f2) ){
-			//System.out.println("getDynamicFacts: already exists, file="+f1+" filename="+f2);
-			return dynFacts.getDynamicFactsDocument();
-		} else {
-			//System.out.println("getDynamicFacts: is created new, file="+f1+" filename="+f2);
+			return dynFacts.getDynamicFactsDocument();			
+		} else if ( serializedFactsFile.exists() && serializedFactsFile.canRead() ){
+		    try {
+		    	ObjectInputStream objstream = new ObjectInputStream(new FileInputStream(serializedFactsFilename));
+		    	dynFacts.setDynamicFactsDocument( (Document) objstream.readObject() );
+				objstream.close();
+			} catch (IOException e) {
+				System.out.println("DynamicFactsProcessorListImplementation: IOException reading FileInputStream for dynFacts: " + serializedFactsFilename);
+				System.exit(1);
+			} catch (ClassNotFoundException e) {
+				System.out.println("DynamicFactsProcessorListImplementation: ClassNotFoundException reading FileInputStream for dynFacts: " + serializedFactsFilename);
+				System.exit(1);
+			}
+		}
+		else {
 			dynFacts = new DynamicFactsProcessorListImplementation(file, debug);
-			dynFacts.processDynamicFacts();
+			dynFacts.processDynamicFacts();			
+
+		    ObjectOutputStream objstream;
+			try {
+				objstream = new ObjectOutputStream(new FileOutputStream(serializedFactsFilename) );
+			    objstream.writeObject( dynFacts.getDynamicFactsDocument() );
+			    objstream.close();	
+			} catch (FileNotFoundException e) {
+				System.out.println("DynamicFactsProcessorListImplementation: FileNotFoundException writting FileOutputStream for dynFacts: " + serializedFactsFilename);
+				e.getStackTrace();
+				System.exit(1);
+			} catch (IOException e) {
+				System.out.println("DynamicFactsProcessorListImplementation: IOException writting FileOutputStream for dynFacts: " + serializedFactsFilename);
+				e.getStackTrace();
+				System.exit(1);
+			}				
 		}		
 		return dynFacts.getDynamicFactsDocument();
 	}
@@ -110,9 +146,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		try {
 			trans = tf.newTransformer();
 			Source source = new DOMSource(this.dynamicFactsDocument);
-			removeExitTags(this.dynamicFactsDocument);
-
-			// filename = filename.replace(".xml", "_transformed.xml");
+			
 			Result result = new StreamResult(new File(filename));
 			trans.transform(source, result);
 			results = true;
@@ -209,15 +243,6 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 			System.err.println("PDE: transformToXML, the provided file does not exist = " + filenameTXT);
 		}
 		return filenameXML;
-	}
-
-
-
-	/**
-	 * @param doc2
-	 */
-	private void removeExitTags(Document doc2) {
-		// TODO	
 	}
 
 

@@ -728,19 +728,19 @@ public class PatternDetectionEngine
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t CandidateInstanceList");
-		}
-		
-		NodeList dpDefList = null;
-		
+		}		
+
 		if (enable_timing){
 			t1 = System.currentTimeMillis();
 		}
+		print("\nCreate dynamic facts tree:   " + dynamicFactsFileName);
 		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, false, enable_timing);
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
 		}
 		
+		NodeList dpDefList = null;
 		print("candInstancesList.size() " + candInstancesList.size());
 		for (int i=0; i < candInstancesList.size(); i++)
 		{
@@ -749,7 +749,7 @@ public class PatternDetectionEngine
 			/** 
 			 * Loop over all Candidate instances.
 			 * Convert dynamic definition and candidate instance.
-			 * Store all matching nodes in storeMatchedFacts datastructure.
+			 * Store all matching nodes in storeMatchedFacts data structure.
 			 */
 			if (enable_timing){
 				t4 =  System.currentTimeMillis();
@@ -767,6 +767,7 @@ public class PatternDetectionEngine
 			for (int j = 0; j < dpDefList.getLength(); j++) {
 				LinkedList<Node> list = dynFacts.firstLevel( dpDefList.item(j) );
 				storeMatchedRoles[j]  = list;
+				list = null;
 			}
 			if (enable_timing){
 				t6 =  System.currentTimeMillis();
@@ -792,8 +793,12 @@ public class PatternDetectionEngine
 			if (enable_timing){
 				t8 =  System.currentTimeMillis();
 				t71 = t71 + (t8 - t7);
-			}			
+			}		
 		}
+		
+		
+		
+		
 		if (enable_timing){
 			t3 =  System.currentTimeMillis();
 			time.add( (t3-t2) + "\t candInstancesList.size() loop");
