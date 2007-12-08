@@ -539,7 +539,7 @@ public class Validator implements ValidatorInterface {
 
 		/**
 		 * For all candidate instances that are currently recorded as a
-		 * design pattern get the storedMatchedFacts datastructure 
+		 * design pattern get the storedMatchedFacts data structure 
 		 * and do the following.
 		 * 
 		 * Loop through the design pattern definition list and check all 
@@ -565,7 +565,7 @@ public class Validator implements ValidatorInterface {
 
 					/**
 					 * Check all attributes that are set in the following part of the
-					 * MatchedFacts datastructure.
+					 * MatchedFacts data structure.
 					 */
 					if ( isSetDefThisObject || isSetDefCalledByObject ) {
 						if ( print_objects ) System.out.println("dpDefList.getLength()=" + dpDefList.getLength() + " matchedFacts[j].size()=" + matchedFacts[j].size());
@@ -595,7 +595,7 @@ public class Validator implements ValidatorInterface {
 								 *                     [id5]                          [id3]
 								 *                     [id7]                          [id8]
 								 *             
-								 * In this example 2 different objects fullfil the requirements of obj1.
+								 * In this example 2 different objects comply to the requirements of obj1.
 								 * These are the objects with the id's: id1 and id7
 								 * In all three columns where an object has to match these two match.                    
 								 *                     

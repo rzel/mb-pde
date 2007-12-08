@@ -4,7 +4,7 @@ import java.util.*;
 import java.io.*;
 
 /**
- * This class processes the textfile that contains the tuples with the candidate
+ * This class processes the text file that contains the tuples with the candidate
  * instances. It reads the file line by line, and creates a
  * <code>CandidateInstance</code> instances and stores all candidate instances
  * in a linked list. The list with all candidate instances can be retrieved
