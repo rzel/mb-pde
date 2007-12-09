@@ -68,11 +68,15 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		File serializedFactsFile = new File (serializedFactsFilename);
 		
 		if ( f1.equalsIgnoreCase(f2) ){
+			if ( debug ) System.out.println("DynamicFactsProcessorListImplementation: Dynamic facts already exist.");
 			return dynFacts.getDynamicFactsDocument();			
 		} else if ( serializedFactsFile.exists() && serializedFactsFile.canRead() ){
+			if ( debug ) System.out.println("DynamicFactsProcessorListImplementation: Dynamic facts already exist in serialized file.");
 		    try {
 		    	ObjectInputStream objstream = new ObjectInputStream(new FileInputStream(serializedFactsFilename));
-		    	dynFacts.setDynamicFactsDocument( (Document) objstream.readObject() );
+		    	Document doc = (Document)objstream.readObject();
+		    	dynFacts = new DynamicFactsProcessorListImplementation(file, !debug);
+		    	dynFacts.setDynamicFactsDocument( doc );
 				objstream.close();
 			} catch (IOException e) {
 				System.out.println("DynamicFactsProcessorListImplementation: IOException reading FileInputStream for dynFacts: " + serializedFactsFilename);
@@ -81,9 +85,11 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 				System.out.println("DynamicFactsProcessorListImplementation: ClassNotFoundException reading FileInputStream for dynFacts: " + serializedFactsFilename);
 				System.exit(1);
 			}
+			return dynFacts.getDynamicFactsDocument();
 		}
 		else {
-			dynFacts = new DynamicFactsProcessorListImplementation(file, debug);
+			if ( debug ) System.out.println("DynamicFactsProcessorListImplementation: Dynamic facts do not exist. Need to be created.");
+			dynFacts = new DynamicFactsProcessorListImplementation(file, !debug);
 			dynFacts.processDynamicFacts();			
 
 		    ObjectOutputStream objstream;
