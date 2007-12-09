@@ -98,13 +98,13 @@ public class DynamicFactsProcessorTreeImplementation {
 			for (Iterator iter = tl.iterator(); iter.hasNext();) {
 				TreeLeaf leaf = (TreeLeaf) iter.next();
 				list.addAll( leaf.getList() );	
-				if (debug) print("  list.addAll(nodeList) = " + leaf.getList().size() );
+				if (debug) print("  DynamicFactsProcessorTreeImplementation: thirdLevel - list.addAll(nodeList) = " + leaf.getList().size() );
 			}
 		} else if( levelThreeHashMap.containsKey( args.hashCode() ) ){
 			thirdLevelNode = (TreeLeaf) levelThreeHashMap.get( args.hashCode() );	
 			LinkedList<Node> nodeList = thirdLevelNode.getList();
 			list.addAll(nodeList);
-			if (debug)  print("  list.addAll(nodeList) = " + nodeList.size());
+			if (debug)  print("  DynamicFactsProcessorTreeImplementation: thirdLevel - list.addAll(nodeList) = " + nodeList.size());
 		} else {
 			if (debug) print("3rd level - !containsKey: " + args.hashCode() );
 		}	

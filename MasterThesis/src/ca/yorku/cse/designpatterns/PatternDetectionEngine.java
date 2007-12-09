@@ -733,18 +733,21 @@ public class PatternDetectionEngine
 		if (enable_timing){
 			t1 = System.currentTimeMillis();
 		}
-		print("\nCreate dynamic facts tree:   " + dynamicFactsFileName);
-		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, false, enable_timing);
+		print("\nCreate dynamic facts tree:          " + dynamicFactsFileName);
+		// TODO: debug
+		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, !debug, enable_timing);
+		print("Done! Dynamic facts tree created:   " + dynamicFactsFileName + "\n");
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
 		}
 		
 		NodeList dpDefList = null;
-		print("candInstancesList.size() " + candInstancesList.size());
+		print("Loop over all possible Candidate Instances.");
+		print("  candInstancesList.size() " + candInstancesList.size());
 		for (int i=0; i < candInstancesList.size(); i++)
 		{
-			if ( (i % 100 == 0 ) ) print("candInstancesList loop i=" + i);
+			if ( (i % 1 == 0 ) ) print("candInstancesList loop i=" + i);
 			
 			/** 
 			 * Loop over all Candidate instances.
@@ -754,8 +757,11 @@ public class PatternDetectionEngine
 			if (enable_timing){
 				t4 =  System.currentTimeMillis();
 			}
-			DynamicDefinitionConverter dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i), false);
+			
+			DynamicDefinitionConverter dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i), !debug);
 			Document dpDefDoc = dpDef.getDesignPatternDocument();
+
+			
 			dpDefList = dpDefDoc.getElementsByTagName("entry");
 			if (enable_timing){
 				t5 =  System.currentTimeMillis();
@@ -771,29 +777,33 @@ public class PatternDetectionEngine
 			}
 			if (enable_timing){
 				t6 =  System.currentTimeMillis();
-				t51 = t51 + (t6 - t5);
-				
+				t51 = t51 + (t6 - t5);				
 			}
-			candInstancesList.get(i).setMatchedFactsDatastructure( storeMatchedRoles );
-
 			
-			/**
-			 * Validate temporal restriction
-			 */
-			Validator validator = new Validator();
-			candInstancesList = validator.validateTemporalRestriction(candInstancesList, dpDefList, dynamicFactsFileName);
-			if (enable_timing){
-				t7 =  System.currentTimeMillis();
-				t61 = t61 + (t7 - t6);
-			}
-			/**
-			 * Validate objects restriction
-			 */
-			candInstancesList = validator.validateObjects(candInstancesList, dpDefList);
-			if (enable_timing){
-				t8 =  System.currentTimeMillis();
-				t71 = t71 + (t8 - t7);
-			}		
+			candInstancesList.get(i).setMatchedFactsDatastructure( storeMatchedRoles );			
+		}
+		
+		
+		/**
+		 * Validate temporal restriction
+		 */
+		if (debug) print("Run validateTemporalRestriction");
+		Validator validator = new Validator();
+		candInstancesList = validator.validateTemporalRestriction(candInstancesList, dpDefList, dynamicFactsFileName);
+		if (debug) print("Done validateTemporalRestriction");
+		if (enable_timing){
+			t7 =  System.currentTimeMillis();
+			t61 = t61 + (t7 - t6);
+		}
+		/**
+		 * Validate objects restriction
+		 */
+		if (debug) print("Run validateTemporalRestriction");
+		candInstancesList = validator.validateObjects(candInstancesList, dpDefList);
+		if (debug) print("Done validateTemporalRestriction");
+		if (enable_timing){
+			t8 =  System.currentTimeMillis();
+			t71 = t71 + (t8 - t7);
 		}
 		
 		
