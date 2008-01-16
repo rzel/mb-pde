@@ -1,0 +1,1176 @@
+
+--------- Original GoF Patterns ----------
+
+
+
+Strategy Pattern.
+ToolPanel is the Context class.
+Tool is the Strategy interface.
+Concrete Strategy classes:  FillTool RectangularSelectionTool ColourPickerTool PixelTool LineTool RectangleTool OvalTool ClipTool TextTool
+Delegation through currentTool of type Tool
+File Location: jdomain/jdraw/gui/ToolPanel.java,
+               jdomain/jdraw/gui/Tool.java
+
+Flyweight Pattern.
+AboutDialog is immutable.
+File location: jdomain/jdraw/gui/AboutDialog.java
+
+Flyweight Pattern.
+FileBrowserUI is a flyweight factory.
+FILE_BROWSER_UI is a flyweight object (declared public-static-final).
+File location: jdomain/util/gui/FileBrowserUI.java
+
+Flyweight Pattern.
+SortPaletteAction is immutable.
+File location: jdomain/jdraw/action/SortPaletteAction.java
+
+Flyweight Pattern.
+LinesBorder is a flyweight factory.
+DEFAULT_COLOUR is a flyweight object (declared public-static-final).
+File location: jdomain/util/gui/LinesBorder.java
+
+Flyweight Pattern.
+SettingsAction is immutable.
+File location: jdomain/jdraw/action/SettingsAction.java
+
+Flyweight Pattern.
+SearchDialogAction is immutable.
+File location: jdomain/jdraw/action/SearchDialogAction.java
+
+Flyweight Pattern.
+RotateDialog is immutable.
+File location: jdomain/jdraw/gui/RotateDialog.java
+
+Flyweight Pattern.
+ResetPaletteAlphaValuesAction is immutable.
+File location: jdomain/jdraw/action/ResetPaletteAlphaValuesAction.java
+
+Flyweight Pattern.
+ResetAlphaValuesAction is immutable.
+File location: jdomain/jdraw/action/ResetAlphaValuesAction.java
+
+Flyweight Pattern.
+ReopenAction is immutable.
+File location: jdomain/jdraw/action/ReopenAction.java
+
+Flyweight Pattern.
+ToggleViewsAction is immutable.
+File location: jdomain/jdraw/action/ToggleViewsAction.java
+
+Flyweight Pattern.
+ToggleTransparencyAction is immutable.
+File location: jdomain/jdraw/action/ToggleTransparencyAction.java
+
+Flyweight Pattern.
+ToggleGridAction is immutable.
+File location: jdomain/jdraw/action/ToggleGridAction.java
+
+Flyweight Pattern.
+SwapColoursAction is immutable.
+File location: jdomain/jdraw/action/SwapColoursAction.java
+
+Flyweight Pattern.
+SetPreviousZoomAction is immutable.
+File location: jdomain/jdraw/action/SetPreviousZoomAction.java
+
+Flyweight Pattern.
+SetMinZoomAction is immutable.
+File location: jdomain/jdraw/action/SetMinZoomAction.java
+
+Flyweight Pattern.
+SetMaxZoomAction is immutable.
+File location: jdomain/jdraw/action/SetMaxZoomAction.java
+
+Flyweight Pattern.
+ScaleDialog is immutable.
+File location: jdomain/jdraw/gui/ScaleDialog.java
+
+Flyweight Pattern.
+IncreaseZoomAction is immutable.
+File location: jdomain/jdraw/action/IncreaseZoomAction.java
+
+Flyweight Pattern.
+HelpAction is immutable.
+File location: jdomain/jdraw/action/HelpAction.java
+
+Flyweight Pattern.
+ExitAction is immutable.
+File location: jdomain/jdraw/action/ExitAction.java
+
+Flyweight Pattern.
+EditFrameSettingsAction is immutable.
+File location: jdomain/jdraw/action/EditFrameSettingsAction.java
+
+Flyweight Pattern.
+DecreaseZoomAction is immutable.
+File location: jdomain/jdraw/action/DecreaseZoomAction.java
+
+Flyweight Pattern.
+ToggleGradientFillAction is immutable.
+File location: jdomain/jdraw/action/ToggleGradientFillAction.java
+
+Flyweight Pattern.
+ToggleAntialiasAction is immutable.
+File location: jdomain/jdraw/action/ToggleAntialiasAction.java
+
+Flyweight Pattern.
+DrawLine is immutable.
+File location: jdomain/jdraw/gui/undo/DrawLine.java
+
+Flyweight Pattern.
+DrawRectangle is immutable.
+File location: jdomain/jdraw/gui/undo/DrawRectangle.java
+
+Flyweight Pattern.
+RectangleTool is immutable.
+File location: jdomain/jdraw/gui/RectangleTool.java
+
+Flyweight Pattern.
+DrawOval is immutable.
+File location: jdomain/jdraw/gui/undo/DrawOval.java
+
+Flyweight Pattern.
+OvalTool is immutable.
+File location: jdomain/jdraw/gui/OvalTool.java
+
+Flyweight Pattern.
+DrawFill is immutable.
+File location: jdomain/jdraw/gui/undo/DrawFill.java
+
+Flyweight Pattern.
+ToggleLocalPaletteAction is immutable.
+File location: jdomain/jdraw/action/ToggleLocalPaletteAction.java
+
+Flyweight Pattern.
+RemoveFrameAction is immutable.
+File location: jdomain/jdraw/action/RemoveFrameAction.java
+
+Flyweight Pattern.
+SimpleLogListener is immutable.
+File location: jdomain/util/SimpleLogListener.java
+
+Flyweight Pattern.
+DrawClip is immutable.
+File location: jdomain/jdraw/gui/undo/DrawClip.java
+
+Flyweight Pattern.
+RotateClipAction is immutable.
+File location: jdomain/jdraw/action/RotateClipAction.java
+
+Flyweight Pattern.
+FlipClipVerticallyAction is immutable.
+File location: jdomain/jdraw/action/FlipClipVerticallyAction.java
+
+Flyweight Pattern.
+FlipClipHorizontallyAction is immutable.
+File location: jdomain/jdraw/action/FlipClipHorizontallyAction.java
+
+Flyweight Pattern.
+DrawPixel is immutable.
+File location: jdomain/jdraw/gui/undo/DrawPixel.java
+
+Flyweight Pattern.
+UndoAction is immutable.
+File location: jdomain/jdraw/action/UndoAction.java
+
+Flyweight Pattern.
+RedoAction is immutable.
+File location: jdomain/jdraw/action/RedoAction.java
+
+Flyweight Pattern.
+AddColourAction is immutable.
+File location: jdomain/jdraw/action/AddColourAction.java
+
+Flyweight Pattern.
+FileBrowser is a flyweight factory.
+ALL_FILES_FILTER is a flyweight object (declared public-static-final).
+File location: jdomain/util/gui/FileBrowser.java
+
+Flyweight Pattern.
+AboutAction is immutable.
+File location: jdomain/jdraw/action/AboutAction.java
+
+Flyweight Pattern.
+DrawLayers is a flyweight factory.
+DRAW_LAYER is a flyweight object (declared public-static-final).
+File location: jdomain/jdraw/gui/DrawLayers.java
+
+Flyweight Pattern.
+ColourPanel is a flyweight factory.
+DIMENSION is a flyweight object.
+getPreferredSize is the getFlyweight method.
+File location: jdomain/jdraw/gui/ColourPanel.java
+
+Flyweight Pattern.
+ToleranceDialog is immutable.
+File location: jdomain/jdraw/gui/ToleranceDialog.java
+
+Flyweight Pattern.
+SetToleranceAction is immutable.
+File location: jdomain/jdraw/action/SetToleranceAction.java
+
+Flyweight Pattern.
+QuestionDialog is immutable.
+File location: jdomain/jdraw/gui/QuestionDialog.java
+
+Flyweight Pattern.
+ProcessHelper is immutable.
+File location: jdomain/util/BrowserLauncher.java
+
+Flyweight Pattern.
+ConsoleLogListener is immutable.
+File location: jdomain/util/ConsoleLogListener.java
+
+Flyweight Pattern.
+JDomainPanel is a flyweight factory.
+DARK_ORANGE is a flyweight object (declared public-static-final).
+File location: jdomain/util/gui/JDomainPanel.java
+
+Flyweight Pattern.
+PropertyHelper is immutable.
+File location: jdomain/util/PropertyHelper.java
+
+Composite pattern.
+Picture is the composite class.
+frames is the composite instance.
+DataObject is the component class.
+File Location: jdomain/jdraw/data/Picture.java
+File Location: jdomain/jdraw/data/DataObject.java
+
+Composite pattern.
+Palette is the composite class.
+colourMap is the composite instance.
+DataObject is the component class.
+File Location: jdomain/jdraw/data/Palette.java
+File Location: jdomain/jdraw/data/DataObject.java
+
+Template Method Found.
+Tool is the template class
+mouseClicked is the template method
+clicked is a primitive method
+File Location: jdomain/jdraw/gui/Tool.java
+
+Template Method Found.
+RectangularSelectionTool is the template class
+released is the template method
+processSelection is a primitive method
+File Location: jdomain/jdraw/gui/RectangularSelectionTool.java
+
+Template Method Found.
+ColourList is the template class
+attach is the template method
+check is a primitive method
+File Location: jdomain/jdraw/data/Palette.java
+
+Factory Method pattern.
+MetalFileChooserUI is a Factory Method class.
+FileBrowserUI is a concrete Factory Method class.
+createUI is a factory method returns  FileBrowserUI MetalFileChooserUI
+ which extends ComponentUI
+File Location: jdomain/util/gui/FileBrowserUI.java
+
+Factory Method pattern.
+JTextField is a Factory Method class.
+UpperCaseField is a concrete Factory Method class.
+createDefaultModel is a factory method returns  UpperCaseDocument
+ which extends Document
+File Location: jdomain/util/gui/UpperCaseField.java
+
+Mediator Pattern.
+FileBrowserUI is the mediator class.
+chooser controls a list of colleagues of type FileBrowser.
+hideViewer invokes the mediator. 
+Subtype(s) of colleague(s):  DrawBrowser
+File Location: jdomain/util/gui/FileBrowserUI.java
+
+Mediator Pattern.
+IconWriter is the mediator class.
+icons controls a list of colleagues of type IconEntry.
+access$0 invokes the mediator. 
+Subtype(s) of colleague(s): 
+File Location: jdomain/jdraw/gio/IconWriter.java
+
+Mediator Pattern.
+Picture is the mediator class.
+frames controls a list of colleagues of type Frame.
+getGlobalTransparent invokes the mediator. 
+Subtype(s) of colleague(s): 
+File Location: jdomain/jdraw/data/Picture.java
+
+Mediator Pattern.
+ToolPanel is the mediator class.
+currentTool controls a list of colleagues of type Tool.
+getCurrentTool invokes the mediator. 
+Subtype(s) of colleague(s):  FillTool RectangularSelectionTool ColourPickerTool PixelTool LineTool RectangleTool OvalTool ClipTool TextTool
+File Location: jdomain/jdraw/gui/ToolPanel.java
+
+Mediator Pattern.
+Mediator: StandardDialog
+Colleagues:  FontDialog ColourList ToleranceDialog SettingsDialog SearchFrame RotateDialog GrayScaleDialog ScaleDialog SizeDialog ViewAnimationAction GUIUtil ColourEditor BlockingDrawAction TextFontDialog Main
+FileLocation: jdomain/util/gui/StandardDialog.java
+
+Mediator Pattern.
+Mediator: FileBrowserUI
+Colleagues:  FileBrowser IconViewer
+FileLocation: jdomain/util/gui/FileBrowserUI.java
+
+Mediator Pattern.
+Mediator: ResourceFinder
+Colleagues:  Main ColourList ColourEntry Pixel ChangeEvent BrowserFilter ColourSettings
+FileLocation: jdomain/util/ResourceFinder.java
+
+Mediator Pattern.
+Mediator: IconReader
+Colleagues:  IconWriter Palette LoadAction Picture ICOHandler Log
+FileLocation: jdomain/jdraw/gio/IconReader.java
+
+Mediator Pattern.
+Mediator: IconEntry
+Colleagues:  IconReader ColourList FrameSettings Clip
+FileLocation: jdomain/jdraw/gio/IconReader.java
+
+Mediator Pattern.
+Mediator: DrawAction
+Colleagues:  BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction UndoManager ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/DrawAction.java
+
+Mediator Pattern.
+Mediator: BlockingDrawAction
+Colleagues:  ToggleLocalPaletteAction LoseChanges
+FileLocation: jdomain/jdraw/action/BlockingDrawAction.java
+
+Mediator Pattern.
+Mediator: SortPaletteAction
+Colleagues:  BlockingDrawAction Palette Frame Tool
+FileLocation: jdomain/jdraw/action/SortPaletteAction.java
+
+Mediator Pattern.
+Mediator: SearchDialogAction
+Colleagues:  LoseChanges LoadAction DrawAction StandardDialog SearchFrame BlockingDrawAction ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SearchDialogAction.java
+
+Mediator Pattern.
+Mediator: SaveCompressedAction
+Colleagues:  BlockingDrawAction MainFrame Picture
+FileLocation: jdomain/jdraw/action/SaveCompressedAction.java
+
+Mediator Pattern.
+Mediator: RotateAction
+Colleagues:  BlockingDrawAction FolderPanel Tool Undoable DrawLine DrawRectangle DrawOval DrawFill DrawClip UndoManager DrawPixel
+FileLocation: jdomain/jdraw/action/RotateAction.java
+
+Mediator Pattern.
+Mediator: ResetPaletteAlphaValuesAction
+Colleagues:  BlockingDrawAction Palette Tool
+FileLocation: jdomain/jdraw/action/ResetPaletteAlphaValuesAction.java
+
+Mediator Pattern.
+Mediator: ResetAlphaValuesAction
+Colleagues:  BlockingDrawAction Picture Tool
+FileLocation: jdomain/jdraw/action/ResetAlphaValuesAction.java
+
+Mediator Pattern.
+Mediator: InsertAction
+Colleagues:  BlockingDrawAction GIFReader ImageReader
+FileLocation: jdomain/jdraw/action/InsertAction.java
+
+Mediator Pattern.
+Mediator: GrayScaleAction
+Colleagues:  BlockingDrawAction FolderPanel Undoable Tool DrawLine DrawRectangle DrawOval DrawFill DrawClip UndoManager DrawPixel
+FileLocation: jdomain/jdraw/action/GrayScaleAction.java
+
+Mediator Pattern.
+Mediator: CompressPaletteAction
+Colleagues:  BlockingDrawAction ToolPanel Palette Tool
+FileLocation: jdomain/jdraw/action/CompressPaletteAction.java
+
+Mediator Pattern.
+Mediator: ToggleViewsAction
+Colleagues:  BlockingDrawAction MainFrame ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/ToggleViewsAction.java
+
+Mediator Pattern.
+Mediator: BackgroundPanel
+Colleagues:  StandardDialog DrawPanel SearchFrame StandardWindow FontDialog GradientPanel ToolPanel StandardScrollPane IconViewer PreviewPanel PalettePanel ColourPanel FloatingClip ClipPanel InfoClip LinkLabel
+FileLocation: jdomain/util/gui/BackgroundPanel.java
+
+Mediator Pattern.
+Mediator: FramePanel
+Colleagues:  Dispatcher ColourEntry FolderPanel Frame MouseHandler Clip Palette Tool DrawLayers PreviewPanel
+FileLocation: jdomain/jdraw/gui/FramePanel.java
+
+Mediator Pattern.
+Mediator: ToggleTransparencyAction
+Colleagues:  DrawAction FramePanel BlockingDrawAction Tool ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/ToggleTransparencyAction.java
+
+Mediator Pattern.
+Mediator: ToggleGridAction
+Colleagues:  BlockingDrawAction FolderPanel ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/ToggleGridAction.java
+
+Mediator Pattern.
+Mediator: SwapColoursAction
+Colleagues:  DrawAction Palette Picture BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool Log
+FileLocation: jdomain/jdraw/action/SwapColoursAction.java
+
+Mediator Pattern.
+Mediator: SetPreviousZoomAction
+Colleagues:  BlockingDrawAction FolderPanel ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/SetPreviousZoomAction.java
+
+Mediator Pattern.
+Mediator: SetMinZoomAction
+Colleagues:  BlockingDrawAction FolderPanel ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/SetMinZoomAction.java
+
+Mediator Pattern.
+Mediator: SetMaxZoomAction
+Colleagues:  BlockingDrawAction FolderPanel ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/SetMaxZoomAction.java
+
+Mediator Pattern.
+Mediator: ScaleAction
+Colleagues:  BlockingDrawAction Picture Tool UndoManager
+FileLocation: jdomain/jdraw/action/ScaleAction.java
+
+Mediator Pattern.
+Mediator: ResizeAction
+Colleagues:  BlockingDrawAction Picture MainFrame
+FileLocation: jdomain/jdraw/action/ResizeAction.java
+
+Mediator Pattern.
+Mediator: RemoveColourAction
+Colleagues:  BlockingDrawAction ToolPanel Tool Picture Palette
+FileLocation: jdomain/jdraw/action/RemoveColourAction.java
+
+Mediator Pattern.
+Mediator: ReducePaletteColoursAction
+Colleagues:  BlockingDrawAction ToolPanel Tool Palette
+FileLocation: jdomain/jdraw/action/ReducePaletteColoursAction.java
+
+Mediator Pattern.
+Mediator: ReduceColoursAction
+Colleagues:  BlockingDrawAction ToolPanel Tool Picture
+FileLocation: jdomain/jdraw/action/ReduceColoursAction.java
+
+Mediator Pattern.
+Mediator: NewAction
+Colleagues:  LoseChanges SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction ToolPanel MainFrame Main Picture Log
+FileLocation: jdomain/jdraw/action/NewAction.java
+
+Mediator Pattern.
+Mediator: IncreaseZoomAction
+Colleagues:  BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction FolderPanel Log
+FileLocation: jdomain/jdraw/action/IncreaseZoomAction.java
+
+Mediator Pattern.
+Mediator: HelpAction
+Colleagues:  DrawAction ResourceLoader BackgroundPanel DrawPanel StandardWindow BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/HelpAction.java
+
+Mediator Pattern.
+Mediator: ExitAction
+Colleagues:  BlockingDrawAction Settings TextFontDialog
+FileLocation: jdomain/jdraw/action/ExitAction.java
+
+Mediator Pattern.
+Mediator: DecreaseZoomAction
+Colleagues:  BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction FolderPanel Log
+FileLocation: jdomain/jdraw/action/DecreaseZoomAction.java
+
+Mediator Pattern.
+Mediator: ViewAnimationAction
+Colleagues:  BlockingDrawAction GIFWriter Tool
+FileLocation: jdomain/jdraw/action/ViewAnimationAction.java
+
+Mediator Pattern.
+Mediator: StandardMainFrame
+Colleagues:  MainFrame Util
+FileLocation: jdomain/util/gui/StandardMainFrame.java
+
+Mediator Pattern.
+Mediator: FontDialog
+Colleagues:  LinkLabel StandardDialog
+FileLocation: jdomain/util/gui/FontDialog.java
+
+Mediator Pattern.
+Mediator: TextFontDialog
+Colleagues:  StandardDialog Tool DataObject StandardWindow
+FileLocation: jdomain/jdraw/gui/TextFontDialog.java
+
+Mediator Pattern.
+Mediator: SetTextToolAction
+Colleagues:  TextFontDialog ToggleAntialiasAction BlockingDrawAction Tool ToolPanel Picture Palette TextTool
+FileLocation: jdomain/jdraw/action/SetTextToolAction.java
+
+Mediator Pattern.
+Mediator: SetRectangleToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetRectangleToolAction.java
+
+Mediator Pattern.
+Mediator: SetPixelToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetPixelToolAction.java
+
+Mediator Pattern.
+Mediator: SetOvalToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetOvalToolAction.java
+
+Mediator Pattern.
+Mediator: Undoable
+Colleagues:  DrawLine Log ColourList DrawRectangle Clip DrawOval TextTool
+FileLocation: jdomain/jdraw/gui/undo/Undoable.java
+
+Mediator Pattern.
+Mediator: DrawLine
+Colleagues:  LineTool DrawPixel UndoManager
+FileLocation: jdomain/jdraw/gui/undo/DrawLine.java
+
+Mediator Pattern.
+Mediator: Tool
+Colleagues:  RectangularSelectionTool Picture ClipPanel DrawFill FolderPanel TextFontDialog Frame SetTextToolAction Undoable DrawLine DrawRectangle DrawOval TextTool DrawPanel ColourPanel PalettePanel Dispatcher MouseHandler ToolPanel FramePanel LineTool InfoClip ScaleDialog FloatingClip MainFrame ViewAnimationAction ToggleLocalPaletteAction PixelTool CompressAction DrawAction ToggleAntialiasAction ToggleGradientFillAction Log Util FillTool
+FileLocation: jdomain/jdraw/gui/Tool.java
+
+Mediator Pattern.
+Mediator: LineTool
+Colleagues:  RectangularSelectionTool DrawLine UndoManager
+FileLocation: jdomain/jdraw/gui/LineTool.java
+
+Mediator Pattern.
+Mediator: SetLineToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetLineToolAction.java
+
+Mediator Pattern.
+Mediator: DrawRectangle
+Colleagues:  UndoManager DrawPixel
+FileLocation: jdomain/jdraw/gui/undo/DrawRectangle.java
+
+Mediator Pattern.
+Mediator: RectangleTool
+Colleagues:  RectangularSelectionTool DrawRectangle UndoManager
+FileLocation: jdomain/jdraw/gui/RectangleTool.java
+
+Mediator Pattern.
+Mediator: SetFilledRectangleToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetFilledRectangleToolAction.java
+
+Mediator Pattern.
+Mediator: AntialiasPanel
+Colleagues:  BackgroundPanel FloatingClip ClipPanel DrawPanel InfoClip LinkLabel ColourPanel
+FileLocation: jdomain/util/gui/AntialiasPanel.java
+
+Mediator Pattern.
+Mediator: GradientTile
+Colleagues:  BackgroundPanel GradientPanel FloatingClip DrawPanel LinkLabel
+FileLocation: jdomain/jdraw/gui/GradientPanel.java
+
+Mediator Pattern.
+Mediator: DrawOval
+Colleagues:  UndoManager DrawPixel
+FileLocation: jdomain/jdraw/gui/undo/DrawOval.java
+
+Mediator Pattern.
+Mediator: OvalTool
+Colleagues:  RectangularSelectionTool DrawOval UndoManager
+FileLocation: jdomain/jdraw/gui/OvalTool.java
+
+Mediator Pattern.
+Mediator: SetFilledOvalToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetFilledOvalToolAction.java
+
+Mediator Pattern.
+Mediator: DrawFill
+Colleagues:  FillTool Undoable DrawLine DrawRectangle DrawOval DrawClip UndoManager DrawPixel
+FileLocation: jdomain/jdraw/gui/undo/DrawFill.java
+
+Mediator Pattern.
+Mediator: SetFillToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetFillToolAction.java
+
+Mediator Pattern.
+Mediator: ColourPickerTool
+Colleagues:  Tool Assert
+FileLocation: jdomain/jdraw/gui/ColourPickerTool.java
+
+Mediator Pattern.
+Mediator: SetColourPickerToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetColourPickerToolAction.java
+
+Mediator Pattern.
+Mediator: ClipTool
+Colleagues:  RectangularSelectionTool Frame ToolPanel TextTool MouseHandler FolderPanel Main PixelTool ClipPanel
+FileLocation: jdomain/jdraw/gui/ClipTool.java
+
+Mediator Pattern.
+Mediator: SetClipToolAction
+Colleagues:  BlockingDrawAction ToolPanel ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetClipToolAction.java
+
+Mediator Pattern.
+Mediator: ToggleLocalPaletteAction
+Colleagues:  FolderPanel Frame DrawAction Picture Palette BlockingDrawAction Tool SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction
+FileLocation: jdomain/jdraw/action/ToggleLocalPaletteAction.java
+
+Mediator Pattern.
+Mediator: FolderPanel
+Colleagues:  SetPreviousZoomAction Assert GridListener ClipPanel DrawLayers ColourList TextTool JPEGWriter Tool Clip DrawLine DrawPanel DrawRectangle DrawOval MainFrame FramePanel
+FileLocation: jdomain/jdraw/gui/FolderPanel.java
+
+Mediator Pattern.
+Mediator: JPEGWriter
+Colleagues:  SaveAction FolderPanel
+FileLocation: jdomain/jdraw/gio/JPEGWriter.java
+
+Mediator Pattern.
+Mediator: IconEntry
+Colleagues:  IconWriter Assert Clip Palette ColourEntry
+FileLocation: jdomain/jdraw/gio/IconWriter.java
+
+Mediator Pattern.
+Mediator: SaveAction
+Colleagues:  BlockingDrawAction LoadAction ViewAnimationAction GIFWriter MainFrame IconWriter PNGWriter JPEGWriter
+FileLocation: jdomain/jdraw/action/SaveAction.java
+
+Mediator Pattern.
+Mediator: RemoveFrameAction
+Colleagues:  DrawAction Picture BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool Log
+FileLocation: jdomain/jdraw/action/RemoveFrameAction.java
+
+Mediator Pattern.
+Mediator: SimpleLogListener
+Colleagues:  Log Pixel ChangeEvent BrowserFilter
+FileLocation: jdomain/util/SimpleLogListener.java
+
+Mediator Pattern.
+Mediator: DataObject
+Colleagues:  TextFontDialog ColourList Frame MainFrame Dispatcher ColourEntry DataChangeListener Util Picture Clip Palette Main Assert
+FileLocation: jdomain/jdraw/data/DataObject.java
+
+Mediator Pattern.
+Mediator: Picture
+Colleagues:  Main Palette IconReader ColourList DataObject PNGWriter CompressAction ColourSettings ImageReader Frame ColourPanel Dispatcher ViewAnimationAction SetTextToolAction Clip Undoable TextTool DrawPanel PalettePanel GIFReader FolderPanel InsertAction FrameSettings
+FileLocation: jdomain/jdraw/data/Picture.java
+
+Mediator Pattern.
+Mediator: TextTool
+Colleagues:  RectangularSelectionTool TextCalculator Picture Undoable DrawPixel DrawClip FolderPanel Tool SetTextToolAction ToolPanel MouseHandler Main ClipPanel PixelTool
+FileLocation: jdomain/jdraw/gui/TextTool.java
+
+Mediator Pattern.
+Mediator: DrawClip
+Colleagues:  ClipPanel Undoable DrawLine DrawRectangle DrawOval DrawFill UndoManager DrawPixel
+FileLocation: jdomain/jdraw/gui/undo/DrawClip.java
+
+Mediator Pattern.
+Mediator: RotateClipAction
+Colleagues:  DrawAction DrawLayers FramePanel BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool ClipPanel
+FileLocation: jdomain/jdraw/action/RotateClipAction.java
+
+Mediator Pattern.
+Mediator: FlipClipVerticallyAction
+Colleagues:  DrawAction DrawLayers FramePanel BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool ClipPanel
+FileLocation: jdomain/jdraw/action/FlipClipVerticallyAction.java
+
+Mediator Pattern.
+Mediator: FlipClipHorizontallyAction
+Colleagues:  DrawAction DrawLayers FramePanel BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool ClipPanel
+FileLocation: jdomain/jdraw/action/FlipClipHorizontallyAction.java
+
+Mediator Pattern.
+Mediator: FloatingClip
+Colleagues:  ClipPanel BackgroundPanel InfoClip ColourPanel LinkLabel DrawPanel
+FileLocation: jdomain/jdraw/gui/FloatingClip.java
+
+Mediator Pattern.
+Mediator: ClipPanel
+Colleagues:  StandardDialog DrawPanel PreviewPanel ScrollablePanel StandardWindow FontDialog PalettePanel InfoClip FloatingClip DrawAction TextTool FolderPanel BackgroundPanel MouseHandler DrawClip UndoManager Util RectangularSelectionTool Frame LinkLabel
+FileLocation: jdomain/jdraw/gui/ClipPanel.java
+
+Mediator Pattern.
+Mediator: CropAction
+Colleagues:  DrawAction DrawLayers FramePanel Picture BlockingDrawAction Tool UndoManager ToolPanel ToggleLocalPaletteAction Log
+FileLocation: jdomain/jdraw/action/CropAction.java
+
+Mediator Pattern.
+Mediator: AddFrameAction
+Colleagues:  DrawAction Picture BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool Log
+FileLocation: jdomain/jdraw/action/AddFrameAction.java
+
+Mediator Pattern.
+Mediator: ToolPanel
+Colleagues:  InsertAction Tool TextTool PixelTool Assert LineTool SetTextToolAction CompressAction LoadAction
+FileLocation: jdomain/jdraw/gui/ToolPanel.java
+
+Mediator Pattern.
+Mediator: Clip
+Colleagues:  InsertAction DataObject GIFReader Pixel PixelTool
+FileLocation: jdomain/jdraw/data/Clip.java
+
+Mediator Pattern.
+Mediator: DrawPixel
+Colleagues:  DrawRectangle Clip UndoManager
+FileLocation: jdomain/jdraw/gui/undo/DrawPixel.java
+
+Mediator Pattern.
+Mediator: Frame
+Colleagues:  IconEntry Picture GIFReader DataObject ChangeEvent
+FileLocation: jdomain/jdraw/data/Frame.java
+
+Mediator Pattern.
+Mediator: PixelTool
+Colleagues:  TextTool ColourList ToolPanel Tool Assert UndoManager
+FileLocation: jdomain/jdraw/gui/PixelTool.java
+
+Mediator Pattern.
+Mediator: CompressAction
+Colleagues:  BlockingDrawAction ToolPanel Picture Tool
+FileLocation: jdomain/jdraw/action/CompressAction.java
+
+Mediator Pattern.
+Mediator: MainFrame
+Colleagues:  StandardMainFrame Settings BackgroundPanel Main FolderPanel PalettePanel Frame UndoManager Dispatcher Picture Palette Tool DrawAction
+FileLocation: jdomain/jdraw/gui/MainFrame.java
+
+Mediator Pattern.
+Mediator: UndoAction
+Colleagues:  BlockingDrawAction UndoManager ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/UndoAction.java
+
+Mediator Pattern.
+Mediator: RedoAction
+Colleagues:  BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction UndoManager
+FileLocation: jdomain/jdraw/action/RedoAction.java
+
+Mediator Pattern.
+Mediator: UndoManager
+Colleagues:  LineTool Assert Undoable DrawRectangle DrawOval DrawFill DrawClip ColourList ClipPanel DrawLine PixelTool FillTool InsertAction SaveAction MainFrame LoadAction
+FileLocation: jdomain/jdraw/gui/undo/UndoManager.java
+
+Mediator Pattern.
+Mediator: FillTool
+Colleagues:  Tool UndoManager
+FileLocation: jdomain/jdraw/gui/FillTool.java
+
+Mediator Pattern.
+Mediator: ChangeEvent
+Colleagues:  Frame ColourEntry Pixel BrowserFilter ColourSettings Palette Dispatcher ResourceFinder SimpleLogListener FileBrowser StatusPanel BrowserLauncher ConsoleLogListener
+FileLocation: jdomain/jdraw/data/event/ChangeEvent.java
+
+Mediator Pattern.
+Mediator: Palette
+Colleagues:  IconReader DataObject IconEntry InsertAction SetTextToolAction Undoable ToggleLocalPaletteAction ImageReader GIFReader ColourList Picture ColourEntry Frame ChangeEvent
+FileLocation: jdomain/jdraw/data/Palette.java
+
+Mediator Pattern.
+Mediator: ColourList
+Colleagues:  IconWriter Assert
+FileLocation: jdomain/jdraw/data/Palette.java
+
+Mediator Pattern.
+Mediator: AddColourAction
+Colleagues:  DrawAction Palette BlockingDrawAction SetPreviousZoomAction SaveAsAction ToggleGradientFillAction ToggleAntialiasAction ToggleLocalPaletteAction Tool Log
+FileLocation: jdomain/jdraw/action/AddColourAction.java
+
+Mediator Pattern.
+Mediator: GUIUtil
+Colleagues:  Picture Util ResourceLoader SaveAsAction ViewAnimationAction SaveAction LoadAction LoseChanges
+FileLocation: jdomain/util/gui/GUIUtil.java
+
+Mediator Pattern.
+Mediator: Log
+Colleagues:  IconReader ColourList GIFReader IconWriter GIFWriter PNGWriter ImageReader StatusPanel LogPanel StandardMainFrame LogListener SimpleLogListener ConsoleLogListener IconEntry IconEntry DrawAction Undoable Tool TextCalculator DataObject ColourEntry Picture Frame MainFrame Palette GUIUtil ResourceLoader Settings ColourSettings Dispatcher ResourceFinder BlockingDrawAction InsertAction SetPreviousZoomAction SaveAction CompressAction LoadAction Main ViewAnimationAction PalettePanel
+FileLocation: jdomain/util/Log.java
+
+Mediator Pattern.
+Mediator: IconViewer
+Colleagues:  DrawBrowser ColourList
+FileLocation: jdomain/util/gui/IconViewer.java
+
+Mediator Pattern.
+Mediator: DrawBrowser
+Colleagues:  InsertAction FileBrowser LoadAction SaveAsAction
+FileLocation: jdomain/jdraw/gui/DrawBrowser.java
+
+Mediator Pattern.
+Mediator: Settings
+Colleagues:  SaveAction FileBrowser ColourList DrawMenu LoadAction
+FileLocation: jdomain/jdraw/Settings.java
+
+Mediator Pattern.
+Mediator: LoadAction
+Colleagues:  Main DrawAction BlockingDrawAction GIFReader ImageReader IconReader
+FileLocation: jdomain/jdraw/action/LoadAction.java
+
+Mediator Pattern.
+Mediator: AboutAction
+Colleagues:  DrawAction StandardDialog ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/AboutAction.java
+
+Mediator Pattern.
+Mediator: DrawPanel
+Colleagues:  ClipPanel PreviewPanel PreviewPanel DrawLayers BackgroundPanel Dispatcher StandardDialog SearchFrame StandardWindow FontDialog GradientPanel ToolPanel StandardScrollPane IconViewer PalettePanel FloatingClip InfoClip LinkLabel ColourPanel ToolButton ScrollablePanel
+FileLocation: jdomain/jdraw/gui/DrawPanel.java
+
+Mediator Pattern.
+Mediator: PreviewPanel
+Colleagues:  StandardDialog DrawPanel ScrollablePanel StandardWindow FontDialog PalettePanel InfoClip
+FileLocation: jdomain/jdraw/gui/PreviewPanel.java
+
+Mediator Pattern.
+Mediator: DrawLayers
+Colleagues:  StandardDialog DrawPanel PreviewPanel ScrollablePanel StandardWindow FontDialog PalettePanel InfoClip FramePanel
+FileLocation: jdomain/jdraw/gui/DrawLayers.java
+
+Mediator Pattern.
+Mediator: JDHandler
+Colleagues:  SearchFrame Util IconViewer GIFWriter
+FileLocation: jdomain/jdraw/gui/JDHandler.java
+
+Mediator Pattern.
+Mediator: ICOHandler
+Colleagues:  SearchFrame Util IconViewer IconReader PNGWriter
+FileLocation: jdomain/jdraw/gui/ICOHandler.java
+
+Mediator Pattern.
+Mediator: LoseChanges
+Colleagues:  BlockingDrawAction UndoManager Util ContinuedAction ReopenAction GUIUtil DrawAction
+FileLocation: jdomain/jdraw/action/LoseChanges.java
+
+Mediator Pattern.
+Mediator: StatusPanel
+Colleagues:  Log Pixel ChangeEvent BrowserFilter Util
+FileLocation: jdomain/jdraw/gui/StatusPanel.java
+
+Mediator Pattern.
+Mediator: ColourPanel
+Colleagues:  PalettePanel ColourEntry FloatingClip BackgroundPanel DrawPanel LinkLabel
+FileLocation: jdomain/jdraw/gui/ColourPanel.java
+
+Mediator Pattern.
+Mediator: ColourEditor
+Colleagues:  AlphaChooserPanel PreviewPanel
+FileLocation: jdomain/jdraw/gui/ColourEditor.java
+
+Mediator Pattern.
+Mediator: PreviewPanel
+Colleagues:  ColourEditor Util
+FileLocation: jdomain/jdraw/gui/ColourEditor.java
+
+Mediator Pattern.
+Mediator: MouseHandler
+Colleagues:  TextTool Assert FloatingClip InfoClip FramePanel FolderPanel
+FileLocation: jdomain/jdraw/gui/MouseHandler.java
+
+Mediator Pattern.
+Mediator: EditColourAction
+Colleagues:  BlockingDrawAction Palette Frame Tool ColourEditor
+FileLocation: jdomain/jdraw/action/EditColourAction.java
+
+Mediator Pattern.
+Mediator: InfoClip
+Colleagues:  MouseHandler ClipPanel BackgroundPanel FloatingClip DrawPanel LinkLabel
+FileLocation: jdomain/jdraw/gui/InfoClip.java
+
+Mediator Pattern.
+Mediator: Dispatcher
+Colleagues:  MainFrame ChangeEvent
+FileLocation: jdomain/jdraw/gui/Dispatcher.java
+
+Mediator Pattern.
+Mediator: ToleranceDialog
+Colleagues:  SearchFrame Util FillTool
+FileLocation: jdomain/jdraw/gui/ToleranceDialog.java
+
+Mediator Pattern.
+Mediator: SetToleranceAction
+Colleagues:  DrawAction StandardDialog ToggleLocalPaletteAction
+FileLocation: jdomain/jdraw/action/SetToleranceAction.java
+
+Mediator Pattern.
+Mediator: ConsoleLogListener
+Colleagues:  Log Pixel ChangeEvent BrowserFilter
+FileLocation: jdomain/util/ConsoleLogListener.java
+
+Mediator Pattern.
+Mediator: LinkLabel
+Colleagues:  BackgroundPanel FloatingClip ClipPanel DrawPanel InfoClip FontDialog ColourPanel
+FileLocation: jdomain/util/gui/LinkLabel.java
+
+Mediator Pattern.
+Mediator: CellRenderer
+Colleagues:  StandardDialog ClipPanel ToolButton DrawPanel PreviewPanel DrawLayers ColourPanel ScrollablePanel StandardWindow FontDialog PalettePanel InfoClip
+FileLocation: jdomain/util/gui/LogPanel.java
+
+Proxy Pattern.
+FileBrowserUI is a proxy.
+ChangeListener is a proxy interface.
+The real object(s): IconViewer
+File Location: jdomain/util/gui/FileBrowserUI.java
+
+Proxy Pattern.
+BlockingDrawAction is a proxy.
+DrawAction is a proxy interface.
+The real object(s): DrawDialog
+File Location: jdomain/jdraw/action/BlockingDrawAction.java
+
+Proxy Pattern.
+SearchFrame is a proxy.
+StandardDialog is a proxy interface.
+The real object(s): JScrollPane
+File Location: jdomain/jdraw/gui/SearchFrame.java
+
+Proxy Pattern.
+StandardWindow is a proxy.
+JFrame is a proxy interface.
+The real object(s): JButton
+File Location: jdomain/util/gui/StandardWindow.java
+
+Proxy Pattern.
+HelpAction is a proxy.
+DrawAction is a proxy interface.
+The real object(s): DrawWindow
+File Location: jdomain/jdraw/action/HelpAction.java
+
+Proxy Pattern.
+FontDialog is a proxy.
+StandardDialog is a proxy interface.
+The real object(s): JButton
+File Location: jdomain/util/gui/FontDialog.java
+
+Proxy Pattern.
+ClipPanel is a proxy.
+FloatingClip is a proxy interface.
+The real object(s): DrawPanel
+File Location: jdomain/jdraw/gui/ClipPanel.java
+
+Proxy Pattern.
+PalettePanel is a proxy.
+JPanel is a proxy interface.
+The real object(s): StandardScrollPane
+File Location: jdomain/jdraw/gui/PalettePanel.java
+
+Adapter Pattern.
+Adapting classes:  RectangularSelectionTool Tool Object KeyEventDispatcher DrawMouseListener
+TextTool is an adapter class.
+TextCalculator is the adaptee class.
+File Location: jdomain/jdraw/gui/TextTool.java
+File Location: jdomain/util/gui/TextCalculator.java
+
+Facade Pattern.
+IconEntry is a facade class.
+Hidden types: FrameSettings Clip
+Facade access types: IconReader
+File Location: jdomain/jdraw/gio/IconReader.java
+
+Facade Pattern.
+SettingsDialog is a facade class.
+Hidden types: Util WidgetFactory
+Facade access types: SettingsAction
+File Location: jdomain/jdraw/gui/SettingsDialog.java
+
+Facade Pattern.
+SearchFrame is a facade class.
+Hidden types: ICOHandler JDHandler
+Facade access types: SearchDialogAction
+File Location: jdomain/jdraw/gui/SearchFrame.java
+
+Facade Pattern.
+SearchFrame$6 is a facade class.
+Hidden types: SearchFrame BrowserFilter
+Facade access types: SearchFrame$6
+File Location: jdomain/jdraw/gui/SearchFrame.java
+
+Facade Pattern.
+InsertAction is a facade class.
+Hidden types: GIFReader ImageReader UndoManager Log
+Facade access types: InsertAction
+File Location: jdomain/jdraw/action/InsertAction.java
+
+Facade Pattern.
+GrayScaleDialog is a facade class.
+Hidden types: Util WidgetFactory
+Facade access types: GrayScaleAction
+File Location: jdomain/jdraw/gui/GrayScaleDialog.java
+
+Facade Pattern.
+ScaleDialog is a facade class.
+Hidden types: Assert Util
+Facade access types: ScaleAction
+File Location: jdomain/jdraw/gui/ScaleDialog.java
+
+Facade Pattern.
+StandardMainFrame is a facade class.
+Hidden types: GUIUtil Util
+Facade access types: MainFrame StandardWindow
+File Location: jdomain/util/gui/StandardMainFrame.java
+
+Facade Pattern.
+FontDialog is a facade class.
+Hidden types: TextCalculator Util
+Facade access types: DrawMenu$5 TextFontDialog SetTextToolAction
+File Location: jdomain/util/gui/FontDialog.java
+
+Facade Pattern.
+DrawLine is a facade class.
+Hidden types: FolderPanel Clip ColourEntry Palette Picture
+Facade access types: LineTool
+File Location: jdomain/jdraw/gui/undo/DrawLine.java
+
+Facade Pattern.
+LineTool is a facade class.
+Hidden types: DrawLine UndoManager
+Facade access types: LineTool
+File Location: jdomain/jdraw/gui/LineTool.java
+
+Facade Pattern.
+DrawRectangle is a facade class.
+Hidden types: FolderPanel Tool GradientPanel ColourEntry Palette Picture
+Facade access types: RectangleTool
+File Location: jdomain/jdraw/gui/undo/DrawRectangle.java
+
+Facade Pattern.
+DrawOval is a facade class.
+Hidden types: Tool FolderPanel GradientPanel Clip ColourEntry Palette Picture
+Facade access types: OvalTool
+File Location: jdomain/jdraw/gui/undo/DrawOval.java
+
+Facade Pattern.
+DrawFill is a facade class.
+Hidden types: FillTool Tool Palette Clip ColourEntry FramePanel Picture
+Facade access types: FillTool
+File Location: jdomain/jdraw/gui/undo/DrawFill.java
+
+Facade Pattern.
+IconEntry is a facade class.
+Hidden types: Palette ColourEntry Assert Clip Frame FrameSettings
+Facade access types: IconWriter
+File Location: jdomain/jdraw/gio/IconWriter.java
+
+Facade Pattern.
+GIFWriter is a facade class.
+Hidden types: Clip Frame Assert Palette FrameSettings ColourEntry GIFReader
+Facade access types: JDHandler ViewAnimationAction SaveAction
+File Location: jdomain/jdraw/gio/GIFWriter.java
+
+Facade Pattern.
+SaveAction is a facade class.
+Hidden types: Tool GUIUtil GIFWriter IconWriter PNGWriter JPEGWriter Log UndoManager
+Facade access types: LoseChanges$1
+File Location: jdomain/jdraw/action/SaveAction.java
+
+Facade Pattern.
+TextTool is a facade class.
+Hidden types: TextCalculator FolderPanel GradientPanel MouseHandler
+Facade access types: DrawClip SetTextToolAction
+File Location: jdomain/jdraw/gui/TextTool.java
+
+Facade Pattern.
+ClipPanel is a facade class.
+Hidden types: DrawClip UndoManager Assert Util
+Facade access types: ClipTool TextTool RotateClipAction FlipClipVerticallyAction FlipClipHorizontallyAction
+File Location: jdomain/jdraw/gui/ClipPanel.java
+
+Facade Pattern.
+PixelTool is a facade class.
+Hidden types: Picture Assert Clip UndoManager
+Facade access types: PixelTool
+File Location: jdomain/jdraw/gui/PixelTool.java
+
+Facade Pattern.
+IconViewer is a facade class.
+Hidden types: ImageHandler ResourceLoader
+Facade access types: DrawBrowser FileBrowserUI
+File Location: jdomain/util/gui/IconViewer.java
+
+Facade Pattern.
+LoadAction is a facade class.
+Hidden types: GIFReader ImageReader IconReader
+Facade access types: SearchDialogAction Main SaveAction
+File Location: jdomain/jdraw/action/LoadAction.java
+
+Facade Pattern.
+Main is a facade class.
+Hidden types: ResourceFinder StandardDialog DrawMenu FileBrowser Tool
+Facade access types: NewAction DataObject LoadAction Picture
+File Location: jdomain/jdraw/Main.java
+
+Facade Pattern.
+JDHandler is a facade class.
+Hidden types: Util GIFWriter
+Facade access types: SearchFrame
+File Location: jdomain/jdraw/gui/JDHandler.java
+
+Facade Pattern.
+ICOHandler is a facade class.
+Hidden types: Util IconReader PNGWriter
+Facade access types: SearchFrame
+File Location: jdomain/jdraw/gui/ICOHandler.java
+
+Facade Pattern.
+LoseChanges is a facade class.
+Hidden types: Util ContinuedAction
+Facade access types: BlockingDrawAction SearchDialogAction ExitAction NewAction ReopenAction
+File Location: jdomain/jdraw/action/LoseChanges.java
+
+Facade Pattern.
+MouseHandler is a facade class.
+Hidden types: FloatingClip InfoClip
+Facade access types: ClipTool TextTool FolderPanel
+File Location: jdomain/jdraw/gui/MouseHandler.java
+
+Facade Pattern.
+Dispatcher is a facade class.
+Hidden types: Assert FramePanel DrawPanel PreviewPanel
+Facade access types: MainFrame
+File Location: jdomain/jdraw/gui/Dispatcher.java
+
+
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            2
+Factory Method              2
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     1
+Bridge                      0
+Composite                   2
+Decorator                   0
+Facade                     28
+Flyweight                  53
+Proxy                       8
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                  125
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             3
+Visitor                     0
+------------------------------
+
+Number of classes processed: 249
+Number of files processed: 172
+Size of DelegationTable: 5700
+Size of concrete class nodes: 159
+Size of undirected invocation edges: 647
+
+
+nMediatorFacadeDual/nMediator = 21/125
+nImmutable/nFlyweight = 47/53
+nFlyweightGoFVersion = 0
