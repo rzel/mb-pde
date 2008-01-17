@@ -1,0 +1,48 @@
+candidateinstances/jdraw.AbstractFactory.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/AbstractFactory.xml
+candidateinstances/jdraw.FactoryMethod.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/FactoryMethod.xml
+candidateinstances/jdraw.adapter.xaa dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/adapter.xml
+candidateinstances/jdraw.adapter.xab dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/adapter.xml
+candidateinstances/jdraw.bridge.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/bridge.xml
+candidateinstances/jdraw.builder.xaa dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+candidateinstances/jdraw.builder.xab dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+candidateinstances/jdraw.builder.xac dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+candidateinstances/jdraw.builder.xad dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+candidateinstances/jdraw.builder.xae dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+candidateinstances/jdraw.builder.xaf dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+candidateinstances/jdraw.command.xaa dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml
+candidateinstances/jdraw.command.xab dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml
+candidateinstances/jdraw.command.xac dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml
+candidateinstances/jdraw.command.xad dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml
+candidateinstances/jdraw.command.xae dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml
+candidateinstances/jdraw.command.xaf dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml
+candidateinstances/jdraw.composite.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/composite.xml
+candidateinstances/jdraw.decorator.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/decorator.xml
+candidateinstances/jdraw.flyweight.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/flyweight.xml
+candidateinstances/jdraw.interpreter.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/interpreter.xml
+candidateinstances/jdraw.iterator.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/iterator.xml
+candidateinstances/jdraw.mediator.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/mediator.xml
+candidateinstances/jdraw.memento.xaa dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/memento.xml
+candidateinstances/jdraw.memento.xab dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/memento.xml
+candidateinstances/jdraw.memento.xac dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/memento.xml
+candidateinstances/jdraw.observer.xaa dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.observer.xab dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.observer.xac dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.observer.xad dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.observer.xae dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.observer.xaf dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.observer.xag dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml
+candidateinstances/jdraw.prototype.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/prototype.xml
+candidateinstances/jdraw.proxy.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/proxy.xml
+candidateinstances/jdraw.singleton.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/singleton.xml
+candidateinstances/jdraw.state.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/state.xml
+candidateinstances/jdraw.strategy.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/strategy.xml
+candidateinstances/jdraw.templatemethod.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/templatemethod.xml
+candidateinstances/jdraw.visitor.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/visitor.xml
+
+
+
+
+
+
+
+
