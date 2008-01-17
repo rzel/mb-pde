@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# Author: Marcel Birkner
+# Date:   January 2008
+
+cd /cs/research/bil/Marcel/dpd4j/mb-pde/MasterThesis
+tar xvfz jdraw.src.tar.gz
+set javafiles=`find jdomain/ -name '*.java'  | tr '\n' ' '`
+pinot -Xstdout -classpath /cs/local/packages/jdk1.5.0_10/jre/lib/rt.jar:. $javafiles > pinot.results.4.jdraw.out
+
+
+------------------------------------------
+Results
+------------------------------------------
+
+Pattern Instance Statistics:
+
+Creational Patterns
+==============================
+Abstract Factory            2
+Factory Method              2
+Singleton                   0
+------------------------------
+Structural Patterns
+==============================
+Adapter                     1
+Bridge                      0
+Composite                   2
+Decorator                   0
+Facade                     28
+Flyweight                  53
+Proxy                       8
+------------------------------
+Behavioral Patterns
+==============================
+Chain of Responsibility     0
+Mediator                  125
+Observer                    0
+State                       0
+Strategy                    1
+Template Method             3
+Visitor                     0
+------------------------------
