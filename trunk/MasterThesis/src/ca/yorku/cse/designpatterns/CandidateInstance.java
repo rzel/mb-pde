@@ -1,13 +1,7 @@
 package ca.yorku.cse.designpatterns;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
 import java.util.*;
+
 
 /**
  * This class represents a candidate instance as an object. It is used to store the candidate instances that were detected during the static analysis. Each object of this class is a possible candidate instance of a design pattern. They are stored in this format for easier access.
@@ -15,7 +9,7 @@ import java.util.*;
  * @version  0.6
  */
 public class CandidateInstance{
-
+	
 	/*
 	 * Number of roles in this pattern.
 	 * Names of the classes that make up the pattern.
@@ -30,8 +24,8 @@ public class CandidateInstance{
 	 * that stores all nodes that match the dynamic definition of the 
 	 * design pattern.
 	 */
-	// private LinkedList[] matchedFactsDatastructure = null;
-	private String filename = "serializedObjects/candidateInstance." + this.hashCode() + ".ser";
+	private LinkedList[] matchedFactsDatastructure = null;
+	//private String filename = "serializedObjects/candidateInstance." + this.hashCode() + ".ser";
 	
 	// Is set to true if the candidate instance matches the definitions 100%
 	private boolean isPattern;
@@ -144,17 +138,17 @@ public class CandidateInstance{
 	 * @param linkedList  LinkedList data structure of Nodes that contains all nodes that match the dynamic linkedList design pattern definition
 	 */
 	public void setMatchedFactsDatastructure(LinkedList[] linkedList) {		
-		//this.matchedFactsDatastructure = linkedList;
-	    ObjectOutputStream objstream;
-		try {
-			objstream = new ObjectOutputStream(new FileOutputStream(filename) );
-		    objstream.writeObject( linkedList );
-		    objstream.close();	
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}	
+		this.matchedFactsDatastructure = linkedList;
+//	    ObjectOutputStream objstream;
+//		try {
+//			objstream = new ObjectOutputStream(new FileOutputStream(filename) );
+//		    objstream.writeObject( linkedList );
+//		    objstream.close();	
+//		} catch (FileNotFoundException e) {
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}	
 		//this.matchedFactsDatastructure = null;
 	}
 
@@ -163,18 +157,18 @@ public class CandidateInstance{
 	 * @return  LinkedList[] with Nodes that match the dynamic definition of the   design pattern.
 	 */
 	public LinkedList[] getMatchedFactsDatastructure() {
-		
-		LinkedList[] returnVal = null;
-	    try {
-	    	ObjectInputStream objstream = new ObjectInputStream(new FileInputStream(filename));
-	    	returnVal = (LinkedList[]) objstream.readObject();
-			objstream.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}		
-		return returnVal;
+		return this.matchedFactsDatastructure;
+//		LinkedList[] returnVal = null;
+//	    try {
+//	    	ObjectInputStream objstream = new ObjectInputStream(new FileInputStream(filename));
+//	    	returnVal = (LinkedList[]) objstream.readObject();
+//			objstream.close();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		} catch (ClassNotFoundException e) {
+//			e.printStackTrace();
+//		}		
+//		return returnVal;
 	}
 	
 

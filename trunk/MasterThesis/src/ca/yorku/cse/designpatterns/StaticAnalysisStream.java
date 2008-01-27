@@ -2,6 +2,7 @@ package ca.yorku.cse.designpatterns;
 
 import java.io.*;
 
+
 /**
 * Handle input and output of static analysis
 * 
@@ -10,7 +11,7 @@ import java.io.*;
 * @since 10 October, 2007
 */
 class StaticAnalysisStream extends Thread
-{
+{	
     InputStream is;
     String type;
     OutputStream os;
