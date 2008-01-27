@@ -2,6 +2,8 @@ package ca.yorku.cse.designpatterns;
 
 import java.io.*;
 
+import org.apache.log4j.Logger;
+
 /**
 * Handle static analysis
 * 
@@ -11,6 +13,10 @@ import java.io.*;
 */
 public class StaticAnalysis
 {
+	// Log4J
+	private static org.apache.log4j.Logger log = Logger.getLogger( PatternDetectionEngine.class );
+
+	
     String cmd = "";
     String out = "";
     
@@ -31,7 +37,7 @@ public class StaticAnalysis
      * Execute static analysis
      */
     public void runStaticAnalysis() {    
-	System.out.println("Run Static analysis: " + this.cmd );
+	log.info("Run Static analysis: " + this.cmd );
 
         try
         {            
@@ -52,7 +58,7 @@ public class StaticAnalysis
                                     
             // any error???
             int exitVal = proc.waitFor();
-            System.out.println("ExitValue: " + exitVal);
+            log.info("ExitValue: " + exitVal);
             fos.flush();
             fos.close();        
         } 

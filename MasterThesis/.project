@@ -3,6 +3,7 @@
 	<name>MasterThesis</name>
 	<comment>@key 32303036313030362D31303030204D61737465725468657369732F4D617263656C204269726B6E6572 </comment>
 	<projects>
+		<project>JDraw_jdk1.4</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

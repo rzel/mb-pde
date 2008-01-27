@@ -3,6 +3,8 @@ package ca.yorku.cse.designpatterns;
 import java.util.*;
 import java.io.*;
 
+import org.apache.log4j.Logger;
+
 /**
  * This class processes the text file that contains the tuples with the candidate
  * instances. It reads the file line by line, and creates a
@@ -27,6 +29,10 @@ import java.io.*;
  */
 public class CandidateInstanceList implements CandidateInstanceListInterface {
 
+	// Log4J
+	private static org.apache.log4j.Logger log = Logger.getLogger( CandidateInstanceList.class );
+
+	
     /**
      * Contains a list of all possible candidate instances that
      * were found during the static analysis.
@@ -126,7 +132,7 @@ public class CandidateInstanceList implements CandidateInstanceListInterface {
             }      
 
         } catch (Exception e) {
-            System.out.println("CandidateInstanceProcessor: -> parseFile() " +
+            log.info("CandidateInstanceProcessor: -> parseFile() " +
             		"An error occured with candidate instance textfile. " +
             		"Cannot read from file: " + filename +
             		"Please check file and make sure it matches " +

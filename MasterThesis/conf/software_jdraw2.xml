@@ -3,7 +3,7 @@
 
 <properties grok="grok" javex="javex" ql="ql" shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
 	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">
-	<software directory="jdraw2/" mainClass="Main.java" name="jdraw" dynamicFactsFile="dynamicfacts/jdomain.jdraw.gui.MainFrame1.dynamicfacts" />
+	<software directory="jdraw2/" mainClass="Main.java" name="jdraw" dynamicFactsFile="dynamicfacts/jdraw200MB.dynamicfacts" />
 </properties>
 
 
