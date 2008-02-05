@@ -1,6 +1,4 @@
-#summary Introduction into PDE.
 #labels Featured,Phase-Implementation,Phase-Deploy
-
 = Introduction =
 
 PDE is used to detect software design pattern in Java software. There are a couple of steps that need to be done to detect design patterns.
