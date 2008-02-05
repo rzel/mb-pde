@@ -1,6 +1,4 @@
 #labels Featured,Phase-Implementation,Phase-Deploy
-= Introduction =
-
 PDE is used to detect software design pattern in Java software. There are a couple of steps that need to be done to detect design patterns.
 
 1. Dynamic facts: PDE needs dynamic facts from the software that is analyzed. These dynamic facts consist of a list of method calls that are executed during run-time of the software. To extract these dynamic facts the user needs to do the following:
