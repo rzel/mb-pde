@@ -1,0 +1,6 @@
+candidateinstances/jdraw.observer.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/observer.xml 
+candidateinstances/jdraw.builder.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/builder.xml
+
+candidateinstances/jdraw.adapter.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/adapter.xml  
+candidateinstances/jdraw.command.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/command.xml 
+candidateinstances/jdraw.memento.out dynamicfacts/jdraw200MB.dynamicfacts dynamicdefinitions/memento.xml 
