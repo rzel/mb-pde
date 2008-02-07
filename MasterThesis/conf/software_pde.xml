@@ -3,27 +3,6 @@
 
 <properties grok="grok" javex="javex" ql="ql" shellScript="./static.sh" candidateInstancesDirectory="candidateinstances/"
 	dynamicDefinitionsDirectory="dynamicdefinitions/" dynamicFactsDirectory="dynamicfacts/">
-	<software directory="ajp_code/AbstractFactory" mainClass="RunPattern.java" name="AbstractFactory" dynamicFactsFile="dynamicfacts/ajp_code.AbstractFactory.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/adapter" mainClass="RunPattern.java" name="adapter" dynamicFactsFile="dynamicfacts/ajp_code.adapter.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/bridge" mainClass="RunPattern.java" name="bridge" dynamicFactsFile="dynamicfacts/ajp_code.bridge.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/builder" mainClass="RunPattern.java" name="builder" dynamicFactsFile="dynamicfacts/ajp_code.builder.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/chain" mainClass="RunPattern.java" name="chain" dynamicFactsFile="dynamicfacts/ajp_code.chain.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/command" mainClass="RunPattern.java" name="command" dynamicFactsFile="dynamicfacts/ajp_code.command.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/composite" mainClass="RunPattern.java" name="composite" dynamicFactsFile="dynamicfacts/ajp_code.composite.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/decorator" mainClass="RunPattern.java" name="decorator" dynamicFactsFile="dynamicfacts/ajp_code.decorator.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/FactoryMethod" mainClass="RunPattern.java" name="FactoryMethod" dynamicFactsFile="dynamicfacts/ajp_code.FactoryMethod.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/flyweight" mainClass="RunPattern.java" name="flyweight" dynamicFactsFile="dynamicfacts/ajp_code.flyweight.RunPattern.dynamicfacts" />	
-	<software directory="ajp_code/interpreter" mainClass="RunPattern.java" name="interpreter" dynamicFactsFile="dynamicfacts/ajp_code.interpreter.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/iterator" mainClass="RunPattern.java" name="iterator" dynamicFactsFile="dynamicfacts/ajp_code.iterator.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/mediator" mainClass="RunPattern.java" name="mediator" dynamicFactsFile="dynamicfacts/ajp_code.mediator.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/memento" mainClass="RunPattern.java" name="memento" dynamicFactsFile="dynamicfacts/ajp_code.memento.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/observer" mainClass="RunPattern.java" name="observer" dynamicFactsFile="dynamicfacts/ajp_code.observer.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/prototype" mainClass="RunPattern.java" name="prototype" dynamicFactsFile="dynamicfacts/ajp_code.prototype.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/proxy" mainClass="RunPattern.java" name="proxy" dynamicFactsFile="dynamicfacts/ajp_code.proxy.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/singleton" mainClass="RunPattern.java" name="singleton" dynamicFactsFile="dynamicfacts/ajp_code.singleton.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/state" mainClass="RunPattern.java" name="state" dynamicFactsFile="dynamicfacts/ajp_code.state.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/strategy" mainClass="RunPattern.java" name="strategy" dynamicFactsFile="dynamicfacts/ajp_code.strategy.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/templatemethod" mainClass="RunPattern.java" name="templatemethod" dynamicFactsFile="dynamicfacts/ajp_code.templatemethod.RunPattern.dynamicfacts" />
-	<software directory="ajp_code/visitor" mainClass="RunPattern.java" name="visitor" dynamicFactsFile="dynamicfacts/ajp_code.visitor.RunPattern.dynamicfacts" />
+	<software directory="src/ca" mainClass="PatternDetectionEngine.java" name="PatternDetectionEngine" dynamicFactsFile="dynamicfacts/ca.yorku.cse.designpatterns.PatternDetectionEngine.dynamicfacts" />
 </properties>
 
