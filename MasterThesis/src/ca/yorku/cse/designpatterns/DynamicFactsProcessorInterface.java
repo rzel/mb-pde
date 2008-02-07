@@ -33,7 +33,7 @@ public interface DynamicFactsProcessorInterface {
      * 
      * @param document with all dynamic facts
      */
-    public abstract void parseDocument(Document document);
+    public abstract void transformDocument(Document document);
 
     /**
      * Read input file and create XML document.

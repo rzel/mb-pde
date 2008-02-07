@@ -1,6 +1,14 @@
 package ca.yorku.cse.designpatterns;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.*;
+
+import org.apache.log4j.Logger;
 
 
 /**
@@ -9,6 +17,8 @@ import java.util.*;
  * @version  0.6
  */
 public class CandidateInstance{
+	
+	private static org.apache.log4j.Logger log = Logger.getLogger( CandidateInstance.class );
 	
 	/*
 	 * Number of roles in this pattern.
@@ -25,7 +35,7 @@ public class CandidateInstance{
 	 * design pattern.
 	 */
 	private LinkedList[] matchedFactsDatastructure = null;
-	//private String filename = "serializedObjects/candidateInstance." + this.hashCode() + ".ser";
+	private String filename = "serializedObjects/candidateInstance." + this.hashCode() + ".ser";
 	
 	// Is set to true if the candidate instance matches the definitions 100%
 	private boolean isPattern;
@@ -141,14 +151,23 @@ public class CandidateInstance{
 		this.matchedFactsDatastructure = linkedList;
 //	    ObjectOutputStream objstream;
 //		try {
+//			log.info("CandidateInstance -> setMatchedFactsDatastructure filename=" + filename);
 //			objstream = new ObjectOutputStream(new FileOutputStream(filename) );
 //		    objstream.writeObject( linkedList );
+//		    objstream.flush();
+//		    log.info("CandidateInstance -> setMatchedFactsDatastructure flush");
 //		    objstream.close();	
 //		} catch (FileNotFoundException e) {
+//			log.error("CandidateInstance -> setMatchedFactsDatastructure FileNotFoundException");
 //			e.printStackTrace();
 //		} catch (IOException e) {
+//			log.error("CandidateInstance -> setMatchedFactsDatastructure IOException");
 //			e.printStackTrace();
-//		}	
+//		} catch (Exception e){
+//			log.error("CandidateInstance -> setMatchedFactsDatastructure Exception");
+//			e.printStackTrace();
+//		}
+//		log.info("CandidateInstance -> setMatchedFactsDatastructure Done setting matched facts");
 		//this.matchedFactsDatastructure = null;
 	}
 
@@ -160,14 +179,20 @@ public class CandidateInstance{
 		return this.matchedFactsDatastructure;
 //		LinkedList[] returnVal = null;
 //	    try {
+//	    	log.info("CandidateInstance -> getMatchedFactsDatastructure filename=" + filename);
 //	    	ObjectInputStream objstream = new ObjectInputStream(new FileInputStream(filename));
 //	    	returnVal = (LinkedList[]) objstream.readObject();
 //			objstream.close();
 //		} catch (IOException e) {
+//			log.error("CandidateInstance -> getMatchedFactsDatastructure IOException");
 //			e.printStackTrace();
 //		} catch (ClassNotFoundException e) {
+//			log.error("CandidateInstance -> getMatchedFactsDatastructure ClassNotFoundException");
 //			e.printStackTrace();
-//		}		
+//		}	catch (Exception e) {
+//			log.error("CandidateInstance -> getMatchedFactsDatastructure Exception");
+//			e.printStackTrace();
+//		}	
 //		return returnVal;
 	}
 	
