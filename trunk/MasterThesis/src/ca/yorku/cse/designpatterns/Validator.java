@@ -90,7 +90,7 @@ public class Validator implements ValidatorInterface {
 			 * -> pass current candInstancesList so that the XML document can be
 			 *    formatted with the right class names
 			 */
-			DynamicDefinitionConverterInterface dpDef = new DynamicDefinitionConverter(designPatternDef, candInstancesList.get(j), debug);
+			DynamicDefinitionConverterInterface dpDef = new DynamicDefinitionConverter(designPatternDef, candInstancesList.get(j) );
 			Document dpDefDoc = dpDef.getDesignPatternDocument();
 			this.dpDefList = dpDefDoc.getElementsByTagName("entry");
 
@@ -413,6 +413,7 @@ public class Validator implements ValidatorInterface {
 
 
 	public LinkedList<CandidateInstance> validateTemporalRestriction(LinkedList<CandidateInstance> candidateInstancesList, NodeList designPatternDefinitionList, String dynamicFactsFileName) {
+		log.info("Validator -> validateTemporalRestrictions");
 		this.candInstancesList = candidateInstancesList;
 		this.dpDefList         = designPatternDefinitionList;
 

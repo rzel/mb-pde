@@ -699,6 +699,8 @@ public class PatternDetectionEngine
 
 	
 	public void run2(String candidateInstancesFileName, String dynamicFactsFileName, String dynamicDefinitionFileName, PrintWriter resultsStream ) {
+		log.info("PatternDetectionEngine -> run2()");
+		
 		long t1=0;
 		long t2=0;
 		long t3=0;
@@ -742,13 +744,12 @@ public class PatternDetectionEngine
 			t1 = System.currentTimeMillis();
 		}
 		log.info("\nCreate dynamic facts tree:          " + dynamicFactsFileName);
-		// TODO: debug
 		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, enable_timing);
 		log.info("Done! Dynamic facts tree created:   " + dynamicFactsFileName + "\n");
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
-			log.info("run DynamicFactsProcessorTreeImplementation took=" + (t2-t1) );
+			log.info("run2 DynamicFactsProcessorTreeImplementation took=" + (t2-t1) );
 		}
 		
 		NodeList dpDefList = null;
@@ -756,7 +757,7 @@ public class PatternDetectionEngine
 		log.info("  candInstancesList.size() " + candInstancesList.size());
 		for (int i=0; i < candInstancesList.size(); i++)
 		{
-			if ( (i % 1 == 0 ) ) log.debug("candInstancesList loop i=" + i);
+			if ( (i % 100 == 0 ) ) log.info("candInstancesList loop i=" + i);
 			
 			/** 
 			 * Loop over all Candidate instances.
@@ -767,7 +768,7 @@ public class PatternDetectionEngine
 				t4 =  System.currentTimeMillis();
 			}
 			
-			DynamicDefinitionConverter dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i), !debug);
+			DynamicDefinitionConverter dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i));
 			Document dpDefDoc = dpDef.getDesignPatternDocument();
 
 			
@@ -796,10 +797,10 @@ public class PatternDetectionEngine
 		/**
 		 * Validate temporal restriction
 		 */
-		if (debug) log.info("Run validateTemporalRestriction");
+		log.info("PatternDetectionEngine -> run2() validateTemporalRestriction");
 		Validator validator = new Validator();
 		candInstancesList = validator.validateTemporalRestriction(candInstancesList, dpDefList, dynamicFactsFileName);
-		if (debug) log.info("Done validateTemporalRestriction");
+		log.info("PatternDetectionEngine -> run2() done validateTemporalRestriction");
 		if (enable_timing){
 			t7 =  System.currentTimeMillis();
 			t61 = t61 + (t7 - t6);
@@ -807,16 +808,13 @@ public class PatternDetectionEngine
 		/**
 		 * Validate objects restriction
 		 */
-		if (debug) log.info("Run validateTemporalRestriction");
+		log.info("PatternDetectionEngine -> run2() validateObjects");
 		candInstancesList = validator.validateObjects(candInstancesList, dpDefList);
-		if (debug) log.info("Done validateTemporalRestriction");
+		log.info("PatternDetectionEngine -> run2() done validateObjects");
 		if (enable_timing){
 			t8 =  System.currentTimeMillis();
 			t71 = t71 + (t8 - t7);
-		}
-		
-		
-		
+		}		
 		
 		if (enable_timing){
 			t3 =  System.currentTimeMillis();
@@ -825,9 +823,7 @@ public class PatternDetectionEngine
 			time.add( t51 + "\t dpDefList.getLength() loop");
 			time.add( t61 + "\t validateTemporalRestriction loop");
 			time.add( t71 + "\t validateObjects loop");
-		}
-
-		
+		}	
 
 		
 		int count_isPattern    = 0;
@@ -869,8 +865,7 @@ public class PatternDetectionEngine
 			double quantify = global_quantifier_match / global_quantifier_sum;
 			double number = (number_of_definition_matches/number_of_definitions) * quantify;
 			NumberFormat nf = NumberFormat.getPercentInstance();
-			if ( debug ) 
-				log.info("number > threshold "  + number + "  "+  threshold);
+			log.debug("number > threshold "  + number + "  "+  threshold);
 			if ( number >= threshold ) {	
 				candInstancesList.get(i).setIsPattern(true);
 				candInstancesList.get(i).setPercentage(number);
@@ -903,16 +898,14 @@ public class PatternDetectionEngine
 		 */
 		if ( rank_results ) rankResults( candInstancesList );
 		NumberFormat nf = NumberFormat.getPercentInstance();
-		if ( print_on_cmdline )
-			log.info("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
+		log.info("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
 		if ( count_isPattern > 0){
-			if ( print_on_cmdline )
-				log.info("Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: " + 
-						candInstancesList.getFirst().getNames() + "\n");		
+			log.info("Here is a ranked list of all candidate instances with the " +
+					"corresponding class names {and pattern roles}: " + 
+					candInstancesList.getFirst().getNames() + "\n");		
 			for (int i=0;i<candInstancesList.size();i++){
 				if (candInstancesList.get(i).isPattern() )
-					if ( print_on_cmdline )
-						log.info("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
+					log.info("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
 								"\t " + candInstancesList.get(i).getRoles());
 			}
 		} 
@@ -1009,8 +1002,7 @@ public class PatternDetectionEngine
 		
 		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
-		if( debug ) 
-			log.debug("dynFactsList Length: " + dynFactsList.getLength());
+		log.debug("dynFactsList Length: " + dynFactsList.getLength());
 
 
 		/*

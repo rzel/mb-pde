@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <probekit>
   <probe>
-    <target className="*" method="*" package="ajp_code.*" signature="*" type="include"/>
+    <target className="*" method="*" package="ca.yorku.*" signature="*" type="include"/>
     <target className="*" method="*" package="*" signature="*" type="exclude"/>
     <import text="java.io.*"/>
     <fragmentAtClassScope>static public String outputFilename = &quot;&quot;;&#xD;

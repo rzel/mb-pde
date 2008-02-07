@@ -30,10 +30,16 @@ public class DynamicFactsProcessorTreeImplementation {
 	 * @param dynamicFactsFileName
 	 */
 	public DynamicFactsProcessorTreeImplementation( String dynamicFactsFileName, boolean timing ){
-		this.dynamicFactsFileName = dynamicFactsFileName;
-		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName);
-		dynFactsList = dynFactsDoc.getElementsByTagName("entry");
-		createDynamicFactsTree(dynFactsList, timing);
+		log.info("DynamicFactsProcessorTreeImplementation ->");		
+		if( root == null) {
+			log.info("DynamicFactsProcessorTreeImplementation -> create dynamic facts tree, root==null");
+			this.dynamicFactsFileName = dynamicFactsFileName;
+			Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName);
+			dynFactsList = dynFactsDoc.getElementsByTagName("entry");
+			createDynamicFactsTree(dynFactsList, timing);
+		} else {
+			log.info("DynamicFactsProcessorTreeImplementation -> dynamic facts tree does already exist. Nothing to be done.");
+		}
 	}
 	
 	

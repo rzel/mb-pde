@@ -27,6 +27,7 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
 import org.apache.log4j.Logger;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;
@@ -44,7 +45,6 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 
 	// Log4J
 	private static org.apache.log4j.Logger log = Logger.getLogger( DynamicFactsProcessorListImplementation.class );
-
 	
 	/**
 	 * Variable used for debugging
@@ -56,7 +56,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 	 * Document that stores all dynamic facts. All transformations are
 	 * made on this Document Object.
 	 */
-	private Document dynamicFactsDocument;
+	private static Document dynamicFactsDocument = null;
 
 	private DynamicFactsProcessorListImplementation(String file) {
 		this.filename = file;	
@@ -66,59 +66,39 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 	 * Singleton
 	 */
 	public static Document getDynamicFacts(String file) {
-		String f1 = file.replace(".dynamicfacts", "");
-		String f2 = filename.replace(".xml", "");
+		String transformedXmlFile = file.replace(".dynamicfacts", ".transformed.xml");
 		
-		String serializedFactsFilename = file + ".ser";  
-		File serializedFactsFile = new File (serializedFactsFilename);
+		File xmlFactsFile        = new File (transformedXmlFile);
 		
-		if ( f1.equalsIgnoreCase(f2) ){
-			log.info("DynamicFactsProcessorListImplementation: Dynamic facts already exist.");
-			return dynFacts.getDynamicFactsDocument();			
-		} else if ( serializedFactsFile.exists() && serializedFactsFile.canRead() ){
-			log.info("DynamicFactsProcessorListImplementation: Dynamic facts already exist in serialized file.");
-		    try {
-		    	ObjectInputStream objstream = new ObjectInputStream(new FileInputStream(serializedFactsFilename));
-		    	Document doc = (Document)objstream.readObject();
-		    	dynFacts = new DynamicFactsProcessorListImplementation(file);
-		    	dynFacts.setDynamicFactsDocument( doc );
-				objstream.close();
-			} catch (IOException e) {
-				log.error("DynamicFactsProcessorListImplementation: IOException reading FileInputStream for dynFacts: " + serializedFactsFilename);
-				System.exit(1);
-			} catch (ClassNotFoundException e) {
-				log.error("DynamicFactsProcessorListImplementation: ClassNotFoundException reading FileInputStream for dynFacts: " + serializedFactsFilename);
+		if ( dynamicFactsDocument != null ) {
+			log.info("DynamicFactsProcessorListImplementation -> dynamic facts exists. Return Document.");
+			return dynamicFactsDocument;
+		}
+		else if ( xmlFactsFile.exists() && xmlFactsFile.canRead() ) {
+			log.info("DynamicFactsProcessorListImplementation -> dynamic facts exist in transformed XML file.");
+			
+			/*
+			 * Read transformed dynamic facts from XML file and store in Document
+			 */
+			try {
+				DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+				DocumentBuilder db = dbf.newDocumentBuilder();
+				dynamicFactsDocument = db.parse( xmlFactsFile );
+			} catch (Exception e) {
+				log.error("DynamicFactsProcessorListImplementation -> " +
+						"Constructor(): Cannot read from file: " + filename +
+						"Please make sure that the file exists.");
+				e.printStackTrace();
 				System.exit(1);
 			}
-			return dynFacts.getDynamicFactsDocument();
-		}
-		else {
+			log.info("Finished reading transformed dynamic facts from XML file.");
+		} else {
 			log.info("DynamicFactsProcessorListImplementation -> Dynamic facts do not exist yet. They are created now ... please wait.");
 			dynFacts = new DynamicFactsProcessorListImplementation(file);
 			dynFacts.processDynamicFacts();	
-			log.info("DynamicFactsProcessorListImplementation -> Done processing dynamic facts file = " + file);
-
-		    ObjectOutputStream objstream;
-			try {
-				objstream = new ObjectOutputStream(new FileOutputStream( serializedFactsFilename ) );
-			    objstream.writeObject( dynFacts.getDynamicFactsDocument() );
-			    objstream.close();	
-			} catch ( FileNotFoundException e ) {
-				log.error("DynamicFactsProcessorListImplementation -> FileNotFoundException writting FileOutputStream for dynFacts: " + serializedFactsFilename);
-				e.getStackTrace();
-				System.exit(1);
-			} catch (IOException e) {
-				log.error("DynamicFactsProcessorListImplementation -> IOException writting FileOutputStream for dynFacts: " + serializedFactsFilename);
-				e.getStackTrace();
-				System.exit(1);
-			} catch ( Exception e) {
-				log.error("DynamicFactsProcessorListImplementation -> Exception");
-				e.getStackTrace();
-				System.exit(1);
-			}
-			
+			log.info("DynamicFactsProcessorListImplementation -> Done processing dynamic facts file = " + file);		
 		}		
-		return dynFacts.getDynamicFactsDocument();
+		return dynamicFactsDocument;
 	}
 	
 
@@ -138,18 +118,17 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		try {
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
+			
 			double t1 = System.currentTimeMillis();
-			log.info("DynamicFactsProcessorListImplementation -> Parsing ...");
+			log.info("DynamicFactsProcessorListImplementation -> Parsing dynamic facts file=" + filename);
 			this.dynamicFactsDocument = db.parse( new File(filename) );
 			double t2 = System.currentTimeMillis();
-
-			log.info("DynamicFactsProcessorListImplementation -> Done parsing! call parseDocument() time=" + (t2-t1) );
-			parseDocument(this.dynamicFactsDocument);
+			log.info("DynamicFactsProcessorListImplementation -> Done parsing dynamic facts time=" + (t2-t1) );
+			
+			log.info("DynamicFactsProcessorListImplementation -> transformDocument()");
+			transformDocument( this.dynamicFactsDocument );
 			double t3 = System.currentTimeMillis();
-			log.info("DynamicFactsProcessorListImplementation -> call addOrderOfElements time=" + (t3-t2) );
-			//addOrderOfElements(this.dynamicFactsDocument);
-			//double t4 = System.currentTimeMillis();
-			//log.info("DynamicFactsProcessorListImplementation -> Done, addOrderOfElements time=" + (t4-t3) );
+			log.info("DynamicFactsProcessorListImplementation -> Done transformDocument() time=" + (t3-t2) );
 			results = true;
 		} catch (Exception e) {
 			log.error("DynamicFactsProcessorListImplementation -> Cannot parse document! " + filename + "\n" +
@@ -169,12 +148,13 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		TransformerFactory tf = TransformerFactory.newInstance();
 		Transformer trans = null;
 		try {
-			log.info("DynamicFactsProcessorListImplementation -> write XML to file.");
+			log.info("DynamicFactsProcessorListImplementation -> write XML to file=" + filename);
 			trans = tf.newTransformer();
 			Source source = new DOMSource(this.dynamicFactsDocument);
-			
+			filename = filename.replace(".xml", ".transformed.xml");
 			Result result = new StreamResult(new File(filename));
 			trans.transform(source, result);
+			log.info("DynamicFactsProcessorListImplementation -> data written to XML file.");
 			results = true;
 		} catch (Exception e) {
 			log.error("DynamicFactsProcessor: Cannot store document in XML file: " + filename);
@@ -232,11 +212,8 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 					while ( line.contains( "<exit"  ) ) {
 						exitCount++;
 						line = line.replaceFirst( "<exit" , "");
-					}
-					
-					
+					}					
 				}
-
 
 				log.debug("Entry and Exit tags are equal? " + entryCount + "==" + exitCount );
 				if ( entryCount > exitCount ){
@@ -401,7 +378,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 	 * 
 	 * @see ca.yorku.cse.designpatterns.DynamicFactsProcessorInterface#parseDocument(org.w3c.dom.Document)
 	 */
-	public void parseDocument(Document document) {
+	public void transformDocument(Document document) {
 		/*
 		 * Entry Point.
 		 * We get the entries by their tags and keep them in a list.
@@ -409,62 +386,66 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		NodeList allEntries = document.getElementsByTagName("entry");
 
 		log.info("DynamicFactsProcessorListImplementation -> Number of entries: " + allEntries.getLength() );
-
-		// Which Method called/created this Class/Object
-		for (int i = 0; i < allEntries.getLength(); i++) {			
+		
+		/*
+		 * Adjust ROOT node.
+		 * Set Value in Node by whom (class & method & object) it was called
+		 */
+		NamedNodeMap mapRoot  = allEntries.item(0).getAttributes();
+		Node lastChildRoot    = allEntries.item(0).getLastChild();
+		NamedNodeMap exitRoot = lastChildRoot.getAttributes();		
+		mapRoot.getNamedItem("calledByClass").setNodeValue("PROGRAM_START");
+		mapRoot.getNamedItem("calledByMethod").setNodeValue("PROGRAM_START");
+		mapRoot.getNamedItem("calledByObject").setNodeValue("PROGRAM_START");
+		exitRoot.getNamedItem("calledByClass").setNodeValue("PROGRAM_START");
+		exitRoot.getNamedItem("calledByMethod").setNodeValue("PROGRAM_START");
+		exitRoot.getNamedItem("calledByObject").setNodeValue("PROGRAM_START");
+		
+		// Add order number
+		Element eRoot = (Element)allEntries.item(0);
+		eRoot.setAttribute("orderNumber", "1");
+		String argsRoot = eRoot.getAttribute("args");
+		if ( argsRoot.equals("") ){
+			eRoot.setAttribute("args","<empty>");
+		}
+		
+		for (int i = 1; i < allEntries.getLength(); i++) {			
 			if( i%100==0 ) log.info("DynamicFactsProcessorListImplementation -> entry number=" + i);
 			
-			String parent_class = "";
-			String parent_method = "";
-			String parent_object = "";
-
-			if (i != 0) {
-				parent_class = allEntries.item(i).getParentNode()
-				.getAttributes().getNamedItem("className")
-				.getNodeValue();
-				
-				parent_method = allEntries.item(i).getParentNode()
-				.getAttributes().getNamedItem("methodName")
-				.getNodeValue();
-				
-				parent_object = allEntries.item(i).getParentNode()
-				.getAttributes().getNamedItem("thisObject")
-				.getNodeValue();
-			} 
-			else if (i == 0) {
-				parent_class  = "PROGRAM_START";
-				parent_method = "PROGRAM_START";
-				parent_object = "PROGRAM_START";
-			}
-
+			// Get all elements
+			Element e = (Element)allEntries.item(i);
+			
+			// Add order number to current node
+			e.setAttribute("orderNumber", i+"");
+			
+			// Set args attribute
+			String args = e.getAttribute("args");
+			if ( args.equals("") ){
+				e.setAttribute("args","<empty>");
+			}			
+			
 			/*
+			 *  Get class name, method name and objects name
+			 *  of parrent node.
+			 */
+			NamedNodeMap parentMap = e.getParentNode().getAttributes();
+			String parent_class  = parentMap.getNamedItem("className").getNodeValue();
+			String parent_method = parentMap.getNamedItem("methodName").getNodeValue();
+			String parent_object = parentMap.getNamedItem("thisObject").getNodeValue();
+			
+			/* 
+			 * Update current node:
 			 * Set value in "entry" Node what object is created
 			 * solves objectId=Null problem in entry node
 			 * see dynamic_facts_transformed_old.xml
 			 * this keeps the order of the method calls right
 			 */
-			NamedNodeMap nodeMap = allEntries.item(i).getAttributes();
-			Node lastChild = allEntries.item(i).getLastChild();
-			NamedNodeMap exit = lastChild.getAttributes();
+			e.setAttribute("calledByClass", parent_class);
+			e.setAttribute("calledByMethod", parent_method);
+			e.setAttribute("calledByObject", parent_object);
 			
-			String obj = exit.getNamedItem("thisObject").getNodeValue();
-			nodeMap.getNamedItem("thisObject").setNodeValue(obj);
-
-			// set Value in Node by whom (class & method & object) it was called
-			nodeMap.getNamedItem("calledByClass").setNodeValue(parent_class);
-			nodeMap.getNamedItem("calledByMethod").setNodeValue(parent_method);
-			nodeMap.getNamedItem("calledByObject").setNodeValue(parent_object);
-			exit.getNamedItem("calledByClass").setNodeValue(parent_class);
-			exit.getNamedItem("calledByMethod").setNodeValue(parent_method);
-			exit.getNamedItem("calledByObject").setNodeValue(parent_object);
-			
-			// Add order number
-			Element e = (Element)allEntries.item(i);
-			e.setAttribute("orderNumber", i+"");
-			String args = e.getAttribute("args");
-			if ( args.equals("") ){
-				e.setAttribute("args","<empty>");
-			}
+			String obj = e.getLastChild().getAttributes().getNamedItem("thisObject").getNodeValue();
+			e.setAttribute("thisObject", obj);
 		}
 	}
 

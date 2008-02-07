@@ -41,7 +41,7 @@ public class DynamicDefinitionConverter implements DynamicDefinitionConverterInt
 	 * @param candInstance candidate instance that we processing
 	 * @param debug enable debugging (true/false)
 	 */
-	public DynamicDefinitionConverter(String filename, CandidateInstance candInstance, boolean debug) {
+	public DynamicDefinitionConverter(String filename, CandidateInstance candInstance ) {
 
 		/*
 		 * Read dynamic definition XML file and store in Document
