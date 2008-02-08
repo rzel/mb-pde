@@ -2,7 +2,7 @@
 PDE is used to detect software design pattern in Java software. There are a couple of steps that need to be done to detect design patterns.
 
 1. Dynamic facts: PDE needs dynamic facts from the software that is analyzed. These dynamic facts consist of a list of method calls that are executed during run-time of the software. To extract these dynamic facts the user needs to do the following:
-  * Instrument your software using Probekit from the Eclipse TPTP Project. We provide the probe (injected Java code) that is used for the instrumentation. 
+  * Instrument your software using Probekit from the [http://www.eclipse.org/tptp/ Eclipse TPTP Project]. We provide the probe (injected Java code) that is used for the instrumentation. 
   * Please use our Probekit file to instrument the software you want to test. Download here [http://mb-pde.googlecode.com/files/instrumentation.probe Instrumentation probe]
   * Execute the instrumented software (Test suites are very useful to generate good dynamic facts that are later used by our tool PDE).
 
