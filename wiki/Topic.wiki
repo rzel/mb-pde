@@ -1,4 +1,5 @@
 #summary Information about the research of Software Design Pattern Detection.
+#labels Featured
 
 
 == Statement of the problem ==
