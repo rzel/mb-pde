@@ -28,22 +28,23 @@ import org.xml.sax.SAXException;
 import org.apache.log4j.Logger;
 
 /**
- * Instance of the PatternDetection Engine
- * detects software <b>Design Patterns</b>, given static 
+ * Instance of the PatternDetection Engine to
+ * detect software <b>Design Patterns</b>, given static 
  * and dynamic facts.
  * 
  * @author Marcel Birkner
- * @version 0.9
- * @since 17 November, 2007
- * 
- * TODO:
- * -pinot results (jdraw)
- * -evaluate my results
- * -new timing data
+ * @version 1.0
+ * @since February, 2007
+ *
+ * TODO for Paper:
+ * - evaluate my results
+ * - new timing data
  */
 public class PatternDetectionEngine 
 {
 	// Static variables
+	private        String  version             = "1.0 beta";
+	private        String  date                = "February 2008";
 	private static boolean print_datastructure = false;
 	private static boolean rank_results        = false;
 	private static boolean print_stats         = false;
@@ -56,7 +57,7 @@ public class PatternDetectionEngine
 	private static boolean redirectSystemOut   = false;
 
 	private static LinkedList<String> time = new LinkedList<String>();
-	
+
 	private static String candidateInstancesFileName = null;
 	private static String dynamicFactsFileName       = null;
 	private static String dynamicDefinitionFileName  = null;
@@ -65,24 +66,25 @@ public class PatternDetectionEngine
 	private static LinkedList<FactFiles> input = null;				// stores the file names of the input file
 
 	// FILENAMES: default
-	private static String config_file               = "conf/run.properties";
-	private static String redirect_file;			// "redirect.txt";				// default filename for redirect
-	private static String report_file;				// "report.txt";				// default filename for report
-	private static String software_file;			// "software.xml";
-	private static String designpattern_file;		// "designpatterns.xml";
-	private static String input_file;				// "pde.input";
-	private static String exception_file;			// "exception.txt";
-	private static String results_file;				// "results.xml";
+	private static String config_file = "conf/run.properties";
+	private static String redirect_file;
+	private static String report_file;
+	private static String software_file;	
+	private static String designpattern_file;
+	private static String input_file;			
+	private static String exception_file;		
+	private static String results_file;				
 
 	private static LinkedList<CandidateInstance> candInstancesList = null;
 	private static NodeList dynamicDefinitionList = null;
-	
+
 	// Variables for results report
 	private static String[][] res  = new String[23][23];
 	private static String[][] res2 = new String[23][23];
 	private static int pointer_x  = 0;
 	private static int pointer_y  = 0;
-	
+
+
 	/* Log4J
 	 * Debug < Info < Warn < Error < Fatal
 	 */
@@ -97,8 +99,7 @@ public class PatternDetectionEngine
 	 * @param args input parameters for the main program
 	 */
 	public static void main(String[] args) 
-	{
-	
+	{	
 		// Create Instance of PatternDetectionEngine
 		PatternDetectionEngine pde = new PatternDetectionEngine();
 
@@ -107,31 +108,27 @@ public class PatternDetectionEngine
 			System.exit(1);
 		}
 
-		
 		/*
 		 * Read properties file 
-		 * conf/run.properties
 		 */
-	    Properties prop = new Properties();
-	    try {
-	    	prop.load( new FileInputStream( config_file ) );     
-		    log.info("PatternDetectionEngine -> main() Reading properties from configuration file.");
-	    	redirect_file       = prop.getProperty("output.redirect.txt.file");			// "redirect.txt"
-	    	report_file         = prop.getProperty("output.report.txt.file");			// "report.txt"
-	    	software_file      	= prop.getProperty("input.software.xml.file");			// "software.xml"
-	    	designpattern_file 	= prop.getProperty("input.design.patterns.xml.file");	// "designpatterns.xml"
-	    	input_file 	      	= prop.getProperty("input.pde.txt.file");				// "pde.input"
-	    	exception_file 	    = prop.getProperty("output.exception.txt.file");		// "exception.txt"
-	    	results_file        = prop.getProperty("output.results.xml.file");			// "results.xml"
-	    } catch (IOException e) {
-	    	log.error("PatternDetectionEngine -> main() Could not find properties file. Please check your 'conf/run.properties' file.");
-	    	System.exit(1);
-	    }
-
-
+		Properties prop = new Properties();
+		try {
+			prop.load( new FileInputStream( config_file ) );     
+			log.info("PatternDetectionEngine -> main() Reading properties from configuration file.");
+			redirect_file       = prop.getProperty("output.redirect.txt.file");			// "redirect.txt"
+			report_file         = prop.getProperty("output.report.txt.file");			// "report.txt"
+			software_file      	= prop.getProperty("input.software.xml.file");			// "software.xml"
+			designpattern_file 	= prop.getProperty("input.design.patterns.xml.file");	// "designpatterns.xml"
+			input_file 	      	= prop.getProperty("input.pde.txt.file");				// "pde.input"
+			exception_file 	    = prop.getProperty("output.exception.txt.file");		// "exception.txt"
+			results_file        = prop.getProperty("output.results.xml.file");			// "results.xml"
+		} catch (IOException e) {
+			log.error("PatternDetectionEngine -> main() Could not find properties file. Please check your " + config_file + " file.");
+			System.exit(1);
+		}
 
 		/*
-		 * Check arguments for static analysis
+		 * Static analysis
 		 */
 		for(int i=0; i<args.length; i++){
 			if ( args[i].equals("-static") ){
@@ -143,11 +140,10 @@ public class PatternDetectionEngine
 				try {
 					DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 					DocumentBuilder db = dbf.newDocumentBuilder();
-					software_doc = db.parse(new File(software_file));
+					software_doc = db.parse( new File(software_file));
 				} catch (Exception e) {
-					log.error("PatternDetectionEngine: -> " +
-							"Constructor(): Cannot read from file: " + software_file +
-					"Please make sure that the file exists.");
+					log.error("PatternDetectionEngine: -> main() Cannot read from file: " + software_file +
+					" Please make sure that the file exists.");
 					e.printStackTrace();
 					System.exit(1);
 				}
@@ -160,21 +156,20 @@ public class PatternDetectionEngine
 				} catch (Exception e) {
 					log.error("designpattern_doc: -> " +
 							" Constructor(): Cannot read from file: " + designpattern_file +
-							" Please make sure that the file exists.");
+					" Please make sure that the file exists.");
 					e.printStackTrace();
 					System.exit(1);
 				}
-
-
+				
 				String shell    = "";
 				String javex    = "";
 				String grok     = "";
 				String ql       = "";
 				String canInDir = "";
 
-				File pdeDel = new File(input_file);
-				boolean isDeleted = pdeDel.delete();
-				log.info("pde_input_filename is deleted? " + isDeleted);
+				File pdeDel = new File( input_file );
+				boolean del = pdeDel.delete();
+				log.info("Create new PDE input file called " + input_file + ". Deleted existing file successfully? " + del);
 
 				NodeList properties = software_doc.getElementsByTagName("properties");
 				for (int l = 0; l < properties.getLength(); l++) {  
@@ -188,14 +183,11 @@ public class PatternDetectionEngine
 						canInDir = canInDir + "/";
 					}	            
 
-					log.info("1: " + shell);
-					log.info("2: " + javex);
-					log.info("3: " + grok);
-					log.info("4: " + ql);
+					log.info("Shell command: " + shell);
+					log.info("Javex command: " + javex);
+					log.info("Grok command:  " + grok);
+					log.info("QL command:    " + ql);
 				}
-
-
-
 
 				NodeList software = software_doc.getElementsByTagName("software");
 				for (int j = 0; j < software.getLength(); j++) { 
@@ -204,10 +196,10 @@ public class PatternDetectionEngine
 					String mainClass    = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
 					String dynFactsFile = software.item(j).getAttributes().getNamedItem("dynamicFactsFile").getNodeValue();
 
-					log.info("\n 1: " + nameSrc );
-					log.info(  " 2: " + directory);
-					log.info(  " 3: " + mainClass );
-					log.info(  " 4: " + dynFactsFile );
+					log.info("\n Name:               " + nameSrc );
+					log.info(  " Directoyr:          " + directory);
+					log.info(  " Main Class:         " + mainClass );
+					log.info(  " Dynamic facts file: " + dynFactsFile );
 
 					String nameDP        = "";
 					String ql_script     = "";
@@ -220,9 +212,9 @@ public class PatternDetectionEngine
 						ql_script     = designpattern.item(k).getAttributes().getNamedItem("ql_script").getNodeValue();
 						pattern_roles = designpattern.item(k).getAttributes().getNamedItem("pattern_roles").getNodeValue();
 						dynamicDefinitionFile = designpattern.item(k).getAttributes().getNamedItem("dynamicDefinitionFile").getNodeValue();
-						log.info("\n 1: " + nameDP );
-						log.info(  " 2: " + ql_script);
-						log.info(  " 3: " + pattern_roles );
+						log.info("\n Name of design pattern: " + nameDP );
+						log.info(  " QL script:              " + ql_script);
+						log.info(  " Design Pattern roles:   " + pattern_roles );
 
 						String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+ql_script+" "+canInDir ; 
 						log.info(command);
@@ -286,30 +278,14 @@ public class PatternDetectionEngine
 		 * Check arguments that are passed to the main method
 		 */
 		for(int i=0; i<args.length; i++){
-			if ( args[i].equals("-ci") ){
-				candidateInstancesFileName = args[++i];
-				log.info("Input parameter for -ci " + candidateInstancesFileName);
-			}
-			else if ( args[i].equals("-df") ){
-				dynamicFactsFileName = args[++i];
-				log.info("Input parameter for -df " + dynamicFactsFileName);
-			}
-			else if ( args[i].equals("-dd") ){
-				dynamicDefinitionFileName = args[++i];
-				log.info("Input parameter for -dd " + dynamicDefinitionFileName);
-			}
-			else if ( args[i].equals("-input") ) {
-				input_file = args[++i];
-				log.info("Input parameter for -input " + input_file );
-			} 
-			else if ( args[i].equals("-dynamic") ) {
+			if ( args[i].equals("-dynamic") ) {
 				// ALL DEFAULT VALUES
 				log.info("Input parameter -dynamic. Run with default values. ");
 				threshold     = Double.parseDouble("0.80");
 				print_stats   = true;
 				create_report = true;
 				print_results = true;
-				log.info("Default values: "
+				log.info("Default values: \n"
 						+ " inputFileName " + input_file + "\n"
 						+ " threshold     " + threshold + "\n"
 						+ " print_stats   " + print_stats + "\n"
@@ -513,42 +489,11 @@ public class PatternDetectionEngine
 		}
 		resultsStream.println(XMLfooter);
 		resultsStream.close();
-
-
-
-		/*
-		 * Print all stats for the 23 design patterns
-		 */
-//		if ( create_report ) {
-//
-//			// Redirect System Output Stream for report
-//			try {
-//				System.setOut(new PrintStream( new FileOutputStream( report_file )));
-//			} catch ( FileNotFoundException e ) {
-//				log.info("FileNotFoundException: Redirect System Out failed.");
-//				e.printStackTrace();
-//			}
-//
-//			for (int i=0; i<res.length; i++) {
-//				for (int j=0; j<res[i].length; j++){
-//					System.out.print(res[i][j] + " ");
-//				}
-//				log.info("");
-//			}
-//
-//
-//			for (int i=0; i<res2.length; i++) {
-//				for (int j=0; j<res2[i].length; j++){
-//					System.out.print(res2[i][j] + " ");
-//				}
-//				log.info("");
-//			}	
-//		}
 	}
 
 
-	
-	
+
+
 	/**
 	 * This method formats the results of the static and 
 	 * dynamic analysis by parsing the XML results file
@@ -558,14 +503,14 @@ public class PatternDetectionEngine
 	 * @param XMLfile with all result facts
 	 */
 	private void fullSummary(String results_file) {
-		
+
 		File xx = new File ( results_file );
 		if ( !xx.exists() ) {
 			log.info("The results file does not exist. " +
 					"Please run the static and dynamic analysis first. " +
 					"The following file could not found: " + results_file);
 		}
-		
+
 		DocumentBuilderFactory dbfResults = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dbResults;
 		Document docResults = null;
@@ -587,7 +532,7 @@ public class PatternDetectionEngine
 		} catch (IOException e) {
 			e.printStackTrace();
 		} 
-		
+
 		NodeList allResults = docResults.getElementsByTagName("result");
 		for (int j=0; j < allResults.getLength(); j++ ) {
 			Node node1 = allResults.item(j);
@@ -595,13 +540,13 @@ public class PatternDetectionEngine
 			String sourceCode    = node1.getAttributes().getNamedItem("sourceCode").getNodeValue();
 			String designPattern = node1.getAttributes().getNamedItem("designPattern").getNodeValue();
 			String numberOfHits  = node1.getAttributes().getNamedItem("numberOfHits").getNodeValue();
-			
+
 			log.info("####################################################################\n");
 			log.info("-> name:          " + name);
 			log.info("   sourceCode:    " + sourceCode);
 			log.info("   designPattern: " + designPattern);
 			log.info("   numberOfHits:  " + numberOfHits + "\n");
-			
+
 			NodeList children = allResults.item(j).getChildNodes();
 			for (int i = 0; i < children.getLength(); i++) {
 				Node node2 = children.item(i);
@@ -619,7 +564,7 @@ public class PatternDetectionEngine
 		}	
 	}
 
-	
+
 	/**
 	 * This method formats the results of the static and 
 	 * dynamic analysis by parsing the XML results file
@@ -629,15 +574,15 @@ public class PatternDetectionEngine
 	 */
 	@SuppressWarnings("unchecked")
 	private void summary(String resultsXMLfile) {
-		
+
 		File xx = new File ( resultsXMLfile );
 		if ( !xx.exists() ) {
 			log.info("The results file does not exist. " +
 					"Please run the static and dynamic analysis first. " +
 					"The following file could not found: " + resultsXMLfile);
 		}
-		
-		
+
+
 		DocumentBuilderFactory dbfResults = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dbResults;
 		Document docResults = null;
@@ -697,10 +642,10 @@ public class PatternDetectionEngine
 		}
 	}
 
-	
+
 	public void run2(String candidateInstancesFileName, String dynamicFactsFileName, String dynamicDefinitionFileName, PrintWriter resultsStream ) {
 		log.info("PatternDetectionEngine -> run2()");
-		
+
 		long t1=0;
 		long t2=0;
 		long t3=0;
@@ -709,7 +654,7 @@ public class PatternDetectionEngine
 		long t6=0, t61=0;
 		long t7=0, t71=0;
 		long t8=0;
-		
+
 		String codeExample = candidateInstancesFileName;
 		String patternName = null;   	    
 		if ( candidateInstancesFileName.contains("/") && 
@@ -724,9 +669,9 @@ public class PatternDetectionEngine
 			patternName = candidateInstancesFileName; 
 		}
 		log.info(   "Analyzing software code:     " + codeExample + 
-			   "\nPattern we want to detect:   " + patternName); 
-		
-		
+				"\nPattern we want to detect:   " + patternName); 
+
+
 		/**
 		 * get LinkedList with Candidate Instances
 		 */
@@ -751,14 +696,14 @@ public class PatternDetectionEngine
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
 			log.info("run2 DynamicFactsProcessorTreeImplementation took=" + (t2-t1) );
 		}
-		
+
 		NodeList dpDefList = null;
 		log.info("Loop over all possible Candidate Instances.");
 		log.info("  candInstancesList.size() " + candInstancesList.size());
 		for (int i=0; i < candInstancesList.size(); i++)
 		{
 			if ( (i % 100 == 0 ) ) log.info("candInstancesList loop i=" + i);
-			
+
 			/** 
 			 * Loop over all Candidate instances.
 			 * Convert dynamic definition and candidate instance.
@@ -767,19 +712,19 @@ public class PatternDetectionEngine
 			if (enable_timing){
 				t4 =  System.currentTimeMillis();
 			}
-			
+
 			DynamicDefinitionConverter dpDef = new DynamicDefinitionConverter(dynamicDefinitionFileName, candInstancesList.get(i));
 			Document dpDefDoc = dpDef.getDesignPatternDocument();
 
-			
+
 			dpDefList = dpDefDoc.getElementsByTagName("entry");
 			if (enable_timing){
 				t5 =  System.currentTimeMillis();
 				t41 = t41 + (t5 - t4);
 			}
 			LinkedList[] storeMatchedRoles = new LinkedList[ dpDefList.getLength() ];
-	
-			
+
+
 			for (int j = 0; j < dpDefList.getLength(); j++) {
 				LinkedList<Node> list = dynFacts.firstLevel( dpDefList.item(j) );
 				storeMatchedRoles[j]  = list;
@@ -789,11 +734,11 @@ public class PatternDetectionEngine
 				t6 =  System.currentTimeMillis();
 				t51 = t51 + (t6 - t5);				
 			}
-			
+
 			candInstancesList.get(i).setMatchedFactsDatastructure( storeMatchedRoles );			
 		}
-		
-		
+
+
 		/**
 		 * Validate temporal restriction
 		 */
@@ -815,7 +760,7 @@ public class PatternDetectionEngine
 			t8 =  System.currentTimeMillis();
 			t71 = t71 + (t8 - t7);
 		}		
-		
+
 		if (enable_timing){
 			t3 =  System.currentTimeMillis();
 			time.add( (t3-t2) + "\t candInstancesList.size() loop");
@@ -825,7 +770,7 @@ public class PatternDetectionEngine
 			time.add( t71 + "\t validateObjects loop");
 		}	
 
-		
+
 		int count_isPattern    = 0;
 		int count_isNotPattern = 0;
 		double global_quantifier_sum   = 0;
@@ -906,7 +851,7 @@ public class PatternDetectionEngine
 			for (int i=0;i<candInstancesList.size();i++){
 				if (candInstancesList.get(i).isPattern() )
 					log.info("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
-								"\t " + candInstancesList.get(i).getRoles());
+							"\t " + candInstancesList.get(i).getRoles());
 			}
 		} 
 
@@ -929,37 +874,8 @@ public class PatternDetectionEngine
 			}
 		}
 		resultsStream.println("</result>");	    
-
-//		if ( print_on_cmdline )
-//			log.info("\n######################################################################################################## \n");
-//
-//
-//		// Print out summary of isPattern/isNotPattern
-//		if( pointer_y < res.length ){
-//			if ( pointer_y == 0) {
-//				res[pointer_x][pointer_y]  = codeExample;
-//				res2[pointer_x][pointer_y] = codeExample;
-//				pointer_y++;
-//			}
-//			res[pointer_x][pointer_y]  = count_isPattern + "";
-//			res2[pointer_x][pointer_y] = count_isNotPattern + "";
-//			pointer_y++;
-//		} else {
-//			pointer_x++;
-//			pointer_y=0;
-//			if ( pointer_y == 0) {
-//				res[pointer_x][pointer_y]  = codeExample;
-//				res2[pointer_x][pointer_y] = codeExample;
-//				pointer_y++;
-//			}
-//			res[pointer_x][pointer_y]  = count_isPattern + "";
-//			res2[pointer_x][pointer_y] = count_isNotPattern + "";
-//			pointer_y++;
-//		}
-		
-		
 	}
-	
+
 
 	/**
 	 * Processes the input files and starts the detection of the 
@@ -999,7 +915,7 @@ public class PatternDetectionEngine
 		 */  
 		if ( print_time ) 
 			log.info("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
-		
+
 		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 		log.debug("dynFactsList Length: " + dynFactsList.getLength());
@@ -1234,10 +1150,10 @@ public class PatternDetectionEngine
 		if (right > left){
 			int pivotIndex = left;
 			int pivotNewIndex = partition(list, left, right, pivotIndex);
-			
+
 			log.info("1  right > left -> left + (pivotNewIndex-1)  " + left + " " + (pivotNewIndex-1) );
 			quicksortForLinkedList(list, left, (pivotNewIndex-1) );
-			
+
 			log.info("2  right > left -> (pivotNewIndex+1) + right " + (pivotNewIndex+1) + " " + right);
 			quicksortForLinkedList(list, (pivotNewIndex+1), right);
 		}
@@ -1473,38 +1389,25 @@ public class PatternDetectionEngine
 	 */
 	private void usage(boolean printUsage) 
 	{
-		String message = "Usage: java PatternDetectionEngine -input <FactsFile> " 
-			+ "-ci <CandidateInstancesFileName> -df <DynamicFactsFileName> -dd <DynamicDefinitionFileName> "
-			+ "-redirect <output_filename> [-threshold] [-create_report] [-example] [-testsuite] [-print_statistics]/[-ps] [-print_datastructure]/[-pd] -debug [-h] [-help] \n\n"
-			+ "<FactsFile>               	: facts file with several facts \n"	
-			+ "<CandidateInstancesFileName> : extracted facts from javex, grok and ql \n"
-			+ "<DynamicFactsFileName>       : dynamic facts generated using probekit \n"
-			+ "<DynamicDefinitionFileName>  : dynamic design pattern definition in XML format \n\n"
-			+ "This program can be used in two ways. \n\n"
-			+ "First:  -ci <CandidateInstancesFileName> -df <DynamicFactsFileName> -dd <DynamicDefinitionFileName> \n"
-			+ "        The user can pass three fact files that are needed for the \n"
-			+ "        design pattern detection/verification process \n\n"
-			+ "Second: -input <FactsFile> \n"
-			+ "        This parameter allows the user to pass a file that contains \n"
-			+ "        a list of files that need to be processed. Each line contains \n"
-			+ "        three file names. The first file name is for the candidate instances \n"
-			+ "        the second for the dynamic facts file and the third for the dynamic \n"
-			+ "        definition. \n\n"
-			+ "There are a couple of optional parameters that allow to specify different output from the program:\n"
-			+ "-example:                         If this argument is passed to the program then example files are loaded and processed.\n" 
-			+ "                                  This can be used to see how PDE works. \n"
-			+ "-redirect <output_filename>       Redirect command line output to textfile.\n"
-			+ "-threshold                        Value between 0.0 and 1.0 that is used in ranking the found candidate instances.\n"
-			+ "-create_report                    Creates report for test of GoF Patterns.\n"
-			+ "-print_statistics or -ps          Prints statistics with the results of the candidate instances.\n"
-			+ "-print_datastruture or -pd        Prints datastructure that contains all matching node that match\n"
-			+ "                                  the dynamic definition.\n"
-			+ "-print_time                       Print time in millisecond for each method call. This can be used \n"
-			+ "                                  for benchmarking PDE.";
+		String message = "Usage: java -Xms1024M -Xmx1024M -Xss5000k -cp .:./pde.jar:lib/log4j-1.2.15.jar:conf/ ca.yorku.cse.designpatterns.PatternDetectionEngine [-static] [-dynamic] \n"
+			+ "version: " + version + " - last changed: " + date + " \n\n"
+			+ "Most of the configuration is done in XML and properties files. You need to modify the following files to use PDE to analyze your software: \n"
+			+ "\t conf/run.properties     \t Application properties \n"
+			+ "\t conf/log4j.properties   \t Logging properties \n"
+			+ "\t conf/designpatterns     \t Stores the location for the ql scripts of design patterns that can be analyzed (default: 22 design patterns available) \n"
+			+ "\t conf/software.xml       \t Defines the location of the java files of the software that should be analyzed \n" 
+			+ "\t conf/software_ajp.xml   \t Example: Static analysis - AJP code analysis\n"
+			+ "\t conf/software_jdraw.xml \t Example: Static analysis - JDraw software analysis \n "
+			+ "\t conf/pde_ajp.input      \t Example: Dynamic analysis - AJP code files with possible candidate instances \n"
+			+ "\t conf/pde_jdraw.input    \t Example: Dynamic analysis - JDraw files with possible candidate instances \n"
+			+ "\n"
+			+ "Tuning tipps: Please use the following JVM parameters when running PDE or adjust to your system. \n"
+			+ " -Xms1024M \t This sets the minimum heap size to 1024 megabytes \n" 
+			+ " -Xmx1024M \t This sets the maximum heap size to 1024 megabytes \n"  
+			+ " -Xss4048K \t This sets the minimum stack size to 4048 megabytes";
 		if( printUsage ) 
 			log.info(message);
 	}
-
 }
 
 
