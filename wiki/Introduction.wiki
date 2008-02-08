@@ -7,7 +7,7 @@ PDE needs dynamic facts from the software that is analyzed. These dynamic facts 
   * Please use our Probekit file to instrument the software you want to test. Download here [http://mb-pde.googlecode.com/files/instrumentation.probe Instrumentation probe]
   * Execute the instrumented software (Test suites are very useful to generate good dynamic facts that are later used by our tool PDE).
 
-http://www.cse.yorku.ca/~mbirkner/website/images/wiki/new.jpg *Video Tutorial:* [http://video.google.ca/videoplay?docid=2879410788232427361&hl=en-CA Creating dynamic facts]
+http://www.cse.yorku.ca/~mbirkner/website/images/wiki/new.jpg *Video Tutorial:* [http://video.google.ca/videoplay?docid=2879410788232427361&hl=en-CA Creating dynamic facts] using Eclipse TPTP and the predefined [http://mb-pde.googlecode.com/files/instrumentation.probe probekit script].
    
 
 ==Static facts==
