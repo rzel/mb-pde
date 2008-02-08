@@ -4,18 +4,44 @@
     <target className="*" method="*" package="ca.yorku.*" signature="*" type="include"/>
     <target className="*" method="*" package="*" signature="*" type="exclude"/>
     <import text="java.io.*"/>
-    <fragmentAtClassScope>static public String outputFilename = &quot;&quot;;&#xD;
+    <fragmentAtClassScope>/**&#xD;
+ * Static variables&#xD;
+ */&#xD;
+static public String outputFilename = &quot;&quot;;&#xD;
 static public int callDepth = 0;&#xD;
-</fragmentAtClassScope>
+&#xD;
+&#xD;
+/**&#xD;
+ * Targets:&#xD;
+ *  Are used to defin which packages should be instrumented &#xD;
+ * and which should be excluded:&#xD;
+ *&#xD;
+ * include:  define package that you want to instrument&#xD;
+ * exclude: * (everything else is excluded)&#xD;
+ */</fragmentAtClassScope>
     <fragment type="exit">
       <data name="className" type="className"/>
       <data name="methodName" type="methodName"/>
       <data name="thisObject" type="thisObject"/>
-      <code>callDepth = callDepth - 1;&#xD;
+      <code>/**&#xD;
+ * Defines the depth of method calls, meaning&#xD;
+ * the number of classes that were called without&#xD;
+ * returning to the parent class. Example:&#xD;
+ *&#xD;
+ * ClassA calls ClassB, then Class B calls Class C &#xD;
+ * depth=1         =2                 =2              =3&#xD;
+ */&#xD;
+callDepth = callDepth - 1;&#xD;
 &#xD;
+// Replace tags '&lt;' and '>' with a placeholder&#xD;
 if( methodName.contains(&quot;&lt;init>&quot;) || methodName.contains(&quot;&lt;clinit>&quot;)  )&#xD;
 	methodName = &quot;Constructor&quot;;&#xD;
-	&#xD;
+&#xD;
+/** &#xD;
+ * Create output string that is written to the file.	&#xD;
+ * For each method call we will record the class name,&#xD;
+ * method name, thisObject id, ...&#xD;
+ */&#xD;
 String output = &quot;&lt;exit&quot;&#xD;
 	+ &quot; className=\&quot;&quot; + className &#xD;
 	+ &quot;\&quot; methodName=\&quot;&quot; + methodName &#xD;
@@ -23,6 +49,9 @@ String output = &quot;&lt;exit&quot;&#xD;
 	+ &quot;\&quot; calledByClass=\&quot;\&quot; calledByMethod=\&quot;\&quot; calledByObject=\&quot;\&quot; &quot;&#xD;
 	+ &quot; callDepth=\&quot;&quot; + callDepth + &quot;\&quot; >&lt;/exit>&lt;/entry>&quot;;	&#xD;
 	&#xD;
+/**&#xD;
+ * Write information to output file.&#xD;
+ */&#xD;
 try {&#xD;
 	BufferedWriter out = new BufferedWriter(new FileWriter(outputFilename,true));&#xD;
         out.write( output );&#xD;
@@ -38,19 +67,39 @@ try {&#xD;
       <data name="methodName" type="methodName"/>
       <data name="thisObject" type="thisObject"/>
       <data name="args" type="args"/>
-      <code>if( methodName.contains(&quot;&lt;init>&quot;) || methodName.contains(&quot;&lt;clinit>&quot;)  )&#xD;
-	methodName = &quot;Constructor&quot;;&#xD;
+      <code>// Define output file using the name of the program that is called&#xD;
+if ( outputFilename.equals(&quot;&quot;) ) {&#xD;
+	outputFilename = className.replaceAll(&quot;/&quot;,&quot;.&quot;);&#xD;
+	outputFilename = &quot;dynamicfacts/&quot; + outputFilename + &quot;.dynamicfacts&quot; ;&#xD;
+}&#xD;
 &#xD;
+/**&#xD;
+ * Defines the depth of method calls, meaning&#xD;
+ * the number of classes that were called without&#xD;
+ * returning to the parent class. Example:&#xD;
+ *&#xD;
+ * ClassA calls ClassB, then Class B calls Class C &#xD;
+ * depth=1         =2                 =2              =3&#xD;
+ */&#xD;
 callDepth = callDepth + 1;&#xD;
 String arguments = &quot;&quot;;&#xD;
 &#xD;
+// Replace tags '&lt;' and '>' with a placeholder&#xD;
+if( methodName.contains(&quot;&lt;init>&quot;) || methodName.contains(&quot;&lt;clinit>&quot;)  )&#xD;
+	methodName = &quot;Constructor&quot;;&#xD;
+&#xD;
+// only take those arguments that are objects; throw out strings that might mess up the XML file&#xD;
 for (int i=0; i&lt;args.length;i++){&#xD;
-	// only take those arguments that are Objects; throw out Strings that might mess up the XML file&#xD;
  	if(args[i] != null &amp;&amp; args[i].toString().contains(&quot;@&quot;)) {&#xD;
 		arguments = arguments + &quot;|&quot; + args[i];&#xD;
 	}&#xD;
 }&#xD;
 &#xD;
+/** &#xD;
+ * Create output string that is written to the file.	&#xD;
+ * For each method call we will record the class name,&#xD;
+ * method name, thisObject id, ...&#xD;
+ */&#xD;
 String output = &quot;&lt;entry args=\&quot;&quot; + arguments &#xD;
 	+ &quot;\&quot; className=\&quot;&quot; + className &#xD;
 	+ &quot;\&quot; methodName=\&quot;&quot; + methodName &#xD;
@@ -60,12 +109,9 @@ String output = &quot;&lt;entry args=\&quot;&quot; + arguments &#xD;
 	+ &quot; calledByObject=\&quot;\&quot; &quot;&#xD;
 	+ &quot; callDepth=\&quot;&quot; + callDepth + &quot;\&quot; >&quot;;&#xD;
 	&#xD;
-&#xD;
-if ( outputFilename.equals(&quot;&quot;) ) {&#xD;
-	outputFilename = className.replaceAll(&quot;/&quot;,&quot;.&quot;);&#xD;
-	outputFilename = &quot;dynamicfacts/&quot; + outputFilename + &quot;.dynamicfacts&quot; ;&#xD;
-}&#xD;
-	&#xD;
+/**&#xD;
+ * Write information to output file.&#xD;
+ */&#xD;
 try {&#xD;
 	BufferedWriter out = new BufferedWriter(new FileWriter(outputFilename, true));&#xD;
         out.write( output );&#xD;
