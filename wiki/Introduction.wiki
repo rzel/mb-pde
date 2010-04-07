@@ -50,7 +50,7 @@ http://www.cse.yorku.ca/~mbirkner/website/images/wiki/alert.gif  Note: In order 
   # To run the static analysis type:
     {{{ java -jar -pde.jar -static }}}
   # To run the dynamic analysis type:
-    {{{ java -jar pde.jar -input input.pde -ps -threshold 0.8
+    {{{ java -jar pde.jar -input input.pde -ps -threshold 0.8 }}}
 
 
 == Installation of TPTP == 
