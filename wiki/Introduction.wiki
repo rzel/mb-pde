@@ -18,7 +18,7 @@ The static facts are extracted using the PDE software. PDE will call javex, grok
   * edit the *software.xml* file and edit the execution links for javex, grok and ql according to your system. Also add the name and location of the software that you are testing in this XML file.
   * Run PDE to extract all static facts. PDE will create files with the possible candidate instances of design pattern. These files are used as input for PDE for the dynamic analysis.
 
-{{{ java -jar pde.jar -static }}}
+{{{ java -jar pde3.jar -static }}}
 
 
 ==Dynamic analysis==
@@ -27,12 +27,12 @@ The dynamic analysis uses the static and dynamic facts as well as dynamic defini
   * Adjust the location for the dynamic facts and static facts (candidate instances). The default values should work if you did not change the locations in any previous steps.
   * Run the dynamic analysis:
 
-{{{ java -jar pde.jar -input pde.input -ps -threshold 0.8 }}}
+{{{ java -jar pde3.jar -input pde.input -ps -threshold 0.8 }}}
 
 ==End== 
 The output of PDE can be adjusted, depending on the level of information you require. Please check the "help" command of PDE for more detailed information.
 
-{{{ java -jar pde.jar -help }}}
+{{{ java -jar pde3.jar -help }}}
   
 
 == Prerequisites ==
@@ -46,11 +46,11 @@ http://www.cse.yorku.ca/~mbirkner/website/images/wiki/alert.gif  Note: In order 
   # Download the software using [http://en.wikipedia.org/wiki/Subversion_(software) svn (Subversion)] (including source code). Non-members may check out a read-only working copy anonymously over HTTP.
     {{{ svn checkout http://mb-pde.googlecode.com/svn/trunk/ mb-pde }}}
   # To see the possible input parameters type:
-    {{{ java -jar pde.jar -usage }}}
+    {{{ java -jar pde3.jar -usage }}}
   # To run the static analysis type:
-    {{{ java -jar -pde.jar -static }}}
+    {{{ java -jar pde3.jar -static }}}
   # To run the dynamic analysis type:
-    {{{ java -jar pde.jar -input input.pde -ps -threshold 0.8 }}}
+    {{{ java -jar pde3.jar -input input.pde -ps -threshold 0.8 }}}
 
 
 == Installation of TPTP == 
