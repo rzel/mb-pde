@@ -2,20 +2,14 @@ package ca.yorku.cse.designpatterns;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.Console;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.io.PrintWriter;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
-import java.util.LinkedList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -25,8 +19,6 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-
-import org.apache.log4j.Logger;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -43,9 +35,6 @@ import org.w3c.dom.NodeList;
  */
 public class DynamicFactsProcessorListImplementation implements DynamicFactsProcessorInterface {
 
-	// Log4J
-	private static org.apache.log4j.Logger log = Logger.getLogger( DynamicFactsProcessorListImplementation.class );
-	
 	/**
 	 * Variable used for debugging
 	 */
@@ -71,11 +60,11 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		File xmlFactsFile        = new File (transformedXmlFile);
 		
 		if ( dynamicFactsDocument != null ) {
-			log.info("DynamicFactsProcessorListImplementation -> dynamic facts exists. Return Document.");
+			System.out.println("DynamicFactsProcessorListImplementation -> dynamic facts exists. Return Document.");
 			return dynamicFactsDocument;
 		}
 		else if ( xmlFactsFile.exists() && xmlFactsFile.canRead() ) {
-			log.info("DynamicFactsProcessorListImplementation -> dynamic facts exist in transformed XML file.");
+			System.out.println("DynamicFactsProcessorListImplementation -> dynamic facts exist in transformed XML file.");
 			
 			/*
 			 * Read transformed dynamic facts from XML file and store in Document
@@ -85,18 +74,18 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 				DocumentBuilder db = dbf.newDocumentBuilder();
 				dynamicFactsDocument = db.parse( xmlFactsFile );
 			} catch (Exception e) {
-				log.error("DynamicFactsProcessorListImplementation -> " +
+				System.err.println("DynamicFactsProcessorListImplementation -> " +
 						"Constructor(): Cannot read from file: " + filename +
 						"Please make sure that the file exists.");
 				e.printStackTrace();
 				System.exit(1);
 			}
-			log.info("Finished reading transformed dynamic facts from XML file.");
+			System.out.println("Finished reading transformed dynamic facts from XML file.");
 		} else {
-			log.info("DynamicFactsProcessorListImplementation -> Dynamic facts do not exist yet. They are created now ... please wait.");
+			System.out.println("DynamicFactsProcessorListImplementation -> Dynamic facts do not exist yet. They are created now ... please wait.");
 			dynFacts = new DynamicFactsProcessorListImplementation(file);
 			dynFacts.processDynamicFacts();	
-			log.info("DynamicFactsProcessorListImplementation -> Done processing dynamic facts file = " + file);		
+			System.out.println("DynamicFactsProcessorListImplementation -> Done processing dynamic facts file = " + file);		
 		}		
 		return dynamicFactsDocument;
 	}
@@ -120,18 +109,18 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			
 			double t1 = System.currentTimeMillis();
-			log.info("DynamicFactsProcessorListImplementation -> Parsing dynamic facts file=" + filename);
+			System.out.println("DynamicFactsProcessorListImplementation -> Parsing dynamic facts file=" + filename);
 			this.dynamicFactsDocument = db.parse( new File(filename) );
 			double t2 = System.currentTimeMillis();
-			log.info("DynamicFactsProcessorListImplementation -> Done parsing dynamic facts time=" + (t2-t1) );
+			System.out.println("DynamicFactsProcessorListImplementation -> Done parsing dynamic facts time=" + (t2-t1) );
 			
-			log.info("DynamicFactsProcessorListImplementation -> transformDocument()");
+			System.out.println("DynamicFactsProcessorListImplementation -> transformDocument()");
 			transformDocument( this.dynamicFactsDocument );
 			double t3 = System.currentTimeMillis();
-			log.info("DynamicFactsProcessorListImplementation -> Done transformDocument() time=" + (t3-t2) );
+			System.out.println("DynamicFactsProcessorListImplementation -> Done transformDocument() time=" + (t3-t2) );
 			results = true;
 		} catch (Exception e) {
-			log.error("DynamicFactsProcessorListImplementation -> Cannot parse document! " + filename + "\n" +
+			System.err.println("DynamicFactsProcessorListImplementation -> Cannot parse document! " + filename + "\n" +
 					"Please make sure the the filename is correct. Another reason for this " +
 					"exception could be an invalid format \nof the dynamic facts data. \n\n" +
 					"Exit Program.");
@@ -148,16 +137,16 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		TransformerFactory tf = TransformerFactory.newInstance();
 		Transformer trans = null;
 		try {
-			log.info("DynamicFactsProcessorListImplementation -> write XML to file=" + filename);
+			System.out.println("DynamicFactsProcessorListImplementation -> write XML to file=" + filename);
 			trans = tf.newTransformer();
 			Source source = new DOMSource(this.dynamicFactsDocument);
 			filename = filename.replace(".xml", ".transformed.xml");
 			Result result = new StreamResult(new File(filename));
 			trans.transform(source, result);
-			log.info("DynamicFactsProcessorListImplementation -> data written to XML file.");
+			System.out.println("DynamicFactsProcessorListImplementation -> data written to XML file.");
 			results = true;
 		} catch (Exception e) {
-			log.error("DynamicFactsProcessor: Cannot store document in XML file: " + filename);
+			System.err.println("DynamicFactsProcessor: Cannot store document in XML file: " + filename);
 			e.getStackTrace();
 			System.exit(1);
 		}
@@ -215,7 +204,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 					}					
 				}
 
-				log.debug("Entry and Exit tags are equal? " + entryCount + "==" + exitCount );
+				System.out.println("Entry and Exit tags are equal? " + entryCount + "==" + exitCount );
 				if ( entryCount > exitCount ){
 					int diff = entryCount - exitCount;
 					for (int i=0; i<diff; i++){
@@ -234,15 +223,15 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 				}
 
 			} catch (FileNotFoundException e) {
-				log.error("PDE: FileNotFoundException! inputStream ");
+				System.err.println("PDE: FileNotFoundException! inputStream ");
 				e.printStackTrace();
 			} catch (IOException e){
-				log.error("PDE: IOException! ");
+				System.err.println("PDE: IOException! ");
 				e.printStackTrace();
 			}
 		}
 		else {
-			log.error("PDE: transformToXML, the provided file does not exist = " + filenameTXT);
+			System.err.println("PDE: transformToXML, the provided file does not exist = " + filenameTXT);
 		}
 		return filenameXML;
 	}
@@ -261,7 +250,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 
 		// Add order number for all entry tags
 		nodeList = document.getElementsByTagName("entry");
-		log.info("DynamicFactsProcessorListImplementation -> addOrderOfElements nodeList.length()=" + nodeList.getLength());
+		System.out.println("DynamicFactsProcessorListImplementation -> addOrderOfElements nodeList.length()=" + nodeList.getLength());
 		for (int i=0; i<nodeList.getLength(); i++){
 			Element e = (Element)nodeList.item(i);
 			e.setAttribute("orderNumber", i+"");
@@ -385,7 +374,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		 */
 		NodeList allEntries = document.getElementsByTagName("entry");
 
-		log.info("DynamicFactsProcessorListImplementation -> Number of entries: " + allEntries.getLength() );
+		System.out.println("DynamicFactsProcessorListImplementation -> Number of entries: " + allEntries.getLength() );
 		
 		/*
 		 * Adjust ROOT node.
@@ -410,7 +399,7 @@ public class DynamicFactsProcessorListImplementation implements DynamicFactsProc
 		}
 		
 		for (int i = 1; i < allEntries.getLength(); i++) {			
-			if( i%100==0 ) log.info("DynamicFactsProcessorListImplementation -> entry number=" + i);
+			if( i%100==0 ) System.out.println("DynamicFactsProcessorListImplementation -> entry number=" + i);
 			
 			// Get all elements
 			Element e = (Element)allEntries.item(i);

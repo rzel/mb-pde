@@ -3,7 +3,6 @@ package ca.yorku.cse.designpatterns;
 
 import java.util.LinkedList;
 
-import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -48,10 +47,6 @@ import org.w3c.dom.NodeList;
  * 
  */
 public class Validator implements ValidatorInterface {
-	
-	// Log4J
-	private static org.apache.log4j.Logger log = Logger.getLogger( Validator.class );
-
 	
 	private LinkedList<CandidateInstance> candInstancesList = null;
 	private NodeList dpDefList = null;
@@ -182,7 +177,7 @@ public class Validator implements ValidatorInterface {
 							 * we are not in the subtree anymore.
 							 * 
 							 */
-							log.debug("Validator -> # doMatch(), nextCallInSubtree is specified #");
+							System.out.println("Validator -> # doMatch(), nextCallInSubtree is specified #");
 
 							boolean inSubtree = true;
 							String currentNodeDepth = dynFactsList.item(n).getAttributes().getNamedItem("callDepth").getNodeValue();
@@ -193,24 +188,24 @@ public class Validator implements ValidatorInterface {
 								int nextNodeCallDepth = Integer.parseInt(nextNode);
 
 								if (nextNodeCallDepth > currentNodeCallDepth ){
-									log.debug("Validator -> " + q + "| if, currentNodeDepth < nextNodeDepth = " + currentNodeDepth + "<" + nextNodeCallDepth);
+									System.out.println("Validator -> " + q + "| if, currentNodeDepth < nextNodeDepth = " + currentNodeDepth + "<" + nextNodeCallDepth);
 
 									Node dynFactsListNodeNext  = dynFactsList.item(q);
 									Node dpDefListNodeNext     = dpDefList.item(m+1);
 									if ( doMatch(dpDefListNodeNext, dynFactsListNodeNext) ) {
-										log.debug("Validator -> " + q + "| if, Found match " + dynFactsListNodeNext.getAttributes().getNamedItem("orderNumber").getNodeValue());
-										log.debug("Validator -> " + q + "| if, Found match in Subtree at position = " + nextNodeCallDepth);
+										System.out.println("Validator -> " + q + "| if, Found match " + dynFactsListNodeNext.getAttributes().getNamedItem("orderNumber").getNodeValue());
+										System.out.println("Validator -> " + q + "| if, Found match in Subtree at position = " + nextNodeCallDepth);
 
 										// Add matching node to datastructure
 										list.add(dynFactsListNode);
 									} else {
-										log.debug("Validator -> " + q + "| if, Found no match ");
+										System.out.println("Validator -> " + q + "| if, Found no match ");
 									}
 
 								} else {
-									log.debug("Validator -> " + q + "| else, currentNodeDepth < nextNodeDepth = " + currentNodeDepth + "<" 
+									System.out.println("Validator -> " + q + "| else, currentNodeDepth < nextNodeDepth = " + currentNodeDepth + "<" 
 												+ nextNodeCallDepth);
-									log.debug("Validator -> " + q + "| else, We are leaving the Subtree");
+									System.out.println("Validator -> " + q + "| else, We are leaving the Subtree");
 									
 									inSubtree = false;
 								}
@@ -229,14 +224,14 @@ public class Validator implements ValidatorInterface {
 							try {
 								dpDefListNodeNext = dpDefList.item(m+1);
 							} catch (RuntimeException e) {
-								log.error("Validator -> The XML Design Pattern definition is not correct. File=" + designPatternDef);
+								System.err.println("Validator -> The XML Design Pattern definition is not correct. File=" + designPatternDef);
 								e.printStackTrace();
 							}
 
 							for (int q=n+1; q<dynFactsList.getLength(); q++ ) {
 								Node dynFactsListNodeNext  = dynFactsList.item(q);
 								if ( doMatch(dpDefListNodeNext,dynFactsListNodeNext) ) {
-									if ( debug ) log.info("Validator -> # doMatch(dpDefListNode,dynFactsListNode) for loop " + q + " orderNumber=" 
+									if ( debug ) System.out.println("Validator -> # doMatch(dpDefListNode,dynFactsListNode) for loop " + q + " orderNumber=" 
 											+ dynFactsListNodeNext.getAttributes().getNamedItem("orderNumber").getNodeValue());
 									list.add(dynFactsListNode);
 								}			
@@ -251,7 +246,7 @@ public class Validator implements ValidatorInterface {
 							 * 
 							 */ 
 
-							log.debug("Validator -> # doMatch(), but no order specified #" 
+							System.out.println("Validator -> # doMatch(), but no order specified #" 
 										+ dynFactsListNode.getAttributes().getNamedItem("orderNumber").getNodeValue());
 							list.add(dynFactsListNode);
 						}
@@ -263,26 +258,26 @@ public class Validator implements ValidatorInterface {
 			candInstancesList.get(j).setIsPattern(isPattern);
 
 			if ( printDatastructure ) {
-				log.info("storeMatchedFacts.length=" + storeMatchedFacts.length);
+				System.out.println("storeMatchedFacts.length=" + storeMatchedFacts.length);
 				for (int x=0; x<storeMatchedFacts.length; x++) {
 					if ( !storeMatchedFacts[x].isEmpty() ) {
 						for (int y=0; y<storeMatchedFacts[x].size(); y++){
 							NamedNodeMap matchMap = ((Node)storeMatchedFacts[x].get(y)).getAttributes();
 							if ( this.printDatastructure ) {
-								log.info("Validator -> ");
-								log.info("Validator -> " + x + " " + y + "| className:      " + matchMap.getNamedItem("className"));
-								log.info("Validator -> " + x + " " + y + "| calledByClass:  " + matchMap.getNamedItem("calledByClass"));
-								log.info("Validator -> " + x + " " + y + "| thisObject:     " + matchMap.getNamedItem("thisObject"));
-								log.info("Validator -> " + x + " " + y + "| calledByObject: " + matchMap.getNamedItem("calledByObject"));
-								log.info("Validator -> " + x + " " + y + "| orderNumber:    " + matchMap.getNamedItem("orderNumber"));
-								log.info("Validator -> " + x + " " + y + "| methodName:     " + matchMap.getNamedItem("methodName"));
-								log.info("Validator -> " + x + " " + y + "| calledByMethod: " + matchMap.getNamedItem("calledByMethod"));
-								log.info("Validator -> " + x + " " + y + "| args:           " + matchMap.getNamedItem("args"));
-								log.info("Validator -> " + x + " " + y + "| callDepth:      " + matchMap.getNamedItem("callDepth"));
+								System.out.println("Validator -> ");
+								System.out.println("Validator -> " + x + " " + y + "| className:      " + matchMap.getNamedItem("className"));
+								System.out.println("Validator -> " + x + " " + y + "| calledByClass:  " + matchMap.getNamedItem("calledByClass"));
+								System.out.println("Validator -> " + x + " " + y + "| thisObject:     " + matchMap.getNamedItem("thisObject"));
+								System.out.println("Validator -> " + x + " " + y + "| calledByObject: " + matchMap.getNamedItem("calledByObject"));
+								System.out.println("Validator -> " + x + " " + y + "| orderNumber:    " + matchMap.getNamedItem("orderNumber"));
+								System.out.println("Validator -> " + x + " " + y + "| methodName:     " + matchMap.getNamedItem("methodName"));
+								System.out.println("Validator -> " + x + " " + y + "| calledByMethod: " + matchMap.getNamedItem("calledByMethod"));
+								System.out.println("Validator -> " + x + " " + y + "| args:           " + matchMap.getNamedItem("args"));
+								System.out.println("Validator -> " + x + " " + y + "| callDepth:      " + matchMap.getNamedItem("callDepth"));
 							}
 						}
 					} else {
-						log.info("Validator -> " + x + "  | storeMatchedFacts[x].isEmpty() ");
+						System.out.println("Validator -> " + x + "  | storeMatchedFacts[x].isEmpty() ");
 					}
 				}
 			}
@@ -391,19 +386,19 @@ public class Validator implements ValidatorInterface {
 		if (   	classNameMatch && methodNameMatch && calledByClassMatch && calledByMethodMatch && 
 				thisObjectMatch && calledByObjectMatch && argsMatch ) 
 		{
-			log.debug("Validator -> 1 Match: def " + dpDef_className     + " | " + dpDef_calledByClass);
-			log.debug("Validator -> 1 Match: dyn " + dynFacts_className  + " | " + dynFacts_calledByClass );
-			log.debug("Validator -> --------------------------------------------------------------------------------------------------");
-			log.debug("Validator -> 2 Match: def " + dpDef_methodName    + " | " + dpDef_calledByMethod);
-			log.debug("Validator -> 2 Match: dyn " + dynFacts_methodName + " | " + dynFacts_calledByMethod );
-			log.debug("Validator -> --------------------------------------------------------------------------------------------------");
-			log.debug("Validator -> 3 Match: def " + dpDef_args          + " | " + dpDef_thisObject);
-			log.debug("Validator -> 3 Match: dyn " + dynFacts_args       + " | " + dynFacts_thisObject);
-			log.debug("Validator -> --------------------------------------------------------------------------------------------------");
-			log.debug("Validator -> 4 Match: def " + dpDef_thisObject);
-			log.debug("Validator -> 4 Match: dyn " + dynFacts_thisObject);
-			log.debug("Validator -> - Match: dyn orderNumber = " + orderNumber);
-			log.debug("\n\n");
+			System.out.println("Validator -> 1 Match: def " + dpDef_className     + " | " + dpDef_calledByClass);
+			System.out.println("Validator -> 1 Match: dyn " + dynFacts_className  + " | " + dynFacts_calledByClass );
+			System.out.println("Validator -> --------------------------------------------------------------------------------------------------");
+			System.out.println("Validator -> 2 Match: def " + dpDef_methodName    + " | " + dpDef_calledByMethod);
+			System.out.println("Validator -> 2 Match: dyn " + dynFacts_methodName + " | " + dynFacts_calledByMethod );
+			System.out.println("Validator -> --------------------------------------------------------------------------------------------------");
+			System.out.println("Validator -> 3 Match: def " + dpDef_args          + " | " + dpDef_thisObject);
+			System.out.println("Validator -> 3 Match: dyn " + dynFacts_args       + " | " + dynFacts_thisObject);
+			System.out.println("Validator -> --------------------------------------------------------------------------------------------------");
+			System.out.println("Validator -> 4 Match: def " + dpDef_thisObject);
+			System.out.println("Validator -> 4 Match: dyn " + dynFacts_thisObject);
+			System.out.println("Validator -> - Match: dyn orderNumber = " + orderNumber);
+			System.out.println("\n\n");
 			return true;
 		}
 		return false;
@@ -413,7 +408,7 @@ public class Validator implements ValidatorInterface {
 
 
 	public LinkedList<CandidateInstance> validateTemporalRestriction(LinkedList<CandidateInstance> candidateInstancesList, NodeList designPatternDefinitionList, String dynamicFactsFileName) {
-		log.info("Validator -> validateTemporalRestrictions");
+		System.out.println("Validator -> validateTemporalRestrictions");
 		this.candInstancesList = candidateInstancesList;
 		this.dpDefList         = designPatternDefinitionList;
 
@@ -566,7 +561,7 @@ public class Validator implements ValidatorInterface {
 					 * MatchedFacts data structure.
 					 */
 					if ( isSetDefThisObject || isSetDefCalledByObject ) {
-						if ( print_objects ) log.info("Validator -> dpDefList.getLength()=" + dpDefList.getLength() + " matchedFacts[j].size()=" + matchedFacts[j].size());
+						if ( print_objects ) System.out.println("Validator -> dpDefList.getLength()=" + dpDefList.getLength() + " matchedFacts[j].size()=" + matchedFacts[j].size());
 						for ( int k=0; k<matchedFacts[j].size(); k++) {
 							String currentThisObj     = ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("thisObject").getNodeValue();
 							String currentCalledByObj = ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("calledByObject").getNodeValue();
@@ -601,7 +596,7 @@ public class Validator implements ValidatorInterface {
 								for (int kk=0; kk<matchedFacts[jj].size(); kk++) {
 									resultEqual    = true;
 									resultNotEqual = true;
-									if ( print_objects ) log.info("\n for loop kk, i,j,k,jj: " + i + "," + j + "," + k + "," + jj + "," + kk);
+									if ( print_objects ) System.out.println("\n for loop kk, i,j,k,jj: " + i + "," + j + "," + k + "," + jj + "," + kk);
 
 									String nextThisObj     = ((Node)matchedFacts[jj].get(kk)).getAttributes().getNamedItem("thisObject").getNodeValue();
 									String nextCalledByObj = ((Node)matchedFacts[jj].get(kk)).getAttributes().getNamedItem("calledByObject").getNodeValue();
@@ -612,41 +607,41 @@ public class Validator implements ValidatorInterface {
 									if ( defThisObject.equals(defNextThisObject) && !defThisObject.equals("") && !defNextThisObject.equals("") ) {
 										resultEqual = resultEqual && currentThisObj.equals(nextThisObj);
 										if ( print_objects ) {
-											log.info("Validator ->  EQUALS: defThisObject.equals(defNextThisObject) result=" + resultEqual);
-											log.info("Validator ->  def: defThisObject     =" + defThisObject );
-											log.info("Validator ->  def: defNextThisObject =" + defNextThisObject );
-											log.info("Validator ->  dyn: currentThisObj =" + currentThisObj);
-											log.info("Validator ->  dyn: nextThisObj    =" + nextThisObj);
+											System.out.println("Validator ->  EQUALS: defThisObject.equals(defNextThisObject) result=" + resultEqual);
+											System.out.println("Validator ->  def: defThisObject     =" + defThisObject );
+											System.out.println("Validator ->  def: defNextThisObject =" + defNextThisObject );
+											System.out.println("Validator ->  dyn: currentThisObj =" + currentThisObj);
+											System.out.println("Validator ->  dyn: nextThisObj    =" + nextThisObj);
 										}
 									}
 									if ( defThisObject.equals(defNextCalledByObject) && !defThisObject.equals("") && !defNextCalledByObject.equals("") ) {
 										resultEqual = resultEqual && currentThisObj.equals(nextCalledByObj);
 										if ( print_objects ) {
-											log.info("Validator ->  EQUALS: defThisObject.equals(defNextCalledByObject) result=" + resultEqual);	
-											log.info("Validator ->  def: defThisObject         =" + defThisObject);
-											log.info("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject ); 
-											log.info("Validator ->  dyn: currentThisObj  =" + currentThisObj);
-											log.info("Validator ->  dyn: nextCalledByObj =" + nextCalledByObj);
+											System.out.println("Validator ->  EQUALS: defThisObject.equals(defNextCalledByObject) result=" + resultEqual);	
+											System.out.println("Validator ->  def: defThisObject         =" + defThisObject);
+											System.out.println("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject ); 
+											System.out.println("Validator ->  dyn: currentThisObj  =" + currentThisObj);
+											System.out.println("Validator ->  dyn: nextCalledByObj =" + nextCalledByObj);
 										}
 									}
 									if ( defCalledByObject.equals(defNextThisObject) && !defCalledByObject.equals("") && !defNextThisObject.equals("") ) {
 										resultEqual = resultEqual && currentCalledByObj.equals(nextThisObj);
 										if ( print_objects ) {
-											log.info("Validator ->  EQUALS: defCalledByObject.equals(defNextThisObject) result=" + resultEqual);
-											log.info("Validator ->  def: defCalledByObject  =" + defCalledByObject);
-											log.info("Validator ->  def: defNextThisObject  =" + defNextThisObject);
-											log.info("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
-											log.info("Validator ->  dyn: nextThisObj        =" + nextThisObj);
+											System.out.println("Validator ->  EQUALS: defCalledByObject.equals(defNextThisObject) result=" + resultEqual);
+											System.out.println("Validator ->  def: defCalledByObject  =" + defCalledByObject);
+											System.out.println("Validator ->  def: defNextThisObject  =" + defNextThisObject);
+											System.out.println("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
+											System.out.println("Validator ->  dyn: nextThisObj        =" + nextThisObj);
 										}
 									}
 									if ( defCalledByObject.equals(defNextCalledByObject) && !defCalledByObject.equals("") && !defNextCalledByObject.equals("") ) {
 										resultEqual = resultEqual && currentCalledByObj.equals(nextCalledByObj);
 										if ( print_objects ) {
-											log.info("Validator ->  EQUALS: defCalledByObject.equals(defNextCalledByObject) result=" + resultEqual);
-											log.info("Validator ->  def: defCalledByObject     =" + defCalledByObject );
-											log.info("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject );
-											log.info("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
-											log.info("Validator ->  dyn: nextCalledByObj    =" + nextCalledByObj);
+											System.out.println("Validator ->  EQUALS: defCalledByObject.equals(defNextCalledByObject) result=" + resultEqual);
+											System.out.println("Validator ->  def: defCalledByObject     =" + defCalledByObject );
+											System.out.println("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject );
+											System.out.println("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
+											System.out.println("Validator ->  dyn: nextCalledByObj    =" + nextCalledByObj);
 										}
 									}
 
@@ -656,55 +651,55 @@ public class Validator implements ValidatorInterface {
 									if ( !defThisObject.equals(defNextThisObject) && !defThisObject.equals("") && !defNextThisObject.equals("") ) {
 										resultNotEqual = resultNotEqual && !currentThisObj.equals(nextThisObj);
 										if ( print_objects ) {
-											log.info("Validator ->  NOT EQUALS: !defThisObject.equals(defNextThisObject) result=" + resultNotEqual);
-											log.info("Validator ->  def: defThisObject     =" + defThisObject );
-											log.info("Validator ->  def: defNextThisObject =" + defNextThisObject );
-											log.info("Validator ->  dyn: currentThisObj =" + currentThisObj);
-											log.info("Validator ->  dyn: nextThisObj    =" + nextThisObj);
+											System.out.println("Validator ->  NOT EQUALS: !defThisObject.equals(defNextThisObject) result=" + resultNotEqual);
+											System.out.println("Validator ->  def: defThisObject     =" + defThisObject );
+											System.out.println("Validator ->  def: defNextThisObject =" + defNextThisObject );
+											System.out.println("Validator ->  dyn: currentThisObj =" + currentThisObj);
+											System.out.println("Validator ->  dyn: nextThisObj    =" + nextThisObj);
 										}					
 									}
 									if ( !defThisObject.equals(defNextCalledByObject) && !defThisObject.equals("") && !defNextCalledByObject.equals("") ) {
 										resultNotEqual = resultNotEqual && !currentThisObj.equals(nextCalledByObj);
 										if ( print_objects ) {
-											log.info("Validator ->  NOT EQUALS: !defThisObject.equals(defNextCalledByObject) result=" + resultNotEqual);	
-											log.info("Validator ->  def: defThisObject         =" + defThisObject);
-											log.info("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject ); 
-											log.info("Validator ->  dyn: currentThisObj  =" + currentThisObj);
-											log.info("Validator ->  dyn: nextCalledByObj =" + nextCalledByObj);
+											System.out.println("Validator ->  NOT EQUALS: !defThisObject.equals(defNextCalledByObject) result=" + resultNotEqual);	
+											System.out.println("Validator ->  def: defThisObject         =" + defThisObject);
+											System.out.println("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject ); 
+											System.out.println("Validator ->  dyn: currentThisObj  =" + currentThisObj);
+											System.out.println("Validator ->  dyn: nextCalledByObj =" + nextCalledByObj);
 										}
 									}
 									if ( !defCalledByObject.equals(defNextThisObject) && !defCalledByObject.equals("") && !defNextThisObject.equals("") ) {
 										resultNotEqual = resultNotEqual && !currentCalledByObj.equals(nextThisObj);
 										if ( print_objects ) {
-											log.info("Validator ->  NOT EQUALS: !defCalledByObject.equals(defNextThisObject) result=" + resultNotEqual);
-											log.info("Validator ->  def: defCalledByObject  =" + defCalledByObject);
-											log.info("Validator ->  def: defNextThisObject  =" + defNextThisObject);
-											log.info("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
-											log.info("Validator ->  dyn: nextThisObj        =" + nextThisObj);
+											System.out.println("Validator ->  NOT EQUALS: !defCalledByObject.equals(defNextThisObject) result=" + resultNotEqual);
+											System.out.println("Validator ->  def: defCalledByObject  =" + defCalledByObject);
+											System.out.println("Validator ->  def: defNextThisObject  =" + defNextThisObject);
+											System.out.println("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
+											System.out.println("Validator ->  dyn: nextThisObj        =" + nextThisObj);
 										}
 									}
 									if ( !defCalledByObject.equals(defNextCalledByObject) && !defCalledByObject.equals("") && !defNextCalledByObject.equals("") ) {
 										resultNotEqual = resultNotEqual && !currentCalledByObj.equals(nextCalledByObj);
 										if ( print_objects ) {
-											log.info("Validator ->  NOT EQUALS: !defCalledByObject.equals(defNextCalledByObject) result=" + resultNotEqual);
-											log.info("Validator ->  def: defCalledByObject     =" + defCalledByObject );
-											log.info("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject );
-											log.info("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
-											log.info("Validator ->  dyn: nextCalledByObj    =" + nextCalledByObj);
+											System.out.println("Validator ->  NOT EQUALS: !defCalledByObject.equals(defNextCalledByObject) result=" + resultNotEqual);
+											System.out.println("Validator ->  def: defCalledByObject     =" + defCalledByObject );
+											System.out.println("Validator ->  def: defNextCalledByObject =" + defNextCalledByObject );
+											System.out.println("Validator ->  dyn: currentCalledByObj =" + currentCalledByObj);
+											System.out.println("Validator ->  dyn: nextCalledByObj    =" + nextCalledByObj);
 										}
 									}
 
 									if ( resultEqual && resultNotEqual ) {
-										if ( print_objects ) log.info("Validator ->  BOTH RESULTS ARE TRUE | i,j,k,jj,kk: " + i + "," + j + "," + k + "," + jj + "," + kk);
+										if ( print_objects ) System.out.println("Validator ->  BOTH RESULTS ARE TRUE | i,j,k,jj,kk: " + i + "," + j + "," + k + "," + jj + "," + kk);
 									} else {
 										/**
 										 * Remove node from matchedFacts datastructure that does not match
 										 * the additional conditions 
 										 */
 										if ( print_objects ) {
-											log.info("Validator ->  AT LEAST ONE OF THE RESULTS IS FALSE | i,j,k,jj,kk: " + i + "," + j + "," + k + "," + jj + "," + kk);
-											log.info("Validator ->      Removing node from matchedFacts[j].remove(k) j,k=" + j + "," + k );
-											log.info("Validator ->      Remove: " + ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("orderNumber"));
+											System.out.println("Validator ->  AT LEAST ONE OF THE RESULTS IS FALSE | i,j,k,jj,kk: " + i + "," + j + "," + k + "," + jj + "," + kk);
+											System.out.println("Validator ->      Removing node from matchedFacts[j].remove(k) j,k=" + j + "," + k );
+											System.out.println("Validator ->      Remove: " + ((Node)matchedFacts[j].get(k)).getAttributes().getNamedItem("orderNumber"));
 										}
 
 										// only remove when facts are not empty
@@ -740,17 +735,17 @@ public class Validator implements ValidatorInterface {
 	private boolean checkIfCandidateInstanceIsAPattern(LinkedList[] storeMatchedFacts) {
 		boolean ret = true;
 
-		log.debug("# checkIfCandidateInstanceIsAPattern");
+		System.out.println("# checkIfCandidateInstanceIsAPattern");
 		for (int i=0; i<storeMatchedFacts.length; i++){
 			if ( !storeMatchedFacts[i].isEmpty() ) {
 				ret = ret && true;
-				log.debug("Validator -> " + i + "| True, 1st node exists: " + ((Node)storeMatchedFacts[i].getFirst()).getAttributes().getNamedItem("orderNumber").getNodeValue());
+				System.out.println("Validator -> " + i + "| True, 1st node exists: " + ((Node)storeMatchedFacts[i].getFirst()).getAttributes().getNamedItem("orderNumber").getNodeValue());
 			} else {
 				ret = false;
-				log.debug("Validator -> " + i + "| False");
+				System.out.println("Validator -> " + i + "| False");
 			}
 		}
-		log.debug("Validator -> # checkIfCandidateInstanceIsAPattern Result=" + ret + "\n");
+		System.out.println("Validator -> # checkIfCandidateInstanceIsAPattern Result=" + ret + "\n");
 		return ret;
 	}
 

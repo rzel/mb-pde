@@ -4,7 +4,6 @@ import java.io.File;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 
@@ -24,10 +23,6 @@ import org.w3c.dom.NodeList;
  */
 public class DynamicDefinitionConverter implements DynamicDefinitionConverterInterface {
 	
-	// Log4J
-	private static org.apache.log4j.Logger log = Logger.getLogger( DynamicDefinitionConverter.class );
-
-
 	/**
 	 * Dynamic definition document for this design pattern.
 	 */
@@ -51,7 +46,7 @@ public class DynamicDefinitionConverter implements DynamicDefinitionConverterInt
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			this.doc = db.parse(new File(filename));
 		} catch (Exception e) {
-			log.error("DesignPatternDefinitionProcessor: -> " +
+			System.err.println("DesignPatternDefinitionProcessor: -> " +
 					"Constructor(): Cannot read from file: " + filename +
 					"Please make sure that the file exists.");
 			e.printStackTrace();
@@ -59,7 +54,7 @@ public class DynamicDefinitionConverter implements DynamicDefinitionConverterInt
 		}
 
 		int numOfRoles = candInstance.getNumOfRoles();
-		log.debug("DesignPatternDefinitionProcessor: numOfRoles: " + numOfRoles );
+		System.out.println("DesignPatternDefinitionProcessor: numOfRoles: " + numOfRoles );
 		String[] names = new String[ numOfRoles ];
 		String[] roles = new String[ numOfRoles ];
 
@@ -74,17 +69,17 @@ public class DynamicDefinitionConverter implements DynamicDefinitionConverterInt
 		for (int k = 0; k < numOfRoles; k++) {
 			names[k] = candInstance.getNames().get(k);
 			roles[k] = candInstance.getRoles().get(k).replaceAll("\\.","/");	    
-			log.debug("  roleNames[]: " + k + " " + names[k]);
-			log.debug("  roles[]:     " + k + " " + roles[k]);
+			System.out.println("  roleNames[]: " + k + " " + names[k]);
+			System.out.println("  roles[]:     " + k + " " + roles[k]);
 		}
 
 
 		NodeList dpDefList = this.doc.getElementsByTagName("entry");
 		for (int l = 0; l < dpDefList.getLength(); l++) {  
-			log.debug(l + " before:");
-			log.debug(l + " 1: " + dpDefList.item(l).getAttributes().getNamedItem("className").getNodeValue());
-			log.debug(l + " 2: " + dpDefList.item(l).getAttributes().getNamedItem("calledByClass").getNodeValue());
-			log.debug(l + " 3: " + dpDefList.item(l).getAttributes().getNamedItem("args").getNodeValue());    
+			System.out.println(l + " before:");
+			System.out.println(l + " 1: " + dpDefList.item(l).getAttributes().getNamedItem("className").getNodeValue());
+			System.out.println(l + " 2: " + dpDefList.item(l).getAttributes().getNamedItem("calledByClass").getNodeValue());
+			System.out.println(l + " 3: " + dpDefList.item(l).getAttributes().getNamedItem("args").getNodeValue());    
 
 			/*
 			 * Check className and calledByClass attributes of each node and 
@@ -136,10 +131,10 @@ public class DynamicDefinitionConverter implements DynamicDefinitionConverterInt
 				}
 			}
 
-			log.debug(l + " after:");
-			log.debug(l + " 1: " + dpDefList.item(l).getAttributes().getNamedItem("className").getNodeValue());
-			log.debug(l + " 2: " + dpDefList.item(l).getAttributes().getNamedItem("calledByClass").getNodeValue());
-			log.debug(l + " 3: " + dpDefList.item(l).getAttributes().getNamedItem("args").getNodeValue());
+			System.out.println(l + " after:");
+			System.out.println(l + " 1: " + dpDefList.item(l).getAttributes().getNamedItem("className").getNodeValue());
+			System.out.println(l + " 2: " + dpDefList.item(l).getAttributes().getNamedItem("calledByClass").getNodeValue());
+			System.out.println(l + " 3: " + dpDefList.item(l).getAttributes().getNamedItem("args").getNodeValue());
 		}
 	}
 

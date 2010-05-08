@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -15,9 +14,6 @@ import org.w3c.dom.NodeList;
  *
  */
 public class DynamicFactsProcessorTreeImplementation {
-
-	// Log4J
-	private static org.apache.log4j.Logger log = Logger.getLogger( DynamicFactsProcessorTreeImplementation.class );
 
 	protected String dynamicFactsFileName = "";
 	static TreeNode root = null;
@@ -30,15 +26,15 @@ public class DynamicFactsProcessorTreeImplementation {
 	 * @param dynamicFactsFileName
 	 */
 	public DynamicFactsProcessorTreeImplementation( String dynamicFactsFileName, boolean timing ){
-		log.info("DynamicFactsProcessorTreeImplementation ->");		
+		System.out.println("DynamicFactsProcessorTreeImplementation ->");		
 		if( root == null) {
-			log.info("DynamicFactsProcessorTreeImplementation -> create dynamic facts tree, root==null");
+			System.out.println("DynamicFactsProcessorTreeImplementation -> create dynamic facts tree, root==null");
 			this.dynamicFactsFileName = dynamicFactsFileName;
 			Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName);
 			dynFactsList = dynFactsDoc.getElementsByTagName("entry");
 			createDynamicFactsTree(dynFactsList, timing);
 		} else {
-			log.info("DynamicFactsProcessorTreeImplementation -> dynamic facts tree does already exist. Nothing to be done.");
+			System.out.println("DynamicFactsProcessorTreeImplementation -> dynamic facts tree does already exist. Nothing to be done.");
 		}
 	}
 	
@@ -62,7 +58,7 @@ public class DynamicFactsProcessorTreeImplementation {
 			firstLevelNode = (TreeNode) levelOneHashMap.get( className.hashCode() );	
 			list.addAll( secondLevel(firstLevelNode, searchNode) );
 		} else {
-			log.debug("1st level - !containsKey: " + className.hashCode() );
+			System.out.println("1st level - !containsKey: " + className.hashCode() );
 		}	
 		return list;
 	}
@@ -86,7 +82,7 @@ public class DynamicFactsProcessorTreeImplementation {
 			secondLevelNode = (TreeNode) levelTwoHashMap.get( calledByClass.hashCode() );	
 			list.addAll( thirdLevel(secondLevelNode, searchNode) );
 		} else {
-			log.debug("2nd level - !containsKey: " + calledByClass.hashCode() );
+			System.out.println("2nd level - !containsKey: " + calledByClass.hashCode() );
 		}	
 		return list;
 	}
@@ -105,15 +101,15 @@ public class DynamicFactsProcessorTreeImplementation {
 			for (Iterator iter = tl.iterator(); iter.hasNext();) {
 				TreeLeaf leaf = (TreeLeaf) iter.next();
 				list.addAll( leaf.getList() );	
-				log.debug("  DynamicFactsProcessorTreeImplementation: thirdLevel - list.addAll(nodeList) = " + leaf.getList().size() );
+				System.out.println("  DynamicFactsProcessorTreeImplementation: thirdLevel - list.addAll(nodeList) = " + leaf.getList().size() );
 			}
 		} else if( levelThreeHashMap.containsKey( args.hashCode() ) ){
 			thirdLevelNode = (TreeLeaf) levelThreeHashMap.get( args.hashCode() );	
 			LinkedList<Node> nodeList = thirdLevelNode.getList();
 			list.addAll(nodeList);
-			log.debug("  DynamicFactsProcessorTreeImplementation: thirdLevel - list.addAll(nodeList) = " + nodeList.size());
+			System.out.println("  DynamicFactsProcessorTreeImplementation: thirdLevel - list.addAll(nodeList) = " + nodeList.size());
 		} else {
-			log.debug("3rd level - !containsKey: " + args.hashCode() );
+			System.out.println("3rd level - !containsKey: " + args.hashCode() );
 		}	
 		return list;
 	}
@@ -129,17 +125,17 @@ public class DynamicFactsProcessorTreeImplementation {
 //		TreeNode firstLevelNode = null;
 //		HashMap<Integer, TreeNode> levelOneHashMap = root.getReferenceToHashMap();
 //		if( levelOneHashMap.containsKey( classname.hashCode() ) ){
-//			log.info("1st level - containsKey: " + classname.hashCode() );
+//			System.out.println("1st level - containsKey: " + classname.hashCode() );
 //			firstLevelNode = (TreeNode) levelOneHashMap.get( classname.hashCode() );
-//			log.info( firstLevelNode.toString() );
+//			System.out.println( firstLevelNode.toString() );
 //			
 //			String calledByClass = searchNode.getAttributes().getNamedItem("calledByClass").getNodeValue();
 //			TreeNode secondLevelNode = null;
 //			HashMap<Integer, TreeNode> levelTwoHashMap = firstLevelNode.getReferenceToHashMap();
 //			if( levelTwoHashMap.containsKey( calledByClass.hashCode() ) ){
-//				log.info("2nd level - containsKey: " + calledByClass.hashCode() );
+//				System.out.println("2nd level - containsKey: " + calledByClass.hashCode() );
 //				secondLevelNode = (TreeNode) levelTwoHashMap.get( calledByClass.hashCode() );
-//				log.info( secondLevelNode.toString() );
+//				System.out.println( secondLevelNode.toString() );
 //				
 //				String args = searchNode.getAttributes().getNamedItem("args").getNodeValue();
 //				TreeLeaf thirdLevelNode = null;
@@ -152,9 +148,9 @@ public class DynamicFactsProcessorTreeImplementation {
 //						list.addAll( element.getList() );				
 //					}
 //				} else if( levelThreeHashMap.containsKey( args.hashCode() ) ){
-//					log.info("3rd level - containsKey: " + args.hashCode() );
+//					System.out.println("3rd level - containsKey: " + args.hashCode() );
 //					thirdLevelNode = (TreeLeaf) levelThreeHashMap.get( args.hashCode() );					
-//					log.info( thirdLevelNode.toString() );
+//					System.out.println( thirdLevelNode.toString() );
 //					
 //					/**
 //					 * Add all nodes from the thirdLevelNodeList to a list
@@ -162,13 +158,13 @@ public class DynamicFactsProcessorTreeImplementation {
 //					LinkedList<Node> nodeList = thirdLevelNode.getList();
 //					list.addAll(nodeList);
 //				} else {
-//					log.info("3rd level - !containsKey: " + args.hashCode() );
+//					System.out.println("3rd level - !containsKey: " + args.hashCode() );
 //				}	
 //			} else {
-//				log.info("2nd level - !containsKey: " + calledByClass.hashCode() );
+//				System.out.println("2nd level - !containsKey: " + calledByClass.hashCode() );
 //			}			
 //		} else {
-//			log.info("1st level - !containsKey: " + classname.hashCode() );
+//			System.out.println("1st level - !containsKey: " + classname.hashCode() );
 //		}
 //
 //		
@@ -178,7 +174,7 @@ public class DynamicFactsProcessorTreeImplementation {
 
 	@SuppressWarnings({ "unchecked", "unchecked" })
 	public static boolean createDynamicFactsTree(NodeList dynFactsList, boolean time){
-		log.info("DynamicFactsProcessorTreeImplementation -> createDynamicFactsTree()");
+		System.out.println("DynamicFactsProcessorTreeImplementation -> createDynamicFactsTree()");
 		boolean result = false;
 		long startTime = 0;
 		
@@ -203,59 +199,59 @@ public class DynamicFactsProcessorTreeImplementation {
 			}
 			
 			String classname = node.getAttributes().getNamedItem("className").getNodeValue();
-			//log.info(i + " 1st level - classname=(" + classname + ") classnameHash=(" + classname.hashCode()+")");
+			//System.out.println(i + " 1st level - classname=(" + classname + ") classnameHash=(" + classname.hashCode()+")");
 			TreeNode firstLevelNode = null;
 			HashMap<Integer, TreeNode> levelOneHashMap = root.getReferenceToHashMap();
 			if( levelOneHashMap.containsKey( classname.hashCode() ) ){
-				//log.info("1st level - containsKey: " + classname.hashCode() );
+				//System.out.println("1st level - containsKey: " + classname.hashCode() );
 				firstLevelNode = (TreeNode) levelOneHashMap.get( classname.hashCode() );
-				//log.info( firstLevelNode.toString() );
+				//System.out.println( firstLevelNode.toString() );
 				lev1HMcontains++;
 			} else {
-				//log.info("1st level - !containsKey insert key: " + classname.hashCode() );
+				//System.out.println("1st level - !containsKey insert key: " + classname.hashCode() );
 				// Create new TreeNode with classname and insert into HashMap
 				firstLevelNode = new TreeNode("className", classname);
 				HashMap firstLevelHashMap = new HashMap();
 				firstLevelNode.setReferenceToHashMap(firstLevelHashMap);
 				levelOneHashMap.put( classname.hashCode(), firstLevelNode);
-				//log.info( firstLevelNode.toString() );
+				//System.out.println( firstLevelNode.toString() );
 				lev1HM++;
 			}
-			//log.info("");
+			//System.out.println("");
 			
 			TreeNode secondLevelNode = null;
 			HashMap<Integer, TreeNode> levelTwoHashMap = firstLevelNode.getReferenceToHashMap();
 			String calledByClass = node.getAttributes().getNamedItem("calledByClass").getNodeValue();
-			//log.info("2nd level - calledByClass=(" + calledByClass + ") calledByClassHash=(" + calledByClass.hashCode()+")");
+			//System.out.println("2nd level - calledByClass=(" + calledByClass + ") calledByClassHash=(" + calledByClass.hashCode()+")");
 			if( levelTwoHashMap.containsKey( calledByClass.hashCode() )) { 
-				//log.info("2nd level - containsKey: " + calledByClass.hashCode());
+				//System.out.println("2nd level - containsKey: " + calledByClass.hashCode());
 				secondLevelNode = (TreeNode) levelTwoHashMap.get( calledByClass.hashCode() );
-				//log.info( secondLevelNode.toString() );
+				//System.out.println( secondLevelNode.toString() );
 				lev2HMcontains++;
 			} else {
-				//log.info("2nd level - !containsKey insert key: " + calledByClass.hashCode());
+				//System.out.println("2nd level - !containsKey insert key: " + calledByClass.hashCode());
 				// Create new TreeNode with calledByClass and insert into HashMap
 				secondLevelNode = new TreeNode("calledByClass", calledByClass);
 				HashMap secondLevelHashMap = new HashMap();
 				secondLevelNode.setReferenceToHashMap(secondLevelHashMap);
 				levelTwoHashMap.put( calledByClass.hashCode(), secondLevelNode);
-				//log.info( secondLevelNode.toString() );
+				//System.out.println( secondLevelNode.toString() );
 				lev2HM++;
 			}			
-			//log.info("");
+			//System.out.println("");
 			
 			
 			TreeLeaf thirdLevelNode = null;
 			HashMap<Integer, TreeLeaf> levelThreeHashMap = secondLevelNode.getReferenceToHashMap();
 			String args = node.getAttributes().getNamedItem("args").getNodeValue();
-			//log.info("3rd level - args=(" + args + ") argsHash=(" + args.hashCode()+")");
+			//System.out.println("3rd level - args=(" + args + ") argsHash=(" + args.hashCode()+")");
 			if( levelThreeHashMap.containsKey( args.hashCode() ) ){
-				//log.info("3rd - containsKey: " + args.hashCode());
+				//System.out.println("3rd - containsKey: " + args.hashCode());
 				thirdLevelNode = (TreeLeaf) levelThreeHashMap.get( args.hashCode() );
-				//log.info( thirdLevelNode.toString() );
+				//System.out.println( thirdLevelNode.toString() );
 				lev3HMcontains++;
 			} else {
-				//log.info("3rd - !containsKey insert key: " + args.hashCode());
+				//System.out.println("3rd - !containsKey insert key: " + args.hashCode());
 				// Create new TreeNode with args and insert into HashMap
 				thirdLevelNode = new TreeLeaf("args", args);	
 				HashMap thirdLevelHashMap = new HashMap();
@@ -263,12 +259,12 @@ public class DynamicFactsProcessorTreeImplementation {
 				thirdLevelNode.setList(list);
 				thirdLevelNode.setReferenceToHashMap(thirdLevelHashMap);
 				levelThreeHashMap.put(args.hashCode(), thirdLevelNode);
-				//log.info( thirdLevelNode.toString() );
+				//System.out.println( thirdLevelNode.toString() );
 				lev3HM++;
 			}			
-			//log.info("");
+			//System.out.println("");
 			
-			//log.info(i + " Add node: " + node.getAttributes().getNamedItem("className").getNodeValue() + " to leaf node list. \n");
+			//System.out.println(i + " Add node: " + node.getAttributes().getNamedItem("className").getNodeValue() + " to leaf node list. \n");
 			LinkedList<Node> thirdLevelList = thirdLevelNode.getList();
 			thirdLevelList.add( node );
 		}	
@@ -276,10 +272,10 @@ public class DynamicFactsProcessorTreeImplementation {
 		
 //		if ( time ) { 
 //			long endTime = System.currentTimeMillis();
-//			log.info("Dynamic Facts - number of entries = " + dynFactsList.getLength());
-//			log.info("StartTime:                          " + startTime);
-//			log.info("EndTime:                            " + endTime);
-//			log.info("CreateTree:                         " + (endTime-startTime)/1000  + " seconds");
+//			System.out.println("Dynamic Facts - number of entries = " + dynFactsList.getLength());
+//			System.out.println("StartTime:                          " + startTime);
+//			System.out.println("EndTime:                            " + endTime);
+//			System.out.println("CreateTree:                         " + (endTime-startTime)/1000  + " seconds");
 //		}
 		
 		result = true;		
