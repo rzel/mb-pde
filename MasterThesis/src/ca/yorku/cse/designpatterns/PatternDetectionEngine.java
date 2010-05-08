@@ -25,8 +25,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import org.apache.log4j.Logger;
-
 /**
  * Instance of the PatternDetection Engine to
  * detect software <b>Design Patterns</b>, given static 
@@ -84,13 +82,6 @@ public class PatternDetectionEngine
 	private static int pointer_x  = 0;
 	private static int pointer_y  = 0;
 
-
-	/* Log4J
-	 * Debug < Info < Warn < Error < Fatal
-	 */
-	private static org.apache.log4j.Logger log = Logger.getLogger( PatternDetectionEngine.class );
-
-
 	/**
 	 * Main program. Reads passed parameters and configures program to process static
 	 * and dynamic fact files. Then it calls the run method to start the detection
@@ -114,7 +105,7 @@ public class PatternDetectionEngine
 		Properties prop = new Properties();
 		try {
 			prop.load( new FileInputStream( config_file ) );     
-			log.info("PatternDetectionEngine -> main() Reading properties from configuration file.");
+			System.out.println("PatternDetectionEngine -> main() Reading properties from configuration file.");
 			redirect_file       = prop.getProperty("output.redirect.txt.file");			// "redirect.txt"
 			report_file         = prop.getProperty("output.report.txt.file");			// "report.txt"
 			software_file      	= prop.getProperty("input.software.xml.file");			// "software.xml"
@@ -123,7 +114,7 @@ public class PatternDetectionEngine
 			exception_file 	    = prop.getProperty("output.exception.txt.file");		// "exception.txt"
 			results_file        = prop.getProperty("output.results.xml.file");			// "results.xml"
 		} catch (IOException e) {
-			log.error("PatternDetectionEngine -> main() Could not find properties file. Please check your " + config_file + " file.");
+			System.err.println("PatternDetectionEngine -> main() Could not find properties file. Please check your " + config_file + " file.");
 			System.exit(1);
 		}
 
@@ -142,7 +133,7 @@ public class PatternDetectionEngine
 					DocumentBuilder db = dbf.newDocumentBuilder();
 					software_doc = db.parse( new File(software_file));
 				} catch (Exception e) {
-					log.error("PatternDetectionEngine: -> main() Cannot read from file: " + software_file +
+					System.err.println("PatternDetectionEngine: -> main() Cannot read from file: " + software_file +
 					" Please make sure that the file exists.");
 					e.printStackTrace();
 					System.exit(1);
@@ -154,7 +145,7 @@ public class PatternDetectionEngine
 					DocumentBuilder db = dbf.newDocumentBuilder();
 					designpattern_doc = db.parse(new File(designpattern_file));
 				} catch (Exception e) {
-					log.error("designpattern_doc: -> " +
+					System.err.println("designpattern_doc: -> " +
 							" Constructor(): Cannot read from file: " + designpattern_file +
 					" Please make sure that the file exists.");
 					e.printStackTrace();
@@ -169,7 +160,7 @@ public class PatternDetectionEngine
 
 				File pdeDel = new File( input_file );
 				boolean del = pdeDel.delete();
-				log.info("Create new PDE input file called " + input_file + ". Deleted existing file successfully? " + del);
+				System.out.println("Create new PDE input file called " + input_file + ". Deleted existing file successfully? " + del);
 
 				NodeList properties = software_doc.getElementsByTagName("properties");
 				for (int l = 0; l < properties.getLength(); l++) {  
@@ -183,10 +174,10 @@ public class PatternDetectionEngine
 						canInDir = canInDir + "/";
 					}	            
 
-					log.info("Shell command: " + shell);
-					log.info("Javex command: " + javex);
-					log.info("Grok command:  " + grok);
-					log.info("QL command:    " + ql);
+					System.out.println("Shell command: " + shell);
+					System.out.println("Javex command: " + javex);
+					System.out.println("Grok command:  " + grok);
+					System.out.println("QL command:    " + ql);
 				}
 
 				NodeList software = software_doc.getElementsByTagName("software");
@@ -196,10 +187,10 @@ public class PatternDetectionEngine
 					String mainClass    = software.item(j).getAttributes().getNamedItem("mainClass").getNodeValue();
 					String dynFactsFile = software.item(j).getAttributes().getNamedItem("dynamicFactsFile").getNodeValue();
 
-					log.info("\n Name:               " + nameSrc );
-					log.info(  " Directoyr:          " + directory);
-					log.info(  " Main Class:         " + mainClass );
-					log.info(  " Dynamic facts file: " + dynFactsFile );
+					System.out.println("\n Name:               " + nameSrc );
+					System.out.println(  " Directoyr:          " + directory);
+					System.out.println(  " Main Class:         " + mainClass );
+					System.out.println(  " Dynamic facts file: " + dynFactsFile );
 
 					String nameDP        = "";
 					String ql_script     = "";
@@ -212,12 +203,12 @@ public class PatternDetectionEngine
 						ql_script     = designpattern.item(k).getAttributes().getNamedItem("ql_script").getNodeValue();
 						pattern_roles = designpattern.item(k).getAttributes().getNamedItem("pattern_roles").getNodeValue();
 						dynamicDefinitionFile = designpattern.item(k).getAttributes().getNamedItem("dynamicDefinitionFile").getNodeValue();
-						log.info("\n Name of design pattern: " + nameDP );
-						log.info(  " QL script:              " + ql_script);
-						log.info(  " Design Pattern roles:   " + pattern_roles );
+						System.out.println("\n Name of design pattern: " + nameDP );
+						System.out.println(  " QL script:              " + ql_script);
+						System.out.println(  " Design Pattern roles:   " + pattern_roles );
 
 						String command = shell+" "+javex+" "+grok+" "+ql+" "+directory+" "+ql_script+" "+canInDir ; 
-						log.info(command);
+						System.out.println(command);
 
 						String staticFactsOutputFile = canInDir + nameSrc + "." + nameDP + ".out";
 						String input_filename  = "ql.out";
@@ -226,13 +217,13 @@ public class PatternDetectionEngine
 						st.runStaticAnalysis();
 
 						try {
-							log.info("BufferedWriter out");
+							System.out.println("BufferedWriter out");
 							BufferedWriter out = new BufferedWriter(new FileWriter( staticFactsOutputFile ));	        	    
 							out.write(pattern_roles + "\n");
 							out.flush();
 
 							//Create a buffer reader for the passed file
-							log.info("BufferedWriter in");
+							System.out.println("BufferedWriter in");
 							BufferedReader in = new BufferedReader(new FileReader( input_filename ));
 							String line = "";
 							while ((line = in.readLine()) != null) {
@@ -241,7 +232,7 @@ public class PatternDetectionEngine
 							}	                
 							out.close();	        	    
 
-							log.info("BufferedWriter pdeIn");
+							System.out.println("BufferedWriter pdeIn");
 							boolean append = true;
 							try {
 								BufferedWriter pdeIn = new BufferedWriter(new FileWriter( input_file, append ));
@@ -249,18 +240,18 @@ public class PatternDetectionEngine
 								pdeIn.flush();
 								pdeIn.close();
 							} catch (IOException e1) {
-								log.error("problem reading pde_input_filename: " + input_file);
+								System.err.println("problem reading pde_input_filename: " + input_file);
 								e1.printStackTrace();
 							}
 						} catch (IOException e) {
-							log.error("EXCEPTION: Java IO");
+							System.err.println("EXCEPTION: Java IO");
 							BufferedWriter exc;
 							try {
 								exc = new BufferedWriter(new FileWriter( exception_file, true ));
 								exc.write("Exception: " + command + "\n");
 								exc.flush();
 							} catch (IOException e1) {
-								log.error("Exception writting to exception.txt");
+								System.err.println("Exception writting to exception.txt");
 								e1.printStackTrace();
 							}	
 						}
@@ -280,12 +271,12 @@ public class PatternDetectionEngine
 		for(int i=0; i<args.length; i++){
 			if ( args[i].equals("-dynamic") ) {
 				// ALL DEFAULT VALUES
-				log.info("Input parameter -dynamic. Run with default values. ");
+				System.out.println("Input parameter -dynamic. Run with default values. ");
 				threshold     = Double.parseDouble("0.80");
 				print_stats   = true;
 				create_report = true;
 				print_results = true;
-				log.info("Default values: \n"
+				System.out.println("Default values: \n"
 						+ " inputFileName " + input_file + "\n"
 						+ " threshold     " + threshold + "\n"
 						+ " print_stats   " + print_stats + "\n"
@@ -295,42 +286,42 @@ public class PatternDetectionEngine
 			else if ( args[i].equals("-redirect") ){ 
 				redirectSystemOut = true;
 				redirect_file = args[++i];
-				log.info("Input parameter for -redirect true and output file name " + redirect_file);
+				System.out.println("Input parameter for -redirect true and output file name " + redirect_file);
 			}	
 			else if ( args[i].equals("-threshold") ){
 				try {
 					threshold = Double.parseDouble(args[++i]);
-					log.info("Input parameter for -threshold " + threshold);
+					System.out.println("Input parameter for -threshold " + threshold);
 					if ( threshold > 1.0 || threshold < 0.0 ){
 						throw new Exception();
 					}			
 				} catch (Exception e) {
-					log.info("The threshold has to be a double between 0.0 and 1.0 (default value is 0.8 = 80%) ");
+					System.out.println("The threshold has to be a double between 0.0 and 1.0 (default value is 0.8 = 80%) ");
 					System.exit(1);
 				}
 			}
 			else if ( args[i].equals("-print_statistics") || args[i].equals("-ps") ){
 				print_stats = true;
-				log.info("Input parameter for -print_statistics || -ps  true");
+				System.out.println("Input parameter for -print_statistics || -ps  true");
 			}
 			else if ( args[i].equals("-create_report") ){
 				create_report = true;
-				log.info("Input parameter for -create_report true. Writting report to file: " + report_file);
+				System.out.println("Input parameter for -create_report true. Writting report to file: " + report_file);
 			}	    
 			else if ( args[i].equals("-print_datastructure") || args[i].equals("-pd") ){
 				print_datastructure = true;
-				log.info("Input parameter for -print_datastructure || -pd true");
+				System.out.println("Input parameter for -print_datastructure || -pd true");
 			}	
 			else if ( args[i].equals("-print_results") || args[i].equals("-pr") ){
 				print_results = true;
-				log.info("Input parameter for -print_results || -pr true");
+				System.out.println("Input parameter for -print_results || -pr true");
 			}	
 			else if ( args[i].equals("-example")){
 				candidateInstancesFileName = "examples/example.AbstractFactory.ql.out.instances";
 				dynamicFactsFileName       = "examples/example.AbstractFactory.RunPattern.txt";
 				dynamicDefinitionFileName  = "examples/example.AbstractFactory.xml";
 				print_results = true;
-				log.info("Example for PDE. Current setup: " +
+				System.out.println("Example for PDE. Current setup: " +
 						"\ncandidateInstancesFileName =" + candidateInstancesFileName +
 						"\ndynamicFactsFileName       =" + dynamicFactsFileName +
 						"\ndynamicDefinitionFileName  =" + dynamicDefinitionFileName);
@@ -338,26 +329,26 @@ public class PatternDetectionEngine
 			}	
 			else if ( args[i].equals("-debug") ){
 				debug = true;
-				log.info("Input parameter for -debug true");
+				System.out.println("Input parameter for -debug true");
 			}	
 			else if ( args[i].equals("-rankResults") ){
 				rank_results = true;
-				log.info("Input parameter for -rankResults true");
+				System.out.println("Input parameter for -rankResults true");
 			}	
 			else if ( args[i].equals("-print_time") ){
 				print_time = true;
-				log.info("Input parameter for -print_time true");
+				System.out.println("Input parameter for -print_time true");
 			}
 			else if ( args[i].equals("-static") ){
-				log.info("Input parameter for -static true");
+				System.out.println("Input parameter for -static true");
 			}
 			else if ( args[i].equals("-summary") ){
-				log.info("Input parameter for -summary true");
+				System.out.println("Input parameter for -summary true");
 				pde.summary( results_file );
 				System.exit(1);
 			}
 			else if ( args[i].equals("-fullSummary") ){
-				log.info("Input parameter for fullSummary true");
+				System.out.println("Input parameter for fullSummary true");
 				pde.fullSummary( results_file );
 				System.exit(1);
 			}
@@ -366,7 +357,7 @@ public class PatternDetectionEngine
 				System.exit(1);
 			}
 			else {
-				log.error("Wrong argument passed to the program: " + args[i]);
+				System.err.println("Wrong argument passed to the program: " + args[i]);
 				pde.usage(true);
 				System.exit(1);
 			}
@@ -392,13 +383,13 @@ public class PatternDetectionEngine
 		try {
 			File x = new File ( results_file );
 			if ( x.exists() ) {
-				log.info("Results file deleted: " + results_file );
+				System.out.println("Results file deleted: " + results_file );
 				x.delete();
 			}
 			resultsStream  = new PrintWriter(new FileWriter( results_file, true ));
 			resultsStream.println( XMLheader );
 		} catch (IOException e) {
-			log.error("Exception: Can not write results to file: " + results_file );
+			System.err.println("Exception: Can not write results to file: " + results_file );
 			e.printStackTrace();			    
 		}
 
@@ -418,9 +409,9 @@ public class PatternDetectionEngine
 			 * Run Pattern Detection Engine with the given input files
 			 */
 			if ( print_results ) {
-				log.info("\n################################################################################################");
-				log.info("Processing the following files ...");
-				log.info(ci + "\n" + dy + "\n" + dp + "\n");
+				System.out.println("\n################################################################################################");
+				System.out.println("Processing the following files ...");
+				System.out.println(ci + "\n" + dy + "\n" + dp + "\n");
 			}
 
 
@@ -431,7 +422,7 @@ public class PatternDetectionEngine
 			System.exit(1);
 
 		} else if ( candidateInstancesFileName != null || dynamicFactsFileName != null || dynamicDefinitionFileName != null) {
-			log.info("Please provide enough input parameters to start the Pattern Detection Engine." +
+			System.out.println("Please provide enough input parameters to start the Pattern Detection Engine." +
 					"\ncandidateInstancesFileName = " + candidateInstancesFileName +
 					"\ndynamicFactsFileName " + dynamicFactsFileName +
 					"\ndynamicDefinitionFileName " + dynamicDefinitionFileName);
@@ -459,9 +450,9 @@ public class PatternDetectionEngine
 				/*
 				 * Run Pattern Detection Engine with the given input files
 				 */
-				log.debug("\n################################################################################################");
-				log.debug("Processing the following files ...");
-				log.debug(ci + "\n" + dy + "\n" + dp + "\n");
+				System.out.println("\n################################################################################################");
+				System.out.println("Processing the following files ...");
+				System.out.println(ci + "\n" + dy + "\n" + dp + "\n");
 
 				/*
 				 * Run Detection Engine and verify/detect Design Patterns from the fact files
@@ -477,14 +468,14 @@ public class PatternDetectionEngine
 				}
 			}
 			if (enable_timing){
-				log.info("\nTime:");
+				System.out.println("\nTime:");
 				for (int i = 0; i < time.size(); i++) {
-					log.info( time.get(i) );
+					System.out.println( time.get(i) );
 				}
 			}
 			if ( print_results ) { 
-				log.info("################################################################################################");
-				log.info("# PDE: # of examples, input.size()=" + input.size() );
+				System.out.println("################################################################################################");
+				System.out.println("# PDE: # of examples, input.size()=" + input.size() );
 			}	    
 		}
 		resultsStream.println(XMLfooter);
@@ -506,7 +497,7 @@ public class PatternDetectionEngine
 
 		File xx = new File ( results_file );
 		if ( !xx.exists() ) {
-			log.info("The results file does not exist. " +
+			System.out.println("The results file does not exist. " +
 					"Please run the static and dynamic analysis first. " +
 					"The following file could not found: " + results_file);
 		}
@@ -541,11 +532,11 @@ public class PatternDetectionEngine
 			String designPattern = node1.getAttributes().getNamedItem("designPattern").getNodeValue();
 			String numberOfHits  = node1.getAttributes().getNamedItem("numberOfHits").getNodeValue();
 
-			log.info("####################################################################\n");
-			log.info("-> name:          " + name);
-			log.info("   sourceCode:    " + sourceCode);
-			log.info("   designPattern: " + designPattern);
-			log.info("   numberOfHits:  " + numberOfHits + "\n");
+			System.out.println("####################################################################\n");
+			System.out.println("-> name:          " + name);
+			System.out.println("   sourceCode:    " + sourceCode);
+			System.out.println("   designPattern: " + designPattern);
+			System.out.println("   numberOfHits:  " + numberOfHits + "\n");
 
 			NodeList children = allResults.item(j).getChildNodes();
 			for (int i = 0; i < children.getLength(); i++) {
@@ -554,11 +545,11 @@ public class PatternDetectionEngine
 					String percentage = node2.getAttributes().getNamedItem("percentage").getNodeValue();
 					String threshold  = node2.getAttributes().getNamedItem("threshold").getNodeValue();
 					String roles      = node2.getAttributes().getNamedItem("roles").getNodeValue();
-					log.info("   -> candidateInstance");
-					log.info("      percentage:  " + percentage);
-					log.info("      threshold:   " + threshold);
-					log.info("      roles:       " + roles);
-					log.info("");
+					System.out.println("   -> candidateInstance");
+					System.out.println("      percentage:  " + percentage);
+					System.out.println("      threshold:   " + threshold);
+					System.out.println("      roles:       " + roles);
+					System.out.println("");
 				}
 			}
 		}	
@@ -577,7 +568,7 @@ public class PatternDetectionEngine
 
 		File xx = new File ( resultsXMLfile );
 		if ( !xx.exists() ) {
-			log.info("The results file does not exist. " +
+			System.out.println("The results file does not exist. " +
 					"Please run the static and dynamic analysis first. " +
 					"The following file could not found: " + resultsXMLfile);
 		}
@@ -598,13 +589,13 @@ public class PatternDetectionEngine
 			docSoftware = dbSoftware.parse( new File( software_file ) );
 
 		} catch (ParserConfigurationException e) {
-			log.error("ParserConfigurationException");
+			System.err.println("ParserConfigurationException");
 			e.printStackTrace();
 		} catch (SAXException e) {
-			log.error("SAXException");
+			System.err.println("SAXException");
 			e.printStackTrace();
 		} catch (IOException e) {
-			log.error("IOException");
+			System.err.println("IOException");
 			e.printStackTrace();
 		} 
 
@@ -628,23 +619,23 @@ public class PatternDetectionEngine
 			}
 		}
 
-		log.info("\nPrint Summary: ");
-		log.info("Verified/Total \t Source Code \t\t Design Pattern \n");
+		System.out.println("\nPrint Summary: ");
+		System.out.println("Verified/Total \t Source Code \t\t Design Pattern \n");
 		for (int i = 0; i < groupedResults.length; i++) {
 			LinkedList<Node> listX = groupedResults[i];
 			for (int j = 0; j < listX.size(); j++) {		
 				String designP    = listX.get(j).getAttributes().getNamedItem("designPattern").getNodeValue();
 				String numHitsX   = listX.get(j).getAttributes().getNamedItem("numberOfHits").getNodeValue();
 				String sourceCode = listX.get(j).getAttributes().getNamedItem("sourceCode").getNodeValue();
-				log.info(numHitsX + " \t\t " + sourceCode + " \t " + designP );
+				System.out.println(numHitsX + " \t\t " + sourceCode + " \t " + designP );
 			}
-			log.info("");
+			System.out.println("");
 		}
 	}
 
 
 	public void run2(String candidateInstancesFileName, String dynamicFactsFileName, String dynamicDefinitionFileName, PrintWriter resultsStream ) {
-		log.info("PatternDetectionEngine -> run2()");
+		System.out.println("PatternDetectionEngine -> run2()");
 
 		long t1=0;
 		long t2=0;
@@ -668,7 +659,7 @@ public class PatternDetectionEngine
 		} else {    	    
 			patternName = candidateInstancesFileName; 
 		}
-		log.info(   "Analyzing software code:     " + codeExample + 
+		System.out.println(   "Analyzing software code:     " + codeExample + 
 				"\nPattern we want to detect:   " + patternName); 
 
 
@@ -688,21 +679,21 @@ public class PatternDetectionEngine
 		if (enable_timing){
 			t1 = System.currentTimeMillis();
 		}
-		log.info("\nCreate dynamic facts tree:          " + dynamicFactsFileName);
+		System.out.println("\nCreate dynamic facts tree:          " + dynamicFactsFileName);
 		DynamicFactsProcessorTreeImplementation dynFacts = new DynamicFactsProcessorTreeImplementation(dynamicFactsFileName, enable_timing);
-		log.info("Done! Dynamic facts tree created:   " + dynamicFactsFileName + "\n");
+		System.out.println("Done! Dynamic facts tree created:   " + dynamicFactsFileName + "\n");
 		if (enable_timing){
 			t2 =  System.currentTimeMillis();
 			time.add( (t2-t1) + "\t DynamicFactsProcessorImplementation");
-			log.info("run2 DynamicFactsProcessorTreeImplementation took=" + (t2-t1) );
+			System.out.println("run2 DynamicFactsProcessorTreeImplementation took=" + (t2-t1) );
 		}
 
 		NodeList dpDefList = null;
-		log.info("Loop over all possible Candidate Instances.");
-		log.info("  candInstancesList.size() " + candInstancesList.size());
+		System.out.println("Loop over all possible Candidate Instances.");
+		System.out.println("  candInstancesList.size() " + candInstancesList.size());
 		for (int i=0; i < candInstancesList.size(); i++)
 		{
-			if ( (i % 100 == 0 ) ) log.info("candInstancesList loop i=" + i);
+			if ( (i % 100 == 0 ) ) System.out.println("candInstancesList loop i=" + i);
 
 			/** 
 			 * Loop over all Candidate instances.
@@ -742,10 +733,10 @@ public class PatternDetectionEngine
 		/**
 		 * Validate temporal restriction
 		 */
-		log.info("PatternDetectionEngine -> run2() validateTemporalRestriction");
+		System.out.println("PatternDetectionEngine -> run2() validateTemporalRestriction");
 		Validator validator = new Validator();
 		candInstancesList = validator.validateTemporalRestriction(candInstancesList, dpDefList, dynamicFactsFileName);
-		log.info("PatternDetectionEngine -> run2() done validateTemporalRestriction");
+		System.out.println("PatternDetectionEngine -> run2() done validateTemporalRestriction");
 		if (enable_timing){
 			t7 =  System.currentTimeMillis();
 			t61 = t61 + (t7 - t6);
@@ -753,9 +744,9 @@ public class PatternDetectionEngine
 		/**
 		 * Validate objects restriction
 		 */
-		log.info("PatternDetectionEngine -> run2() validateObjects");
+		System.out.println("PatternDetectionEngine -> run2() validateObjects");
 		candInstancesList = validator.validateObjects(candInstancesList, dpDefList);
-		log.info("PatternDetectionEngine -> run2() done validateObjects");
+		System.out.println("PatternDetectionEngine -> run2() done validateObjects");
 		if (enable_timing){
 			t8 =  System.currentTimeMillis();
 			t71 = t71 + (t8 - t7);
@@ -793,7 +784,7 @@ public class PatternDetectionEngine
 					quantifier = Double.parseDouble(q);
 				} catch (Exception e) {
 					quantifier = (double)1;
-					log.info("Please provide a quantifier in XML definition = " + dynamicDefinitionFileName);
+					System.out.println("Please provide a quantifier in XML definition = " + dynamicDefinitionFileName);
 				} 
 				if ( !facts_list[k].isEmpty() && !facts_list[k].equals(null)){
 
@@ -810,7 +801,7 @@ public class PatternDetectionEngine
 			double quantify = global_quantifier_match / global_quantifier_sum;
 			double number = (number_of_definition_matches/number_of_definitions) * quantify;
 			NumberFormat nf = NumberFormat.getPercentInstance();
-			log.debug("number > threshold "  + number + "  "+  threshold);
+			System.out.println("number > threshold "  + number + "  "+  threshold);
 			if ( number >= threshold ) {	
 				candInstancesList.get(i).setIsPattern(true);
 				candInstancesList.get(i).setPercentage(number);
@@ -821,10 +812,10 @@ public class PatternDetectionEngine
 
 			if ( print_results ) { 
 				if(candInstancesList.get(i).isPattern()){
-					log.debug("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
+					System.out.println("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
 				}
 			}
-			//log.info("");
+			//System.out.println("");
 
 			/**
 			 * isPattern is set when ALL definitions are matched within the threshold are matched
@@ -843,14 +834,14 @@ public class PatternDetectionEngine
 		 */
 		if ( rank_results ) rankResults( candInstancesList );
 		NumberFormat nf = NumberFormat.getPercentInstance();
-		log.info("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
+		System.out.println("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
 		if ( count_isPattern > 0){
-			log.info("Here is a ranked list of all candidate instances with the " +
+			System.out.println("Here is a ranked list of all candidate instances with the " +
 					"corresponding class names {and pattern roles}: " + 
 					candInstancesList.getFirst().getNames() + "\n");		
 			for (int i=0;i<candInstancesList.size();i++){
 				if (candInstancesList.get(i).isPattern() )
-					log.info("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
+					System.out.println("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
 							"\t " + candInstancesList.get(i).getRoles());
 			}
 		} 
@@ -888,7 +879,7 @@ public class PatternDetectionEngine
 	 */
 	public void run(String ci, String dy, String dd, PrintWriter resultsStream) {
 		if ( print_time ) 
-			log.info("run ->                            " + System.currentTimeMillis());
+			System.out.println("run ->                            " + System.currentTimeMillis());
 
 		// Set filenames
 		candidateInstancesFileName   = ci;
@@ -901,11 +892,11 @@ public class PatternDetectionEngine
 		 * -> need access to LinkedList with all objects
 		 */
 		if ( print_time ) 
-			log.info("run -> CandidateInstanceComposite " + System.currentTimeMillis());	
+			System.out.println("run -> CandidateInstanceComposite " + System.currentTimeMillis());	
 		CandidateInstanceListInterface candInstances = new CandidateInstanceList(candidateInstancesFileName, debug);
 		candInstancesList = candInstances.getCandidateInstancesList();	
 		if ( debug && !candInstancesList.isEmpty() ) 
-			log.debug("candInstancesList size " + candInstancesList.size());
+			System.out.println("candInstancesList size " + candInstancesList.size());
 
 
 		/*
@@ -914,11 +905,11 @@ public class PatternDetectionEngine
 		 *    represents the dynamic facts of the software
 		 */  
 		if ( print_time ) 
-			log.info("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
+			System.out.println("run -> DynamicFactsProcessor      " + System.currentTimeMillis());	
 
 		Document dynFactsDoc = DynamicFactsProcessorListImplementation.getDynamicFacts(dynamicFactsFileName);
 		NodeList dynFactsList = dynFactsDoc.getElementsByTagName("entry");
-		log.debug("dynFactsList Length: " + dynFactsList.getLength());
+		System.out.println("dynFactsList Length: " + dynFactsList.getLength());
 
 
 		/*
@@ -926,7 +917,7 @@ public class PatternDetectionEngine
 		 */
 		ValidatorInterface validator = new Validator();
 		if ( print_time ) 
-			log.info("run -> validator.validate         " + System.currentTimeMillis());
+			System.out.println("run -> validator.validate         " + System.currentTimeMillis());
 		validator.validate(dynamicDefinitionFileName, dynFactsList, candInstancesList, debug, print_datastructure);
 		dynamicDefinitionList = validator.getDynamicDefinitionList();
 		candInstancesList = validator.getCandidateInstancesList();
@@ -938,19 +929,19 @@ public class PatternDetectionEngine
 		 * - check "calledByObject"
 		 */
 		if ( print_time ) 
-			log.info("run -> validator.validateObjects  " + System.currentTimeMillis());
+			System.out.println("run -> validator.validateObjects  " + System.currentTimeMillis());
 		validator.validateObjects(candInstancesList, dynamicDefinitionList);
 		candInstancesList = validator.getCandidateInstancesList();
 
 
 		if ( print_time ) 
-			log.info("run -> printResults               " + System.currentTimeMillis());
+			System.out.println("run -> printResults               " + System.currentTimeMillis());
 		/*
 		 * Print results
 		 */
 		if ( debug ) {
 			for (int i=0; i<candInstancesList.size(); i++){
-				log.info(candidateInstancesFileName + " is Pattern? " + candInstancesList.get(i).isPattern() );
+				System.out.println(candidateInstancesFileName + " is Pattern? " + candInstancesList.get(i).isPattern() );
 			}  
 			printResults(candInstancesList, dynamicDefinitionList, dynamicDefinitionFileName);
 		}
@@ -983,7 +974,7 @@ public class PatternDetectionEngine
 			}
 
 
-			log.info(  "Analyzed software code:      " + codeExample + 
+			System.out.println(  "Analyzed software code:      " + codeExample + 
 					"\nPattern we want to detect:   " + patternName); 
 			int count_isPattern    = 0;
 			int count_isNotPattern = 0;
@@ -1007,7 +998,7 @@ public class PatternDetectionEngine
 						quantifier = Double.parseDouble(q);
 					} catch (Exception e) {
 						quantifier = (double)1;
-						log.info("Please provide a quantifier in XML definition = " + dynamicDefinitionFileName);
+						System.out.println("Please provide a quantifier in XML definition = " + dynamicDefinitionFileName);
 					} 
 					if ( !facts_list[k].isEmpty() && !facts_list[k].equals(null)){
 
@@ -1025,7 +1016,7 @@ public class PatternDetectionEngine
 				double number = (number_of_definition_matches/number_of_definitions) * quantify;
 				NumberFormat nf = NumberFormat.getPercentInstance();
 				if ( debug ) 
-					log.info("number > threshold "  + number + "  "+  threshold);
+					System.out.println("number > threshold "  + number + "  "+  threshold);
 				if ( number >= threshold ) {	
 					candInstancesList.get(i).setIsPattern(true);
 					candInstancesList.get(i).setPercentage(number);
@@ -1036,10 +1027,10 @@ public class PatternDetectionEngine
 
 				if ( print_results ) { 
 					if(candInstancesList.get(i).isPattern()){
-						log.info("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
+						System.out.println("Candidate instance is a pattern: \t\t" + nf.format(number) + "   \t\t threshold=" + nf.format(threshold));
 					}
 				}
-				log.info("");
+				System.out.println("");
 
 				/**
 				 * isPattern is set when ALL definitions are matched within the threshold are matched
@@ -1060,15 +1051,15 @@ public class PatternDetectionEngine
 
 			NumberFormat nf = NumberFormat.getPercentInstance();
 			if ( print_on_cmdline )
-				log.info("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
+				System.out.println("Number of positive candidate instances after the dynamic analysis: " + count_isPattern + " out of " + candInstancesList.size() + " ( threshold = " + nf.format(threshold) + " )" );
 			if ( count_isPattern > 0){
 				if ( print_on_cmdline )
-					log.info("Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: " + 
+					System.out.println("Here is a ranked list of all candidate instances with the corresponding class names {and pattern roles}: " + 
 							candInstancesList.getFirst().getNames() + "\n");		
 				for (int i=0;i<candInstancesList.size();i++){
 					if (candInstancesList.get(i).isPattern() )
 						if ( print_on_cmdline )
-							log.info("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
+							System.out.println("  " + i + "\t " + nf.format( candInstancesList.get(i).getPercentage() ) +
 									"\t " + candInstancesList.get(i).getRoles());
 				}
 			} 
@@ -1094,7 +1085,7 @@ public class PatternDetectionEngine
 			resultsStream.println("</result>");	    
 
 			if ( print_on_cmdline )
-				log.info("\n######################################################################################################## \n");
+				System.out.println("\n######################################################################################################## \n");
 
 
 
@@ -1123,7 +1114,7 @@ public class PatternDetectionEngine
 
 		} else if ( print_stats && candInstancesList.isEmpty() ) {
 			if ( print_on_cmdline )
-				log.info("Stats empty():  " + candidateInstancesFileName);
+				System.out.println("Stats empty():  " + candidateInstancesFileName);
 		}
 	} // End of run method   	
 
@@ -1146,15 +1137,15 @@ public class PatternDetectionEngine
 	 * Implementation of Quicksort for our LinkedList
 	 */
 	private void quicksortForLinkedList(LinkedList<CandidateInstance> list, int left, int right) {
-		log.info("quicksortForLinkedList -> " + list.size() + " " + left + " " + right);
+		System.out.println("quicksortForLinkedList -> " + list.size() + " " + left + " " + right);
 		if (right > left){
 			int pivotIndex = left;
 			int pivotNewIndex = partition(list, left, right, pivotIndex);
 
-			log.info("1  right > left -> left + (pivotNewIndex-1)  " + left + " " + (pivotNewIndex-1) );
+			System.out.println("1  right > left -> left + (pivotNewIndex-1)  " + left + " " + (pivotNewIndex-1) );
 			quicksortForLinkedList(list, left, (pivotNewIndex-1) );
 
-			log.info("2  right > left -> (pivotNewIndex+1) + right " + (pivotNewIndex+1) + " " + right);
+			System.out.println("2  right > left -> (pivotNewIndex+1) + right " + (pivotNewIndex+1) + " " + right);
 			quicksortForLinkedList(list, (pivotNewIndex+1), right);
 		}
 	}
@@ -1175,7 +1166,7 @@ public class PatternDetectionEngine
 			}
 		}
 		swap( list, right, storeIndex); 	// Move pivot to its final place
-		log.info("  partition(left="+left+", right="+right+", pivotIndex="+pivotIndex+"): return=" + storeIndex);
+		System.out.println("  partition(left="+left+", right="+right+", pivotIndex="+pivotIndex+"): return=" + storeIndex);
 		return storeIndex;
 	}
 
@@ -1200,13 +1191,13 @@ public class PatternDetectionEngine
 	 */
 	private void print_datastructure(LinkedList<CandidateInstance> candInstancesList2) {
 		for(int i=0; i < candInstancesList2.size(); i++) {
-			if ( debug ) log.debug("#### Candidate Instance("+i+")     ####");
+			if ( debug ) System.out.println("#### Candidate Instance("+i+")     ####");
 			CandidateInstance caIn = candInstancesList2.get(i);
 			LinkedList[] caInList = caIn.getMatchedFactsDatastructure();
-			if (print_results) log.info(i + "| getRoles: " + caIn.getRoles() );
+			if (print_results) System.out.println(i + "| getRoles: " + caIn.getRoles() );
 
 			if ( caIn.isPattern() ) {
-				if (print_results) log.info(i + "| Candidate Instances is a pattern :) \n");
+				if (print_results) System.out.println(i + "| Candidate Instances is a pattern :) \n");
 				for( int r=0; r < caInList.length; r++) {
 					if ( caInList[r] != null && !caInList[r].isEmpty() ){
 						for (int s=0; s < caInList[r].size(); s++) {
@@ -1216,23 +1207,23 @@ public class PatternDetectionEngine
 							 * Print datastructure
 							 */
 							if( print_datastructure ) {
-								log.info("");
-								log.info(r + " " + s + "| getRoles:       " + caIn.getRoles());
-								log.info(r + " " + s + "| className:      " + nodemap.getNamedItem("className"));
-								log.info(r + " " + s + "| calledByClass:  " + nodemap.getNamedItem("calledByClass"));
-								log.info(r + " " + s + "| thisObject:     " + nodemap.getNamedItem("thisObject"));
-								log.info(r + " " + s + "| calledByObject: " + nodemap.getNamedItem("calledByObject"));
-								log.info(r + " " + s + "| orderNumber:    " + nodemap.getNamedItem("orderNumber"));
-								log.info(r + " " + s + "| methodName:     " + nodemap.getNamedItem("methodName"));
-								log.info(r + " " + s + "| calledByMethod: " + nodemap.getNamedItem("calledByMethod"));
-								log.info(r + " " + s + "| args:           " + nodemap.getNamedItem("args"));
-								log.info(r + " " + s + "| callDepth:      " + nodemap.getNamedItem("callDepth"));
+								System.out.println("");
+								System.out.println(r + " " + s + "| getRoles:       " + caIn.getRoles());
+								System.out.println(r + " " + s + "| className:      " + nodemap.getNamedItem("className"));
+								System.out.println(r + " " + s + "| calledByClass:  " + nodemap.getNamedItem("calledByClass"));
+								System.out.println(r + " " + s + "| thisObject:     " + nodemap.getNamedItem("thisObject"));
+								System.out.println(r + " " + s + "| calledByObject: " + nodemap.getNamedItem("calledByObject"));
+								System.out.println(r + " " + s + "| orderNumber:    " + nodemap.getNamedItem("orderNumber"));
+								System.out.println(r + " " + s + "| methodName:     " + nodemap.getNamedItem("methodName"));
+								System.out.println(r + " " + s + "| calledByMethod: " + nodemap.getNamedItem("calledByMethod"));
+								System.out.println(r + " " + s + "| args:           " + nodemap.getNamedItem("args"));
+								System.out.println(r + " " + s + "| callDepth:      " + nodemap.getNamedItem("callDepth"));
 							}
 						}
 					}
 				}
 			} else {
-				if (print_results) log.info(i + "| Candidate Instances is NOT a pattern!!! \n");
+				if (print_results) System.out.println(i + "| Candidate Instances is NOT a pattern!!! \n");
 			}
 		}	
 	}
@@ -1251,13 +1242,13 @@ public class PatternDetectionEngine
 
 
 		if ( print_results ){
-			log.info("###############################################################################################################################");
-			log.info("Design Pattern: " + dp + "\n");
+			System.out.println("###############################################################################################################################");
+			System.out.println("Design Pattern: " + dp + "\n");
 			if ( candInstancesList.size() > 0 ){
-				log.info("Get Design Pattern Class Names:\n" + candInstancesList.get(0).getNames());
+				System.out.println("Get Design Pattern Class Names:\n" + candInstancesList.get(0).getNames());
 			}	    
 
-			if ( debug && dpDefList != null ) log.info("_|#| dpDefList: length=" + dpDefList.getLength() );
+			if ( debug && dpDefList != null ) System.out.println("_|#| dpDefList: length=" + dpDefList.getLength() );
 		}
 
 		if ( dpDefList != null && dpDefList.getLength() > 0 ) {
@@ -1272,17 +1263,17 @@ public class PatternDetectionEngine
 
 				if ( debug ){
 					if ( isOrderSubtree ) {
-						log.info("_| dpDefListItem("+m+") nextCallInSubtree ");
+						System.out.println("_| dpDefListItem("+m+") nextCallInSubtree ");
 					} else if ( isOrderRequired ) {
-						log.info("_| dpDefListItem("+m+") nextCallInOrder == yes ");
+						System.out.println("_| dpDefListItem("+m+") nextCallInOrder == yes ");
 					} else {
-						log.info("_| dpDefListItem("+m+") nextCallInOrder == no ");
+						System.out.println("_| dpDefListItem("+m+") nextCallInOrder == no ");
 					}
 				}
 			}		
 		}
 
-		log.info("");
+		System.out.println("");
 
 		if ( print_datastructure && debug ) {
 			print_datastructure(candInstancesList);
@@ -1328,7 +1319,7 @@ public class PatternDetectionEngine
 
 						// check if there are 3 file names provided
 						if ( filenames.length != 3) {
-							log.error("Error in line " + lineCounter + " of input file = " +  inputFileName + 
+							System.err.println("Error in line " + lineCounter + " of input file = " +  inputFileName + 
 									"\nNumber of files per line in this input file incorrect = " + filenames.length + "\n\n" +
 									"Please make sure to provide 3 file names on each \n" +
 									"line for the input file. The first file name has \n" +
@@ -1354,7 +1345,7 @@ public class PatternDetectionEngine
 							FactFiles ff = new FactFiles(filenames[0], filenames[1], filenames[2]);
 							factFilesList.add(ff);
 						} else {
-							log.error("Error in line " + lineCounter + " of input file = " +  inputFileName +
+							System.err.println("Error in line " + lineCounter + " of input file = " +  inputFileName +
 									"\nFiles can not be detected! \n\n" +
 									"Some of the filenames that you provide " +
 									"can not be detected and opened. \nPlease check the file names " +
@@ -1369,7 +1360,7 @@ public class PatternDetectionEngine
 					}	 
 				}     
 			} catch (Exception e) {
-				log.error("Exception in line " + lineCounter + " of input file = " +  inputFileName + "\n\n" +
+				System.err.println("Exception in line " + lineCounter + " of input file = " +  inputFileName + "\n\n" +
 						"The input file cannot be read. Please check if the file " +
 						"exists \nand that the file has the correct format. \n" +
 						"Please make sure to provide 3 file names on each \n" +
@@ -1389,7 +1380,7 @@ public class PatternDetectionEngine
 	 */
 	private void usage(boolean printUsage) 
 	{
-		String message = "Usage: java -Xms1024M -Xmx1024M -Xss5000k -cp .:./pde.jar:lib/log4j-1.2.15.jar:conf/ ca.yorku.cse.designpatterns.PatternDetectionEngine [-static] [-dynamic] \n"
+		String message = "Usage: java -Xms1024M -Xmx1024M -Xss5000k -jar pde-1.0.jar [-static] [-dynamic] \n"
 			+ "version: " + version + " - last changed: " + date + " \n\n"
 			+ "Most of the configuration is done in XML and properties files. You need to modify the following files to use PDE to analyze your software: \n"
 			+ "\t conf/run.properties     \t Application properties \n"
@@ -1406,7 +1397,7 @@ public class PatternDetectionEngine
 			+ " -Xmx1024M \t This sets the maximum heap size to 1024 megabytes \n"  
 			+ " -Xss4048K \t This sets the minimum stack size to 4048 megabytes";
 		if( printUsage ) 
-			log.info(message);
+			System.out.println(message);
 	}
 }
 
